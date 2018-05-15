@@ -31,7 +31,9 @@ cmsenv
 #the release is set up, get the ClangModules repo and the workaround scripts
 
 git clone https://github.com/mrodozov/CMSModulesPrep.git
+
 cp CMSModulesPrep/setup.sh .
+
 ./setup.sh
 
 #this will get ClangModules repo, cmssw module map and it would put it in the src dir
@@ -42,10 +44,6 @@ cp CMSModulesPrep/setup.sh .
 
 mv src/module.modulemap .
 
-#add FWCore or any desired pkg from CMSSW
-
-git-cms-addpkg FWCore
-
 #prepare vfs and mapping files running clang_commands.sh
 
 ./clang_command.sh
@@ -55,15 +53,13 @@ git-cms-addpkg FWCore
 
 cp vfs_folder /tmp/cmsbuild/outputdir/vfs_folder
 
-#add a pkg, default would be FWCore
+#add a pkg, default would be FWCore. Put the module map back in src
 
 git-cms-addpkg FWCore
 
-#bring back the cmssw modulemap to src
-
 cp module.modulemap src/
 
-#run scram . current run is with -k option
+#run scram. currently it runs with -k option
 
 ./scram_command.sh 8
 
