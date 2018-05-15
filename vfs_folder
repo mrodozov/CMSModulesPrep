@@ -1,0 +1,49 @@
+{
+  "version": 0, 
+  "roots": [
+    {
+      "type": "directory", 
+      "name": "/usr/include", 
+      "contents": [
+        {
+          "type": "file", 
+          "name": "module.modulemap", 
+          "external-contents": "/tmp/rodozov/outputdir/_usr_include"
+        }
+      ]
+    }, 
+    {
+      "type": "directory",
+      "name": "/afs/cern.ch/work/m/mrodozov/modules/local_ROOT/slc7_amd64_gcc630/lcg/root/6.12.07-gnimlf3/include",
+      "contents": [
+        {
+          "type": "file",
+          "name": "module.modulemap",
+          "external-contents": "/afs/cern.ch/work/m/mrodozov/modules/CMSSW_10_2_X_2018-05-10-1100/empty.modulemap"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "/usr/include/root",
+      "contents": [
+        {
+          "type": "file",
+          "name": "module.modulemap",
+          "external-contents": "/afs/cern.ch/work/m/mrodozov/modules/CMSSW_10_2_X_2018-05-10-1100/empty.modulemap"
+        }
+      ]
+    },
+    {
+      "type": "directory", 
+      "name": "/cvmfs/cms-ib.cern.ch/nweek-02523/slc7_amd64_gcc630/external/gcc/6.3.0/include/c++/6.3.0", 
+      "contents": [
+        {
+          "type": "file", 
+          "name": "module.modulemap", 
+          "external-contents": "/tmp/rodozov/outputdir/_cvmfs_cms-ib_cern_ch_nweek-02523_slc7_amd64_gcc630_external_gcc_6_3_0_include_c++_6_3_0"
+        }
+      ]
+    }
+  ]
+}
