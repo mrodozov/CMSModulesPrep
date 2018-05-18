@@ -1,12 +1,14 @@
+#Create a world-writable directory
+mkdir /build/cms
+chmod 0777 /build/cms
+
 #Get the image and mount minimal number of folders:
 
 docker run -it --rm -v /build:/build -v /tmp:/tmp cmssw/slc7-builder:latest bash
 
-#get into the build dir and make a dir with 777 permissions
+#get into the build/cms dir
 
-mkdir install;
-chmod 777 install;
-cd install;
+cd /build/cms;
 
 #get the bootstrap and run it
 
