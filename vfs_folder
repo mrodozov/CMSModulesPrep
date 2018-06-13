@@ -8,40 +8,40 @@
         {
           "type": "file", 
           "name": "module.modulemap", 
-          "external-contents": "/tmp/cmsbuild/outputdir/_usr_include"
+          "external-contents": "/tmp/cmsbld/outputdir/_usr_include"
         }
       ]
     },
 {
       "type": "directory",
-      "name": "/build/cmsbld/all/inst/slc7_amd64_gcc630/lcg/root/6.12.07-gnimlf2/include",
+      "name": "/cvmfs/cms-ib.cern.ch/nweek-02528/slc7_amd64_gcc630/lcg/root/6.12.07-gnimlf4/include",
       "contents": [
         {
           "type": "file",
           "name": "module.modulemap",
-          "external-contents": "/build/cmsbld/all/inst/CMSSW_10_2_0_pre3/empty.modulemap"
+          "external-contents": "/build/cmsbld/mrodozov/CMSSW_10_2_X_2018-06-12-2300/empty.modulemap"
         }
       ]
     }, 
     {
       "type": "directory", 
-      "name": "/build/cmsbld/all/inst/slc7_amd64_gcc630/external/gcc/6.3.0/include/c++/6.3.0", 
+      "name": "/cvmfs/cms-ib.cern.ch/nweek-02528/slc7_amd64_gcc630/external/gcc/6.3.0/include/c++/6.3.0", 
       "contents": [
         {
           "type": "file", 
           "name": "module.modulemap", 
-          "external-contents": "/tmp/cmsbuild/outputdir/_build_cmsbld_all_inst_slc7_amd64_gcc630_external_gcc_6_3_0_include_c++_6_3_0"
+          "external-contents": "/tmp/cmsbld/outputdir/_cvmfs_cms-ib_cern_ch_nweek-02528_slc7_amd64_gcc630_external_gcc_6_3_0_include_c++_6_3_0"
         }
       ]
     }, 
     {
       "type": "directory", 
-      "name": "/build/cmsbld/all/inst/slc7_amd64_gcc630/external/boost/1.63.0-omkpbe2/include", 
+      "name": "/cvmfs/cms-ib.cern.ch/nweek-02528/slc7_amd64_gcc630/external/boost/1.63.0-omkpbe2/include",
       "contents": [
         {
           "type": "file", 
           "name": "module.modulemap", 
-          "external-contents": "/tmp/cmsbuild/outputdir/_build_cmsbld_all_inst_slc7_amd64_gcc630_external_boost_1_63_0-omkpbe2_include"
+          "external-contents": "/tmp/cmsbld/outputdir/_cvmfs_cms-ib_cern_ch_nweek-02528_slc7_amd64_gcc630_external_boost_1_63_0-omkpbe2_include"
         }
       ]
     }
