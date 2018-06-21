@@ -1,0 +1,7 @@
+module CMS_FastSimDataFormatsExternal {
+  module "FastL1BitInfo.h" { header "FastSimDataFormats/External/interface/FastL1BitInfo.h" export * }
+  module "FastTrackerCluster.h" { header "FastSimDataFormats/External/interface/FastTrackerCluster.h" export * }
+  module "FastTrackerClusterCollection.h" { header "FastSimDataFormats/External/interface/FastTrackerClusterCollection.h" export * }
+  export *
+}
+

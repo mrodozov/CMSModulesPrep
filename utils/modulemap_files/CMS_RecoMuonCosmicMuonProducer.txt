@@ -1,0 +1,8 @@
+module CMS_RecoMuonCosmicMuonProducer {
+  module "CosmicMuonSmoother.h" { header "RecoMuon/CosmicMuonProducer/interface/CosmicMuonSmoother.h" export * }
+  module "CosmicMuonTrajectoryBuilder.h" { header "RecoMuon/CosmicMuonProducer/interface/CosmicMuonTrajectoryBuilder.h" export * }
+  module "CosmicMuonUtilities.h" { header "RecoMuon/CosmicMuonProducer/interface/CosmicMuonUtilities.h" export * }
+  module "GlobalCosmicMuonTrajectoryBuilder.h" { header "RecoMuon/CosmicMuonProducer/interface/GlobalCosmicMuonTrajectoryBuilder.h" export * }
+  export *
+}
+

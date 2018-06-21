@@ -1,0 +1,5 @@
+module CMS_FastSimDataFormatsL1GlobalMuonTrigger {
+  module "SimpleL1MuGMTCand.h" { header "FastSimDataFormats/L1GlobalMuonTrigger/interface/SimpleL1MuGMTCand.h" export * }
+  export *
+}
+

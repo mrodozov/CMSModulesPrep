@@ -1,0 +1,5 @@
+module CMS_DataFormatsPhase2TrackerCluster {
+  module "Phase2TrackerCluster1D.h" { header "DataFormats/Phase2TrackerCluster/interface/Phase2TrackerCluster1D.h" export * }
+  export *
+}
+

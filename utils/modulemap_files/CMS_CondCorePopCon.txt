@@ -1,0 +1,8 @@
+module CMS_CondCorePopCon {
+  module "Exception.h" { header "CondCore/PopCon/interface/Exception.h" export * }
+  module "PopCon.h" { header "CondCore/PopCon/interface/PopCon.h" export * }
+  module "PopConAnalyzer.h" { header "CondCore/PopCon/interface/PopConAnalyzer.h" export * }
+  module "PopConSourceHandler.h" { header "CondCore/PopCon/interface/PopConSourceHandler.h" export * }
+  export *
+}
+

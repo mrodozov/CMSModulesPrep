@@ -1,0 +1,22 @@
+module CMS_DQMEcalMonitorClient {
+  module "CalibrationSummaryClient.h" { header "DQM/EcalMonitorClient/interface/CalibrationSummaryClient.h" export * }
+  module "CertificationClient.h" { header "DQM/EcalMonitorClient/interface/CertificationClient.h" export * }
+  module "DQWorkerClient.h" { header "DQM/EcalMonitorClient/interface/DQWorkerClient.h" export * }
+  module "EcalDQMonitorClient.h" { header "DQM/EcalMonitorClient/interface/EcalDQMonitorClient.h" export * }
+  module "IntegrityClient.h" { header "DQM/EcalMonitorClient/interface/IntegrityClient.h" export * }
+  module "LaserClient.h" { header "DQM/EcalMonitorClient/interface/LaserClient.h" export * }
+  module "LedClient.h" { header "DQM/EcalMonitorClient/interface/LedClient.h" export * }
+  module "OccupancyClient.h" { header "DQM/EcalMonitorClient/interface/OccupancyClient.h" export * }
+  module "PNIntegrityClient.h" { header "DQM/EcalMonitorClient/interface/PNIntegrityClient.h" export * }
+  module "PedestalClient.h" { header "DQM/EcalMonitorClient/interface/PedestalClient.h" export * }
+  module "PresampleClient.h" { header "DQM/EcalMonitorClient/interface/PresampleClient.h" export * }
+  module "RawDataClient.h" { header "DQM/EcalMonitorClient/interface/RawDataClient.h" export * }
+  module "SelectiveReadoutClient.h" { header "DQM/EcalMonitorClient/interface/SelectiveReadoutClient.h" export * }
+  module "SummaryClient.h" { header "DQM/EcalMonitorClient/interface/SummaryClient.h" export * }
+  module "TestPulseClient.h" { header "DQM/EcalMonitorClient/interface/TestPulseClient.h" export * }
+  module "TimingClient.h" { header "DQM/EcalMonitorClient/interface/TimingClient.h" export * }
+  module "TowerStatusTask.h" { header "DQM/EcalMonitorClient/interface/TowerStatusTask.h" export * }
+  module "TrigPrimClient.h" { header "DQM/EcalMonitorClient/interface/TrigPrimClient.h" export * }
+  export *
+}
+

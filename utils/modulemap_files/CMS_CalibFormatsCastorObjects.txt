@@ -1,0 +1,18 @@
+module CMS_CalibFormatsCastorObjects {
+  module "CastorCalibrationWidths.h" { header "CalibFormats/CastorObjects/interface/CastorCalibrationWidths.h" export * }
+  module "CastorCalibrationWidthsSet.h" { header "CalibFormats/CastorObjects/interface/CastorCalibrationWidthsSet.h" export * }
+  module "CastorCalibrations.h" { header "CalibFormats/CastorObjects/interface/CastorCalibrations.h" export * }
+  module "CastorCalibrationsSet.h" { header "CalibFormats/CastorObjects/interface/CastorCalibrationsSet.h" export * }
+  module "CastorChannelCoder.h" { header "CalibFormats/CastorObjects/interface/CastorChannelCoder.h" export * }
+  module "CastorCoder.h" { header "CalibFormats/CastorObjects/interface/CastorCoder.h" export * }
+  module "CastorCoderDb.h" { header "CalibFormats/CastorObjects/interface/CastorCoderDb.h" export * }
+  module "CastorDbRecord.h" { header "CalibFormats/CastorObjects/interface/CastorDbRecord.h" export * }
+  module "CastorDbService.h" { header "CalibFormats/CastorObjects/interface/CastorDbService.h" export * }
+  module "CastorNominalCoder.h" { header "CalibFormats/CastorObjects/interface/CastorNominalCoder.h" export * }
+  module "CastorTPGCoder.h" { header "CalibFormats/CastorObjects/interface/CastorTPGCoder.h" export * }
+  module "CastorTPGRecord.h" { header "CalibFormats/CastorObjects/interface/CastorTPGRecord.h" export * }
+  module "CastorText2DetIdConverter.h" { header "CalibFormats/CastorObjects/interface/CastorText2DetIdConverter.h" export * }
+  module "QieShape.h" { header "CalibFormats/CastorObjects/interface/QieShape.h" export * }
+  export *
+}
+

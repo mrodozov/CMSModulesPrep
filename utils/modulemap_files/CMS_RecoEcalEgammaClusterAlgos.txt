@@ -1,0 +1,16 @@
+module CMS_RecoEcalEgammaClusterAlgos {
+  module "BremRecoveryClusterAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/BremRecoveryClusterAlgo.h" export * }
+  module "CosmicClusterAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/CosmicClusterAlgo.h" export * }
+  module "EgammaSCEnergyCorrectionAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/EgammaSCEnergyCorrectionAlgo.h" export * }
+  module "EndcapPiZeroDiscriminatorAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/EndcapPiZeroDiscriminatorAlgo.h" export * }
+  module "ExampleClusterAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/ExampleClusterAlgo.h" export * }
+  module "HybridClusterAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/HybridClusterAlgo.h" export * }
+  module "IslandClusterAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/IslandClusterAlgo.h" export * }
+  module "Multi5x5BremRecoveryClusterAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/Multi5x5BremRecoveryClusterAlgo.h" export * }
+  module "Multi5x5ClusterAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/Multi5x5ClusterAlgo.h" export * }
+  module "PFECALSuperClusterAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/PFECALSuperClusterAlgo.h" export * }
+  module "PreshowerClusterAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/PreshowerClusterAlgo.h" export * }
+  module "PreshowerPhiClusterAlgo.h" { header "RecoEcal/EgammaClusterAlgos/interface/PreshowerPhiClusterAlgo.h" export * }
+  export *
+}
+

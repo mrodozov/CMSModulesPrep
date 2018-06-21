@@ -1,0 +1,5 @@
+module CMS_SimDataFormatsEncodedEventId {
+  module "EncodedEventId.h" { header "SimDataFormats/EncodedEventId/interface/EncodedEventId.h" export * }
+  export *
+}
+

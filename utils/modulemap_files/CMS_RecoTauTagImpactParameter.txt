@@ -1,0 +1,18 @@
+module CMS_RecoTauTagImpactParameter {
+  module "Chi2VertexFitter.h" { header "RecoTauTag/ImpactParameter/interface/Chi2VertexFitter.h" export * }
+  module "ChiSquareFunctionUpdator.h" { header "RecoTauTag/ImpactParameter/interface/ChiSquareFunctionUpdator.h" export * }
+  module "ErrorMatrixPropagator.h" { header "RecoTauTag/ImpactParameter/interface/ErrorMatrixPropagator.h" export * }
+  module "ImpactParameterAlgorithm.h" { header "RecoTauTag/ImpactParameter/interface/ImpactParameterAlgorithm.h" export * }
+  module "LagrangeMultipliersFitter.h" { header "RecoTauTag/ImpactParameter/interface/LagrangeMultipliersFitter.h" export * }
+  module "LorentzVectorParticle.h" { header "RecoTauTag/ImpactParameter/interface/LorentzVectorParticle.h" export * }
+  module "MultiProngTauSolver.h" { header "RecoTauTag/ImpactParameter/interface/MultiProngTauSolver.h" export * }
+  module "PDGInfo.h" { header "RecoTauTag/ImpactParameter/interface/PDGInfo.h" export * }
+  module "Particle.h" { header "RecoTauTag/ImpactParameter/interface/Particle.h" export * }
+  module "ParticleBuilder.h" { header "RecoTauTag/ImpactParameter/interface/ParticleBuilder.h" export * }
+  module "TauA1NuConstrainedFitter.h" { header "RecoTauTag/ImpactParameter/interface/TauA1NuConstrainedFitter.h" export * }
+  module "TrackHelixVertexFitter.h" { header "RecoTauTag/ImpactParameter/interface/TrackHelixVertexFitter.h" export * }
+  module "TrackParticle.h" { header "RecoTauTag/ImpactParameter/interface/TrackParticle.h" export * }
+  module "TrackTools.h" { header "RecoTauTag/ImpactParameter/interface/TrackTools.h" export * }
+  export *
+}
+

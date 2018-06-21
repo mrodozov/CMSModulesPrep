@@ -1,0 +1,34 @@
+module CMS_DataFormatsL1Trigger {
+  module "BXVector.h" { header "DataFormats/L1Trigger/interface/BXVector.h" export * }
+  module "BxBlock.h" { header "DataFormats/L1Trigger/interface/BxBlock.h" export * }
+  module "CaloSpare.h" { header "DataFormats/L1Trigger/interface/CaloSpare.h" export * }
+  module "EGamma.h" { header "DataFormats/L1Trigger/interface/EGamma.h" export * }
+  module "EtSum.h" { header "DataFormats/L1Trigger/interface/EtSum.h" export * }
+  module "EtSumHelper.h" { header "DataFormats/L1Trigger/interface/EtSumHelper.h" export * }
+  module "HOTPDigiTwinMux.h" { header "DataFormats/L1Trigger/interface/HOTPDigiTwinMux.h" export * }
+  module "HOTwinMuxDigiCollection.h" { header "DataFormats/L1Trigger/interface/HOTwinMuxDigiCollection.h" export * }
+  module "Jet.h" { header "DataFormats/L1Trigger/interface/Jet.h" export * }
+  module "L1Candidate.h" { header "DataFormats/L1Trigger/interface/L1Candidate.h" export * }
+  module "L1DataEmulDigi.h" { header "DataFormats/L1Trigger/interface/L1DataEmulDigi.h" export * }
+  module "L1DataEmulRecord.h" { header "DataFormats/L1Trigger/interface/L1DataEmulRecord.h" export * }
+  module "L1DataEmulResult.h" { header "DataFormats/L1Trigger/interface/L1DataEmulResult.h" export * }
+  module "L1EmParticle.h" { header "DataFormats/L1Trigger/interface/L1EmParticle.h" export * }
+  module "L1EmParticleFwd.h" { header "DataFormats/L1Trigger/interface/L1EmParticleFwd.h" export * }
+  module "L1EtMissParticle.h" { header "DataFormats/L1Trigger/interface/L1EtMissParticle.h" export * }
+  module "L1EtMissParticleFwd.h" { header "DataFormats/L1Trigger/interface/L1EtMissParticleFwd.h" export * }
+  module "L1HFRings.h" { header "DataFormats/L1Trigger/interface/L1HFRings.h" export * }
+  module "L1HFRingsFwd.h" { header "DataFormats/L1Trigger/interface/L1HFRingsFwd.h" export * }
+  module "L1JetParticle.h" { header "DataFormats/L1Trigger/interface/L1JetParticle.h" export * }
+  module "L1JetParticleFwd.h" { header "DataFormats/L1Trigger/interface/L1JetParticleFwd.h" export * }
+  module "L1MonitorDigi.h" { header "DataFormats/L1Trigger/interface/L1MonitorDigi.h" export * }
+  module "L1MuonParticle.h" { header "DataFormats/L1Trigger/interface/L1MuonParticle.h" export * }
+  module "L1MuonParticleFwd.h" { header "DataFormats/L1Trigger/interface/L1MuonParticleFwd.h" export * }
+  module "L1ParticleMap.h" { header "DataFormats/L1Trigger/interface/L1ParticleMap.h" export * }
+  module "L1ParticleMapFwd.h" { header "DataFormats/L1Trigger/interface/L1ParticleMapFwd.h" export * }
+  module "L1TObjComparison.h" { header "DataFormats/L1Trigger/interface/L1TObjComparison.h" export * }
+  module "L1TriggerError.h" { header "DataFormats/L1Trigger/interface/L1TriggerError.h" export * }
+  module "Muon.h" { header "DataFormats/L1Trigger/interface/Muon.h" export * }
+  module "Tau.h" { header "DataFormats/L1Trigger/interface/Tau.h" export * }
+  export *
+}
+

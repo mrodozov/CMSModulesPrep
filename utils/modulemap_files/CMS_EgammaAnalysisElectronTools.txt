@@ -1,0 +1,20 @@
+module CMS_EgammaAnalysisElectronTools {
+  module "EGammaCutBasedEleId.h" { header "EgammaAnalysis/ElectronTools/interface/EGammaCutBasedEleId.h" export * }
+  module "EGammaMvaEleEstimator.h" { header "EgammaAnalysis/ElectronTools/interface/EGammaMvaEleEstimator.h" export * }
+  module "EGammaMvaEleEstimatorCSA14.h" { header "EgammaAnalysis/ElectronTools/interface/EGammaMvaEleEstimatorCSA14.h" export * }
+  module "EcalIsolationCorrector.h" { header "EgammaAnalysis/ElectronTools/interface/EcalIsolationCorrector.h" export * }
+  module "ElectronEPcombinator.h" { header "EgammaAnalysis/ElectronTools/interface/ElectronEPcombinator.h" export * }
+  module "ElectronEffectiveArea.h" { header "EgammaAnalysis/ElectronTools/interface/ElectronEffectiveArea.h" export * }
+  module "ElectronEnergyCalibrator.h" { header "EgammaAnalysis/ElectronTools/interface/ElectronEnergyCalibrator.h" export * }
+  module "ElectronEnergyCalibratorRun2.h" { header "EgammaAnalysis/ElectronTools/interface/ElectronEnergyCalibratorRun2.h" export * }
+  module "ElectronEnergyRegressionEvaluate.h" { header "EgammaAnalysis/ElectronTools/interface/ElectronEnergyRegressionEvaluate.h" export * }
+  module "EnergyScaleCorrection_class.h" { header "EgammaAnalysis/ElectronTools/interface/EnergyScaleCorrection_class.h" export * }
+  module "EpCombinationTool.h" { header "EgammaAnalysis/ElectronTools/interface/EpCombinationTool.h" export * }
+  module "PFIsolationEstimator.h" { header "EgammaAnalysis/ElectronTools/interface/PFIsolationEstimator.h" export * }
+  module "PhotonEnergyCalibratorRun2.h" { header "EgammaAnalysis/ElectronTools/interface/PhotonEnergyCalibratorRun2.h" export * }
+  module "SimpleElectron.h" { header "EgammaAnalysis/ElectronTools/interface/SimpleElectron.h" export * }
+  module "SimplePhoton.h" { header "EgammaAnalysis/ElectronTools/interface/SimplePhoton.h" export * }
+  module "SuperClusterHelper.h" { header "EgammaAnalysis/ElectronTools/interface/SuperClusterHelper.h" export * }
+  export *
+}
+

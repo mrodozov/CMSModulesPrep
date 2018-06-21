@@ -1,0 +1,9 @@
+module CMS_RecoTrackerMeasurementDet {
+  module "ClusterFilterPayload.h" { header "RecoTracker/MeasurementDet/interface/ClusterFilterPayload.h" export * }
+  module "LayerCollector.h" { header "RecoTracker/MeasurementDet/interface/LayerCollector.h" export * }
+  module "MeasurementTracker.h" { header "RecoTracker/MeasurementDet/interface/MeasurementTracker.h" export * }
+  module "MeasurementTrackerEvent.h" { header "RecoTracker/MeasurementDet/interface/MeasurementTrackerEvent.h" export * }
+  module "StartingLayerFinder.h" { header "RecoTracker/MeasurementDet/interface/StartingLayerFinder.h" export * }
+  export *
+}
+

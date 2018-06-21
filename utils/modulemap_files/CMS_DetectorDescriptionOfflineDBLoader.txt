@@ -1,0 +1,6 @@
+module CMS_DetectorDescriptionOfflineDBLoader {
+  module "DDCoreToDDXMLOutput.h" { header "DetectorDescription/OfflineDBLoader/interface/DDCoreToDDXMLOutput.h" export * }
+  module "GeometryInfoDump.h" { header "DetectorDescription/OfflineDBLoader/interface/GeometryInfoDump.h" export * }
+  export *
+}
+

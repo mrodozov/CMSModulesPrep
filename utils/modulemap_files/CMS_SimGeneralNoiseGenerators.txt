@@ -1,0 +1,7 @@
+module CMS_SimGeneralNoiseGenerators {
+  module "CorrelatedNoisifier.h" { header "SimGeneral/NoiseGenerators/interface/CorrelatedNoisifier.h" export * }
+  module "CorrelatedNoisifier.icc" { textual header "SimGeneral/NoiseGenerators/interface/CorrelatedNoisifier.icc" export * }
+  module "GaussianTailNoiseGenerator.h" { header "SimGeneral/NoiseGenerators/interface/GaussianTailNoiseGenerator.h" export * }
+  export *
+}
+

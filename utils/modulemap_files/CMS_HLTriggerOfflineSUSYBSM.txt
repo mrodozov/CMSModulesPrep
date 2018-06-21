@@ -1,0 +1,21 @@
+module CMS_HLTriggerOfflineSUSYBSM {
+  module "HltSusyExoPostProcessor.h" { header "HLTriggerOffline/SUSYBSM/interface/HltSusyExoPostProcessor.h" export * }
+  module "SUSY_HLT_DiJet_MET.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_DiJet_MET.h" export * }
+  module "SUSY_HLT_DoubleEle_Hadronic.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_DoubleEle_Hadronic.h" export * }
+  module "SUSY_HLT_DoubleMuon_Hadronic.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_DoubleMuon_Hadronic.h" export * }
+  module "SUSY_HLT_ElecFakes.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_ElecFakes.h" export * }
+  module "SUSY_HLT_Electron_BJet.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_Electron_BJet.h" export * }
+  module "SUSY_HLT_InclusiveHT.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_InclusiveHT.h" export * }
+  module "SUSY_HLT_MuEle_Hadronic.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_MuEle_Hadronic.h" export * }
+  module "SUSY_HLT_MuonFakes.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_MuonFakes.h" export * }
+  module "SUSY_HLT_Muon_BJet.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_Muon_BJet.h" export * }
+  module "SUSY_HLT_Muon_Hadronic.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_Muon_Hadronic.h" export * }
+  module "SUSY_HLT_PhotonHT.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_PhotonHT.h" export * }
+  module "SUSY_HLT_PhotonMET.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_PhotonMET.h" export * }
+  module "SUSY_HLT_Razor.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_Razor.h" export * }
+  module "SUSY_HLT_SingleLepton.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_SingleLepton.h" export * }
+  module "SUSY_HLT_VBF_Mu.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_VBF_Mu.h" export * }
+  module "SUSY_HLT_alphaT.h" { header "HLTriggerOffline/SUSYBSM/interface/SUSY_HLT_alphaT.h" export * }
+  export *
+}
+

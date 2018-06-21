@@ -1,0 +1,7 @@
+module CMS_SimDataFormatsPileupSummaryInfo {
+  module "PileupMixingContent.h" { header "SimDataFormats/PileupSummaryInfo/interface/PileupMixingContent.h" export * }
+  module "PileupSummaryInfo.h" { header "SimDataFormats/PileupSummaryInfo/interface/PileupSummaryInfo.h" export * }
+  module "PileupVertexContent.h" { header "SimDataFormats/PileupSummaryInfo/interface/PileupVertexContent.h" export * }
+  export *
+}
+

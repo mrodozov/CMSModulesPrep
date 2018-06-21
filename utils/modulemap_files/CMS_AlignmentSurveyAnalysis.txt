@@ -1,0 +1,19 @@
+module CMS_AlignmentSurveyAnalysis {
+  module "Chi2.h" { header "Alignment/SurveyAnalysis/interface/Chi2.h" export * }
+  module "DTSurvey.h" { header "Alignment/SurveyAnalysis/interface/DTSurvey.h" export * }
+  module "DTSurveyChamber.h" { header "Alignment/SurveyAnalysis/interface/DTSurveyChamber.h" export * }
+  module "SurveyAlignment.h" { header "Alignment/SurveyAnalysis/interface/SurveyAlignment.h" export * }
+  module "SurveyAlignmentPoints.h" { header "Alignment/SurveyAnalysis/interface/SurveyAlignmentPoints.h" export * }
+  module "SurveyAlignmentSensor.h" { header "Alignment/SurveyAnalysis/interface/SurveyAlignmentSensor.h" export * }
+  module "SurveyDataReader.h" { header "Alignment/SurveyAnalysis/interface/SurveyDataReader.h" export * }
+  module "SurveyInputBase.h" { header "Alignment/SurveyAnalysis/interface/SurveyInputBase.h" export * }
+  module "SurveyInputTextReader.h" { header "Alignment/SurveyAnalysis/interface/SurveyInputTextReader.h" export * }
+  module "SurveyOutput.h" { header "Alignment/SurveyAnalysis/interface/SurveyOutput.h" export * }
+  module "SurveyParameters.h" { header "Alignment/SurveyAnalysis/interface/SurveyParameters.h" export * }
+  module "SurveyPxbDicer.h" { header "Alignment/SurveyAnalysis/interface/SurveyPxbDicer.h" export * }
+  module "SurveyPxbImage.h" { header "Alignment/SurveyAnalysis/interface/SurveyPxbImage.h" export * }
+  module "SurveyPxbImageLocalFit.h" { header "Alignment/SurveyAnalysis/interface/SurveyPxbImageLocalFit.h" export * }
+  module "SurveyPxbImageReader.h" { header "Alignment/SurveyAnalysis/interface/SurveyPxbImageReader.h" export * }
+  export *
+}
+

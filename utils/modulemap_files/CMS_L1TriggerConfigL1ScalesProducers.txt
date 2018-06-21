@@ -1,0 +1,16 @@
+module CMS_L1TriggerConfigL1ScalesProducers {
+  module "L1CaloInputScaleTester.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1CaloInputScaleTester.h" export * }
+  module "L1CaloInputScalesGenerator.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1CaloInputScalesGenerator.h" export * }
+  module "L1CaloInputScalesProducer.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1CaloInputScalesProducer.h" export * }
+  module "L1MuGMTScalesProducer.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1MuGMTScalesProducer.h" export * }
+  module "L1MuScalesTester.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1MuScalesTester.h" export * }
+  module "L1MuTriggerPtScaleOnlineProducer.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1MuTriggerPtScaleOnlineProducer.h" export * }
+  module "L1MuTriggerPtScaleProducer.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1MuTriggerPtScaleProducer.h" export * }
+  module "L1MuTriggerScalesOnlineProducer.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1MuTriggerScalesOnlineProducer.h" export * }
+  module "L1MuTriggerScalesProducer.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1MuTriggerScalesProducer.h" export * }
+  module "L1ScalesTester.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1ScalesTester.h" export * }
+  module "L1ScalesTrivialProducer.h" { header "L1TriggerConfig/L1ScalesProducers/interface/L1ScalesTrivialProducer.h" export * }
+  module "ScaleRecordHelper.h" { header "L1TriggerConfig/L1ScalesProducers/interface/ScaleRecordHelper.h" export * }
+  export *
+}
+

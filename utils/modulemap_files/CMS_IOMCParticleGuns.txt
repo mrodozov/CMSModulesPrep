@@ -1,0 +1,22 @@
+module CMS_IOMCParticleGuns {
+  module "BaseFlatGunProducer.h" { header "IOMC/ParticleGuns/interface/BaseFlatGunProducer.h" export * }
+  module "BaseRandomtXiGunProducer.h" { header "IOMC/ParticleGuns/interface/BaseRandomtXiGunProducer.h" export * }
+  module "ExpoRandomPGunProducer.h" { header "IOMC/ParticleGuns/interface/ExpoRandomPGunProducer.h" export * }
+  module "ExpoRandomPtGunProducer.h" { header "IOMC/ParticleGuns/interface/ExpoRandomPtGunProducer.h" export * }
+  module "FileRandomKEThetaGunProducer.h" { header "IOMC/ParticleGuns/interface/FileRandomKEThetaGunProducer.h" export * }
+  module "FlatBaseThetaGunProducer.h" { header "IOMC/ParticleGuns/interface/FlatBaseThetaGunProducer.h" export * }
+  module "FlatEGunASCIIWriter.h" { header "IOMC/ParticleGuns/interface/FlatEGunASCIIWriter.h" export * }
+  module "FlatRandomEGunProducer.h" { header "IOMC/ParticleGuns/interface/FlatRandomEGunProducer.h" export * }
+  module "FlatRandomEThetaGunProducer.h" { header "IOMC/ParticleGuns/interface/FlatRandomEThetaGunProducer.h" export * }
+  module "FlatRandomMultiParticlePGunProducer.h" { header "IOMC/ParticleGuns/interface/FlatRandomMultiParticlePGunProducer.h" export * }
+  module "FlatRandomOneOverPtGunProducer.h" { header "IOMC/ParticleGuns/interface/FlatRandomOneOverPtGunProducer.h" export * }
+  module "FlatRandomPtAndDxyGunProducer.h" { header "IOMC/ParticleGuns/interface/FlatRandomPtAndDxyGunProducer.h" export * }
+  module "FlatRandomPtGunProducer.h" { header "IOMC/ParticleGuns/interface/FlatRandomPtGunProducer.h" export * }
+  module "FlatRandomPtThetaGunProducer.h" { header "IOMC/ParticleGuns/interface/FlatRandomPtThetaGunProducer.h" export * }
+  module "GaussRandomPThetaGunProducer.h" { header "IOMC/ParticleGuns/interface/GaussRandomPThetaGunProducer.h" export * }
+  module "MultiParticleInConeGunProducer.h" { header "IOMC/ParticleGuns/interface/MultiParticleInConeGunProducer.h" export * }
+  module "RandomMultiParticlePGunProducer.h" { header "IOMC/ParticleGuns/interface/RandomMultiParticlePGunProducer.h" export * }
+  module "RandomtXiGunProducer.h" { header "IOMC/ParticleGuns/interface/RandomtXiGunProducer.h" export * }
+  export *
+}
+

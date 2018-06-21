@@ -1,0 +1,5 @@
+module CMS_CondCorePluginSystem {
+  module "registration_macros.h" { header "CondCore/PluginSystem/interface/registration_macros.h" export * }
+  export *
+}
+

@@ -1,0 +1,5 @@
+module CMS_PhysicsToolsTensorFlow {
+  module "TensorFlow.h" { header "PhysicsTools/TensorFlow/interface/TensorFlow.h" export * }
+  export *
+}
+

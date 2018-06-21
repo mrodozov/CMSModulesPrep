@@ -1,0 +1,7 @@
+module CMS_DQMSiStripMonitorPedestals {
+  module "SiStripMonitorPedestals.h" { header "DQM/SiStripMonitorPedestals/interface/SiStripMonitorPedestals.h" export * }
+  module "SiStripMonitorQuality.h" { header "DQM/SiStripMonitorPedestals/interface/SiStripMonitorQuality.h" export * }
+  module "SiStripMonitorRawData.h" { header "DQM/SiStripMonitorPedestals/interface/SiStripMonitorRawData.h" export * }
+  export *
+}
+

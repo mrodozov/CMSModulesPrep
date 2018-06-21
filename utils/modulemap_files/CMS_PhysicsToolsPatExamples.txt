@@ -1,0 +1,10 @@
+module CMS_PhysicsToolsPatExamples {
+  module "AnalysisTasksAnalyzerBTag.h" { header "PhysicsTools/PatExamples/interface/AnalysisTasksAnalyzerBTag.h" export * }
+  module "AnalysisTasksAnalyzerJEC.h" { header "PhysicsTools/PatExamples/interface/AnalysisTasksAnalyzerJEC.h" export * }
+  module "BTagPerformance.h" { header "PhysicsTools/PatExamples/interface/BTagPerformance.h" export * }
+  module "PatBTagCommonHistos.h" { header "PhysicsTools/PatExamples/interface/PatBTagCommonHistos.h" export * }
+  module "PatMuonAnalyzer.h" { header "PhysicsTools/PatExamples/interface/PatMuonAnalyzer.h" export * }
+  module "WPlusJetsEventSelector.h" { header "PhysicsTools/PatExamples/interface/WPlusJetsEventSelector.h" export * }
+  export *
+}
+

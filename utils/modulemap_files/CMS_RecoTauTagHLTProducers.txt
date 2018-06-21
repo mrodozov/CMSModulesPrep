@@ -1,0 +1,22 @@
+module CMS_RecoTauTagHLTProducers {
+  module "CaloTowerCreatorForTauHLT.h" { header "RecoTauTag/HLTProducers/interface/CaloTowerCreatorForTauHLT.h" export * }
+  module "CaloTowerFromL1TCreatorForTauHLT.h" { header "RecoTauTag/HLTProducers/interface/CaloTowerFromL1TCreatorForTauHLT.h" export * }
+  module "CaloTowerFromL1TSeededCreatorForTauHLT.h" { header "RecoTauTag/HLTProducers/interface/CaloTowerFromL1TSeededCreatorForTauHLT.h" export * }
+  module "DQMTauProducer.h" { header "RecoTauTag/HLTProducers/interface/DQMTauProducer.h" export * }
+  module "L1HLTJetsMatching.h" { header "RecoTauTag/HLTProducers/interface/L1HLTJetsMatching.h" export * }
+  module "L1HLTTauMatching.h" { header "RecoTauTag/HLTProducers/interface/L1HLTTauMatching.h" export * }
+  module "L1THLTTauMatching.h" { header "RecoTauTag/HLTProducers/interface/L1THLTTauMatching.h" export * }
+  module "L1TJetsMatching.h" { header "RecoTauTag/HLTProducers/interface/L1TJetsMatching.h" export * }
+  module "L2TauJetsMerger.h" { header "RecoTauTag/HLTProducers/interface/L2TauJetsMerger.h" export * }
+  module "L2TauPixelIsoTagProducer.h" { header "RecoTauTag/HLTProducers/interface/L2TauPixelIsoTagProducer.h" export * }
+  module "L2TauPixelTrackMatch.h" { header "RecoTauTag/HLTProducers/interface/L2TauPixelTrackMatch.h" export * }
+  module "PFJetToCaloProducer.h" { header "RecoTauTag/HLTProducers/interface/PFJetToCaloProducer.h" export * }
+  module "PFJetsMaxInvMassModule.h" { header "RecoTauTag/HLTProducers/interface/PFJetsMaxInvMassModule.h" export * }
+  module "PFJetsTauOverlapRemoval.h" { header "RecoTauTag/HLTProducers/interface/PFJetsTauOverlapRemoval.h" export * }
+  module "PFTauL1TJetsMatching.h" { header "RecoTauTag/HLTProducers/interface/PFTauL1TJetsMatching.h" export * }
+  module "PFTauToJetProducer.h" { header "RecoTauTag/HLTProducers/interface/PFTauToJetProducer.h" export * }
+  module "TauJetSelectorForHLTTrackSeeding.h" { header "RecoTauTag/HLTProducers/interface/TauJetSelectorForHLTTrackSeeding.h" export * }
+  module "VertexFromTrackProducer.h" { header "RecoTauTag/HLTProducers/interface/VertexFromTrackProducer.h" export * }
+  export *
+}
+

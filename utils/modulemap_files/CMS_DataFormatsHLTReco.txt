@@ -1,0 +1,13 @@
+module CMS_DataFormatsHLTReco {
+  module "HLTPerformanceInfo.h" { header "DataFormats/HLTReco/interface/HLTPerformanceInfo.h" export * }
+  module "HLTPrescaleTable.h" { header "DataFormats/HLTReco/interface/HLTPrescaleTable.h" export * }
+  module "ModuleTiming.h" { header "DataFormats/HLTReco/interface/ModuleTiming.h" export * }
+  module "TriggerEvent.h" { header "DataFormats/HLTReco/interface/TriggerEvent.h" export * }
+  module "TriggerEventWithRefs.h" { header "DataFormats/HLTReco/interface/TriggerEventWithRefs.h" export * }
+  module "TriggerFilterObjectWithRefs.h" { header "DataFormats/HLTReco/interface/TriggerFilterObjectWithRefs.h" export * }
+  module "TriggerObject.h" { header "DataFormats/HLTReco/interface/TriggerObject.h" export * }
+  module "TriggerRefsCollections.h" { header "DataFormats/HLTReco/interface/TriggerRefsCollections.h" export * }
+  module "TriggerTypeDefs.h" { header "DataFormats/HLTReco/interface/TriggerTypeDefs.h" export * }
+  export *
+}
+

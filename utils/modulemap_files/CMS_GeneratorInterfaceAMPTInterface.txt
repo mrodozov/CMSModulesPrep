@@ -1,0 +1,7 @@
+module CMS_GeneratorInterfaceAMPTInterface {
+  module "AMPTGeneratorFilter.h" { header "GeneratorInterface/AMPTInterface/interface/AMPTGeneratorFilter.h" export * }
+  module "AMPTHadronizer.h" { header "GeneratorInterface/AMPTInterface/interface/AMPTHadronizer.h" export * }
+  module "AMPTWrapper.h" { header "GeneratorInterface/AMPTInterface/interface/AMPTWrapper.h" export * }
+  export *
+}
+

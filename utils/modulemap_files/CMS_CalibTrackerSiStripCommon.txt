@@ -1,0 +1,24 @@
+module CMS_CalibTrackerSiStripCommon {
+  module "Book.h" { header "CalibTracker/SiStripCommon/interface/Book.h" export * }
+  module "ShallowClustersProducer.h" { header "CalibTracker/SiStripCommon/interface/ShallowClustersProducer.h" export * }
+  module "ShallowDigisProducer.h" { header "CalibTracker/SiStripCommon/interface/ShallowDigisProducer.h" export * }
+  module "ShallowEventDataProducer.h" { header "CalibTracker/SiStripCommon/interface/ShallowEventDataProducer.h" export * }
+  module "ShallowExampleProducer.h" { header "CalibTracker/SiStripCommon/interface/ShallowExampleProducer.h" export * }
+  module "ShallowGainCalibration.h" { header "CalibTracker/SiStripCommon/interface/ShallowGainCalibration.h" export * }
+  module "ShallowRechitClustersProducer.h" { header "CalibTracker/SiStripCommon/interface/ShallowRechitClustersProducer.h" export * }
+  module "ShallowSimTracksProducer.h" { header "CalibTracker/SiStripCommon/interface/ShallowSimTracksProducer.h" export * }
+  module "ShallowSimhitClustersProducer.h" { header "CalibTracker/SiStripCommon/interface/ShallowSimhitClustersProducer.h" export * }
+  module "ShallowTools.h" { header "CalibTracker/SiStripCommon/interface/ShallowTools.h" export * }
+  module "ShallowTrackClustersProducer.h" { header "CalibTracker/SiStripCommon/interface/ShallowTrackClustersProducer.h" export * }
+  module "ShallowTracksProducer.h" { header "CalibTracker/SiStripCommon/interface/ShallowTracksProducer.h" export * }
+  module "ShallowTree.h" { header "CalibTracker/SiStripCommon/interface/ShallowTree.h" export * }
+  module "SiStripBFieldFilter.h" { header "CalibTracker/SiStripCommon/interface/SiStripBFieldFilter.h" export * }
+  module "SiStripDCSStatus.h" { header "CalibTracker/SiStripCommon/interface/SiStripDCSStatus.h" export * }
+  module "SiStripDetInfoFileReader.h" { header "CalibTracker/SiStripCommon/interface/SiStripDetInfoFileReader.h" export * }
+  module "SiStripFedIdListReader.h" { header "CalibTracker/SiStripCommon/interface/SiStripFedIdListReader.h" export * }
+  module "TTREE_FOREACH_ENTRY.hh" { header "CalibTracker/SiStripCommon/interface/TTREE_FOREACH_ENTRY.hh" export * }
+  module "TkDetMap.h" { header "CalibTracker/SiStripCommon/interface/TkDetMap.h" export * }
+  module "poly.h" { header "CalibTracker/SiStripCommon/interface/poly.h" export * }
+  export *
+}
+

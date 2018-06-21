@@ -1,0 +1,5 @@
+module CMS_ValidationCheckOverlap {
+  module "CheckOverlap.h" { header "Validation/CheckOverlap/interface/CheckOverlap.h" export * }
+  export *
+}
+

@@ -1,0 +1,7 @@
+module CMS_CommonToolsPileupAlgos {
+  module "PuppiAlgo.h" { header "CommonTools/PileupAlgos/interface/PuppiAlgo.h" export * }
+  module "PuppiContainer.h" { header "CommonTools/PileupAlgos/interface/PuppiContainer.h" export * }
+  module "RecoObj.h" { header "CommonTools/PileupAlgos/interface/RecoObj.h" export * }
+  export *
+}
+

@@ -1,0 +1,10 @@
+module CMS_CondToolsDQM {
+  module "DQMReferenceHistogramRootFileSourceHandler.h" { header "CondTools/DQM/interface/DQMReferenceHistogramRootFileSourceHandler.h" export * }
+  module "DQMSummaryReader.h" { header "CondTools/DQM/interface/DQMSummaryReader.h" export * }
+  module "DQMSummarySourceHandler.h" { header "CondTools/DQM/interface/DQMSummarySourceHandler.h" export * }
+  module "DQMXMLFileSourceHandler.h" { header "CondTools/DQM/interface/DQMXMLFileSourceHandler.h" export * }
+  module "ReadBase.h" { header "CondTools/DQM/interface/ReadBase.h" export * }
+  module "TestBase.h" { header "CondTools/DQM/interface/TestBase.h" export * }
+  export *
+}
+

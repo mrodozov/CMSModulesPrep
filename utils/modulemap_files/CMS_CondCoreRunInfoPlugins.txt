@@ -1,0 +1,5 @@
+module CMS_CondCoreRunInfoPlugins {
+  module "RunInfoPayloadInspectoHelper.h" { header "CondCore/RunInfoPlugins/interface/RunInfoPayloadInspectoHelper.h" export * }
+  export *
+}
+

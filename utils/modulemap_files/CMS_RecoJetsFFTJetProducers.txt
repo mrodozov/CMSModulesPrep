@@ -1,0 +1,7 @@
+module CMS_RecoJetsFFTJetProducers {
+  module "FFTJetInterface.h" { header "RecoJets/FFTJetProducers/interface/FFTJetInterface.h" export * }
+  module "FFTJetParameterParser.h" { header "RecoJets/FFTJetProducers/interface/FFTJetParameterParser.h" export * }
+  module "JetType.h" { header "RecoJets/FFTJetProducers/interface/JetType.h" export * }
+  export *
+}
+

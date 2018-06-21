@@ -1,0 +1,6 @@
+module CMS_RecoTBCaloEcalTBRecProducers {
+  module "EcalTBWeightUncalibRecHitProducer.h" { header "RecoTBCalo/EcalTBRecProducers/interface/EcalTBWeightUncalibRecHitProducer.h" export * }
+  module "IsTBH4Type.h" { header "RecoTBCalo/EcalTBRecProducers/interface/IsTBH4Type.h" export * }
+  export *
+}
+

@@ -1,0 +1,22 @@
+module CMS_RecoLocalTrackerSiPixelRecHits {
+  module "PixelCPEBase.h" { header "RecoLocalTracker/SiPixelRecHits/interface/PixelCPEBase.h" export * }
+  module "PixelCPEClusterRepair.h" { header "RecoLocalTracker/SiPixelRecHits/interface/PixelCPEClusterRepair.h" export * }
+  module "PixelCPEClusterRepairESProducer.h" { header "RecoLocalTracker/SiPixelRecHits/interface/PixelCPEClusterRepairESProducer.h" export * }
+  module "PixelCPEGeneric.h" { header "RecoLocalTracker/SiPixelRecHits/interface/PixelCPEGeneric.h" export * }
+  module "PixelCPEGenericESProducer.h" { header "RecoLocalTracker/SiPixelRecHits/interface/PixelCPEGenericESProducer.h" export * }
+  module "PixelCPETemplateReco.h" { header "RecoLocalTracker/SiPixelRecHits/interface/PixelCPETemplateReco.h" export * }
+  module "PixelCPETemplateRecoESProducer.h" { header "RecoLocalTracker/SiPixelRecHits/interface/PixelCPETemplateRecoESProducer.h" export * }
+  module "SiPixelGenError.h" { header "RecoLocalTracker/SiPixelRecHits/interface/SiPixelGenError.h" export * }
+  module "SiPixelRecHitConverter.h" { header "RecoLocalTracker/SiPixelRecHits/interface/SiPixelRecHitConverter.h" export * }
+  module "SiPixelTemplate.h" { header "RecoLocalTracker/SiPixelRecHits/interface/SiPixelTemplate.h" export * }
+  module "SiPixelTemplate2D.h" { header "RecoLocalTracker/SiPixelRecHits/interface/SiPixelTemplate2D.h" export * }
+  module "SiPixelTemplateDefs.h" { header "RecoLocalTracker/SiPixelRecHits/interface/SiPixelTemplateDefs.h" export * }
+  module "SiPixelTemplateReco.h" { header "RecoLocalTracker/SiPixelRecHits/interface/SiPixelTemplateReco.h" export * }
+  module "SiPixelTemplateReco2D.h" { header "RecoLocalTracker/SiPixelRecHits/interface/SiPixelTemplateReco2D.h" export * }
+  module "SiPixelTemplateSplit.h" { header "RecoLocalTracker/SiPixelRecHits/interface/SiPixelTemplateSplit.h" export * }
+  module "SimplePixel.h" { header "RecoLocalTracker/SiPixelRecHits/interface/SimplePixel.h" export * }
+  module "VVIObj.h" { header "RecoLocalTracker/SiPixelRecHits/interface/VVIObj.h" export * }
+  module "VVIObjF.h" { header "RecoLocalTracker/SiPixelRecHits/interface/VVIObjF.h" export * }
+  export *
+}
+

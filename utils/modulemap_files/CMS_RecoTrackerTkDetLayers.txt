@@ -1,0 +1,6 @@
+module CMS_RecoTrackerTkDetLayers {
+  module "GeometricSearchTracker.h" { header "RecoTracker/TkDetLayers/interface/GeometricSearchTracker.h" export * }
+  module "GeometricSearchTrackerBuilder.h" { header "RecoTracker/TkDetLayers/interface/GeometricSearchTrackerBuilder.h" export * }
+  export *
+}
+

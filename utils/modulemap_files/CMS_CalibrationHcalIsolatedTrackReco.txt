@@ -1,0 +1,12 @@
+module CMS_CalibrationHcalIsolatedTrackReco {
+  module "ECALRegFEDSelector.h" { header "Calibration/HcalIsolatedTrackReco/interface/ECALRegFEDSelector.h" export * }
+  module "EcalIsolatedParticleCandidateProducer.h" { header "Calibration/HcalIsolatedTrackReco/interface/EcalIsolatedParticleCandidateProducer.h" export * }
+  module "IPTCorrector.h" { header "Calibration/HcalIsolatedTrackReco/interface/IPTCorrector.h" export * }
+  module "IsolatedEcalPixelTrackCandidateProducer.h" { header "Calibration/HcalIsolatedTrackReco/interface/IsolatedEcalPixelTrackCandidateProducer.h" export * }
+  module "IsolatedPixelTrackCandidateL1TProducer.h" { header "Calibration/HcalIsolatedTrackReco/interface/IsolatedPixelTrackCandidateL1TProducer.h" export * }
+  module "IsolatedPixelTrackCandidateProducer.h" { header "Calibration/HcalIsolatedTrackReco/interface/IsolatedPixelTrackCandidateProducer.h" export * }
+  module "SiStripRegFEDSelector.h" { header "Calibration/HcalIsolatedTrackReco/interface/SiStripRegFEDSelector.h" export * }
+  module "SubdetFEDSelector.h" { header "Calibration/HcalIsolatedTrackReco/interface/SubdetFEDSelector.h" export * }
+  export *
+}
+

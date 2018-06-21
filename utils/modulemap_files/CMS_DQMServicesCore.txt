@@ -1,0 +1,18 @@
+module CMS_DQMServicesCore {
+  module "ConcurrentMonitorElement.h" { header "DQMServices/Core/interface/ConcurrentMonitorElement.h" export * }
+  module "DQMChannel.h" { header "DQMServices/Core/interface/DQMChannel.h" export * }
+  module "DQMDefinitions.h" { header "DQMServices/Core/interface/DQMDefinitions.h" export * }
+  module "DQMEDAnalyzer.h" { header "DQMServices/Core/interface/DQMEDAnalyzer.h" export * }
+  module "DQMEDHarvester.h" { header "DQMServices/Core/interface/DQMEDHarvester.h" export * }
+  module "DQMGlobalEDAnalyzer.h" { header "DQMServices/Core/interface/DQMGlobalEDAnalyzer.h" export * }
+  module "DQMNet.h" { header "DQMServices/Core/interface/DQMNet.h" export * }
+  module "DQMOldReceiver.h" { header "DQMServices/Core/interface/DQMOldReceiver.h" export * }
+  module "DQMScope.h" { header "DQMServices/Core/interface/DQMScope.h" export * }
+  module "DQMStore.h" { header "DQMServices/Core/interface/DQMStore.h" export * }
+  module "MonitorElement.h" { header "DQMServices/Core/interface/MonitorElement.h" export * }
+  module "QReport.h" { header "DQMServices/Core/interface/QReport.h" export * }
+  module "QTest.h" { header "DQMServices/Core/interface/QTest.h" export * }
+  module "Standalone.h" { header "DQMServices/Core/interface/Standalone.h" export * }
+  export *
+}
+

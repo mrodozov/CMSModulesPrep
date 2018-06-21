@@ -1,0 +1,24 @@
+module CMS_RecoVertexVertexPrimitives {
+  module "BasicSingleVertexState.h" { header "RecoVertex/VertexPrimitives/interface/BasicSingleVertexState.h" export * }
+  module "BasicVertexState.h" { header "RecoVertex/VertexPrimitives/interface/BasicVertexState.h" export * }
+  module "CachingVertex.h" { header "RecoVertex/VertexPrimitives/interface/CachingVertex.h" export * }
+  module "ConvertError.h" { header "RecoVertex/VertexPrimitives/interface/ConvertError.h" export * }
+  module "ConvertToFromReco.h" { header "RecoVertex/VertexPrimitives/interface/ConvertToFromReco.h" export * }
+  module "LinearizedTrackState.h" { header "RecoVertex/VertexPrimitives/interface/LinearizedTrackState.h" export * }
+  module "RefittedTrackState.h" { header "RecoVertex/VertexPrimitives/interface/RefittedTrackState.h" export * }
+  module "TTtoTTmap.h" { header "RecoVertex/VertexPrimitives/interface/TTtoTTmap.h" export * }
+  module "TrackToTrackCovCalculator.h" { header "RecoVertex/VertexPrimitives/interface/TrackToTrackCovCalculator.h" export * }
+  module "TransientVertex.h" { header "RecoVertex/VertexPrimitives/interface/TransientVertex.h" export * }
+  module "VertexException.h" { header "RecoVertex/VertexPrimitives/interface/VertexException.h" export * }
+  module "VertexFitter.h" { header "RecoVertex/VertexPrimitives/interface/VertexFitter.h" export * }
+  module "VertexReconstructor.h" { header "RecoVertex/VertexPrimitives/interface/VertexReconstructor.h" export * }
+  module "VertexSmoothedChiSquaredEstimator.h" { header "RecoVertex/VertexPrimitives/interface/VertexSmoothedChiSquaredEstimator.h" export * }
+  module "VertexSmoother.h" { header "RecoVertex/VertexPrimitives/interface/VertexSmoother.h" export * }
+  module "VertexState.h" { header "RecoVertex/VertexPrimitives/interface/VertexState.h" export * }
+  module "VertexTrack.h" { header "RecoVertex/VertexPrimitives/interface/VertexTrack.h" export * }
+  module "VertexTrackCompatibilityEstimator.h" { header "RecoVertex/VertexPrimitives/interface/VertexTrackCompatibilityEstimator.h" export * }
+  module "VertexTrackUpdator.h" { header "RecoVertex/VertexPrimitives/interface/VertexTrackUpdator.h" export * }
+  module "VertexUpdator.h" { header "RecoVertex/VertexPrimitives/interface/VertexUpdator.h" export * }
+  export *
+}
+

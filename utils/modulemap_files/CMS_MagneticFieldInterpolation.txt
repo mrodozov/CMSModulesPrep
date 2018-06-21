@@ -1,0 +1,7 @@
+module CMS_MagneticFieldInterpolation {
+  module "MFGrid.h" { header "MagneticField/Interpolation/interface/MFGrid.h" export * }
+  module "MFGridFactory.h" { header "MagneticField/Interpolation/interface/MFGridFactory.h" export * }
+  module "MagProviderInterpol.h" { header "MagneticField/Interpolation/interface/MagProviderInterpol.h" export * }
+  export *
+}
+

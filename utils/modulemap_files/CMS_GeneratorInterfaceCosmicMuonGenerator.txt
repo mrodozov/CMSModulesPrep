@@ -1,0 +1,11 @@
+module CMS_GeneratorInterfaceCosmicMuonGenerator {
+  module "CMSCGEN.h" { header "GeneratorInterface/CosmicMuonGenerator/interface/CMSCGEN.h" export * }
+  module "CMSCGENnorm.h" { header "GeneratorInterface/CosmicMuonGenerator/interface/CMSCGENnorm.h" export * }
+  module "CosMuoGenProducer.h" { header "GeneratorInterface/CosmicMuonGenerator/interface/CosMuoGenProducer.h" export * }
+  module "CosmicMuonGenerator.h" { header "GeneratorInterface/CosmicMuonGenerator/interface/CosmicMuonGenerator.h" export * }
+  module "CosmicMuonParameters.h" { header "GeneratorInterface/CosmicMuonGenerator/interface/CosmicMuonParameters.h" export * }
+  module "SingleParticleEvent.h" { header "GeneratorInterface/CosmicMuonGenerator/interface/SingleParticleEvent.h" export * }
+  module "sim.h" { header "GeneratorInterface/CosmicMuonGenerator/interface/sim.h" export * }
+  export *
+}
+

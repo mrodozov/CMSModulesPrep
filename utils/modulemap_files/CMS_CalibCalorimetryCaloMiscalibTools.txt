@@ -1,0 +1,19 @@
+module CMS_CalibCalorimetryCaloMiscalibTools {
+  module "CaloMiscalibMap.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/CaloMiscalibMap.h" export * }
+  module "CaloMiscalibMapEcal.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/CaloMiscalibMapEcal.h" export * }
+  module "CaloMiscalibMapHcal.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/CaloMiscalibMapHcal.h" export * }
+  module "CaloMiscalibTools.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/CaloMiscalibTools.h" export * }
+  module "CaloMiscalibToolsMC.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/CaloMiscalibToolsMC.h" export * }
+  module "EcalRecHitRecalib.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/EcalRecHitRecalib.h" export * }
+  module "HcalRecHitRecalib.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/HcalRecHitRecalib.h" export * }
+  module "MiscalibReaderFromXML.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/MiscalibReaderFromXML.h" export * }
+  module "MiscalibReaderFromXMLDomUtils.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/MiscalibReaderFromXMLDomUtils.h" export * }
+  module "MiscalibReaderFromXMLDomUtils.icc" { textual header "CalibCalorimetry/CaloMiscalibTools/interface/MiscalibReaderFromXMLDomUtils.icc" export * }
+  module "MiscalibReaderFromXMLEcalBarrel.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/MiscalibReaderFromXMLEcalBarrel.h" export * }
+  module "MiscalibReaderFromXMLEcalEndcap.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/MiscalibReaderFromXMLEcalEndcap.h" export * }
+  module "MiscalibReaderFromXMLHcal.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/MiscalibReaderFromXMLHcal.h" export * }
+  module "WriteEcalMiscalibConstants.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/WriteEcalMiscalibConstants.h" export * }
+  module "WriteEcalMiscalibConstantsMC.h" { header "CalibCalorimetry/CaloMiscalibTools/interface/WriteEcalMiscalibConstantsMC.h" export * }
+  export *
+}
+

@@ -1,0 +1,21 @@
+module CMS_IOPoolStreamer {
+  module "ClassFiller.h" { header "IOPool/Streamer/interface/ClassFiller.h" export * }
+  module "DumpTools.h" { header "IOPool/Streamer/interface/DumpTools.h" export * }
+  module "EventMessage.h" { header "IOPool/Streamer/interface/EventMessage.h" export * }
+  module "EventMsgBuilder.h" { header "IOPool/Streamer/interface/EventMsgBuilder.h" export * }
+  module "FRDEventMessage.h" { header "IOPool/Streamer/interface/FRDEventMessage.h" export * }
+  module "InitMessage.h" { header "IOPool/Streamer/interface/InitMessage.h" export * }
+  module "InitMsgBuilder.h" { header "IOPool/Streamer/interface/InitMsgBuilder.h" export * }
+  module "MsgHeader.h" { header "IOPool/Streamer/interface/MsgHeader.h" export * }
+  module "MsgTools.h" { header "IOPool/Streamer/interface/MsgTools.h" export * }
+  module "StreamSerializer.h" { header "IOPool/Streamer/interface/StreamSerializer.h" export * }
+  module "StreamerFileIO.h" { header "IOPool/Streamer/interface/StreamerFileIO.h" export * }
+  module "StreamerInputFile.h" { header "IOPool/Streamer/interface/StreamerInputFile.h" export * }
+  module "StreamerInputModule.h" { header "IOPool/Streamer/interface/StreamerInputModule.h" export * }
+  module "StreamerInputSource.h" { header "IOPool/Streamer/interface/StreamerInputSource.h" export * }
+  module "StreamerOutputFile.h" { header "IOPool/Streamer/interface/StreamerOutputFile.h" export * }
+  module "StreamerOutputModule.h" { header "IOPool/Streamer/interface/StreamerOutputModule.h" export * }
+  module "StreamerOutputModuleBase.h" { header "IOPool/Streamer/interface/StreamerOutputModuleBase.h" export * }
+  export *
+}
+

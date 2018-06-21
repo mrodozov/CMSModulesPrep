@@ -1,0 +1,6 @@
+module CMS_DataFormatsHistograms {
+  module "DQMToken.h" { header "DataFormats/Histograms/interface/DQMToken.h" export * }
+  module "MEtoEDMFormat.h" { header "DataFormats/Histograms/interface/MEtoEDMFormat.h" export * }
+  export *
+}
+

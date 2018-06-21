@@ -1,0 +1,8 @@
+module CMS_HeavyFlavorAnalysisOnia2MuMu {
+  module "Onia2MuMuPAT.h" { header "HeavyFlavorAnalysis/Onia2MuMu/interface/Onia2MuMuPAT.h" export * }
+  module "OniaAddV0TracksProducer.h" { header "HeavyFlavorAnalysis/Onia2MuMu/interface/OniaAddV0TracksProducer.h" export * }
+  module "OniaPhotonConversionProducer.h" { header "HeavyFlavorAnalysis/Onia2MuMu/interface/OniaPhotonConversionProducer.h" export * }
+  module "OniaVtxReProducer.h" { header "HeavyFlavorAnalysis/Onia2MuMu/interface/OniaVtxReProducer.h" export * }
+  export *
+}
+

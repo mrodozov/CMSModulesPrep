@@ -1,0 +1,12 @@
+module CMS_CondFormatsGeometryObjects {
+  module "CSCRecoDigiParameters.h" { header "CondFormats/GeometryObjects/interface/CSCRecoDigiParameters.h" export * }
+  module "HcalParameters.h" { header "CondFormats/GeometryObjects/interface/HcalParameters.h" export * }
+  module "PCaloGeometry.h" { header "CondFormats/GeometryObjects/interface/PCaloGeometry.h" export * }
+  module "PGeometricDet.h" { header "CondFormats/GeometryObjects/interface/PGeometricDet.h" export * }
+  module "PGeometricDetExtra.h" { header "CondFormats/GeometryObjects/interface/PGeometricDetExtra.h" export * }
+  module "PHGCalParameters.h" { header "CondFormats/GeometryObjects/interface/PHGCalParameters.h" export * }
+  module "PTrackerParameters.h" { header "CondFormats/GeometryObjects/interface/PTrackerParameters.h" export * }
+  module "RecoIdealGeometry.h" { header "CondFormats/GeometryObjects/interface/RecoIdealGeometry.h" export * }
+  export *
+}
+

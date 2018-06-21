@@ -1,0 +1,13 @@
+module CMS_RecoMuonGlobalTrackingTools {
+  module "ChamberSegmentUtility.h" { header "RecoMuon/GlobalTrackingTools/interface/ChamberSegmentUtility.h" export * }
+  module "DirectTrackerNavigation.h" { header "RecoMuon/GlobalTrackingTools/interface/DirectTrackerNavigation.h" export * }
+  module "DynamicTruncation.h" { header "RecoMuon/GlobalTrackingTools/interface/DynamicTruncation.h" export * }
+  module "GlobalMuonRefitter.h" { header "RecoMuon/GlobalTrackingTools/interface/GlobalMuonRefitter.h" export * }
+  module "GlobalMuonTrackMatcher.h" { header "RecoMuon/GlobalTrackingTools/interface/GlobalMuonTrackMatcher.h" export * }
+  module "GlobalTrajectoryBuilderBase.h" { header "RecoMuon/GlobalTrackingTools/interface/GlobalTrajectoryBuilderBase.h" export * }
+  module "MuonTrackingRegionBuilder.h" { header "RecoMuon/GlobalTrackingTools/interface/MuonTrackingRegionBuilder.h" export * }
+  module "StateSegmentMatcher.h" { header "RecoMuon/GlobalTrackingTools/interface/StateSegmentMatcher.h" export * }
+  module "ThrParameters.h" { header "RecoMuon/GlobalTrackingTools/interface/ThrParameters.h" export * }
+  export *
+}
+

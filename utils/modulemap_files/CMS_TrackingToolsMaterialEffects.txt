@@ -1,0 +1,9 @@
+module CMS_TrackingToolsMaterialEffects {
+  module "CombinedMaterialEffectsUpdator.h" { header "TrackingTools/MaterialEffects/interface/CombinedMaterialEffectsUpdator.h" export * }
+  module "EnergyLossUpdator.h" { header "TrackingTools/MaterialEffects/interface/EnergyLossUpdator.h" export * }
+  module "MaterialEffectsUpdator.h" { header "TrackingTools/MaterialEffects/interface/MaterialEffectsUpdator.h" export * }
+  module "MultipleScatteringUpdator.h" { header "TrackingTools/MaterialEffects/interface/MultipleScatteringUpdator.h" export * }
+  module "PropagatorWithMaterial.h" { header "TrackingTools/MaterialEffects/interface/PropagatorWithMaterial.h" export * }
+  export *
+}
+

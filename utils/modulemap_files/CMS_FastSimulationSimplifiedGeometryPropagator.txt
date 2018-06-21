@@ -1,0 +1,22 @@
+module CMS_FastSimulationSimplifiedGeometryPropagator {
+  module "BarrelSimplifiedGeometry.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/BarrelSimplifiedGeometry.h" export * }
+  module "CMSDummyDeexcitation.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/CMSDummyDeexcitation.h" export * }
+  module "Constants.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/Constants.h" export * }
+  module "Decayer.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/Decayer.h" export * }
+  module "ForwardSimplifiedGeometry.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/ForwardSimplifiedGeometry.h" export * }
+  module "Geometry.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/Geometry.h" export * }
+  module "GeometryRecord.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/GeometryRecord.h" export * }
+  module "HelixTrajectory.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/HelixTrajectory.h" export * }
+  module "InteractionModel.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/InteractionModel.h" export * }
+  module "InteractionModelFactory.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/InteractionModelFactory.h" export * }
+  module "LayerNavigator.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/LayerNavigator.h" export * }
+  module "Particle.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/Particle.h" export * }
+  module "ParticleFilter.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/ParticleFilter.h" export * }
+  module "ParticleManager.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/ParticleManager.h" export * }
+  module "SimplifiedGeometry.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/SimplifiedGeometry.h" export * }
+  module "SimplifiedGeometryFactory.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/SimplifiedGeometryFactory.h" export * }
+  module "StraightTrajectory.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/StraightTrajectory.h" export * }
+  module "Trajectory.h" { header "FastSimulation/SimplifiedGeometryPropagator/interface/Trajectory.h" export * }
+  export *
+}
+

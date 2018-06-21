@@ -1,0 +1,5 @@
+module CMS_RecoLocalCaloCastorReco {
+  module "CastorSimpleRecAlgo.h" { header "RecoLocalCalo/CastorReco/interface/CastorSimpleRecAlgo.h" export * }
+  export *
+}
+

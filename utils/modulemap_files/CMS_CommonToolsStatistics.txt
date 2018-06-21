@@ -1,0 +1,20 @@
+module CMS_CommonToolsStatistics {
+  module "Accumulator.h" { header "CommonTools/Statistics/interface/Accumulator.h" export * }
+  module "AutocorrelationAnalyzer.h" { header "CommonTools/Statistics/interface/AutocorrelationAnalyzer.h" export * }
+  module "BinomialProbability.h" { header "CommonTools/Statistics/interface/BinomialProbability.h" export * }
+  module "ChiSquared.h" { header "CommonTools/Statistics/interface/ChiSquared.h" export * }
+  module "ChiSquaredProbability.h" { header "CommonTools/Statistics/interface/ChiSquaredProbability.h" export * }
+  module "CombinationGenerator.h" { header "CommonTools/Statistics/interface/CombinationGenerator.h" export * }
+  module "LinearFit.h" { header "CommonTools/Statistics/interface/LinearFit.h" export * }
+  module "LinearFitErrorsIn2Coord.h" { header "CommonTools/Statistics/interface/LinearFitErrorsIn2Coord.h" export * }
+  module "PartitionGenerator.h" { header "CommonTools/Statistics/interface/PartitionGenerator.h" export * }
+  module "RandomMultiGauss.h" { header "CommonTools/Statistics/interface/RandomMultiGauss.h" export * }
+  module "SequentialCombinationGenerator.h" { header "CommonTools/Statistics/interface/SequentialCombinationGenerator.h" export * }
+  module "SequentialPartitionGenerator.h" { header "CommonTools/Statistics/interface/SequentialPartitionGenerator.h" export * }
+  module "StatisticsException.h" { header "CommonTools/Statistics/interface/StatisticsException.h" export * }
+  module "hsm_1d.icc" { textual header "CommonTools/Statistics/interface/hsm_1d.icc" export * }
+  module "lms_1d.icc" { textual header "CommonTools/Statistics/interface/lms_1d.icc" export * }
+  module "median.icc" { textual header "CommonTools/Statistics/interface/median.icc" export * }
+  export *
+}
+

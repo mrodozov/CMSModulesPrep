@@ -1,0 +1,10 @@
+module CMS_SimDataFormatsJetMatching {
+  module "JetFlavour.h" { header "SimDataFormats/JetMatching/interface/JetFlavour.h" export * }
+  module "JetFlavourInfo.h" { header "SimDataFormats/JetMatching/interface/JetFlavourInfo.h" export * }
+  module "JetFlavourInfoMatching.h" { header "SimDataFormats/JetMatching/interface/JetFlavourInfoMatching.h" export * }
+  module "JetFlavourMatching.h" { header "SimDataFormats/JetMatching/interface/JetFlavourMatching.h" export * }
+  module "JetMatchedPartons.h" { header "SimDataFormats/JetMatching/interface/JetMatchedPartons.h" export * }
+  module "MatchedPartons.h" { header "SimDataFormats/JetMatching/interface/MatchedPartons.h" export * }
+  export *
+}
+

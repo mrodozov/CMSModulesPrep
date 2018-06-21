@@ -1,0 +1,26 @@
+module CMS_CondFormatsDTObjects {
+  module "DTBufferTree.h" { header "CondFormats/DTObjects/interface/DTBufferTree.h" export * }
+  module "DTBufferTree.icc" { textual header "CondFormats/DTObjects/interface/DTBufferTree.icc" export * }
+  module "DTCCBConfig.h" { header "CondFormats/DTObjects/interface/DTCCBConfig.h" export * }
+  module "DTDeadFlag.h" { header "CondFormats/DTObjects/interface/DTDeadFlag.h" export * }
+  module "DTHVStatus.h" { header "CondFormats/DTObjects/interface/DTHVStatus.h" export * }
+  module "DTKeyedConfig.h" { header "CondFormats/DTObjects/interface/DTKeyedConfig.h" export * }
+  module "DTLVStatus.h" { header "CondFormats/DTObjects/interface/DTLVStatus.h" export * }
+  module "DTMtime.h" { header "CondFormats/DTObjects/interface/DTMtime.h" export * }
+  module "DTPerformance.h" { header "CondFormats/DTObjects/interface/DTPerformance.h" export * }
+  module "DTRangeT0.h" { header "CondFormats/DTObjects/interface/DTRangeT0.h" export * }
+  module "DTReadOutMapping.h" { header "CondFormats/DTObjects/interface/DTReadOutMapping.h" export * }
+  module "DTReadOutMappingCache.h" { header "CondFormats/DTObjects/interface/DTReadOutMappingCache.h" export * }
+  module "DTRecoConditions.h" { header "CondFormats/DTObjects/interface/DTRecoConditions.h" export * }
+  module "DTRecoUncertainties.h" { header "CondFormats/DTObjects/interface/DTRecoUncertainties.h" export * }
+  module "DTSequentialCellNumber.h" { header "CondFormats/DTObjects/interface/DTSequentialCellNumber.h" export * }
+  module "DTSequentialLayerNumber.h" { header "CondFormats/DTObjects/interface/DTSequentialLayerNumber.h" export * }
+  module "DTStatusFlag.h" { header "CondFormats/DTObjects/interface/DTStatusFlag.h" export * }
+  module "DTT0.h" { header "CondFormats/DTObjects/interface/DTT0.h" export * }
+  module "DTTPGParameters.h" { header "CondFormats/DTObjects/interface/DTTPGParameters.h" export * }
+  module "DTTimeUnits.h" { header "CondFormats/DTObjects/interface/DTTimeUnits.h" export * }
+  module "DTTtrig.h" { header "CondFormats/DTObjects/interface/DTTtrig.h" export * }
+  module "DTVelocityUnits.h" { header "CondFormats/DTObjects/interface/DTVelocityUnits.h" export * }
+  export *
+}
+

@@ -1,0 +1,8 @@
+module CMS_AlignmentOfflineValidation {
+  module "EopVariables.h" { header "Alignment/OfflineValidation/interface/EopVariables.h" export * }
+  module "PVValidationHelpers.h" { header "Alignment/OfflineValidation/interface/PVValidationHelpers.h" export * }
+  module "TkOffTreeVariables.h" { header "Alignment/OfflineValidation/interface/TkOffTreeVariables.h" export * }
+  module "TrackerValidationVariables.h" { header "Alignment/OfflineValidation/interface/TrackerValidationVariables.h" export * }
+  export *
+}
+

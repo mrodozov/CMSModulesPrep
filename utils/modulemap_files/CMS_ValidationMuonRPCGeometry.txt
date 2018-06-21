@@ -1,0 +1,6 @@
+module CMS_ValidationMuonRPCGeometry {
+  module "Constants.h" { header "Validation/MuonRPCGeometry/interface/Constants.h" export * }
+  module "PTStatistics.h" { header "Validation/MuonRPCGeometry/interface/PTStatistics.h" export * }
+  export *
+}
+

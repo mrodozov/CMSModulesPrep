@@ -1,0 +1,7 @@
+module CMS_AnalysisDataFormatsEgamma {
+  module "ElectronID.h" { header "AnalysisDataFormats/Egamma/interface/ElectronID.h" export * }
+  module "ElectronIDAssociation.h" { header "AnalysisDataFormats/Egamma/interface/ElectronIDAssociation.h" export * }
+  module "ElectronIDFwd.h" { header "AnalysisDataFormats/Egamma/interface/ElectronIDFwd.h" export * }
+  export *
+}
+

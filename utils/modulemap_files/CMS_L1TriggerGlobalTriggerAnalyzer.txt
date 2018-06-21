@@ -1,0 +1,19 @@
+module CMS_L1TriggerGlobalTriggerAnalyzer {
+  module "L1GetHistLimits.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GetHistLimits.h" export * }
+  module "L1GtAnalyzer.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtAnalyzer.h" export * }
+  module "L1GtBeamModeFilter.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtBeamModeFilter.h" export * }
+  module "L1GtDataEmulAnalyzer.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtDataEmulAnalyzer.h" export * }
+  module "L1GtPackUnpackAnalyzer.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtPackUnpackAnalyzer.h" export * }
+  module "L1GtPatternGenerator.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtPatternGenerator.h" export * }
+  module "L1GtPatternLine.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtPatternLine.h" export * }
+  module "L1GtPatternMap.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtPatternMap.h" export * }
+  module "L1GtPatternWriter.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtPatternWriter.h" export * }
+  module "L1GtTrigReport.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtTrigReport.h" export * }
+  module "L1GtTrigReportEntry.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtTrigReportEntry.h" export * }
+  module "L1GtUtils.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtUtils.h" export * }
+  module "L1GtUtilsHelper.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1GtUtilsHelper.h" export * }
+  module "L1PhiConversion.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1PhiConversion.h" export * }
+  module "L1RetrieveL1Extra.h" { header "L1Trigger/GlobalTriggerAnalyzer/interface/L1RetrieveL1Extra.h" export * }
+  export *
+}
+

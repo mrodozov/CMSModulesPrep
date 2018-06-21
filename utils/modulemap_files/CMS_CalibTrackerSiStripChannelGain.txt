@@ -1,0 +1,8 @@
+module CMS_CalibTrackerSiStripChannelGain {
+  module "APVGainHelpers.h" { header "CalibTracker/SiStripChannelGain/interface/APVGainHelpers.h" export * }
+  module "APVGainStruct.h" { header "CalibTracker/SiStripChannelGain/interface/APVGainStruct.h" export * }
+  module "SiStripGainsPCLHarvester.h" { header "CalibTracker/SiStripChannelGain/interface/SiStripGainsPCLHarvester.h" export * }
+  module "SiStripGainsPCLWorker.h" { header "CalibTracker/SiStripChannelGain/interface/SiStripGainsPCLWorker.h" export * }
+  export *
+}
+

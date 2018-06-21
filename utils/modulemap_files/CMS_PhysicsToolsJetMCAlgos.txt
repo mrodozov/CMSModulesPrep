@@ -1,0 +1,10 @@
+module CMS_PhysicsToolsJetMCAlgos {
+  module "BasePartonSelector.h" { header "PhysicsTools/JetMCAlgos/interface/BasePartonSelector.h" export * }
+  module "Herwig6PartonSelector.h" { header "PhysicsTools/JetMCAlgos/interface/Herwig6PartonSelector.h" export * }
+  module "HerwigppPartonSelector.h" { header "PhysicsTools/JetMCAlgos/interface/HerwigppPartonSelector.h" export * }
+  module "Pythia6PartonSelector.h" { header "PhysicsTools/JetMCAlgos/interface/Pythia6PartonSelector.h" export * }
+  module "Pythia8PartonSelector.h" { header "PhysicsTools/JetMCAlgos/interface/Pythia8PartonSelector.h" export * }
+  module "SherpaPartonSelector.h" { header "PhysicsTools/JetMCAlgos/interface/SherpaPartonSelector.h" export * }
+  export *
+}
+

@@ -1,0 +1,15 @@
+module CMS_RecoVertexLinearizationPointFinders {
+  module "CrossingPtBasedLinearizationPointFinder.h" { header "RecoVertex/LinearizationPointFinders/interface/CrossingPtBasedLinearizationPointFinder.h" export * }
+  module "DefaultLinearizationPointFinder.h" { header "RecoVertex/LinearizationPointFinders/interface/DefaultLinearizationPointFinder.h" export * }
+  module "FallbackLinearizationPointFinder.h" { header "RecoVertex/LinearizationPointFinders/interface/FallbackLinearizationPointFinder.h" export * }
+  module "FsmwLinearizationPointFinder.h" { header "RecoVertex/LinearizationPointFinders/interface/FsmwLinearizationPointFinder.h" export * }
+  module "HSMLinearizationPointFinder.h" { header "RecoVertex/LinearizationPointFinders/interface/HSMLinearizationPointFinder.h" export * }
+  module "LMSLinearizationPointFinder.h" { header "RecoVertex/LinearizationPointFinders/interface/LMSLinearizationPointFinder.h" export * }
+  module "LinPtException.h" { header "RecoVertex/LinearizationPointFinders/interface/LinPtException.h" export * }
+  module "MonteCarloLinearizationPointFinder.h" { header "RecoVertex/LinearizationPointFinders/interface/MonteCarloLinearizationPointFinder.h" export * }
+  module "SMSLinearizationPointFinder.h" { header "RecoVertex/LinearizationPointFinders/interface/SMSLinearizationPointFinder.h" export * }
+  module "SubsetHSMLinearizationPointFinder.h" { header "RecoVertex/LinearizationPointFinders/interface/SubsetHSMLinearizationPointFinder.h" export * }
+  module "ZeroLinearizationPointFinder.h" { header "RecoVertex/LinearizationPointFinders/interface/ZeroLinearizationPointFinder.h" export * }
+  export *
+}
+

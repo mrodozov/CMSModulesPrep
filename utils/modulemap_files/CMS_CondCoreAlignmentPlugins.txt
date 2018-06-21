@@ -1,0 +1,5 @@
+module CMS_CondCoreAlignmentPlugins {
+  module "AlignmentPayloadInspectorHelper.h" { header "CondCore/AlignmentPlugins/interface/AlignmentPayloadInspectorHelper.h" export * }
+  export *
+}
+

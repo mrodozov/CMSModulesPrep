@@ -1,0 +1,39 @@
+module CMS_DataFormatsGeometrySurface {
+  module "BoundCylinder.h" { header "DataFormats/GeometrySurface/interface/BoundCylinder.h" export * }
+  module "BoundDisk.h" { header "DataFormats/GeometrySurface/interface/BoundDisk.h" export * }
+  module "BoundPlane.h" { header "DataFormats/GeometrySurface/interface/BoundPlane.h" export * }
+  module "BoundSpan.h" { header "DataFormats/GeometrySurface/interface/BoundSpan.h" export * }
+  module "BoundSurface.h" { header "DataFormats/GeometrySurface/interface/BoundSurface.h" export * }
+  module "BoundingBox.h" { header "DataFormats/GeometrySurface/interface/BoundingBox.h" export * }
+  module "Bounds.h" { header "DataFormats/GeometrySurface/interface/Bounds.h" export * }
+  module "Cone.h" { header "DataFormats/GeometrySurface/interface/Cone.h" export * }
+  module "Cylinder.h" { header "DataFormats/GeometrySurface/interface/Cylinder.h" export * }
+  module "GeneralNSurfaceDelimitedBounds.h" { header "DataFormats/GeometrySurface/interface/GeneralNSurfaceDelimitedBounds.h" export * }
+  module "GeomExceptions.h" { header "DataFormats/GeometrySurface/interface/GeomExceptions.h" export * }
+  module "GeometricSorting.h" { header "DataFormats/GeometrySurface/interface/GeometricSorting.h" export * }
+  module "GloballyPositioned.h" { header "DataFormats/GeometrySurface/interface/GloballyPositioned.h" export * }
+  module "Line.h" { header "DataFormats/GeometrySurface/interface/Line.h" export * }
+  module "LocalError.h" { header "DataFormats/GeometrySurface/interface/LocalError.h" export * }
+  module "LocalErrorBaseExtended.h" { header "DataFormats/GeometrySurface/interface/LocalErrorBaseExtended.h" export * }
+  module "LocalErrorExtended.h" { header "DataFormats/GeometrySurface/interface/LocalErrorExtended.h" export * }
+  module "MediumProperties.h" { header "DataFormats/GeometrySurface/interface/MediumProperties.h" export * }
+  module "OpenBounds.h" { header "DataFormats/GeometrySurface/interface/OpenBounds.h" export * }
+  module "Plane.h" { header "DataFormats/GeometrySurface/interface/Plane.h" export * }
+  module "PlaneBuilder.h" { header "DataFormats/GeometrySurface/interface/PlaneBuilder.h" export * }
+  module "RectangularPlaneBounds.h" { header "DataFormats/GeometrySurface/interface/RectangularPlaneBounds.h" export * }
+  module "ReferenceCounted.h" { header "DataFormats/GeometrySurface/interface/ReferenceCounted.h" export * }
+  module "SOARotation.h" { header "DataFormats/GeometrySurface/interface/SOARotation.h" export * }
+  module "SimpleCylinderBounds.h" { header "DataFormats/GeometrySurface/interface/SimpleCylinderBounds.h" export * }
+  module "SimpleDiskBounds.h" { header "DataFormats/GeometrySurface/interface/SimpleDiskBounds.h" export * }
+  module "Surface.h" { header "DataFormats/GeometrySurface/interface/Surface.h" export * }
+  module "TangentPlane.h" { header "DataFormats/GeometrySurface/interface/TangentPlane.h" export * }
+  module "TkRotation.h" { header "DataFormats/GeometrySurface/interface/TkRotation.h" export * }
+  module "TrapezoidalPlaneBounds.h" { header "DataFormats/GeometrySurface/interface/TrapezoidalPlaneBounds.h" export * }
+  module "TrivialError.h" { header "DataFormats/GeometrySurface/interface/TrivialError.h" export * }
+  module "extTkRotation.h" { header "DataFormats/GeometrySurface/interface/extTkRotation.h" export * }
+  module "newTkRotation.h" { header "DataFormats/GeometrySurface/interface/newTkRotation.h" export * }
+  module "oldTkRotation.h" { header "DataFormats/GeometrySurface/interface/oldTkRotation.h" export * }
+  module "sseTkRotation.h" { header "DataFormats/GeometrySurface/interface/sseTkRotation.h" export * }
+  export *
+}
+

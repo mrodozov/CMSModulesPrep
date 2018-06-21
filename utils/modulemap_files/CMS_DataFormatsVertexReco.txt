@@ -1,0 +1,8 @@
+module CMS_DataFormatsVertexReco {
+  module "NuclearInteraction.h" { header "DataFormats/VertexReco/interface/NuclearInteraction.h" export * }
+  module "NuclearInteractionFwd.h" { header "DataFormats/VertexReco/interface/NuclearInteractionFwd.h" export * }
+  module "Vertex.h" { header "DataFormats/VertexReco/interface/Vertex.h" export * }
+  module "VertexFwd.h" { header "DataFormats/VertexReco/interface/VertexFwd.h" export * }
+  export *
+}
+

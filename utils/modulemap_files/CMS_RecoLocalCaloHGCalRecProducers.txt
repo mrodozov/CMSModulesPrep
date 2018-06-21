@@ -1,0 +1,8 @@
+module CMS_RecoLocalCaloHGCalRecProducers {
+  module "HGCalRecHitWorkerBaseClass.h" { header "RecoLocalCalo/HGCalRecProducers/interface/HGCalRecHitWorkerBaseClass.h" export * }
+  module "HGCalRecHitWorkerFactory.h" { header "RecoLocalCalo/HGCalRecProducers/interface/HGCalRecHitWorkerFactory.h" export * }
+  module "HGCalUncalibRecHitWorkerBaseClass.h" { header "RecoLocalCalo/HGCalRecProducers/interface/HGCalUncalibRecHitWorkerBaseClass.h" export * }
+  module "HGCalUncalibRecHitWorkerFactory.h" { header "RecoLocalCalo/HGCalRecProducers/interface/HGCalUncalibRecHitWorkerFactory.h" export * }
+  export *
+}
+

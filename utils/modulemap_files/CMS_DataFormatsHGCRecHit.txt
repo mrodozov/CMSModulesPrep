@@ -1,0 +1,9 @@
+module CMS_DataFormatsHGCRecHit {
+  module "HGCRecHit.h" { header "DataFormats/HGCRecHit/interface/HGCRecHit.h" export * }
+  module "HGCRecHitCollections.h" { header "DataFormats/HGCRecHit/interface/HGCRecHitCollections.h" export * }
+  module "HGCRecHitComparison.h" { header "DataFormats/HGCRecHit/interface/HGCRecHitComparison.h" export * }
+  module "HGCSeverityLevel.h" { header "DataFormats/HGCRecHit/interface/HGCSeverityLevel.h" export * }
+  module "HGCUncalibratedRecHit.h" { header "DataFormats/HGCRecHit/interface/HGCUncalibratedRecHit.h" export * }
+  export *
+}
+

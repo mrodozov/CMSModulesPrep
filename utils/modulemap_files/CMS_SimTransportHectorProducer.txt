@@ -1,0 +1,9 @@
+module CMS_SimTransportHectorProducer {
+  module "CTPPSHector.h" { header "SimTransport/HectorProducer/interface/CTPPSHector.h" export * }
+  module "CTPPSHectorParameters.h" { header "SimTransport/HectorProducer/interface/CTPPSHectorParameters.h" export * }
+  module "CTPPSHectorProducer.h" { header "SimTransport/HectorProducer/interface/CTPPSHectorProducer.h" export * }
+  module "Hector.h" { header "SimTransport/HectorProducer/interface/Hector.h" export * }
+  module "HectorProducer.h" { header "SimTransport/HectorProducer/interface/HectorProducer.h" export * }
+  export *
+}
+

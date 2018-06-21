@@ -1,0 +1,22 @@
+module CMS_DataFormatsEgammaReco {
+  module "BasicCluster.h" { header "DataFormats/EgammaReco/interface/BasicCluster.h" export * }
+  module "BasicClusterFwd.h" { header "DataFormats/EgammaReco/interface/BasicClusterFwd.h" export * }
+  module "BasicClusterShapeAssociation.h" { header "DataFormats/EgammaReco/interface/BasicClusterShapeAssociation.h" export * }
+  module "ClusterShape.h" { header "DataFormats/EgammaReco/interface/ClusterShape.h" export * }
+  module "ClusterShapeFwd.h" { header "DataFormats/EgammaReco/interface/ClusterShapeFwd.h" export * }
+  module "EgammaTrigger.h" { header "DataFormats/EgammaReco/interface/EgammaTrigger.h" export * }
+  module "EgammaTriggerFwd.h" { header "DataFormats/EgammaReco/interface/EgammaTriggerFwd.h" export * }
+  module "ElectronSeed.h" { header "DataFormats/EgammaReco/interface/ElectronSeed.h" export * }
+  module "ElectronSeedFwd.h" { header "DataFormats/EgammaReco/interface/ElectronSeedFwd.h" export * }
+  module "HFEMClusterShape.h" { header "DataFormats/EgammaReco/interface/HFEMClusterShape.h" export * }
+  module "HFEMClusterShapeAssociation.h" { header "DataFormats/EgammaReco/interface/HFEMClusterShapeAssociation.h" export * }
+  module "HFEMClusterShapeFwd.h" { header "DataFormats/EgammaReco/interface/HFEMClusterShapeFwd.h" export * }
+  module "PreshowerCluster.h" { header "DataFormats/EgammaReco/interface/PreshowerCluster.h" export * }
+  module "PreshowerClusterFwd.h" { header "DataFormats/EgammaReco/interface/PreshowerClusterFwd.h" export * }
+  module "PreshowerClusterShape.h" { header "DataFormats/EgammaReco/interface/PreshowerClusterShape.h" export * }
+  module "PreshowerClusterShapeFwd.h" { header "DataFormats/EgammaReco/interface/PreshowerClusterShapeFwd.h" export * }
+  module "SuperCluster.h" { header "DataFormats/EgammaReco/interface/SuperCluster.h" export * }
+  module "SuperClusterFwd.h" { header "DataFormats/EgammaReco/interface/SuperClusterFwd.h" export * }
+  export *
+}
+

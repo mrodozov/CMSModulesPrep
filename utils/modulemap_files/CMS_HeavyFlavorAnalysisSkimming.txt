@@ -1,0 +1,6 @@
+module CMS_HeavyFlavorAnalysisSkimming {
+  module "Combinatorics.h" { header "HeavyFlavorAnalysis/Skimming/interface/Combinatorics.h" export * }
+  module "Tau3MuReco.h" { header "HeavyFlavorAnalysis/Skimming/interface/Tau3MuReco.h" export * }
+  export *
+}
+

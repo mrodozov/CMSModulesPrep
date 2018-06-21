@@ -1,0 +1,27 @@
+module CMS_PhysicsToolsSelectorUtils {
+  module "CandidateCut.h" { header "PhysicsTools/SelectorUtils/interface/CandidateCut.h" export * }
+  module "CutApplicatorBase.h" { header "PhysicsTools/SelectorUtils/interface/CutApplicatorBase.h" export * }
+  module "CutApplicatorWithEventContentBase.h" { header "PhysicsTools/SelectorUtils/interface/CutApplicatorWithEventContentBase.h" export * }
+  module "ElectronVPlusJetsIDSelectionFunctor.h" { header "PhysicsTools/SelectorUtils/interface/ElectronVPlusJetsIDSelectionFunctor.h" export * }
+  module "EventSelector.h" { header "PhysicsTools/SelectorUtils/interface/EventSelector.h" export * }
+  module "JetIDSelectionFunctor.h" { header "PhysicsTools/SelectorUtils/interface/JetIDSelectionFunctor.h" export * }
+  module "MakePtrFromCollection.h" { header "PhysicsTools/SelectorUtils/interface/MakePtrFromCollection.h" export * }
+  module "MakePyVIDClassBuilder.h" { header "PhysicsTools/SelectorUtils/interface/MakePyVIDClassBuilder.h" export * }
+  module "MuonVPlusJetsIDSelectionFunctor.h" { header "PhysicsTools/SelectorUtils/interface/MuonVPlusJetsIDSelectionFunctor.h" export * }
+  module "PFElectronSelector.h" { header "PhysicsTools/SelectorUtils/interface/PFElectronSelector.h" export * }
+  module "PFJetIDSelectionFunctor.h" { header "PhysicsTools/SelectorUtils/interface/PFJetIDSelectionFunctor.h" export * }
+  module "PFMuonSelector.h" { header "PhysicsTools/SelectorUtils/interface/PFMuonSelector.h" export * }
+  module "PVObjectSelector.h" { header "PhysicsTools/SelectorUtils/interface/PVObjectSelector.h" export * }
+  module "PVSelector.h" { header "PhysicsTools/SelectorUtils/interface/PVSelector.h" export * }
+  module "PrintVIDToString.h" { header "PhysicsTools/SelectorUtils/interface/PrintVIDToString.h" export * }
+  module "RunLumiSelector.h" { header "PhysicsTools/SelectorUtils/interface/RunLumiSelector.h" export * }
+  module "Selector.h" { header "PhysicsTools/SelectorUtils/interface/Selector.h" export * }
+  module "SimpleCutBasedElectronIDSelectionFunctor.h" { header "PhysicsTools/SelectorUtils/interface/SimpleCutBasedElectronIDSelectionFunctor.h" export * }
+  module "Variables.h" { header "PhysicsTools/SelectorUtils/interface/Variables.h" export * }
+  module "VersionedIdProducer.h" { header "PhysicsTools/SelectorUtils/interface/VersionedIdProducer.h" export * }
+  module "VersionedSelector.h" { header "PhysicsTools/SelectorUtils/interface/VersionedSelector.h" export * }
+  module "WPlusJetsEventSelector.h" { header "PhysicsTools/SelectorUtils/interface/WPlusJetsEventSelector.h" export * }
+  module "strbitset.h" { header "PhysicsTools/SelectorUtils/interface/strbitset.h" export * }
+  export *
+}
+

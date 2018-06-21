@@ -1,0 +1,6 @@
+module CMS_CalibMuonDTDigiSync {
+  module "DTTTrigBaseSync.h" { header "CalibMuon/DTDigiSync/interface/DTTTrigBaseSync.h" export * }
+  module "DTTTrigSyncFactory.h" { header "CalibMuon/DTDigiSync/interface/DTTTrigSyncFactory.h" export * }
+  export *
+}
+

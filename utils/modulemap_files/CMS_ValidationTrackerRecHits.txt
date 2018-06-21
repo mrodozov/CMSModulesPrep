@@ -1,0 +1,6 @@
+module CMS_ValidationTrackerRecHits {
+  module "SiPixelRecHitsValid.h" { header "Validation/TrackerRecHits/interface/SiPixelRecHitsValid.h" export * }
+  module "SiStripRecHitsValid.h" { header "Validation/TrackerRecHits/interface/SiStripRecHitsValid.h" export * }
+  export *
+}
+

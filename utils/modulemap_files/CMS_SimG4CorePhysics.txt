@@ -1,0 +1,11 @@
+module CMS_SimG4CorePhysics {
+  module "DDG4ProductionCuts.h" { header "SimG4Core/Physics/interface/DDG4ProductionCuts.h" export * }
+  module "G4ProcessTypeEnumerator.h" { header "SimG4Core/Physics/interface/G4ProcessTypeEnumerator.h" export * }
+  module "Monopole.h" { header "SimG4Core/Physics/interface/Monopole.h" export * }
+  module "PhysicsList.h" { header "SimG4Core/Physics/interface/PhysicsList.h" export * }
+  module "PhysicsListFactory.h" { header "SimG4Core/Physics/interface/PhysicsListFactory.h" export * }
+  module "PhysicsListMaker.h" { header "SimG4Core/Physics/interface/PhysicsListMaker.h" export * }
+  module "PhysicsListMakerBase.h" { header "SimG4Core/Physics/interface/PhysicsListMakerBase.h" export * }
+  export *
+}
+

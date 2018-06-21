@@ -1,0 +1,7 @@
+module CMS_DataFormatsCTPPSAlignment {
+  module "RPAlignmentCorrectionData.h" { header "DataFormats/CTPPSAlignment/interface/RPAlignmentCorrectionData.h" export * }
+  module "RPAlignmentCorrectionsData.h" { header "DataFormats/CTPPSAlignment/interface/RPAlignmentCorrectionsData.h" export * }
+  module "RPAlignmentCorrectionsDataSequence.h" { header "DataFormats/CTPPSAlignment/interface/RPAlignmentCorrectionsDataSequence.h" export * }
+  export *
+}
+

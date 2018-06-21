@@ -1,0 +1,6 @@
+module CMS_FastSimulationCTPPSFastGeometry {
+  module "CTPPSToFDetector.h" { header "FastSimulation/CTPPSFastGeometry/interface/CTPPSToFDetector.h" export * }
+  module "CTPPSTrkDetector.h" { header "FastSimulation/CTPPSFastGeometry/interface/CTPPSTrkDetector.h" export * }
+  export *
+}
+

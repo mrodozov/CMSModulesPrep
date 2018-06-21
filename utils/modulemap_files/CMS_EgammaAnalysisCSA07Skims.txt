@@ -1,0 +1,5 @@
+module CMS_EgammaAnalysisCSA07Skims {
+  module "EgammaProbeSelector.h" { header "EgammaAnalysis/CSA07Skims/interface/EgammaProbeSelector.h" export * }
+  export *
+}
+

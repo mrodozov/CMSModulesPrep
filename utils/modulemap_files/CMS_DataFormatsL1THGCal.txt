@@ -1,0 +1,13 @@
+module CMS_DataFormatsL1THGCal {
+  module "ClusterShapes.h" { header "DataFormats/L1THGCal/interface/ClusterShapes.h" export * }
+  module "HGCFETriggerDigi.h" { header "DataFormats/L1THGCal/interface/HGCFETriggerDigi.h" export * }
+  module "HGCFETriggerDigiDefs.h" { header "DataFormats/L1THGCal/interface/HGCFETriggerDigiDefs.h" export * }
+  module "HGCalCluster.h" { header "DataFormats/L1THGCal/interface/HGCalCluster.h" export * }
+  module "HGCalClusterT.h" { header "DataFormats/L1THGCal/interface/HGCalClusterT.h" export * }
+  module "HGCalMulticluster.h" { header "DataFormats/L1THGCal/interface/HGCalMulticluster.h" export * }
+  module "HGCalTower.h" { header "DataFormats/L1THGCal/interface/HGCalTower.h" export * }
+  module "HGCalTowerMap.h" { header "DataFormats/L1THGCal/interface/HGCalTowerMap.h" export * }
+  module "HGCalTriggerCell.h" { header "DataFormats/L1THGCal/interface/HGCalTriggerCell.h" export * }
+  export *
+}
+

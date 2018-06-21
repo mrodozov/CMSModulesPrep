@@ -1,0 +1,5 @@
+module CMS_IORawDataSiPixelInputSources {
+  module "PixelSLinkDataInputSource.h" { header "IORawData/SiPixelInputSources/interface/PixelSLinkDataInputSource.h" export * }
+  export *
+}
+

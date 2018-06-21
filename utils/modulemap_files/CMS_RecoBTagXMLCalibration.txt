@@ -1,0 +1,10 @@
+module CMS_RecoBTagXMLCalibration {
+  module "AlgorithmCalibration.h" { header "RecoBTag/XMLCalibration/interface/AlgorithmCalibration.h" export * }
+  module "CalibratedHistogramXML.h" { header "RecoBTag/XMLCalibration/interface/CalibratedHistogramXML.h" export * }
+  module "CalibratedObject.h" { header "RecoBTag/XMLCalibration/interface/CalibratedObject.h" export * }
+  module "CalibrationCategory.h" { header "RecoBTag/XMLCalibration/interface/CalibrationCategory.h" export * }
+  module "CalibrationInterface.h" { header "RecoBTag/XMLCalibration/interface/CalibrationInterface.h" export * }
+  module "CalibrationXML.h" { header "RecoBTag/XMLCalibration/interface/CalibrationXML.h" export * }
+  export *
+}
+

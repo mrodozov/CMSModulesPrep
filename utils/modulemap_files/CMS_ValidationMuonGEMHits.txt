@@ -1,0 +1,10 @@
+module CMS_ValidationMuonGEMHits {
+  module "GEMBaseValidation.h" { header "Validation/MuonGEMHits/interface/GEMBaseValidation.h" export * }
+  module "GEMDetLabel.h" { header "Validation/MuonGEMHits/interface/GEMDetLabel.h" export * }
+  module "GEMHitsValidation.h" { header "Validation/MuonGEMHits/interface/GEMHitsValidation.h" export * }
+  module "GEMSimTrackMatch.h" { header "Validation/MuonGEMHits/interface/GEMSimTrackMatch.h" export * }
+  module "GEMTrackMatch.h" { header "Validation/MuonGEMHits/interface/GEMTrackMatch.h" export * }
+  module "SimHitMatcher.h" { header "Validation/MuonGEMHits/interface/SimHitMatcher.h" export * }
+  export *
+}
+

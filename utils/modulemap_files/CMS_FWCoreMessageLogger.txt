@@ -1,0 +1,23 @@
+module CMS_FWCoreMessageLogger {
+  module "AbstractMLscribe.h" { header "FWCore/MessageLogger/interface/AbstractMLscribe.h" export * }
+  module "ConfigurationHandshake.h" { header "FWCore/MessageLogger/interface/ConfigurationHandshake.h" export * }
+  module "ELextendedID.h" { header "FWCore/MessageLogger/interface/ELextendedID.h" export * }
+  module "ELlist.h" { header "FWCore/MessageLogger/interface/ELlist.h" export * }
+  module "ELmap.h" { header "FWCore/MessageLogger/interface/ELmap.h" export * }
+  module "ELseverityLevel.h" { header "FWCore/MessageLogger/interface/ELseverityLevel.h" export * }
+  module "ELseverityLevel.icc" { textual header "FWCore/MessageLogger/interface/ELseverityLevel.icc" export * }
+  module "ELstring.h" { header "FWCore/MessageLogger/interface/ELstring.h" export * }
+  module "ErrorObj.h" { header "FWCore/MessageLogger/interface/ErrorObj.h" export * }
+  module "ErrorObj.icc" { textual header "FWCore/MessageLogger/interface/ErrorObj.icc" export * }
+  module "ErrorSummaryEntry.h" { header "FWCore/MessageLogger/interface/ErrorSummaryEntry.h" export * }
+  module "ExceptionMessages.h" { header "FWCore/MessageLogger/interface/ExceptionMessages.h" export * }
+  module "JobReport.h" { header "FWCore/MessageLogger/interface/JobReport.h" export * }
+  module "LoggedErrorsSummary.h" { header "FWCore/MessageLogger/interface/LoggedErrorsSummary.h" export * }
+  module "MessageDrop.h" { header "FWCore/MessageLogger/interface/MessageDrop.h" export * }
+  module "MessageLogger.h" { header "FWCore/MessageLogger/interface/MessageLogger.h" export * }
+  module "MessageLoggerQ.h" { header "FWCore/MessageLogger/interface/MessageLoggerQ.h" export * }
+  module "MessageSender.h" { header "FWCore/MessageLogger/interface/MessageSender.h" export * }
+  module "SilentMLscribe.h" { header "FWCore/MessageLogger/interface/SilentMLscribe.h" export * }
+  export *
+}
+

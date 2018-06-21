@@ -1,0 +1,6 @@
+module CMS_CalibrationHcalAlCaRecoProducers {
+  module "AlCaEcalHcalReadoutsProducer.h" { header "Calibration/HcalAlCaRecoProducers/interface/AlCaEcalHcalReadoutsProducer.h" export * }
+  module "AlCaHcalNoiseProducer.h" { header "Calibration/HcalAlCaRecoProducers/interface/AlCaHcalNoiseProducer.h" export * }
+  export *
+}
+

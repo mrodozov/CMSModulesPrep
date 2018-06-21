@@ -1,0 +1,7 @@
+module CMS_EventFilterSiPixelRawToDigi {
+  module "ErrorChecker.h" { header "EventFilter/SiPixelRawToDigi/interface/ErrorChecker.h" export * }
+  module "PixelDataFormatter.h" { header "EventFilter/SiPixelRawToDigi/interface/PixelDataFormatter.h" export * }
+  module "PixelUnpackingRegions.h" { header "EventFilter/SiPixelRawToDigi/interface/PixelUnpackingRegions.h" export * }
+  export *
+}
+

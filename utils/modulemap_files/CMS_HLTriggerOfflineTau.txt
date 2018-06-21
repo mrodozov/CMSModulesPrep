@@ -1,0 +1,7 @@
+module CMS_HLTriggerOfflineTau {
+  module "HLTTauMCProducer.h" { header "HLTriggerOffline/Tau/interface/HLTTauMCProducer.h" export * }
+  module "HLTTauRefCombiner.h" { header "HLTriggerOffline/Tau/interface/HLTTauRefCombiner.h" export * }
+  module "HLTTauRelvalQTester.h" { header "HLTriggerOffline/Tau/interface/HLTTauRelvalQTester.h" export * }
+  export *
+}
+

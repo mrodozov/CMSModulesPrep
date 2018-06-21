@@ -1,0 +1,15 @@
+module CMS_RecoEgammaEgammaPhotonProducers {
+  module "ConversionProducer.h" { header "RecoEgamma/EgammaPhotonProducers/interface/ConversionProducer.h" export * }
+  module "ConversionTrackCandidateProducer.h" { header "RecoEgamma/EgammaPhotonProducers/interface/ConversionTrackCandidateProducer.h" export * }
+  module "ConversionTrackMerger.h" { header "RecoEgamma/EgammaPhotonProducers/interface/ConversionTrackMerger.h" export * }
+  module "ConversionTrackProducer.h" { header "RecoEgamma/EgammaPhotonProducers/interface/ConversionTrackProducer.h" export * }
+  module "ConvertedPhotonProducer.h" { header "RecoEgamma/EgammaPhotonProducers/interface/ConvertedPhotonProducer.h" export * }
+  module "GEDPhotonCoreProducer.h" { header "RecoEgamma/EgammaPhotonProducers/interface/GEDPhotonCoreProducer.h" export * }
+  module "GEDPhotonProducer.h" { header "RecoEgamma/EgammaPhotonProducers/interface/GEDPhotonProducer.h" export * }
+  module "PhotonCoreProducer.h" { header "RecoEgamma/EgammaPhotonProducers/interface/PhotonCoreProducer.h" export * }
+  module "PhotonProducer.h" { header "RecoEgamma/EgammaPhotonProducers/interface/PhotonProducer.h" export * }
+  module "ReducedEGProducer.h" { header "RecoEgamma/EgammaPhotonProducers/interface/ReducedEGProducer.h" export * }
+  module "TrackProducerWithSCAssociation.h" { header "RecoEgamma/EgammaPhotonProducers/interface/TrackProducerWithSCAssociation.h" export * }
+  export *
+}
+

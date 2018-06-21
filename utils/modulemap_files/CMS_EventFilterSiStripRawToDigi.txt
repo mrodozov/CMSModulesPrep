@@ -1,0 +1,10 @@
+module CMS_EventFilterSiStripRawToDigi {
+  module "PipeAddrToTimeLookupTable.h" { header "EventFilter/SiStripRawToDigi/interface/PipeAddrToTimeLookupTable.h" export * }
+  module "SiStripDetSetVectorFiller.h" { header "EventFilter/SiStripRawToDigi/interface/SiStripDetSetVectorFiller.h" export * }
+  module "SiStripFEDBuffer.h" { header "EventFilter/SiStripRawToDigi/interface/SiStripFEDBuffer.h" export * }
+  module "SiStripFEDBufferComponents.h" { header "EventFilter/SiStripRawToDigi/interface/SiStripFEDBufferComponents.h" export * }
+  module "SiStripFEDBufferGenerator.h" { header "EventFilter/SiStripRawToDigi/interface/SiStripFEDBufferGenerator.h" export * }
+  module "TFHeaderDescription.h" { header "EventFilter/SiStripRawToDigi/interface/TFHeaderDescription.h" export * }
+  export *
+}
+

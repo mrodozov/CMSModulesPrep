@@ -1,0 +1,6 @@
+module CMS_DataFormatsPhase2ITPixelCluster {
+  module "Phase2ITPixelCluster.h" { header "DataFormats/Phase2ITPixelCluster/interface/Phase2ITPixelCluster.h" export * }
+  module "Phase2ITPixelClusterShapeCache.h" { header "DataFormats/Phase2ITPixelCluster/interface/Phase2ITPixelClusterShapeCache.h" export * }
+  export *
+}
+

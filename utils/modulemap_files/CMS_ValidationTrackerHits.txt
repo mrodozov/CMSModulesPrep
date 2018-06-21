@@ -1,0 +1,6 @@
+module CMS_ValidationTrackerHits {
+  module "TrackerHitAnalyzer.h" { header "Validation/TrackerHits/interface/TrackerHitAnalyzer.h" export * }
+  module "TrackerHitProducer.h" { header "Validation/TrackerHits/interface/TrackerHitProducer.h" export * }
+  export *
+}
+

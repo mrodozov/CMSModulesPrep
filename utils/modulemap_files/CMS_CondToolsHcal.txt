@@ -1,0 +1,57 @@
+module CMS_CondToolsHcal {
+  module "BoostIODBReader.h" { header "CondTools/Hcal/interface/BoostIODBReader.h" export * }
+  module "BoostIODBWriter.h" { header "CondTools/Hcal/interface/BoostIODBWriter.h" export * }
+  module "BufferedBoostIOESProducer.h" { header "CondTools/Hcal/interface/BufferedBoostIOESProducer.h" export * }
+  module "CastorChannelQualityHandler.h" { header "CondTools/Hcal/interface/CastorChannelQualityHandler.h" export * }
+  module "CastorElectronicsMapHandler.h" { header "CondTools/Hcal/interface/CastorElectronicsMapHandler.h" export * }
+  module "CastorGainWidthsHandler.h" { header "CondTools/Hcal/interface/CastorGainWidthsHandler.h" export * }
+  module "CastorGainsHandler.h" { header "CondTools/Hcal/interface/CastorGainsHandler.h" export * }
+  module "CastorPedestalWidthsHandler.h" { header "CondTools/Hcal/interface/CastorPedestalWidthsHandler.h" export * }
+  module "CastorPedestalsHandler.h" { header "CondTools/Hcal/interface/CastorPedestalsHandler.h" export * }
+  module "CastorQIEDataHandler.h" { header "CondTools/Hcal/interface/CastorQIEDataHandler.h" export * }
+  module "CastorRecoParamsHandler.h" { header "CondTools/Hcal/interface/CastorRecoParamsHandler.h" export * }
+  module "CastorSaturationCorrsHandler.h" { header "CondTools/Hcal/interface/CastorSaturationCorrsHandler.h" export * }
+  module "CmdLine.h" { header "CondTools/Hcal/interface/CmdLine.h" export * }
+  module "HcalAutoPedestalValidator.h" { header "CondTools/Hcal/interface/HcalAutoPedestalValidator.h" export * }
+  module "HcalChannelQualityHandler.h" { header "CondTools/Hcal/interface/HcalChannelQualityHandler.h" export * }
+  module "HcalDbXml.h" { header "CondTools/Hcal/interface/HcalDbXml.h" export * }
+  module "HcalDcsMapHandler.h" { header "CondTools/Hcal/interface/HcalDcsMapHandler.h" export * }
+  module "HcalDcsValuesHandler.h" { header "CondTools/Hcal/interface/HcalDcsValuesHandler.h" export * }
+  module "HcalElectronicsMapHandler.h" { header "CondTools/Hcal/interface/HcalElectronicsMapHandler.h" export * }
+  module "HcalFlagHFDigiTimeParamsHandler.h" { header "CondTools/Hcal/interface/HcalFlagHFDigiTimeParamsHandler.h" export * }
+  module "HcalFrontEndMapHandler.h" { header "CondTools/Hcal/interface/HcalFrontEndMapHandler.h" export * }
+  module "HcalGainWidthsHandler.h" { header "CondTools/Hcal/interface/HcalGainWidthsHandler.h" export * }
+  module "HcalGainsCheck.h" { header "CondTools/Hcal/interface/HcalGainsCheck.h" export * }
+  module "HcalGainsHandler.h" { header "CondTools/Hcal/interface/HcalGainsHandler.h" export * }
+  module "HcalL1TriggerObjectsHandler.h" { header "CondTools/Hcal/interface/HcalL1TriggerObjectsHandler.h" export * }
+  module "HcalLUTCorrsHandler.h" { header "CondTools/Hcal/interface/HcalLUTCorrsHandler.h" export * }
+  module "HcalLongRecoParamsHandler.h" { header "CondTools/Hcal/interface/HcalLongRecoParamsHandler.h" export * }
+  module "HcalLutMetadataHandler.h" { header "CondTools/Hcal/interface/HcalLutMetadataHandler.h" export * }
+  module "HcalMCParamsHandler.h" { header "CondTools/Hcal/interface/HcalMCParamsHandler.h" export * }
+  module "HcalPFCorrsHandler.h" { header "CondTools/Hcal/interface/HcalPFCorrsHandler.h" export * }
+  module "HcalPedestalWidthsCheck.h" { header "CondTools/Hcal/interface/HcalPedestalWidthsCheck.h" export * }
+  module "HcalPedestalWidthsHandler.h" { header "CondTools/Hcal/interface/HcalPedestalWidthsHandler.h" export * }
+  module "HcalPedestalsCheck.h" { header "CondTools/Hcal/interface/HcalPedestalsCheck.h" export * }
+  module "HcalPedestalsHandler.h" { header "CondTools/Hcal/interface/HcalPedestalsHandler.h" export * }
+  module "HcalQIEDataCheck.h" { header "CondTools/Hcal/interface/HcalQIEDataCheck.h" export * }
+  module "HcalQIEDataHandler.h" { header "CondTools/Hcal/interface/HcalQIEDataHandler.h" export * }
+  module "HcalQIETypesHandler.h" { header "CondTools/Hcal/interface/HcalQIETypesHandler.h" export * }
+  module "HcalRecoParamsHandler.h" { header "CondTools/Hcal/interface/HcalRecoParamsHandler.h" export * }
+  module "HcalRespCorrsHandler.h" { header "CondTools/Hcal/interface/HcalRespCorrsHandler.h" export * }
+  module "HcalSiPMCharacteristicsHandler.h" { header "CondTools/Hcal/interface/HcalSiPMCharacteristicsHandler.h" export * }
+  module "HcalSiPMParametersHandler.h" { header "CondTools/Hcal/interface/HcalSiPMParametersHandler.h" export * }
+  module "HcalTPChannelParametersHandler.h" { header "CondTools/Hcal/interface/HcalTPChannelParametersHandler.h" export * }
+  module "HcalTPParametersHandler.h" { header "CondTools/Hcal/interface/HcalTPParametersHandler.h" export * }
+  module "HcalTimeCorrsHandler.h" { header "CondTools/Hcal/interface/HcalTimeCorrsHandler.h" export * }
+  module "HcalTimingParamsHandler.h" { header "CondTools/Hcal/interface/HcalTimingParamsHandler.h" export * }
+  module "HcalValidationCorrsHandler.h" { header "CondTools/Hcal/interface/HcalValidationCorrsHandler.h" export * }
+  module "HcalZDCLowGainFractionsHandler.h" { header "CondTools/Hcal/interface/HcalZDCLowGainFractionsHandler.h" export * }
+  module "HcalZSThresholdsHandler.h" { header "CondTools/Hcal/interface/HcalZSThresholdsHandler.h" export * }
+  module "StreamOutFormatTarget.h" { header "CondTools/Hcal/interface/StreamOutFormatTarget.h" export * }
+  module "make_HBHENegativeEFilter.h" { header "CondTools/Hcal/interface/make_HBHENegativeEFilter.h" export * }
+  module "make_HFPhase1PMTParams.h" { header "CondTools/Hcal/interface/make_HFPhase1PMTParams.h" export * }
+  module "parseHcalDetId.h" { header "CondTools/Hcal/interface/parseHcalDetId.h" export * }
+  module "visualizeHFPhase1PMTParams.h" { header "CondTools/Hcal/interface/visualizeHFPhase1PMTParams.h" export * }
+  export *
+}
+

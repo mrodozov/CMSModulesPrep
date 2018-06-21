@@ -1,0 +1,10 @@
+module CMS_CalibFormatsCaloTPG {
+  module "CaloTPGRecord.h" { header "CalibFormats/CaloTPG/interface/CaloTPGRecord.h" export * }
+  module "CaloTPGTranscoder.h" { header "CalibFormats/CaloTPG/interface/CaloTPGTranscoder.h" export * }
+  module "EcalTPGCompressor.h" { header "CalibFormats/CaloTPG/interface/EcalTPGCompressor.h" export * }
+  module "EcalTPGScale.h" { header "CalibFormats/CaloTPG/interface/EcalTPGScale.h" export * }
+  module "HcalTPGCompressor.h" { header "CalibFormats/CaloTPG/interface/HcalTPGCompressor.h" export * }
+  module "HcalTPGScale.h" { header "CalibFormats/CaloTPG/interface/HcalTPGScale.h" export * }
+  export *
+}
+

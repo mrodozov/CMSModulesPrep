@@ -1,0 +1,6 @@
+module CMS_CondFormatsPCLConfig {
+  module "AlignPCLThreshold.h" { header "CondFormats/PCLConfig/interface/AlignPCLThreshold.h" export * }
+  module "AlignPCLThresholds.h" { header "CondFormats/PCLConfig/interface/AlignPCLThresholds.h" export * }
+  export *
+}
+

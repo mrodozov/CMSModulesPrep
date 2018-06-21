@@ -1,0 +1,9 @@
+module CMS_FWCorePythonParameterSet {
+  module "BoostPython.h" { header "FWCore/PythonParameterSet/interface/BoostPython.h" export * }
+  module "MakeParameterSets.h" { header "FWCore/PythonParameterSet/interface/MakeParameterSets.h" export * }
+  module "PythonParameterSet.h" { header "FWCore/PythonParameterSet/interface/PythonParameterSet.h" export * }
+  module "PythonProcessDesc.h" { header "FWCore/PythonParameterSet/interface/PythonProcessDesc.h" export * }
+  module "pythonFileToConfigure.h" { header "FWCore/PythonParameterSet/interface/pythonFileToConfigure.h" export * }
+  export *
+}
+

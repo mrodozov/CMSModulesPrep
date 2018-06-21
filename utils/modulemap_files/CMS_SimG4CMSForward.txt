@@ -1,0 +1,36 @@
+module CMS_SimG4CMSForward {
+  module "BHMNumberingScheme.h" { header "SimG4CMS/Forward/interface/BHMNumberingScheme.h" export * }
+  module "BHMSD.h" { header "SimG4CMS/Forward/interface/BHMSD.h" export * }
+  module "Bcm1fSD.h" { header "SimG4CMS/Forward/interface/Bcm1fSD.h" export * }
+  module "BscG4Hit.h" { header "SimG4CMS/Forward/interface/BscG4Hit.h" export * }
+  module "BscG4HitCollection.h" { header "SimG4CMS/Forward/interface/BscG4HitCollection.h" export * }
+  module "BscNumberingScheme.h" { header "SimG4CMS/Forward/interface/BscNumberingScheme.h" export * }
+  module "BscSD.h" { header "SimG4CMS/Forward/interface/BscSD.h" export * }
+  module "BscTest.h" { header "SimG4CMS/Forward/interface/BscTest.h" export * }
+  module "CastorNumberingScheme.h" { header "SimG4CMS/Forward/interface/CastorNumberingScheme.h" export * }
+  module "CastorSD.h" { header "SimG4CMS/Forward/interface/CastorSD.h" export * }
+  module "CastorShowerLibrary.h" { header "SimG4CMS/Forward/interface/CastorShowerLibrary.h" export * }
+  module "CastorTestAnalysis.h" { header "SimG4CMS/Forward/interface/CastorTestAnalysis.h" export * }
+  module "DoCastorAnalysis.h" { header "SimG4CMS/Forward/interface/DoCastorAnalysis.h" export * }
+  module "FastTimerSD.h" { header "SimG4CMS/Forward/interface/FastTimerSD.h" export * }
+  module "PltSD.h" { header "SimG4CMS/Forward/interface/PltSD.h" export * }
+  module "TotemG4Hit.h" { header "SimG4CMS/Forward/interface/TotemG4Hit.h" export * }
+  module "TotemG4HitCollection.h" { header "SimG4CMS/Forward/interface/TotemG4HitCollection.h" export * }
+  module "TotemNumberMerger.h" { header "SimG4CMS/Forward/interface/TotemNumberMerger.h" export * }
+  module "TotemRPNumberingScheme.h" { header "SimG4CMS/Forward/interface/TotemRPNumberingScheme.h" export * }
+  module "TotemRPOrganization.h" { header "SimG4CMS/Forward/interface/TotemRPOrganization.h" export * }
+  module "TotemSD.h" { header "SimG4CMS/Forward/interface/TotemSD.h" export * }
+  module "TotemT1NumberingScheme.h" { header "SimG4CMS/Forward/interface/TotemT1NumberingScheme.h" export * }
+  module "TotemT1Organization.h" { header "SimG4CMS/Forward/interface/TotemT1Organization.h" export * }
+  module "TotemT2NumberingSchemeGem.h" { header "SimG4CMS/Forward/interface/TotemT2NumberingSchemeGem.h" export * }
+  module "TotemT2OrganizationGem.h" { header "SimG4CMS/Forward/interface/TotemT2OrganizationGem.h" export * }
+  module "TotemTestGem.h" { header "SimG4CMS/Forward/interface/TotemTestGem.h" export * }
+  module "TotemTestHistoClass.h" { header "SimG4CMS/Forward/interface/TotemTestHistoClass.h" export * }
+  module "TotemVDetectorOrganization.h" { header "SimG4CMS/Forward/interface/TotemVDetectorOrganization.h" export * }
+  module "ZdcNumberingScheme.h" { header "SimG4CMS/Forward/interface/ZdcNumberingScheme.h" export * }
+  module "ZdcSD.h" { header "SimG4CMS/Forward/interface/ZdcSD.h" export * }
+  module "ZdcShowerLibrary.h" { header "SimG4CMS/Forward/interface/ZdcShowerLibrary.h" export * }
+  module "ZdcTestAnalysis.h" { header "SimG4CMS/Forward/interface/ZdcTestAnalysis.h" export * }
+  export *
+}
+

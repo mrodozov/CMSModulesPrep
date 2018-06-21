@@ -1,0 +1,7 @@
+module CMS_ValidationMixing {
+  module "GlobalTest.h" { header "Validation/Mixing/interface/GlobalTest.h" export * }
+  module "MixCollectionValidation.h" { header "Validation/Mixing/interface/MixCollectionValidation.h" export * }
+  module "TestSuite.h" { header "Validation/Mixing/interface/TestSuite.h" export * }
+  export *
+}
+

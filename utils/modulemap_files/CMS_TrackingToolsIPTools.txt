@@ -1,0 +1,5 @@
+module CMS_TrackingToolsIPTools {
+  module "IPTools.h" { header "TrackingTools/IPTools/interface/IPTools.h" export * }
+  export *
+}
+

@@ -1,0 +1,34 @@
+module CMS_RecoVertexKinematicFitPrimitives {
+  module "ExtendedPerigeeTrajectoryError.h" { header "RecoVertex/KinematicFitPrimitives/interface/ExtendedPerigeeTrajectoryError.h" export * }
+  module "ExtendedPerigeeTrajectoryParameters.h" { header "RecoVertex/KinematicFitPrimitives/interface/ExtendedPerigeeTrajectoryParameters.h" export * }
+  module "KinematicConstraint.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicConstraint.h" export * }
+  module "KinematicParameters.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicParameters.h" export * }
+  module "KinematicParametersError.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicParametersError.h" export * }
+  module "KinematicParticle.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicParticle.h" export * }
+  module "KinematicParticleFactoryFromTransientTrack.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicParticleFactoryFromTransientTrack.h" export * }
+  module "KinematicPerigeeConversions.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicPerigeeConversions.h" export * }
+  module "KinematicRefittedTrackState.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicRefittedTrackState.h" export * }
+  module "KinematicState.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicState.h" export * }
+  module "KinematicStatePropagator.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicStatePropagator.h" export * }
+  module "KinematicTree.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicTree.h" export * }
+  module "KinematicVertex.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicVertex.h" export * }
+  module "KinematicVertexFactory.h" { header "RecoVertex/KinematicFitPrimitives/interface/KinematicVertexFactory.h" export * }
+  module "Matrices.h" { header "RecoVertex/KinematicFitPrimitives/interface/Matrices.h" export * }
+  module "MultiTrackKinematicConstraint.h" { header "RecoVertex/KinematicFitPrimitives/interface/MultiTrackKinematicConstraint.h" export * }
+  module "MultiTrackKinematicConstraintT.h" { header "RecoVertex/KinematicFitPrimitives/interface/MultiTrackKinematicConstraintT.h" export * }
+  module "MultipleKinematicConstraint.h" { header "RecoVertex/KinematicFitPrimitives/interface/MultipleKinematicConstraint.h" export * }
+  module "ParticleKinematicLinearizedTrackState.h" { header "RecoVertex/KinematicFitPrimitives/interface/ParticleKinematicLinearizedTrackState.h" export * }
+  module "ParticleKinematicLinearizedTrackStateFactory.h" { header "RecoVertex/KinematicFitPrimitives/interface/ParticleKinematicLinearizedTrackStateFactory.h" export * }
+  module "ParticleMass.h" { header "RecoVertex/KinematicFitPrimitives/interface/ParticleMass.h" export * }
+  module "PerigeeKinematicState.h" { header "RecoVertex/KinematicFitPrimitives/interface/PerigeeKinematicState.h" export * }
+  module "RefCountedKinematicParticle.h" { header "RecoVertex/KinematicFitPrimitives/interface/RefCountedKinematicParticle.h" export * }
+  module "RefCountedKinematicTree.h" { header "RecoVertex/KinematicFitPrimitives/interface/RefCountedKinematicTree.h" export * }
+  module "RefCountedKinematicVertex.h" { header "RecoVertex/KinematicFitPrimitives/interface/RefCountedKinematicVertex.h" export * }
+  module "TrackKinematicStatePropagator.h" { header "RecoVertex/KinematicFitPrimitives/interface/TrackKinematicStatePropagator.h" export * }
+  module "TransientTrackKinematicParticle.h" { header "RecoVertex/KinematicFitPrimitives/interface/TransientTrackKinematicParticle.h" export * }
+  module "TransientTrackKinematicStateBuilder.h" { header "RecoVertex/KinematicFitPrimitives/interface/TransientTrackKinematicStateBuilder.h" export * }
+  module "VirtualKinematicParticle.h" { header "RecoVertex/KinematicFitPrimitives/interface/VirtualKinematicParticle.h" export * }
+  module "VirtualKinematicParticleFactory.h" { header "RecoVertex/KinematicFitPrimitives/interface/VirtualKinematicParticleFactory.h" export * }
+  export *
+}
+

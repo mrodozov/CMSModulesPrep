@@ -1,0 +1,7 @@
+module CMS_DataFormatsTrackerCommon {
+  module "ClusterSummary.h" { header "DataFormats/TrackerCommon/interface/ClusterSummary.h" export * }
+  module "TrackerDetSide.h" { header "DataFormats/TrackerCommon/interface/TrackerDetSide.h" export * }
+  module "TrackerTopology.h" { header "DataFormats/TrackerCommon/interface/TrackerTopology.h" export * }
+  export *
+}
+

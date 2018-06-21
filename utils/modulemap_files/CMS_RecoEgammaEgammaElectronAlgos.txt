@@ -1,0 +1,25 @@
+module CMS_RecoEgammaEgammaElectronAlgos {
+  module "BarrelMeasurementEstimator.h" { header "RecoEgamma/EgammaElectronAlgos/interface/BarrelMeasurementEstimator.h" export * }
+  module "EgAmbiguityTools.h" { header "RecoEgamma/EgammaElectronAlgos/interface/EgAmbiguityTools.h" export * }
+  module "ElectronClassification.h" { header "RecoEgamma/EgammaElectronAlgos/interface/ElectronClassification.h" export * }
+  module "ElectronEnergyCorrector.h" { header "RecoEgamma/EgammaElectronAlgos/interface/ElectronEnergyCorrector.h" export * }
+  module "ElectronHcalHelper.h" { header "RecoEgamma/EgammaElectronAlgos/interface/ElectronHcalHelper.h" export * }
+  module "ElectronMomentumCorrector.h" { header "RecoEgamma/EgammaElectronAlgos/interface/ElectronMomentumCorrector.h" export * }
+  module "ElectronSeedGenerator.h" { header "RecoEgamma/EgammaElectronAlgos/interface/ElectronSeedGenerator.h" export * }
+  module "ElectronUtilities.h" { header "RecoEgamma/EgammaElectronAlgos/interface/ElectronUtilities.h" export * }
+  module "EnergyUncertaintyElectronSpecific.h" { header "RecoEgamma/EgammaElectronAlgos/interface/EnergyUncertaintyElectronSpecific.h" export * }
+  module "FTSFromVertexToPointFactory.h" { header "RecoEgamma/EgammaElectronAlgos/interface/FTSFromVertexToPointFactory.h" export * }
+  module "ForwardMeasurementEstimator.h" { header "RecoEgamma/EgammaElectronAlgos/interface/ForwardMeasurementEstimator.h" export * }
+  module "GsfElectronAlgo.h" { header "RecoEgamma/EgammaElectronAlgos/interface/GsfElectronAlgo.h" export * }
+  module "GsfElectronAlgoHeavyObjectCache.h" { header "RecoEgamma/EgammaElectronAlgos/interface/GsfElectronAlgoHeavyObjectCache.h" export * }
+  module "PixelHitMatcher.h" { header "RecoEgamma/EgammaElectronAlgos/interface/PixelHitMatcher.h" export * }
+  module "PixelMatchNextLayers.h" { header "RecoEgamma/EgammaElectronAlgos/interface/PixelMatchNextLayers.h" export * }
+  module "PixelMatchStartLayers.h" { header "RecoEgamma/EgammaElectronAlgos/interface/PixelMatchStartLayers.h" export * }
+  module "RegressionHelper.h" { header "RecoEgamma/EgammaElectronAlgos/interface/RegressionHelper.h" export * }
+  module "SeedFilter.h" { header "RecoEgamma/EgammaElectronAlgos/interface/SeedFilter.h" export * }
+  module "SiStripElectronAlgo.h" { header "RecoEgamma/EgammaElectronAlgos/interface/SiStripElectronAlgo.h" export * }
+  module "SiStripElectronSeedGenerator.h" { header "RecoEgamma/EgammaElectronAlgos/interface/SiStripElectronSeedGenerator.h" export * }
+  module "TrajSeedMatcher.h" { header "RecoEgamma/EgammaElectronAlgos/interface/TrajSeedMatcher.h" export * }
+  export *
+}
+

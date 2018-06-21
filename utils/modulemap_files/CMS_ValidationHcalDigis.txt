@@ -1,0 +1,7 @@
+module CMS_ValidationHcalDigis {
+  module "HcalDigisClient.h" { header "Validation/HcalDigis/interface/HcalDigisClient.h" export * }
+  module "HcalDigisValidation.h" { header "Validation/HcalDigis/interface/HcalDigisValidation.h" export * }
+  module "ZDCDigiStudy.h" { header "Validation/HcalDigis/interface/ZDCDigiStudy.h" export * }
+  export *
+}
+

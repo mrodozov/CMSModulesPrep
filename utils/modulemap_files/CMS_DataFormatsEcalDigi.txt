@@ -1,0 +1,25 @@
+module CMS_DataFormatsEcalDigi {
+  module "EBDataFrame.h" { header "DataFormats/EcalDigi/interface/EBDataFrame.h" export * }
+  module "EBSrFlag.h" { header "DataFormats/EcalDigi/interface/EBSrFlag.h" export * }
+  module "EEDataFrame.h" { header "DataFormats/EcalDigi/interface/EEDataFrame.h" export * }
+  module "EESrFlag.h" { header "DataFormats/EcalDigi/interface/EESrFlag.h" export * }
+  module "ESDataFrame.h" { header "DataFormats/EcalDigi/interface/ESDataFrame.h" export * }
+  module "ESSample.h" { header "DataFormats/EcalDigi/interface/ESSample.h" export * }
+  module "EcalDataFrame.h" { header "DataFormats/EcalDigi/interface/EcalDataFrame.h" export * }
+  module "EcalDigiCollections.h" { header "DataFormats/EcalDigi/interface/EcalDigiCollections.h" export * }
+  module "EcalEBTriggerPrimitiveDigi.h" { header "DataFormats/EcalDigi/interface/EcalEBTriggerPrimitiveDigi.h" export * }
+  module "EcalEBTriggerPrimitiveSample.h" { header "DataFormats/EcalDigi/interface/EcalEBTriggerPrimitiveSample.h" export * }
+  module "EcalFEMSample.h" { header "DataFormats/EcalDigi/interface/EcalFEMSample.h" export * }
+  module "EcalMGPASample.h" { header "DataFormats/EcalDigi/interface/EcalMGPASample.h" export * }
+  module "EcalMatacqDigi.h" { header "DataFormats/EcalDigi/interface/EcalMatacqDigi.h" export * }
+  module "EcalPnDiodeDigi.h" { header "DataFormats/EcalDigi/interface/EcalPnDiodeDigi.h" export * }
+  module "EcalPseudoStripInputDigi.h" { header "DataFormats/EcalDigi/interface/EcalPseudoStripInputDigi.h" export * }
+  module "EcalPseudoStripInputSample.h" { header "DataFormats/EcalDigi/interface/EcalPseudoStripInputSample.h" export * }
+  module "EcalSrFlag.h" { header "DataFormats/EcalDigi/interface/EcalSrFlag.h" export * }
+  module "EcalTimeDigi.h" { header "DataFormats/EcalDigi/interface/EcalTimeDigi.h" export * }
+  module "EcalTrigPrimCompactColl.h" { header "DataFormats/EcalDigi/interface/EcalTrigPrimCompactColl.h" export * }
+  module "EcalTriggerPrimitiveDigi.h" { header "DataFormats/EcalDigi/interface/EcalTriggerPrimitiveDigi.h" export * }
+  module "EcalTriggerPrimitiveSample.h" { header "DataFormats/EcalDigi/interface/EcalTriggerPrimitiveSample.h" export * }
+  export *
+}
+

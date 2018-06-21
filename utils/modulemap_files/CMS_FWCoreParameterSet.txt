@@ -1,0 +1,36 @@
+module CMS_FWCoreParameterSet {
+  module "ANDGroupDescription.h" { header "FWCore/ParameterSet/interface/ANDGroupDescription.h" export * }
+  module "ConfigurationDescriptions.h" { header "FWCore/ParameterSet/interface/ConfigurationDescriptions.h" export * }
+  module "DocFormatHelper.h" { header "FWCore/ParameterSet/interface/DocFormatHelper.h" export * }
+  module "EmptyGroupDescription.h" { header "FWCore/ParameterSet/interface/EmptyGroupDescription.h" export * }
+  module "Entry.h" { header "FWCore/ParameterSet/interface/Entry.h" export * }
+  module "FileInPath.h" { header "FWCore/ParameterSet/interface/FileInPath.h" export * }
+  module "FillDescriptionFromPSet.h" { header "FWCore/ParameterSet/interface/FillDescriptionFromPSet.h" export * }
+  module "IfExistsDescription.h" { header "FWCore/ParameterSet/interface/IfExistsDescription.h" export * }
+  module "IllegalParameters.h" { header "FWCore/ParameterSet/interface/IllegalParameters.h" export * }
+  module "ORGroupDescription.h" { header "FWCore/ParameterSet/interface/ORGroupDescription.h" export * }
+  module "ParameterDescriptionBase.h" { header "FWCore/ParameterSet/interface/ParameterDescriptionBase.h" export * }
+  module "ParameterDescriptionCases.h" { header "FWCore/ParameterSet/interface/ParameterDescriptionCases.h" export * }
+  module "ParameterDescriptionNode.h" { header "FWCore/ParameterSet/interface/ParameterDescriptionNode.h" export * }
+  module "ParameterSet.h" { header "FWCore/ParameterSet/interface/ParameterSet.h" export * }
+  module "ParameterSetConverter.h" { header "FWCore/ParameterSet/interface/ParameterSetConverter.h" export * }
+  module "ParameterSetDescription.h" { header "FWCore/ParameterSet/interface/ParameterSetDescription.h" export * }
+  module "ParameterSetDescriptionFiller.h" { header "FWCore/ParameterSet/interface/ParameterSetDescriptionFiller.h" export * }
+  module "ParameterSetDescriptionFillerBase.h" { header "FWCore/ParameterSet/interface/ParameterSetDescriptionFillerBase.h" export * }
+  module "ParameterSetDescriptionFillerPluginFactory.h" { header "FWCore/ParameterSet/interface/ParameterSetDescriptionFillerPluginFactory.h" export * }
+  module "ParameterSetEntry.h" { header "FWCore/ParameterSet/interface/ParameterSetEntry.h" export * }
+  module "ParameterSetfwd.h" { header "FWCore/ParameterSet/interface/ParameterSetfwd.h" export * }
+  module "ParameterSwitchBase.h" { header "FWCore/ParameterSet/interface/ParameterSwitchBase.h" export * }
+  module "ParameterWildcard.h" { header "FWCore/ParameterSet/interface/ParameterWildcard.h" export * }
+  module "ParameterWildcardBase.h" { header "FWCore/ParameterSet/interface/ParameterWildcardBase.h" export * }
+  module "ProcessDesc.h" { header "FWCore/ParameterSet/interface/ProcessDesc.h" export * }
+  module "Registry.h" { header "FWCore/ParameterSet/interface/Registry.h" export * }
+  module "XORGroupDescription.h" { header "FWCore/ParameterSet/interface/XORGroupDescription.h" export * }
+  module "defaultModuleLabel.h" { header "FWCore/ParameterSet/interface/defaultModuleLabel.h" export * }
+  module "getFixedSizeArray.h" { header "FWCore/ParameterSet/interface/getFixedSizeArray.h" export * }
+  module "split.h" { header "FWCore/ParameterSet/interface/split.h" export * }
+  module "types.h" { header "FWCore/ParameterSet/interface/types.h" export * }
+  module "validateTopLevelParameterSets.h" { header "FWCore/ParameterSet/interface/validateTopLevelParameterSets.h" export * }
+  export *
+}
+

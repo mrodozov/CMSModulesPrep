@@ -1,0 +1,16 @@
+module CMS_FastSimulationCalorimeterProperties {
+  module "Calorimeter.h" { header "FastSimulation/CalorimeterProperties/interface/Calorimeter.h" export * }
+  module "CalorimeterProperties.h" { header "FastSimulation/CalorimeterProperties/interface/CalorimeterProperties.h" export * }
+  module "ECALBarrelProperties.h" { header "FastSimulation/CalorimeterProperties/interface/ECALBarrelProperties.h" export * }
+  module "ECALEndcapProperties.h" { header "FastSimulation/CalorimeterProperties/interface/ECALEndcapProperties.h" export * }
+  module "ECALProperties.h" { header "FastSimulation/CalorimeterProperties/interface/ECALProperties.h" export * }
+  module "HCALBarrelProperties.h" { header "FastSimulation/CalorimeterProperties/interface/HCALBarrelProperties.h" export * }
+  module "HCALEndcapProperties.h" { header "FastSimulation/CalorimeterProperties/interface/HCALEndcapProperties.h" export * }
+  module "HCALForwardProperties.h" { header "FastSimulation/CalorimeterProperties/interface/HCALForwardProperties.h" export * }
+  module "HCALProperties.h" { header "FastSimulation/CalorimeterProperties/interface/HCALProperties.h" export * }
+  module "PreshowerLayer1Properties.h" { header "FastSimulation/CalorimeterProperties/interface/PreshowerLayer1Properties.h" export * }
+  module "PreshowerLayer2Properties.h" { header "FastSimulation/CalorimeterProperties/interface/PreshowerLayer2Properties.h" export * }
+  module "PreshowerProperties.h" { header "FastSimulation/CalorimeterProperties/interface/PreshowerProperties.h" export * }
+  export *
+}
+

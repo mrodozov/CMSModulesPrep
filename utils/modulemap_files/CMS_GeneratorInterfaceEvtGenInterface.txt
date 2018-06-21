@@ -1,0 +1,14 @@
+module CMS_GeneratorInterfaceEvtGenInterface {
+  module "DataCardFileWriter.h" { header "GeneratorInterface/EvtGenInterface/interface/DataCardFileWriter.h" export * }
+  module "EvtGenFactory.h" { header "GeneratorInterface/EvtGenInterface/interface/EvtGenFactory.h" export * }
+  module "EvtGenInterface.h" { header "GeneratorInterface/EvtGenInterface/interface/EvtGenInterface.h" export * }
+  module "EvtGenInterfaceBase.h" { header "GeneratorInterface/EvtGenInterface/interface/EvtGenInterfaceBase.h" export * }
+  module "EvtGenLHCInterface.h" { header "GeneratorInterface/EvtGenInterface/interface/EvtGenLHCInterface.h" export * }
+  module "EvtGenUserModels/EvtLb2plnuLCSR.hh" { header "GeneratorInterface/EvtGenInterface/interface/EvtGenUserModels/EvtLb2plnuLCSR.hh" export * }
+  module "EvtGenUserModels/EvtLb2plnuLCSRFF.hh" { header "GeneratorInterface/EvtGenInterface/interface/EvtGenUserModels/EvtLb2plnuLCSRFF.hh" export * }
+  module "EvtGenUserModels/EvtModelUserReg.h" { header "GeneratorInterface/EvtGenInterface/interface/EvtGenUserModels/EvtModelUserReg.h" export * }
+  module "EvtGenUserModels/EvtSLBaryonAmp.hh" { header "GeneratorInterface/EvtGenInterface/interface/EvtGenUserModels/EvtSLBaryonAmp.hh" export * }
+  module "myEvtRandomEngine.h" { header "GeneratorInterface/EvtGenInterface/interface/myEvtRandomEngine.h" export * }
+  export *
+}
+

@@ -1,0 +1,5 @@
+module CMS_UtilitiesXerces {
+  module "XercesStrUtils.h" { header "Utilities/Xerces/interface/XercesStrUtils.h" export * }
+  export *
+}
+

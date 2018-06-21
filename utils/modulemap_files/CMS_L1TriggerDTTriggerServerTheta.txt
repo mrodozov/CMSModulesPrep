@@ -1,0 +1,6 @@
+module CMS_L1TriggerDTTriggerServerTheta {
+  module "DTChambThSegm.h" { header "L1Trigger/DTTriggerServerTheta/interface/DTChambThSegm.h" export * }
+  module "DTTSTheta.h" { header "L1Trigger/DTTriggerServerTheta/interface/DTTSTheta.h" export * }
+  export *
+}
+

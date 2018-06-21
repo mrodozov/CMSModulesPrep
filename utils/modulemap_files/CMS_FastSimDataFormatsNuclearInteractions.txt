@@ -1,0 +1,9 @@
+module CMS_FastSimDataFormatsNuclearInteractions {
+  module "FSimDisplacedVertex.h" { header "FastSimDataFormats/NuclearInteractions/interface/FSimDisplacedVertex.h" export * }
+  module "FSimDisplacedVertexFwd.h" { header "FastSimDataFormats/NuclearInteractions/interface/FSimDisplacedVertexFwd.h" export * }
+  module "FSimVertexType.h" { header "FastSimDataFormats/NuclearInteractions/interface/FSimVertexType.h" export * }
+  module "FSimVertexTypeFwd.h" { header "FastSimDataFormats/NuclearInteractions/interface/FSimVertexTypeFwd.h" export * }
+  module "NUEvent.h" { header "FastSimDataFormats/NuclearInteractions/interface/NUEvent.h" export * }
+  export *
+}
+

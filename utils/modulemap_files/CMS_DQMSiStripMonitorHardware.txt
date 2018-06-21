@@ -1,0 +1,15 @@
+module CMS_DQMSiStripMonitorHardware {
+  module "CMHistograms.hh" { header "DQM/SiStripMonitorHardware/interface/CMHistograms.hh" export * }
+  module "FEDErrors.hh" { header "DQM/SiStripMonitorHardware/interface/FEDErrors.hh" export * }
+  module "FEDHistograms.hh" { header "DQM/SiStripMonitorHardware/interface/FEDHistograms.hh" export * }
+  module "HistogramBase.hh" { header "DQM/SiStripMonitorHardware/interface/HistogramBase.hh" export * }
+  module "SPYHistograms.h" { header "DQM/SiStripMonitorHardware/interface/SPYHistograms.h" export * }
+  module "SiStripFEDEmulator.h" { header "DQM/SiStripMonitorHardware/interface/SiStripFEDEmulator.h" export * }
+  module "SiStripFEDSpyBuffer.h" { header "DQM/SiStripMonitorHardware/interface/SiStripFEDSpyBuffer.h" export * }
+  module "SiStripSpyDigiConverter.h" { header "DQM/SiStripMonitorHardware/interface/SiStripSpyDigiConverter.h" export * }
+  module "SiStripSpyEventMatcher.h" { header "DQM/SiStripMonitorHardware/interface/SiStripSpyEventMatcher.h" export * }
+  module "SiStripSpyUnpacker.h" { header "DQM/SiStripMonitorHardware/interface/SiStripSpyUnpacker.h" export * }
+  module "SiStripSpyUtilities.h" { header "DQM/SiStripMonitorHardware/interface/SiStripSpyUtilities.h" export * }
+  export *
+}
+

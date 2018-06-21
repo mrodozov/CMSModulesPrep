@@ -1,0 +1,6 @@
+module CMS_GeometryVeryForwardRPTopology {
+  module "RPSimTopology.h" { header "Geometry/VeryForwardRPTopology/interface/RPSimTopology.h" export * }
+  module "RPTopology.h" { header "Geometry/VeryForwardRPTopology/interface/RPTopology.h" export * }
+  export *
+}
+

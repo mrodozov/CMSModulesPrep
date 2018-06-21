@@ -1,0 +1,14 @@
+module CMS_SimDataFormatsAssociations {
+  module "MuonToTrackingParticleAssociator.h" { header "SimDataFormats/Associations/interface/MuonToTrackingParticleAssociator.h" export * }
+  module "MuonToTrackingParticleAssociatorBaseImpl.h" { header "SimDataFormats/Associations/interface/MuonToTrackingParticleAssociatorBaseImpl.h" export * }
+  module "MuonTrackType.h" { header "SimDataFormats/Associations/interface/MuonTrackType.h" export * }
+  module "TrackToGenParticleAssociator.h" { header "SimDataFormats/Associations/interface/TrackToGenParticleAssociator.h" export * }
+  module "TrackToGenParticleAssociatorBaseImpl.h" { header "SimDataFormats/Associations/interface/TrackToGenParticleAssociatorBaseImpl.h" export * }
+  module "TrackToTrackingParticleAssociator.h" { header "SimDataFormats/Associations/interface/TrackToTrackingParticleAssociator.h" export * }
+  module "TrackToTrackingParticleAssociatorBaseImpl.h" { header "SimDataFormats/Associations/interface/TrackToTrackingParticleAssociatorBaseImpl.h" export * }
+  module "VertexAssociation.h" { header "SimDataFormats/Associations/interface/VertexAssociation.h" export * }
+  module "VertexToTrackingVertexAssociator.h" { header "SimDataFormats/Associations/interface/VertexToTrackingVertexAssociator.h" export * }
+  module "VertexToTrackingVertexAssociatorBaseImpl.h" { header "SimDataFormats/Associations/interface/VertexToTrackingVertexAssociatorBaseImpl.h" export * }
+  export *
+}
+

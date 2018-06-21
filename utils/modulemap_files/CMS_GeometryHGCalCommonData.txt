@@ -1,0 +1,13 @@
+module CMS_GeometryHGCalCommonData {
+  module "FastTimeDDDConstants.h" { header "Geometry/HGCalCommonData/interface/FastTimeDDDConstants.h" export * }
+  module "FastTimeParameters.h" { header "Geometry/HGCalCommonData/interface/FastTimeParameters.h" export * }
+  module "FastTimeParametersFromDD.h" { header "Geometry/HGCalCommonData/interface/FastTimeParametersFromDD.h" export * }
+  module "HGCalDDDConstants.h" { header "Geometry/HGCalCommonData/interface/HGCalDDDConstants.h" export * }
+  module "HGCalGeomParameters.h" { header "Geometry/HGCalCommonData/interface/HGCalGeomParameters.h" export * }
+  module "HGCalGeometryMode.h" { header "Geometry/HGCalCommonData/interface/HGCalGeometryMode.h" export * }
+  module "HGCalParameters.h" { header "Geometry/HGCalCommonData/interface/HGCalParameters.h" export * }
+  module "HGCalParametersFromDD.h" { header "Geometry/HGCalCommonData/interface/HGCalParametersFromDD.h" export * }
+  module "HGCalWaferType.h" { header "Geometry/HGCalCommonData/interface/HGCalWaferType.h" export * }
+  export *
+}
+

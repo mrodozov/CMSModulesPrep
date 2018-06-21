@@ -1,0 +1,6 @@
+module CMS_ValidationCaloTowers {
+  module "CaloTowersClient.h" { header "Validation/CaloTowers/interface/CaloTowersClient.h" export * }
+  module "CaloTowersValidation.h" { header "Validation/CaloTowers/interface/CaloTowersValidation.h" export * }
+  export *
+}
+

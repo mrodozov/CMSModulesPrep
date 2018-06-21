@@ -1,0 +1,6 @@
+module CMS_CondFormatsEcalCorrections {
+  module "EcalGlobalShowerContainmentCorrectionsVsEta.h" { header "CondFormats/EcalCorrections/interface/EcalGlobalShowerContainmentCorrectionsVsEta.h" export * }
+  module "EcalShowerContainmentCorrections.h" { header "CondFormats/EcalCorrections/interface/EcalShowerContainmentCorrections.h" export * }
+  export *
+}
+

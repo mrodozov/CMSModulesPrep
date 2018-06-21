@@ -1,0 +1,13 @@
+module CMS_RecoBTagSoftLepton {
+  module "ElectronTagger.h" { header "RecoBTag/SoftLepton/interface/ElectronTagger.h" export * }
+  module "GenericSelectorByValueMap.h" { header "RecoBTag/SoftLepton/interface/GenericSelectorByValueMap.h" export * }
+  module "LeptonSelector.h" { header "RecoBTag/SoftLepton/interface/LeptonSelector.h" export * }
+  module "LeptonTaggerByIP.h" { header "RecoBTag/SoftLepton/interface/LeptonTaggerByIP.h" export * }
+  module "LeptonTaggerByPt.h" { header "RecoBTag/SoftLepton/interface/LeptonTaggerByPt.h" export * }
+  module "LeptonTaggerDistance.h" { header "RecoBTag/SoftLepton/interface/LeptonTaggerDistance.h" export * }
+  module "MuonTagger.h" { header "RecoBTag/SoftLepton/interface/MuonTagger.h" export * }
+  module "MuonTaggerNoIP.h" { header "RecoBTag/SoftLepton/interface/MuonTaggerNoIP.h" export * }
+  module "MuonTaggerNoIPMLP.h" { header "RecoBTag/SoftLepton/interface/MuonTaggerNoIPMLP.h" export * }
+  export *
+}
+

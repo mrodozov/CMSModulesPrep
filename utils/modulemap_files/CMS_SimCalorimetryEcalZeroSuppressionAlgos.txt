@@ -1,0 +1,8 @@
+module CMS_SimCalorimetryEcalZeroSuppressionAlgos {
+  module "EcalZeroSuppressor.h" { header "SimCalorimetry/EcalZeroSuppressionAlgos/interface/EcalZeroSuppressor.h" export * }
+  module "EcalZeroSuppressor.icc" { textual header "SimCalorimetry/EcalZeroSuppressionAlgos/interface/EcalZeroSuppressor.icc" export * }
+  module "TrivialAmplitudeAlgo.h" { header "SimCalorimetry/EcalZeroSuppressionAlgos/interface/TrivialAmplitudeAlgo.h" export * }
+  module "TrivialAmplitudeAlgo.icc" { textual header "SimCalorimetry/EcalZeroSuppressionAlgos/interface/TrivialAmplitudeAlgo.icc" export * }
+  export *
+}
+

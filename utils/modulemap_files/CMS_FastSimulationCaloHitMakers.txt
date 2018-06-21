@@ -1,0 +1,8 @@
+module CMS_FastSimulationCaloHitMakers {
+  module "CaloHitMaker.h" { header "FastSimulation/CaloHitMakers/interface/CaloHitMaker.h" export * }
+  module "EcalHitMaker.h" { header "FastSimulation/CaloHitMakers/interface/EcalHitMaker.h" export * }
+  module "HcalHitMaker.h" { header "FastSimulation/CaloHitMakers/interface/HcalHitMaker.h" export * }
+  module "PreshowerHitMaker.h" { header "FastSimulation/CaloHitMakers/interface/PreshowerHitMaker.h" export * }
+  export *
+}
+

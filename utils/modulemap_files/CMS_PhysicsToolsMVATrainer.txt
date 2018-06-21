@@ -1,0 +1,26 @@
+module CMS_PhysicsToolsMVATrainer {
+  module "HelperMacros.h" { header "PhysicsTools/MVATrainer/interface/HelperMacros.h" export * }
+  module "Interceptor.h" { header "PhysicsTools/MVATrainer/interface/Interceptor.h" export * }
+  module "LeastSquares.h" { header "PhysicsTools/MVATrainer/interface/LeastSquares.h" export * }
+  module "MVATrainer.h" { header "PhysicsTools/MVATrainer/interface/MVATrainer.h" export * }
+  module "MVATrainerContainer.h" { header "PhysicsTools/MVATrainer/interface/MVATrainerContainer.h" export * }
+  module "MVATrainerContainerSave.h" { header "PhysicsTools/MVATrainer/interface/MVATrainerContainerSave.h" export * }
+  module "MVATrainerFileSave.h" { header "PhysicsTools/MVATrainer/interface/MVATrainerFileSave.h" export * }
+  module "MVATrainerFileSaveImpl.h" { header "PhysicsTools/MVATrainer/interface/MVATrainerFileSaveImpl.h" export * }
+  module "MVATrainerLooper.h" { header "PhysicsTools/MVATrainer/interface/MVATrainerLooper.h" export * }
+  module "MVATrainerLooperImpl.h" { header "PhysicsTools/MVATrainer/interface/MVATrainerLooperImpl.h" export * }
+  module "MVATrainerSave.h" { header "PhysicsTools/MVATrainer/interface/MVATrainerSave.h" export * }
+  module "MVATrainerSaveImpl.h" { header "PhysicsTools/MVATrainer/interface/MVATrainerSaveImpl.h" export * }
+  module "Source.h" { header "PhysicsTools/MVATrainer/interface/Source.h" export * }
+  module "SourceVariable.h" { header "PhysicsTools/MVATrainer/interface/SourceVariable.h" export * }
+  module "SourceVariableSet.h" { header "PhysicsTools/MVATrainer/interface/SourceVariableSet.h" export * }
+  module "TrainProcessor.h" { header "PhysicsTools/MVATrainer/interface/TrainProcessor.h" export * }
+  module "TrainerMonitoring.h" { header "PhysicsTools/MVATrainer/interface/TrainerMonitoring.h" export * }
+  module "TreeTrainer.h" { header "PhysicsTools/MVATrainer/interface/TreeTrainer.h" export * }
+  module "XMLDocument.h" { header "PhysicsTools/MVATrainer/interface/XMLDocument.h" export * }
+  module "XMLDocument.icc" { textual header "PhysicsTools/MVATrainer/interface/XMLDocument.icc" export * }
+  module "XMLSimpleStr.h" { header "PhysicsTools/MVATrainer/interface/XMLSimpleStr.h" export * }
+  module "XMLUniStr.h" { header "PhysicsTools/MVATrainer/interface/XMLUniStr.h" export * }
+  export *
+}
+

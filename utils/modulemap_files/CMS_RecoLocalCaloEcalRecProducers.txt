@@ -1,0 +1,12 @@
+module CMS_RecoLocalCaloEcalRecProducers {
+  module "ESRecHitWorkerBaseClass.h" { header "RecoLocalCalo/EcalRecProducers/interface/ESRecHitWorkerBaseClass.h" export * }
+  module "ESRecHitWorkerFactory.h" { header "RecoLocalCalo/EcalRecProducers/interface/ESRecHitWorkerFactory.h" export * }
+  module "EcalRecHitWorkerBaseClass.h" { header "RecoLocalCalo/EcalRecProducers/interface/EcalRecHitWorkerBaseClass.h" export * }
+  module "EcalRecHitWorkerFactory.h" { header "RecoLocalCalo/EcalRecProducers/interface/EcalRecHitWorkerFactory.h" export * }
+  module "EcalUncalibRecHitFillDescriptionWorkerFactory.h" { header "RecoLocalCalo/EcalRecProducers/interface/EcalUncalibRecHitFillDescriptionWorkerFactory.h" export * }
+  module "EcalUncalibRecHitWorkerBaseClass.h" { header "RecoLocalCalo/EcalRecProducers/interface/EcalUncalibRecHitWorkerBaseClass.h" export * }
+  module "EcalUncalibRecHitWorkerFactory.h" { header "RecoLocalCalo/EcalRecProducers/interface/EcalUncalibRecHitWorkerFactory.h" export * }
+  module "EcalUncalibRecHitWorkerRunOneDigiBase.h" { header "RecoLocalCalo/EcalRecProducers/interface/EcalUncalibRecHitWorkerRunOneDigiBase.h" export * }
+  export *
+}
+

@@ -1,0 +1,16 @@
+module CMS_L1TriggerConfigDTTPGConfig {
+  module "BitArray.h" { header "L1TriggerConfig/DTTPGConfig/interface/BitArray.h" export * }
+  module "DTConfig.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfig.h" export * }
+  module "DTConfigBti.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfigBti.h" export * }
+  module "DTConfigLUTs.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfigLUTs.h" export * }
+  module "DTConfigManager.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfigManager.h" export * }
+  module "DTConfigManagerRcd.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfigManagerRcd.h" export * }
+  module "DTConfigPedestals.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfigPedestals.h" export * }
+  module "DTConfigSectColl.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfigSectColl.h" export * }
+  module "DTConfigTSPhi.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfigTSPhi.h" export * }
+  module "DTConfigTSTheta.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfigTSTheta.h" export * }
+  module "DTConfigTraco.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfigTraco.h" export * }
+  module "DTConfigTrigUnit.h" { header "L1TriggerConfig/DTTPGConfig/interface/DTConfigTrigUnit.h" export * }
+  export *
+}
+

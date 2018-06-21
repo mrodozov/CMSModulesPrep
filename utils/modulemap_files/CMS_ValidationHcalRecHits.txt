@@ -1,0 +1,8 @@
+module CMS_ValidationHcalRecHits {
+  module "HcalRecHitsClient.h" { header "Validation/HcalRecHits/interface/HcalRecHitsClient.h" export * }
+  module "HcalRecHitsValidation.h" { header "Validation/HcalRecHits/interface/HcalRecHitsValidation.h" export * }
+  module "NoiseRates.h" { header "Validation/HcalRecHits/interface/NoiseRates.h" export * }
+  module "NoiseRatesClient.h" { header "Validation/HcalRecHits/interface/NoiseRatesClient.h" export * }
+  export *
+}
+

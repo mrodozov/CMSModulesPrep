@@ -1,0 +1,7 @@
+module CMS_HLTriggerOfflineMuon {
+  module "HLTMuonPlotter.h" { header "HLTriggerOffline/Muon/interface/HLTMuonPlotter.h" export * }
+  module "L1MuonMatcherAlgo.h" { header "HLTriggerOffline/Muon/interface/L1MuonMatcherAlgo.h" export * }
+  module "PropagateToMuon.h" { header "HLTriggerOffline/Muon/interface/PropagateToMuon.h" export * }
+  export *
+}
+

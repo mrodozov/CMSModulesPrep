@@ -1,0 +1,35 @@
+module CMS_EventFilterUtilities {
+  module "AuxiliaryMakers.h" { header "EventFilter/Utilities/interface/AuxiliaryMakers.h" export * }
+  module "DTCRC.h" { header "EventFilter/Utilities/interface/DTCRC.h" export * }
+  module "DataPoint.h" { header "EventFilter/Utilities/interface/DataPoint.h" export * }
+  module "DataPointDefinition.h" { header "EventFilter/Utilities/interface/DataPointDefinition.h" export * }
+  module "DirManager.h" { header "EventFilter/Utilities/interface/DirManager.h" export * }
+  module "EvFDaqDirector.h" { header "EventFilter/Utilities/interface/EvFDaqDirector.h" export * }
+  module "FFFNamingSchema.h" { header "EventFilter/Utilities/interface/FFFNamingSchema.h" export * }
+  module "FastMonitor.h" { header "EventFilter/Utilities/interface/FastMonitor.h" export * }
+  module "FastMonitoringService.h" { header "EventFilter/Utilities/interface/FastMonitoringService.h" export * }
+  module "FastMonitoringThread.h" { header "EventFilter/Utilities/interface/FastMonitoringThread.h" export * }
+  module "FedRawDataInputSource.h" { header "EventFilter/Utilities/interface/FedRawDataInputSource.h" export * }
+  module "FileIO.h" { header "EventFilter/Utilities/interface/FileIO.h" export * }
+  module "GlobalEventNumber.h" { header "EventFilter/Utilities/interface/GlobalEventNumber.h" export * }
+  module "GlobalEventNumber.icc" { textual header "EventFilter/Utilities/interface/GlobalEventNumber.icc" export * }
+  module "JSONSerializer.h" { header "EventFilter/Utilities/interface/JSONSerializer.h" export * }
+  module "JsonMonitorable.h" { header "EventFilter/Utilities/interface/JsonMonitorable.h" export * }
+  module "JsonSerializable.h" { header "EventFilter/Utilities/interface/JsonSerializable.h" export * }
+  module "MicroStateService.h" { header "EventFilter/Utilities/interface/MicroStateService.h" export * }
+  module "MicroStateServiceClassic.h" { header "EventFilter/Utilities/interface/MicroStateServiceClassic.h" export * }
+  module "ModuleWeb.h" { header "EventFilter/Utilities/interface/ModuleWeb.h" export * }
+  module "autolink.h" { header "EventFilter/Utilities/interface/autolink.h" export * }
+  module "config.h" { header "EventFilter/Utilities/interface/config.h" export * }
+  module "config_json.h" { header "EventFilter/Utilities/interface/config_json.h" export * }
+  module "crc32c.h" { header "EventFilter/Utilities/interface/crc32c.h" export * }
+  module "features.h" { header "EventFilter/Utilities/interface/features.h" export * }
+  module "forwards.h" { header "EventFilter/Utilities/interface/forwards.h" export * }
+  module "json.h" { header "EventFilter/Utilities/interface/json.h" export * }
+  module "json_batchallocator.h" { header "EventFilter/Utilities/interface/json_batchallocator.h" export * }
+  module "reader.h" { header "EventFilter/Utilities/interface/reader.h" export * }
+  module "value.h" { header "EventFilter/Utilities/interface/value.h" export * }
+  module "writer.h" { header "EventFilter/Utilities/interface/writer.h" export * }
+  export *
+}
+

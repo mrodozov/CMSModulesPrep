@@ -1,0 +1,23 @@
+module CMS_RecoEcalEgammaClusterProducers {
+  module "CleanAndMergeProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/CleanAndMergeProducer.h" export * }
+  module "CosmicClusterProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/CosmicClusterProducer.h" export * }
+  module "EcalDigiSelector.h" { header "RecoEcal/EgammaClusterProducers/interface/EcalDigiSelector.h" export * }
+  module "EgammaSCCorrectionMaker.h" { header "RecoEcal/EgammaClusterProducers/interface/EgammaSCCorrectionMaker.h" export * }
+  module "HybridClusterProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/HybridClusterProducer.h" export * }
+  module "InterestingDetIdCollectionProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/InterestingDetIdCollectionProducer.h" export * }
+  module "InterestingDetIdFromSuperClusterProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/InterestingDetIdFromSuperClusterProducer.h" export * }
+  module "IslandClusterProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/IslandClusterProducer.h" export * }
+  module "Multi5x5ClusterProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/Multi5x5ClusterProducer.h" export * }
+  module "Multi5x5SuperClusterProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/Multi5x5SuperClusterProducer.h" export * }
+  module "PFECALSuperClusterProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/PFECALSuperClusterProducer.h" export * }
+  module "PreshowerClusterProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/PreshowerClusterProducer.h" export * }
+  module "PreshowerClusterShapeProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/PreshowerClusterShapeProducer.h" export * }
+  module "PreshowerPhiClusterProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/PreshowerPhiClusterProducer.h" export * }
+  module "RecHitFilter.h" { header "RecoEcal/EgammaClusterProducers/interface/RecHitFilter.h" export * }
+  module "ReducedESRecHitCollectionProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/ReducedESRecHitCollectionProducer.h" export * }
+  module "ReducedRecHitCollectionProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/ReducedRecHitCollectionProducer.h" export * }
+  module "UncleanSCRecoveryProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/UncleanSCRecoveryProducer.h" export * }
+  module "UnifiedSCCollectionProducer.h" { header "RecoEcal/EgammaClusterProducers/interface/UnifiedSCCollectionProducer.h" export * }
+  export *
+}
+

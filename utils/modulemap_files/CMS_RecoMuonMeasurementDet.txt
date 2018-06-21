@@ -1,0 +1,5 @@
+module CMS_RecoMuonMeasurementDet {
+  module "MuonDetLayerMeasurements.h" { header "RecoMuon/MeasurementDet/interface/MuonDetLayerMeasurements.h" export * }
+  export *
+}
+

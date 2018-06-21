@@ -1,0 +1,6 @@
+module CMS_AlignmentCocoaDaq {
+  module "CocoaDaqReader.h" { header "Alignment/CocoaDaq/interface/CocoaDaqReader.h" export * }
+  module "CocoaDaqRootEvent.h" { header "Alignment/CocoaDaq/interface/CocoaDaqRootEvent.h" export * }
+  export *
+}
+

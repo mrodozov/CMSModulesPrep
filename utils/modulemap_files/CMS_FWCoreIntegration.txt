@@ -1,0 +1,6 @@
+module CMS_FWCoreIntegration {
+  module "ESTestData.h" { header "FWCore/Integration/interface/ESTestData.h" export * }
+  module "ESTestRecords.h" { header "FWCore/Integration/interface/ESTestRecords.h" export * }
+  export *
+}
+

@@ -1,0 +1,6 @@
+module CMS_CondFormatsDQMObjects {
+  module "DQMSummary.h" { header "CondFormats/DQMObjects/interface/DQMSummary.h" export * }
+  module "HDQMSummary.h" { header "CondFormats/DQMObjects/interface/HDQMSummary.h" export * }
+  export *
+}
+

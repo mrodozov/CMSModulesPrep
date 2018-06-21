@@ -1,0 +1,36 @@
+module CMS_TopQuarkAnalysisTopHitFit {
+  module "Base_Constrainer.h" { header "TopQuarkAnalysis/TopHitFit/interface/Base_Constrainer.h" export * }
+  module "Chisq_Constrainer.h" { header "TopQuarkAnalysis/TopHitFit/interface/Chisq_Constrainer.h" export * }
+  module "Constrained_Top.h" { header "TopQuarkAnalysis/TopHitFit/interface/Constrained_Top.h" export * }
+  module "Constrained_Z.h" { header "TopQuarkAnalysis/TopHitFit/interface/Constrained_Z.h" export * }
+  module "Constraint.h" { header "TopQuarkAnalysis/TopHitFit/interface/Constraint.h" export * }
+  module "Constraint_Intermed.h" { header "TopQuarkAnalysis/TopHitFit/interface/Constraint_Intermed.h" export * }
+  module "Defaults.h" { header "TopQuarkAnalysis/TopHitFit/interface/Defaults.h" export * }
+  module "Defaults_Text.h" { header "TopQuarkAnalysis/TopHitFit/interface/Defaults_Text.h" export * }
+  module "EtaDepResElement.h" { header "TopQuarkAnalysis/TopHitFit/interface/EtaDepResElement.h" export * }
+  module "EtaDepResolution.h" { header "TopQuarkAnalysis/TopHitFit/interface/EtaDepResolution.h" export * }
+  module "Fit_Result.h" { header "TopQuarkAnalysis/TopHitFit/interface/Fit_Result.h" export * }
+  module "Fit_Result_Vec.h" { header "TopQuarkAnalysis/TopHitFit/interface/Fit_Result_Vec.h" export * }
+  module "Fit_Results.h" { header "TopQuarkAnalysis/TopHitFit/interface/Fit_Results.h" export * }
+  module "Fourvec_Constrainer.h" { header "TopQuarkAnalysis/TopHitFit/interface/Fourvec_Constrainer.h" export * }
+  module "Fourvec_Event.h" { header "TopQuarkAnalysis/TopHitFit/interface/Fourvec_Event.h" export * }
+  module "JetTranslatorBase.h" { header "TopQuarkAnalysis/TopHitFit/interface/JetTranslatorBase.h" export * }
+  module "Lepjets_Event.h" { header "TopQuarkAnalysis/TopHitFit/interface/Lepjets_Event.h" export * }
+  module "Lepjets_Event_Jet.h" { header "TopQuarkAnalysis/TopHitFit/interface/Lepjets_Event_Jet.h" export * }
+  module "Lepjets_Event_Lep.h" { header "TopQuarkAnalysis/TopHitFit/interface/Lepjets_Event_Lep.h" export * }
+  module "LeptonTranslatorBase.h" { header "TopQuarkAnalysis/TopHitFit/interface/LeptonTranslatorBase.h" export * }
+  module "METTranslatorBase.h" { header "TopQuarkAnalysis/TopHitFit/interface/METTranslatorBase.h" export * }
+  module "Objpair.h" { header "TopQuarkAnalysis/TopHitFit/interface/Objpair.h" export * }
+  module "Pair_Table.h" { header "TopQuarkAnalysis/TopHitFit/interface/Pair_Table.h" export * }
+  module "Refcount.h" { header "TopQuarkAnalysis/TopHitFit/interface/Refcount.h" export * }
+  module "Resolution.h" { header "TopQuarkAnalysis/TopHitFit/interface/Resolution.h" export * }
+  module "RunHitFit.h" { header "TopQuarkAnalysis/TopHitFit/interface/RunHitFit.h" export * }
+  module "Top_Decaykin.h" { header "TopQuarkAnalysis/TopHitFit/interface/Top_Decaykin.h" export * }
+  module "Top_Fit.h" { header "TopQuarkAnalysis/TopHitFit/interface/Top_Fit.h" export * }
+  module "Vector_Resolution.h" { header "TopQuarkAnalysis/TopHitFit/interface/Vector_Resolution.h" export * }
+  module "fourvec.h" { header "TopQuarkAnalysis/TopHitFit/interface/fourvec.h" export * }
+  module "gentop.h" { header "TopQuarkAnalysis/TopHitFit/interface/gentop.h" export * }
+  module "matutil.h" { header "TopQuarkAnalysis/TopHitFit/interface/matutil.h" export * }
+  export *
+}
+

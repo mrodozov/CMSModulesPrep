@@ -1,0 +1,19 @@
+module CMS_AnalysisDataFormatsTopObjects {
+  module "StEvtSolution.h" { header "AnalysisDataFormats/TopObjects/interface/StEvtSolution.h" export * }
+  module "StGenEvent.h" { header "AnalysisDataFormats/TopObjects/interface/StGenEvent.h" export * }
+  module "TopGenEvent.h" { header "AnalysisDataFormats/TopObjects/interface/TopGenEvent.h" export * }
+  module "TtDilepEvtSolution.h" { header "AnalysisDataFormats/TopObjects/interface/TtDilepEvtSolution.h" export * }
+  module "TtEvent.h" { header "AnalysisDataFormats/TopObjects/interface/TtEvent.h" export * }
+  module "TtEventPartons.h" { header "AnalysisDataFormats/TopObjects/interface/TtEventPartons.h" export * }
+  module "TtFullHadEvtPartons.h" { header "AnalysisDataFormats/TopObjects/interface/TtFullHadEvtPartons.h" export * }
+  module "TtFullHadronicEvent.h" { header "AnalysisDataFormats/TopObjects/interface/TtFullHadronicEvent.h" export * }
+  module "TtFullLepEvtPartons.h" { header "AnalysisDataFormats/TopObjects/interface/TtFullLepEvtPartons.h" export * }
+  module "TtFullLeptonicEvent.h" { header "AnalysisDataFormats/TopObjects/interface/TtFullLeptonicEvent.h" export * }
+  module "TtGenEvent.h" { header "AnalysisDataFormats/TopObjects/interface/TtGenEvent.h" export * }
+  module "TtHadEvtSolution.h" { header "AnalysisDataFormats/TopObjects/interface/TtHadEvtSolution.h" export * }
+  module "TtSemiEvtSolution.h" { header "AnalysisDataFormats/TopObjects/interface/TtSemiEvtSolution.h" export * }
+  module "TtSemiLepEvtPartons.h" { header "AnalysisDataFormats/TopObjects/interface/TtSemiLepEvtPartons.h" export * }
+  module "TtSemiLeptonicEvent.h" { header "AnalysisDataFormats/TopObjects/interface/TtSemiLeptonicEvent.h" export * }
+  export *
+}
+

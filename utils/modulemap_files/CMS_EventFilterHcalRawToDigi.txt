@@ -1,0 +1,15 @@
+module CMS_EventFilterHcalRawToDigi {
+  module "AMC13Header.h" { header "EventFilter/HcalRawToDigi/interface/AMC13Header.h" export * }
+  module "HcalDCCHeader.h" { header "EventFilter/HcalRawToDigi/interface/HcalDCCHeader.h" export * }
+  module "HcalDTCHeader.h" { header "EventFilter/HcalRawToDigi/interface/HcalDTCHeader.h" export * }
+  module "HcalDataFrameFilter.h" { header "EventFilter/HcalRawToDigi/interface/HcalDataFrameFilter.h" export * }
+  module "HcalFEDList.h" { header "EventFilter/HcalRawToDigi/interface/HcalFEDList.h" export * }
+  module "HcalHTRData.h" { header "EventFilter/HcalRawToDigi/interface/HcalHTRData.h" export * }
+  module "HcalLaserEventFilter2012.h" { header "EventFilter/HcalRawToDigi/interface/HcalLaserEventFilter2012.h" export * }
+  module "HcalPacker.h" { header "EventFilter/HcalRawToDigi/interface/HcalPacker.h" export * }
+  module "HcalTTPUnpacker.h" { header "EventFilter/HcalRawToDigi/interface/HcalTTPUnpacker.h" export * }
+  module "HcalUHTRData.h" { header "EventFilter/HcalRawToDigi/interface/HcalUHTRData.h" export * }
+  module "HcalUnpacker.h" { header "EventFilter/HcalRawToDigi/interface/HcalUnpacker.h" export * }
+  export *
+}
+

@@ -1,0 +1,10 @@
+module CMS_FastSimulationTrackingRecHitProducer {
+  module "PixelTemplateSmearerBase.h" { header "FastSimulation/TrackingRecHitProducer/interface/PixelTemplateSmearerBase.h" export * }
+  module "TrackerDetIdSelector.h" { header "FastSimulation/TrackingRecHitProducer/interface/TrackerDetIdSelector.h" export * }
+  module "TrackingRecHitAlgorithm.h" { header "FastSimulation/TrackingRecHitProducer/interface/TrackingRecHitAlgorithm.h" export * }
+  module "TrackingRecHitAlgorithmFactory.h" { header "FastSimulation/TrackingRecHitProducer/interface/TrackingRecHitAlgorithmFactory.h" export * }
+  module "TrackingRecHitPipe.h" { header "FastSimulation/TrackingRecHitProducer/interface/TrackingRecHitPipe.h" export * }
+  module "TrackingRecHitProduct.h" { header "FastSimulation/TrackingRecHitProducer/interface/TrackingRecHitProduct.h" export * }
+  export *
+}
+

@@ -1,0 +1,17 @@
+module CMS_SimDataFormatsGeneratorProducts {
+  module "GenEventInfoProduct.h" { header "SimDataFormats/GeneratorProducts/interface/GenEventInfoProduct.h" export * }
+  module "GenFilterInfo.h" { header "SimDataFormats/GeneratorProducts/interface/GenFilterInfo.h" export * }
+  module "GenLumiInfoHeader.h" { header "SimDataFormats/GeneratorProducts/interface/GenLumiInfoHeader.h" export * }
+  module "GenLumiInfoProduct.h" { header "SimDataFormats/GeneratorProducts/interface/GenLumiInfoProduct.h" export * }
+  module "GenRunInfoProduct.h" { header "SimDataFormats/GeneratorProducts/interface/GenRunInfoProduct.h" export * }
+  module "HepMCProduct.h" { header "SimDataFormats/GeneratorProducts/interface/HepMCProduct.h" export * }
+  module "LHECommonBlocks.h" { header "SimDataFormats/GeneratorProducts/interface/LHECommonBlocks.h" export * }
+  module "LHEEventProduct.h" { header "SimDataFormats/GeneratorProducts/interface/LHEEventProduct.h" export * }
+  module "LHERunInfoProduct.h" { header "SimDataFormats/GeneratorProducts/interface/LHERunInfoProduct.h" export * }
+  module "LHEXMLStringProduct.h" { header "SimDataFormats/GeneratorProducts/interface/LHEXMLStringProduct.h" export * }
+  module "LesHouches.h" { header "SimDataFormats/GeneratorProducts/interface/LesHouches.h" export * }
+  module "PdfInfo.h" { header "SimDataFormats/GeneratorProducts/interface/PdfInfo.h" export * }
+  module "WeightsInfo.h" { header "SimDataFormats/GeneratorProducts/interface/WeightsInfo.h" export * }
+  export *
+}
+

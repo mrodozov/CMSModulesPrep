@@ -1,0 +1,5 @@
+module CMS_ValidationRecoTau {
+  module "TauTagValidation.h" { header "Validation/RecoTau/interface/TauTagValidation.h" export * }
+  export *
+}
+

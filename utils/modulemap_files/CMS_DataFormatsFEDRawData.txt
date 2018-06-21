@@ -1,0 +1,9 @@
+module CMS_DataFormatsFEDRawData {
+  module "FEDHeader.h" { header "DataFormats/FEDRawData/interface/FEDHeader.h" export * }
+  module "FEDNumbering.h" { header "DataFormats/FEDRawData/interface/FEDNumbering.h" export * }
+  module "FEDRawData.h" { header "DataFormats/FEDRawData/interface/FEDRawData.h" export * }
+  module "FEDRawDataCollection.h" { header "DataFormats/FEDRawData/interface/FEDRawDataCollection.h" export * }
+  module "FEDTrailer.h" { header "DataFormats/FEDRawData/interface/FEDTrailer.h" export * }
+  export *
+}
+

@@ -1,0 +1,16 @@
+module CMS_DataFormatsParticleFlowCandidate {
+  module "IsolatedPFCandidate.h" { header "DataFormats/ParticleFlowCandidate/interface/IsolatedPFCandidate.h" export * }
+  module "IsolatedPFCandidateFwd.h" { header "DataFormats/ParticleFlowCandidate/interface/IsolatedPFCandidateFwd.h" export * }
+  module "PFCandidate.h" { header "DataFormats/ParticleFlowCandidate/interface/PFCandidate.h" export * }
+  module "PFCandidateEGammaExtra.h" { header "DataFormats/ParticleFlowCandidate/interface/PFCandidateEGammaExtra.h" export * }
+  module "PFCandidateEGammaExtraFwd.h" { header "DataFormats/ParticleFlowCandidate/interface/PFCandidateEGammaExtraFwd.h" export * }
+  module "PFCandidateElectronExtra.h" { header "DataFormats/ParticleFlowCandidate/interface/PFCandidateElectronExtra.h" export * }
+  module "PFCandidateElectronExtraFwd.h" { header "DataFormats/ParticleFlowCandidate/interface/PFCandidateElectronExtraFwd.h" export * }
+  module "PFCandidateFwd.h" { header "DataFormats/ParticleFlowCandidate/interface/PFCandidateFwd.h" export * }
+  module "PFCandidatePhotonExtra.h" { header "DataFormats/ParticleFlowCandidate/interface/PFCandidatePhotonExtra.h" export * }
+  module "PFCandidatePhotonExtraFwd.h" { header "DataFormats/ParticleFlowCandidate/interface/PFCandidatePhotonExtraFwd.h" export * }
+  module "PileUpPFCandidate.h" { header "DataFormats/ParticleFlowCandidate/interface/PileUpPFCandidate.h" export * }
+  module "PileUpPFCandidateFwd.h" { header "DataFormats/ParticleFlowCandidate/interface/PileUpPFCandidateFwd.h" export * }
+  export *
+}
+

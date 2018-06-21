@@ -1,0 +1,18 @@
+module CMS_RecoTrackerSpecialSeedGenerators {
+  module "BeamHaloPairGenerator.h" { header "RecoTracker/SpecialSeedGenerators/interface/BeamHaloPairGenerator.h" export * }
+  module "CRackSeedGenerator.h" { header "RecoTracker/SpecialSeedGenerators/interface/CRackSeedGenerator.h" export * }
+  module "ClusterChecker.h" { header "RecoTracker/SpecialSeedGenerators/interface/ClusterChecker.h" export * }
+  module "CosmicRegionalSeedGenerator.h" { header "RecoTracker/SpecialSeedGenerators/interface/CosmicRegionalSeedGenerator.h" export * }
+  module "CosmicSeedCreator.h" { header "RecoTracker/SpecialSeedGenerators/interface/CosmicSeedCreator.h" export * }
+  module "CosmicSeedGenerator.h" { header "RecoTracker/SpecialSeedGenerators/interface/CosmicSeedGenerator.h" export * }
+  module "CosmicTrackingRegion.h" { header "RecoTracker/SpecialSeedGenerators/interface/CosmicTrackingRegion.h" export * }
+  module "CtfSpecialSeedGenerator.h" { header "RecoTracker/SpecialSeedGenerators/interface/CtfSpecialSeedGenerator.h" export * }
+  module "GenericPairGenerator.h" { header "RecoTracker/SpecialSeedGenerators/interface/GenericPairGenerator.h" export * }
+  module "GenericTripletGenerator.h" { header "RecoTracker/SpecialSeedGenerators/interface/GenericTripletGenerator.h" export * }
+  module "SeedFromGenericPairOrTriplet.h" { header "RecoTracker/SpecialSeedGenerators/interface/SeedFromGenericPairOrTriplet.h" export * }
+  module "SeedGeneratorForCRack.h" { header "RecoTracker/SpecialSeedGenerators/interface/SeedGeneratorForCRack.h" export * }
+  module "SeedGeneratorForCosmics.h" { header "RecoTracker/SpecialSeedGenerators/interface/SeedGeneratorForCosmics.h" export * }
+  module "SimpleCosmicBONSeeder.h" { header "RecoTracker/SpecialSeedGenerators/interface/SimpleCosmicBONSeeder.h" export * }
+  export *
+}
+

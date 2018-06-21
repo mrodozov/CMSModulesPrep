@@ -1,0 +1,5 @@
+module CMS_SimG4CorePrintTrackNumber {
+  module "PrintTrackNumberAction.h" { header "SimG4Core/PrintTrackNumber/interface/PrintTrackNumberAction.h" export * }
+  export *
+}
+

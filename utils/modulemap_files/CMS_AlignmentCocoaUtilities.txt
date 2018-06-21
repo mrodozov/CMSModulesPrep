@@ -1,0 +1,9 @@
+module CMS_AlignmentCocoaUtilities {
+  module "ALIFileIn.h" { header "Alignment/CocoaUtilities/interface/ALIFileIn.h" export * }
+  module "ALIFileOut.h" { header "Alignment/CocoaUtilities/interface/ALIFileOut.h" export * }
+  module "ALIUtils.h" { header "Alignment/CocoaUtilities/interface/ALIUtils.h" export * }
+  module "CocoaGlobals.h" { header "Alignment/CocoaUtilities/interface/CocoaGlobals.h" export * }
+  module "GlobalOptionMgr.h" { header "Alignment/CocoaUtilities/interface/GlobalOptionMgr.h" export * }
+  export *
+}
+

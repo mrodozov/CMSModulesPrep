@@ -1,0 +1,6 @@
+module CMS_FastSimulationEventProducer {
+  module "FamosManager.h" { header "FastSimulation/EventProducer/interface/FamosManager.h" export * }
+  module "FamosProducer.h" { header "FastSimulation/EventProducer/interface/FamosProducer.h" export * }
+  export *
+}
+

@@ -1,0 +1,6 @@
+module CMS_L1TriggerConfigGctConfigProducers {
+  module "L1GctConfigDump.h" { header "L1TriggerConfig/GctConfigProducers/interface/L1GctConfigDump.h" export * }
+  module "L1GctConfigProducers.h" { header "L1TriggerConfig/GctConfigProducers/interface/L1GctConfigProducers.h" export * }
+  export *
+}
+

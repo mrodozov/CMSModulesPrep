@@ -1,0 +1,5 @@
+module CMS_RecoTBCaloZDCTBAnalysis {
+  module "ZdcTBAnalysis.h" { header "RecoTBCalo/ZDCTBAnalysis/interface/ZdcTBAnalysis.h" export * }
+  export *
+}
+

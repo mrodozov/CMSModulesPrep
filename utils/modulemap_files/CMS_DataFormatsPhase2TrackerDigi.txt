@@ -1,0 +1,6 @@
+module CMS_DataFormatsPhase2TrackerDigi {
+  module "Phase2TrackerCommissioningDigi.h" { header "DataFormats/Phase2TrackerDigi/interface/Phase2TrackerCommissioningDigi.h" export * }
+  module "Phase2TrackerDigi.h" { header "DataFormats/Phase2TrackerDigi/interface/Phase2TrackerDigi.h" export * }
+  export *
+}
+

@@ -1,0 +1,15 @@
+module CMS_FastSimulationMaterialEffects {
+  module "BremsstrahlungSimulator.h" { header "FastSimulation/MaterialEffects/interface/BremsstrahlungSimulator.h" export * }
+  module "CMSDummyDeexcitation.h" { header "FastSimulation/MaterialEffects/interface/CMSDummyDeexcitation.h" export * }
+  module "EnergyLossSimulator.h" { header "FastSimulation/MaterialEffects/interface/EnergyLossSimulator.h" export * }
+  module "MaterialEffects.h" { header "FastSimulation/MaterialEffects/interface/MaterialEffects.h" export * }
+  module "MaterialEffectsSimulator.h" { header "FastSimulation/MaterialEffects/interface/MaterialEffectsSimulator.h" export * }
+  module "MultipleScatteringSimulator.h" { header "FastSimulation/MaterialEffects/interface/MultipleScatteringSimulator.h" export * }
+  module "MuonBremsstrahlungSimulator.h" { header "FastSimulation/MaterialEffects/interface/MuonBremsstrahlungSimulator.h" export * }
+  module "NuclearInteractionFTFSimulator.h" { header "FastSimulation/MaterialEffects/interface/NuclearInteractionFTFSimulator.h" export * }
+  module "NuclearInteractionSimulator.h" { header "FastSimulation/MaterialEffects/interface/NuclearInteractionSimulator.h" export * }
+  module "PairProductionSimulator.h" { header "FastSimulation/MaterialEffects/interface/PairProductionSimulator.h" export * }
+  module "PetrukhinModel.h" { header "FastSimulation/MaterialEffects/interface/PetrukhinModel.h" export * }
+  export *
+}
+

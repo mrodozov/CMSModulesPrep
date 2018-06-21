@@ -1,0 +1,15 @@
+module CMS_DataFormatsCTPPSDigi {
+  module "CTPPSDiamondDigi.h" { header "DataFormats/CTPPSDigi/interface/CTPPSDiamondDigi.h" export * }
+  module "CTPPSPixelDataError.h" { header "DataFormats/CTPPSDigi/interface/CTPPSPixelDataError.h" export * }
+  module "CTPPSPixelDigi.h" { header "DataFormats/CTPPSDigi/interface/CTPPSPixelDigi.h" export * }
+  module "CTPPSPixelDigiCollection.h" { header "DataFormats/CTPPSDigi/interface/CTPPSPixelDigiCollection.h" export * }
+  module "HPTDCErrorFlags.h" { header "DataFormats/CTPPSDigi/interface/HPTDCErrorFlags.h" export * }
+  module "TotemFEDInfo.h" { header "DataFormats/CTPPSDigi/interface/TotemFEDInfo.h" export * }
+  module "TotemRPDigi.h" { header "DataFormats/CTPPSDigi/interface/TotemRPDigi.h" export * }
+  module "TotemTimingDigi.h" { header "DataFormats/CTPPSDigi/interface/TotemTimingDigi.h" export * }
+  module "TotemTimingEventInfo.h" { header "DataFormats/CTPPSDigi/interface/TotemTimingEventInfo.h" export * }
+  module "TotemTriggerCounters.h" { header "DataFormats/CTPPSDigi/interface/TotemTriggerCounters.h" export * }
+  module "TotemVFATStatus.h" { header "DataFormats/CTPPSDigi/interface/TotemVFATStatus.h" export * }
+  export *
+}
+

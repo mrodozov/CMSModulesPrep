@@ -1,0 +1,6 @@
+module CMS_SimMuonNeutron {
+  module "SubsystemNeutronReader.h" { header "SimMuon/Neutron/interface/SubsystemNeutronReader.h" export * }
+  module "SubsystemNeutronWriter.h" { header "SimMuon/Neutron/interface/SubsystemNeutronWriter.h" export * }
+  export *
+}
+

@@ -1,0 +1,13 @@
+module CMS_RecoTrackerNuclearSeedGenerator {
+  module "NuclearInteractionFinder.h" { header "RecoTracker/NuclearSeedGenerator/interface/NuclearInteractionFinder.h" export * }
+  module "NuclearSeedsEDProducer.h" { header "RecoTracker/NuclearSeedGenerator/interface/NuclearSeedsEDProducer.h" export * }
+  module "NuclearTester.h" { header "RecoTracker/NuclearSeedGenerator/interface/NuclearTester.h" export * }
+  module "NuclearTrackCorrector.h" { header "RecoTracker/NuclearSeedGenerator/interface/NuclearTrackCorrector.h" export * }
+  module "SeedFromNuclearInteraction.h" { header "RecoTracker/NuclearSeedGenerator/interface/SeedFromNuclearInteraction.h" export * }
+  module "TangentCircle.h" { header "RecoTracker/NuclearSeedGenerator/interface/TangentCircle.h" export * }
+  module "TangentHelix.h" { header "RecoTracker/NuclearSeedGenerator/interface/TangentHelix.h" export * }
+  module "TrackCandidateToTrajectoryMap.h" { header "RecoTracker/NuclearSeedGenerator/interface/TrackCandidateToTrajectoryMap.h" export * }
+  module "TrajectoryToSeedMap.h" { header "RecoTracker/NuclearSeedGenerator/interface/TrajectoryToSeedMap.h" export * }
+  export *
+}
+

@@ -1,0 +1,8 @@
+module CMS_UtilitiesBinningTools {
+  module "BaseBinFinder.h" { header "Utilities/BinningTools/interface/BaseBinFinder.h" export * }
+  module "ClusterizingHistogram.h" { header "Utilities/BinningTools/interface/ClusterizingHistogram.h" export * }
+  module "GenericBinFinderInZ.h" { header "Utilities/BinningTools/interface/GenericBinFinderInZ.h" export * }
+  module "PeriodicBinFinderInPhi.h" { header "Utilities/BinningTools/interface/PeriodicBinFinderInPhi.h" export * }
+  export *
+}
+

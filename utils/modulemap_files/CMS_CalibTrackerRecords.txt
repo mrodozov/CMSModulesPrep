@@ -1,0 +1,14 @@
+module CMS_CalibTrackerRecords {
+  module "SiPixel2DTemplateDBObjectESProducerRcd.h" { header "CalibTracker/Records/interface/SiPixel2DTemplateDBObjectESProducerRcd.h" export * }
+  module "SiPixelGenErrorDBObjectESProducerRcd.h" { header "CalibTracker/Records/interface/SiPixelGenErrorDBObjectESProducerRcd.h" export * }
+  module "SiPixelTemplateDBObjectESProducerRcd.h" { header "CalibTracker/Records/interface/SiPixelTemplateDBObjectESProducerRcd.h" export * }
+  module "SiStripDependentRecords.h" { header "CalibTracker/Records/interface/SiStripDependentRecords.h" export * }
+  module "SiStripDetCablingRcd.h" { header "CalibTracker/Records/interface/SiStripDetCablingRcd.h" export * }
+  module "SiStripFecCablingRcd.h" { header "CalibTracker/Records/interface/SiStripFecCablingRcd.h" export * }
+  module "SiStripGainRcd.h" { header "CalibTracker/Records/interface/SiStripGainRcd.h" export * }
+  module "SiStripHashedDetIdRcd.h" { header "CalibTracker/Records/interface/SiStripHashedDetIdRcd.h" export * }
+  module "SiStripQualityRcd.h" { header "CalibTracker/Records/interface/SiStripQualityRcd.h" export * }
+  module "SiStripRegionCablingRcd.h" { header "CalibTracker/Records/interface/SiStripRegionCablingRcd.h" export * }
+  export *
+}
+

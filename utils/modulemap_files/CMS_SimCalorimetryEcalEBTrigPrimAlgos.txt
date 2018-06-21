@@ -1,0 +1,10 @@
+module CMS_SimCalorimetryEcalEBTrigPrimAlgos {
+  module "EcalEBTrigPrimTestAlgo.h" { header "SimCalorimetry/EcalEBTrigPrimAlgos/interface/EcalEBTrigPrimTestAlgo.h" export * }
+  module "EcalFenixAmplitudeFilter.h" { header "SimCalorimetry/EcalEBTrigPrimAlgos/interface/EcalFenixAmplitudeFilter.h" export * }
+  module "EcalFenixLinearizer.h" { header "SimCalorimetry/EcalEBTrigPrimAlgos/interface/EcalFenixLinearizer.h" export * }
+  module "EcalFenixPeakFinder.h" { header "SimCalorimetry/EcalEBTrigPrimAlgos/interface/EcalFenixPeakFinder.h" export * }
+  module "EcalFenixStripFormatEB.h" { header "SimCalorimetry/EcalEBTrigPrimAlgos/interface/EcalFenixStripFormatEB.h" export * }
+  module "EcalFenixTcpFormat.h" { header "SimCalorimetry/EcalEBTrigPrimAlgos/interface/EcalFenixTcpFormat.h" export * }
+  export *
+}
+

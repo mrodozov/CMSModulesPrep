@@ -1,0 +1,13 @@
+module CMS_TrackingToolsTrajectoryParametrization {
+  module "CartesianTrajectoryError.h" { header "TrackingTools/TrajectoryParametrization/interface/CartesianTrajectoryError.h" export * }
+  module "CurvilinearTrajectoryError.h" { header "TrackingTools/TrajectoryParametrization/interface/CurvilinearTrajectoryError.h" export * }
+  module "CurvilinearTrajectoryParameters.h" { header "TrackingTools/TrajectoryParametrization/interface/CurvilinearTrajectoryParameters.h" export * }
+  module "GlobalTrajectoryParameters.h" { header "TrackingTools/TrajectoryParametrization/interface/GlobalTrajectoryParameters.h" export * }
+  module "LocalTrajectoryError.h" { header "TrackingTools/TrajectoryParametrization/interface/LocalTrajectoryError.h" export * }
+  module "LocalTrajectoryParameters.h" { header "TrackingTools/TrajectoryParametrization/interface/LocalTrajectoryParameters.h" export * }
+  module "PerigeeTrajectoryError.h" { header "TrackingTools/TrajectoryParametrization/interface/PerigeeTrajectoryError.h" export * }
+  module "PerigeeTrajectoryParameters.h" { header "TrackingTools/TrajectoryParametrization/interface/PerigeeTrajectoryParameters.h" export * }
+  module "TrajectoryStateExceptions.h" { header "TrackingTools/TrajectoryParametrization/interface/TrajectoryStateExceptions.h" export * }
+  export *
+}
+

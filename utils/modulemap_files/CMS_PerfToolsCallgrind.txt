@@ -1,0 +1,5 @@
+module CMS_PerfToolsCallgrind {
+  module "ProfilerService.h" { header "PerfTools/Callgrind/interface/ProfilerService.h" export * }
+  export *
+}
+

@@ -1,0 +1,10 @@
+module CMS_DQMSiPixelPhase1Common {
+  module "AbstractHistogram.h" { header "DQM/SiPixelPhase1Common/interface/AbstractHistogram.h" export * }
+  module "GeometryInterface.h" { header "DQM/SiPixelPhase1Common/interface/GeometryInterface.h" export * }
+  module "HistogramManager.h" { header "DQM/SiPixelPhase1Common/interface/HistogramManager.h" export * }
+  module "SiPixelCoordinates.h" { header "DQM/SiPixelPhase1Common/interface/SiPixelCoordinates.h" export * }
+  module "SiPixelPhase1Base.h" { header "DQM/SiPixelPhase1Common/interface/SiPixelPhase1Base.h" export * }
+  module "SummationSpecification.h" { header "DQM/SiPixelPhase1Common/interface/SummationSpecification.h" export * }
+  export *
+}
+

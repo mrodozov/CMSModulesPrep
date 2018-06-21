@@ -1,0 +1,8 @@
+module CMS_SimCalorimetryEcalElectronicsEmulation {
+  module "EcalFEtoDigi.h" { header "SimCalorimetry/EcalElectronicsEmulation/interface/EcalFEtoDigi.h" export * }
+  module "EcalSimRawData.h" { header "SimCalorimetry/EcalElectronicsEmulation/interface/EcalSimRawData.h" export * }
+  module "EcalSimpleProducer.h" { header "SimCalorimetry/EcalElectronicsEmulation/interface/EcalSimpleProducer.h" export * }
+  module "TCCinput.h" { header "SimCalorimetry/EcalElectronicsEmulation/interface/TCCinput.h" export * }
+  export *
+}
+

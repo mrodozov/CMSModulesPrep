@@ -1,0 +1,8 @@
+module CMS_SimDataFormatsCaloAnalysis {
+  module "CaloParticle.h" { header "SimDataFormats/CaloAnalysis/interface/CaloParticle.h" export * }
+  module "CaloParticleFwd.h" { header "SimDataFormats/CaloAnalysis/interface/CaloParticleFwd.h" export * }
+  module "SimCluster.h" { header "SimDataFormats/CaloAnalysis/interface/SimCluster.h" export * }
+  module "SimClusterFwd.h" { header "SimDataFormats/CaloAnalysis/interface/SimClusterFwd.h" export * }
+  export *
+}
+

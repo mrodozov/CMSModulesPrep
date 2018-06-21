@@ -1,0 +1,7 @@
+module CMS_GeneratorInterfacePythia6Interface {
+  module "PtYDistributor.h" { header "GeneratorInterface/Pythia6Interface/interface/PtYDistributor.h" export * }
+  module "Pythia6Declarations.h" { header "GeneratorInterface/Pythia6Interface/interface/Pythia6Declarations.h" export * }
+  module "Pythia6Service.h" { header "GeneratorInterface/Pythia6Interface/interface/Pythia6Service.h" export * }
+  export *
+}
+

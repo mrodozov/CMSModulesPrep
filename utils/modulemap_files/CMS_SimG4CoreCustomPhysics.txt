@@ -1,0 +1,20 @@
+module CMS_SimG4CoreCustomPhysics {
+  module "CMSDarkPairProduction.h" { header "SimG4Core/CustomPhysics/interface/CMSDarkPairProduction.h" export * }
+  module "CMSDarkPairProductionProcess.h" { header "SimG4Core/CustomPhysics/interface/CMSDarkPairProductionProcess.h" export * }
+  module "CustomPDGParser.h" { header "SimG4Core/CustomPhysics/interface/CustomPDGParser.h" export * }
+  module "CustomParticle.h" { header "SimG4Core/CustomPhysics/interface/CustomParticle.h" export * }
+  module "CustomParticleFactory.h" { header "SimG4Core/CustomPhysics/interface/CustomParticleFactory.h" export * }
+  module "CustomPhysics.h" { header "SimG4Core/CustomPhysics/interface/CustomPhysics.h" export * }
+  module "CustomPhysicsList.h" { header "SimG4Core/CustomPhysics/interface/CustomPhysicsList.h" export * }
+  module "CustomPhysicsListSS.h" { header "SimG4Core/CustomPhysics/interface/CustomPhysicsListSS.h" export * }
+  module "Decay3Body.h" { header "SimG4Core/CustomPhysics/interface/Decay3Body.h" export * }
+  module "DummyChargeFlipProcess.h" { header "SimG4Core/CustomPhysics/interface/DummyChargeFlipProcess.h" export * }
+  module "FullModelHadronicProcess.h" { header "SimG4Core/CustomPhysics/interface/FullModelHadronicProcess.h" export * }
+  module "FullModelReactionDynamics.h" { header "SimG4Core/CustomPhysics/interface/FullModelReactionDynamics.h" export * }
+  module "G4ProcessHelper.h" { header "SimG4Core/CustomPhysics/interface/G4ProcessHelper.h" export * }
+  module "HadronicProcessHelper.h" { header "SimG4Core/CustomPhysics/interface/HadronicProcessHelper.h" export * }
+  module "RHStopDump.h" { header "SimG4Core/CustomPhysics/interface/RHStopDump.h" export * }
+  module "RHStopTracer.h" { header "SimG4Core/CustomPhysics/interface/RHStopTracer.h" export * }
+  export *
+}
+

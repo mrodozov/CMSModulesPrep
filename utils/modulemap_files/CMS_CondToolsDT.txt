@@ -1,0 +1,22 @@
+module CMS_CondToolsDT {
+  module "DTCompactMapWriter.h" { header "CondTools/DT/interface/DTCompactMapWriter.h" export * }
+  module "DTDBDataHandle.h" { header "CondTools/DT/interface/DTDBDataHandle.h" export * }
+  module "DTDeadFlagHandler.h" { header "CondTools/DT/interface/DTDeadFlagHandler.h" export * }
+  module "DTExpandMap.h" { header "CondTools/DT/interface/DTExpandMap.h" export * }
+  module "DTHVAbstractCheck.h" { header "CondTools/DT/interface/DTHVAbstractCheck.h" export * }
+  module "DTHVHandler.h" { header "CondTools/DT/interface/DTHVHandler.h" export * }
+  module "DTHVStatusHandler.h" { header "CondTools/DT/interface/DTHVStatusHandler.h" export * }
+  module "DTKeyedConfigCache.h" { header "CondTools/DT/interface/DTKeyedConfigCache.h" export * }
+  module "DTKeyedConfigHandler.h" { header "CondTools/DT/interface/DTKeyedConfigHandler.h" export * }
+  module "DTLVStatusHandler.h" { header "CondTools/DT/interface/DTLVStatusHandler.h" export * }
+  module "DTPerformanceHandler.h" { header "CondTools/DT/interface/DTPerformanceHandler.h" export * }
+  module "DTPosNeg.h" { header "CondTools/DT/interface/DTPosNeg.h" export * }
+  module "DTRangeT0Handler.h" { header "CondTools/DT/interface/DTRangeT0Handler.h" export * }
+  module "DTReadOutMappingHandler.h" { header "CondTools/DT/interface/DTReadOutMappingHandler.h" export * }
+  module "DTStatusFlagHandler.h" { header "CondTools/DT/interface/DTStatusFlagHandler.h" export * }
+  module "DTT0Handler.h" { header "CondTools/DT/interface/DTT0Handler.h" export * }
+  module "DTTPGParametersHandler.h" { header "CondTools/DT/interface/DTTPGParametersHandler.h" export * }
+  module "DTUserKeyedConfigHandler.h" { header "CondTools/DT/interface/DTUserKeyedConfigHandler.h" export * }
+  export *
+}
+

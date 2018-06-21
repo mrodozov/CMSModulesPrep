@@ -1,0 +1,14 @@
+module CMS_RecoRomanPotRecoFP420 {
+  module "ClusterNoiseFP420.h" { header "RecoRomanPot/RecoFP420/interface/ClusterNoiseFP420.h" export * }
+  module "ClusterProducerFP420.h" { header "RecoRomanPot/RecoFP420/interface/ClusterProducerFP420.h" export * }
+  module "ClusterizerFP420.h" { header "RecoRomanPot/RecoFP420/interface/ClusterizerFP420.h" export * }
+  module "FP420ClusterMain.h" { header "RecoRomanPot/RecoFP420/interface/FP420ClusterMain.h" export * }
+  module "FP420RecoMain.h" { header "RecoRomanPot/RecoFP420/interface/FP420RecoMain.h" export * }
+  module "FP420TrackMain.h" { header "RecoRomanPot/RecoFP420/interface/FP420TrackMain.h" export * }
+  module "RecoProducerFP420.h" { header "RecoRomanPot/RecoFP420/interface/RecoProducerFP420.h" export * }
+  module "ReconstructerFP420.h" { header "RecoRomanPot/RecoFP420/interface/ReconstructerFP420.h" export * }
+  module "TrackProducerFP420.h" { header "RecoRomanPot/RecoFP420/interface/TrackProducerFP420.h" export * }
+  module "TrackerizerFP420.h" { header "RecoRomanPot/RecoFP420/interface/TrackerizerFP420.h" export * }
+  export *
+}
+

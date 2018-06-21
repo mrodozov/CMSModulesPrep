@@ -1,0 +1,7 @@
+module CMS_SimDataFormatsForward {
+  module "LHCTransportLink.h" { header "SimDataFormats/Forward/interface/LHCTransportLink.h" export * }
+  module "LHCTransportLinkContainer.h" { header "SimDataFormats/Forward/interface/LHCTransportLinkContainer.h" export * }
+  module "TotemTestHistoClass.h" { header "SimDataFormats/Forward/interface/TotemTestHistoClass.h" export * }
+  export *
+}
+

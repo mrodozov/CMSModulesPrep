@@ -1,0 +1,8 @@
+module CMS_GeometryVeryForwardGeometryBuilder {
+  module "CTPPSDDDNames.h" { header "Geometry/VeryForwardGeometryBuilder/interface/CTPPSDDDNames.h" export * }
+  module "CTPPSGeometry.h" { header "Geometry/VeryForwardGeometryBuilder/interface/CTPPSGeometry.h" export * }
+  module "DetGeomDesc.h" { header "Geometry/VeryForwardGeometryBuilder/interface/DetGeomDesc.h" export * }
+  module "RPAlignmentCorrectionsMethods.h" { header "Geometry/VeryForwardGeometryBuilder/interface/RPAlignmentCorrectionsMethods.h" export * }
+  export *
+}
+

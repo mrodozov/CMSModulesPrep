@@ -1,0 +1,5 @@
+module CMS_CondCoreHcalPlugins {
+  module "HcalObjRepresent.h" { header "CondCore/HcalPlugins/interface/HcalObjRepresent.h" export * }
+  export *
+}
+

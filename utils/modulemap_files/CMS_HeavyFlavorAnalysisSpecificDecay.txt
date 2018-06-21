@@ -1,0 +1,23 @@
+module CMS_HeavyFlavorAnalysisSpecificDecay {
+  module "BPHBdToJPsiKxBuilder.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHBdToJPsiKxBuilder.h" export * }
+  module "BPHBsToJPsiPhiBuilder.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHBsToJPsiPhiBuilder.h" export * }
+  module "BPHBuToJPsiKBuilder.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHBuToJPsiKBuilder.h" export * }
+  module "BPHChi2Select.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHChi2Select.h" export * }
+  module "BPHKx0ToKPiBuilder.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHKx0ToKPiBuilder.h" export * }
+  module "BPHMassCuts.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHMassCuts.h" export * }
+  module "BPHMassFitSelect.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHMassFitSelect.h" export * }
+  module "BPHMassSelect.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHMassSelect.h" export * }
+  module "BPHMassSymSelect.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHMassSymSelect.h" export * }
+  module "BPHMuonChargeSelect.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHMuonChargeSelect.h" export * }
+  module "BPHMuonEtaSelect.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHMuonEtaSelect.h" export * }
+  module "BPHMuonPtSelect.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHMuonPtSelect.h" export * }
+  module "BPHOniaToMuMuBuilder.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHOniaToMuMuBuilder.h" export * }
+  module "BPHParticleChargeSelect.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHParticleChargeSelect.h" export * }
+  module "BPHParticleEtaSelect.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHParticleEtaSelect.h" export * }
+  module "BPHParticleMasses.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHParticleMasses.h" export * }
+  module "BPHParticleNeutralVeto.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHParticleNeutralVeto.h" export * }
+  module "BPHParticlePtSelect.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHParticlePtSelect.h" export * }
+  module "BPHPhiToKKBuilder.h" { header "HeavyFlavorAnalysis/SpecificDecay/interface/BPHPhiToKKBuilder.h" export * }
+  export *
+}
+

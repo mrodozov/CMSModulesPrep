@@ -1,0 +1,7 @@
+module CMS_DQMServicesDiagnostic {
+  module "DQMHistoryTrendsConfig.h" { header "DQMServices/Diagnostic/interface/DQMHistoryTrendsConfig.h" export * }
+  module "HDQMInspectorConfigBase.h" { header "DQMServices/Diagnostic/interface/HDQMInspectorConfigBase.h" export * }
+  module "HDQMfitUtilities.h" { header "DQMServices/Diagnostic/interface/HDQMfitUtilities.h" export * }
+  export *
+}
+

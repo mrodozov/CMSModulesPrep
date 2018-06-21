@@ -1,0 +1,11 @@
+module CMS_ValidationRecoVertex {
+  module "BSvsPVHistogramMaker.h" { header "Validation/RecoVertex/interface/BSvsPVHistogramMaker.h" export * }
+  module "BeamSpotHistogramMaker.h" { header "Validation/RecoVertex/interface/BeamSpotHistogramMaker.h" export * }
+  module "PrimaryVertexAnalyzer4PUSlimmed.h" { header "Validation/RecoVertex/interface/PrimaryVertexAnalyzer4PUSlimmed.h" export * }
+  module "TrackParameterAnalyzer.h" { header "Validation/RecoVertex/interface/TrackParameterAnalyzer.h" export * }
+  module "V0Validator.h" { header "Validation/RecoVertex/interface/V0Validator.h" export * }
+  module "VertexHistogramMaker.h" { header "Validation/RecoVertex/interface/VertexHistogramMaker.h" export * }
+  module "VertexWeighter.h" { header "Validation/RecoVertex/interface/VertexWeighter.h" export * }
+  export *
+}
+

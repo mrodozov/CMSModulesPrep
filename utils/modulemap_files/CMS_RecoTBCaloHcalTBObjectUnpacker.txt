@@ -1,0 +1,9 @@
+module CMS_RecoTBCaloHcalTBObjectUnpacker {
+  module "HcalTBQADCUnpacker.h" { header "RecoTBCalo/HcalTBObjectUnpacker/interface/HcalTBQADCUnpacker.h" export * }
+  module "HcalTBSlowDataUnpacker.h" { header "RecoTBCalo/HcalTBObjectUnpacker/interface/HcalTBSlowDataUnpacker.h" export * }
+  module "HcalTBSourcePositionDataUnpacker.h" { header "RecoTBCalo/HcalTBObjectUnpacker/interface/HcalTBSourcePositionDataUnpacker.h" export * }
+  module "HcalTBTDCUnpacker.h" { header "RecoTBCalo/HcalTBObjectUnpacker/interface/HcalTBTDCUnpacker.h" export * }
+  module "HcalTBTriggerDataUnpacker.h" { header "RecoTBCalo/HcalTBObjectUnpacker/interface/HcalTBTriggerDataUnpacker.h" export * }
+  export *
+}
+

@@ -1,0 +1,19 @@
+module CMS_MuonAnalysisMomentumScaleCalibration {
+  module "BackgroundFunction.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/BackgroundFunction.h" export * }
+  module "BackgroundHandler.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/BackgroundHandler.h" export * }
+  module "BaseFunction.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/BaseFunction.h" export * }
+  module "CrossSectionHandler.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/CrossSectionHandler.h" export * }
+  module "Event.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/Event.h" export * }
+  module "Functions.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/Functions.h" export * }
+  module "GenMuonPair.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/GenMuonPair.h" export * }
+  module "MassWindow.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/MassWindow.h" export * }
+  module "MomentumScaleCorrector.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/MomentumScaleCorrector.h" export * }
+  module "MuScleFitProvenance.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/MuScleFitProvenance.h" export * }
+  module "Muon.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/Muon.h" export * }
+  module "MuonPair.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/MuonPair.h" export * }
+  module "ResolutionFunction.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/ResolutionFunction.h" export * }
+  module "RootTreeHandler.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/RootTreeHandler.h" export * }
+  module "SigmaPtDiff.h" { header "MuonAnalysis/MomentumScaleCalibration/interface/SigmaPtDiff.h" export * }
+  export *
+}
+

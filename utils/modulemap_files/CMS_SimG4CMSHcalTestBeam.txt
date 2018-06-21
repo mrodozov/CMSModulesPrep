@@ -1,0 +1,17 @@
+module CMS_SimG4CMSHcalTestBeam {
+  module "HcalTB02Analysis.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB02Analysis.h" export * }
+  module "HcalTB02HcalNumberingScheme.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB02HcalNumberingScheme.h" export * }
+  module "HcalTB02Histo.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB02Histo.h" export * }
+  module "HcalTB02NumberingScheme.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB02NumberingScheme.h" export * }
+  module "HcalTB02SD.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB02SD.h" export * }
+  module "HcalTB02XtalNumberingScheme.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB02XtalNumberingScheme.h" export * }
+  module "HcalTB04Analysis.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB04Analysis.h" export * }
+  module "HcalTB04Histo.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB04Histo.h" export * }
+  module "HcalTB04XtalNumberingScheme.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB04XtalNumberingScheme.h" export * }
+  module "HcalTB06Analysis.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB06Analysis.h" export * }
+  module "HcalTB06BeamSD.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB06BeamSD.h" export * }
+  module "HcalTB06Histo.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTB06Histo.h" export * }
+  module "HcalTBNumberingScheme.h" { header "SimG4CMS/HcalTestBeam/interface/HcalTBNumberingScheme.h" export * }
+  export *
+}
+

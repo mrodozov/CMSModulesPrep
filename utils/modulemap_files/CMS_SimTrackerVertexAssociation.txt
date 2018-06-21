@@ -1,0 +1,7 @@
+module CMS_SimTrackerVertexAssociation {
+  module "VertexAssociatorByPositionAndTracks.h" { header "SimTracker/VertexAssociation/interface/VertexAssociatorByPositionAndTracks.h" export * }
+  module "VertexAssociatorByTracks.h" { header "SimTracker/VertexAssociation/interface/VertexAssociatorByTracks.h" export * }
+  module "calculateVertexSharedTracks.h" { header "SimTracker/VertexAssociation/interface/calculateVertexSharedTracks.h" export * }
+  export *
+}
+

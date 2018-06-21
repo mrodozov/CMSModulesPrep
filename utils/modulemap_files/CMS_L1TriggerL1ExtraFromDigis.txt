@@ -1,0 +1,6 @@
+module CMS_L1TriggerL1ExtraFromDigis {
+  module "L1ExtraParticleMapProd.h" { header "L1Trigger/L1ExtraFromDigis/interface/L1ExtraParticleMapProd.h" export * }
+  module "L1ExtraParticlesProd.h" { header "L1Trigger/L1ExtraFromDigis/interface/L1ExtraParticlesProd.h" export * }
+  export *
+}
+

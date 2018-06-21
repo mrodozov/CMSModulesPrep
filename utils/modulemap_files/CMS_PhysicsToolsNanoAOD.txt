@@ -1,0 +1,5 @@
+module CMS_PhysicsToolsNanoAOD {
+  module "MatchingUtils.h" { header "PhysicsTools/NanoAOD/interface/MatchingUtils.h" export * }
+  export *
+}
+

@@ -1,0 +1,8 @@
+module CMS_GeometryHGCalGeometry {
+  module "FastTimeGeometry.h" { header "Geometry/HGCalGeometry/interface/FastTimeGeometry.h" export * }
+  module "FastTimeGeometryLoader.h" { header "Geometry/HGCalGeometry/interface/FastTimeGeometryLoader.h" export * }
+  module "HGCalGeometry.h" { header "Geometry/HGCalGeometry/interface/HGCalGeometry.h" export * }
+  module "HGCalGeometryLoader.h" { header "Geometry/HGCalGeometry/interface/HGCalGeometryLoader.h" export * }
+  export *
+}
+

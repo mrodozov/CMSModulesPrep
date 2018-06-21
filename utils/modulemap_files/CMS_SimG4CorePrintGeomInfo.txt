@@ -1,0 +1,8 @@
+module CMS_SimG4CorePrintGeomInfo {
+  module "PrintGeomInfoAction.h" { header "SimG4Core/PrintGeomInfo/interface/PrintGeomInfoAction.h" export * }
+  module "PrintGeomSummary.h" { header "SimG4Core/PrintGeomInfo/interface/PrintGeomSummary.h" export * }
+  module "PrintMaterialBudgetInfo.h" { header "SimG4Core/PrintGeomInfo/interface/PrintMaterialBudgetInfo.h" export * }
+  module "PrintSensitive.h" { header "SimG4Core/PrintGeomInfo/interface/PrintSensitive.h" export * }
+  export *
+}
+

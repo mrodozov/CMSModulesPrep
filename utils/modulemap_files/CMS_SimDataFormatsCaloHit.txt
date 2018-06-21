@@ -1,0 +1,12 @@
+module CMS_SimDataFormatsCaloHit {
+  module "CaloHit.h" { header "SimDataFormats/CaloHit/interface/CaloHit.h" export * }
+  module "CastorShowerEvent.h" { header "SimDataFormats/CaloHit/interface/CastorShowerEvent.h" export * }
+  module "CastorShowerLibraryInfo.h" { header "SimDataFormats/CaloHit/interface/CastorShowerLibraryInfo.h" export * }
+  module "HFShowerLibraryEventInfo.h" { header "SimDataFormats/CaloHit/interface/HFShowerLibraryEventInfo.h" export * }
+  module "HFShowerPhoton.h" { header "SimDataFormats/CaloHit/interface/HFShowerPhoton.h" export * }
+  module "PCaloHit.h" { header "SimDataFormats/CaloHit/interface/PCaloHit.h" export * }
+  module "PCaloHitContainer.h" { header "SimDataFormats/CaloHit/interface/PCaloHitContainer.h" export * }
+  module "PassiveHit.h" { header "SimDataFormats/CaloHit/interface/PassiveHit.h" export * }
+  export *
+}
+

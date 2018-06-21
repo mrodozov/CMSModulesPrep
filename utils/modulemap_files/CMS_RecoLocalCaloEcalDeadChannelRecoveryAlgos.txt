@@ -1,0 +1,7 @@
+module CMS_RecoLocalCaloEcalDeadChannelRecoveryAlgos {
+  module "EcalCrystalMatrixProbality.h" { header "RecoLocalCalo/EcalDeadChannelRecoveryAlgos/interface/EcalCrystalMatrixProbality.h" export * }
+  module "EcalDeadChannelRecoveryAlgos.h" { header "RecoLocalCalo/EcalDeadChannelRecoveryAlgos/interface/EcalDeadChannelRecoveryAlgos.h" export * }
+  module "EcalDeadChannelRecoveryNN.h" { header "RecoLocalCalo/EcalDeadChannelRecoveryAlgos/interface/EcalDeadChannelRecoveryNN.h" export * }
+  export *
+}
+

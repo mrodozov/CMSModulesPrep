@@ -1,0 +1,8 @@
+module CMS_AlignmentAPEEstimation {
+  module "EventVariables.h" { header "Alignment/APEEstimation/interface/EventVariables.h" export * }
+  module "ReducedTrackerTreeVariables.h" { header "Alignment/APEEstimation/interface/ReducedTrackerTreeVariables.h" export * }
+  module "TrackerDetectorStruct.h" { header "Alignment/APEEstimation/interface/TrackerDetectorStruct.h" export * }
+  module "TrackerSectorStruct.h" { header "Alignment/APEEstimation/interface/TrackerSectorStruct.h" export * }
+  export *
+}
+

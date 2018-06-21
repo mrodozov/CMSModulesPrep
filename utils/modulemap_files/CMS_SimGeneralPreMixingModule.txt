@@ -1,0 +1,8 @@
+module CMS_SimGeneralPreMixingModule {
+  module "PreMixingDigiSimLinkWorker.h" { header "SimGeneral/PreMixingModule/interface/PreMixingDigiSimLinkWorker.h" export * }
+  module "PreMixingMuonWorker.h" { header "SimGeneral/PreMixingModule/interface/PreMixingMuonWorker.h" export * }
+  module "PreMixingWorker.h" { header "SimGeneral/PreMixingModule/interface/PreMixingWorker.h" export * }
+  module "PreMixingWorkerFactory.h" { header "SimGeneral/PreMixingModule/interface/PreMixingWorkerFactory.h" export * }
+  export *
+}
+

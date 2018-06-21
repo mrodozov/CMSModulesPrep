@@ -1,0 +1,7 @@
+module CMS_FastSimulationCalorimetry {
+  module "CalorimetryManager.h" { header "FastSimulation/Calorimetry/interface/CalorimetryManager.h" export * }
+  module "HCALResponse.h" { header "FastSimulation/Calorimetry/interface/HCALResponse.h" export * }
+  module "KKCorrectionFactors.h" { header "FastSimulation/Calorimetry/interface/KKCorrectionFactors.h" export * }
+  export *
+}
+

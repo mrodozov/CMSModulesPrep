@@ -1,0 +1,22 @@
+module CMS_UtilitiesStorageFactory {
+  module "File.h" { header "Utilities/StorageFactory/interface/File.h" export * }
+  module "IOBuffer.h" { header "Utilities/StorageFactory/interface/IOBuffer.h" export * }
+  module "IOChannel.h" { header "Utilities/StorageFactory/interface/IOChannel.h" export * }
+  module "IOFlags.h" { header "Utilities/StorageFactory/interface/IOFlags.h" export * }
+  module "IOInput.h" { header "Utilities/StorageFactory/interface/IOInput.h" export * }
+  module "IOOutput.h" { header "Utilities/StorageFactory/interface/IOOutput.h" export * }
+  module "IOPosBuffer.h" { header "Utilities/StorageFactory/interface/IOPosBuffer.h" export * }
+  module "IOTypes.h" { header "Utilities/StorageFactory/interface/IOTypes.h" export * }
+  module "LocalCacheFile.h" { header "Utilities/StorageFactory/interface/LocalCacheFile.h" export * }
+  module "LocalFileSystem.h" { header "Utilities/StorageFactory/interface/LocalFileSystem.h" export * }
+  module "RemoteFile.h" { header "Utilities/StorageFactory/interface/RemoteFile.h" export * }
+  module "StatisticsSenderService.h" { header "Utilities/StorageFactory/interface/StatisticsSenderService.h" export * }
+  module "Storage.h" { header "Utilities/StorageFactory/interface/Storage.h" export * }
+  module "StorageAccount.h" { header "Utilities/StorageFactory/interface/StorageAccount.h" export * }
+  module "StorageAccountProxy.h" { header "Utilities/StorageFactory/interface/StorageAccountProxy.h" export * }
+  module "StorageFactory.h" { header "Utilities/StorageFactory/interface/StorageFactory.h" export * }
+  module "StorageMaker.h" { header "Utilities/StorageFactory/interface/StorageMaker.h" export * }
+  module "StorageMakerFactory.h" { header "Utilities/StorageFactory/interface/StorageMakerFactory.h" export * }
+  export *
+}
+

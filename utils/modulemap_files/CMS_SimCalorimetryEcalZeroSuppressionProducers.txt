@@ -1,0 +1,6 @@
+module CMS_SimCalorimetryEcalZeroSuppressionProducers {
+  module "ESZeroSuppressionProducer.h" { header "SimCalorimetry/EcalZeroSuppressionProducers/interface/ESZeroSuppressionProducer.h" export * }
+  module "EcalZeroSuppressionProducer.h" { header "SimCalorimetry/EcalZeroSuppressionProducers/interface/EcalZeroSuppressionProducer.h" export * }
+  export *
+}
+

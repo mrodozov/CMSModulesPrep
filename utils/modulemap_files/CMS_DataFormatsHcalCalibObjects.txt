@@ -1,0 +1,7 @@
+module CMS_DataFormatsHcalCalibObjects {
+  module "HFRecalibration.h" { header "DataFormats/HcalCalibObjects/interface/HFRecalibration.h" export * }
+  module "HOCalibVariableCollection.h" { header "DataFormats/HcalCalibObjects/interface/HOCalibVariableCollection.h" export * }
+  module "HOCalibVariables.h" { header "DataFormats/HcalCalibObjects/interface/HOCalibVariables.h" export * }
+  export *
+}
+

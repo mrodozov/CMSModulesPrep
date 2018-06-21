@@ -1,0 +1,7 @@
+module CMS_IOPoolCommon {
+  module "CustomStreamer.h" { header "IOPool/Common/interface/CustomStreamer.h" export * }
+  module "RootServiceChecker.h" { header "IOPool/Common/interface/RootServiceChecker.h" export * }
+  module "getWrapperBasePtr.h" { header "IOPool/Common/interface/getWrapperBasePtr.h" export * }
+  export *
+}
+

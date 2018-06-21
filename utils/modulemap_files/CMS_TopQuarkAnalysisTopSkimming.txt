@@ -1,0 +1,6 @@
+module CMS_TopQuarkAnalysisTopSkimming {
+  module "TopDecayChannelFilter.h" { header "TopQuarkAnalysis/TopSkimming/interface/TopDecayChannelFilter.h" export * }
+  module "TtDecayChannelSelector.h" { header "TopQuarkAnalysis/TopSkimming/interface/TtDecayChannelSelector.h" export * }
+  export *
+}
+

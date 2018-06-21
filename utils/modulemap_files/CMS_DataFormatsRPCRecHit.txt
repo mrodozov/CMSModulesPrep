@@ -1,0 +1,6 @@
+module CMS_DataFormatsRPCRecHit {
+  module "RPCRecHit.h" { header "DataFormats/RPCRecHit/interface/RPCRecHit.h" export * }
+  module "RPCRecHitCollection.h" { header "DataFormats/RPCRecHit/interface/RPCRecHitCollection.h" export * }
+  export *
+}
+

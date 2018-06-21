@@ -1,0 +1,5 @@
+module CMS_DQMTrackerMonitorTrack {
+  module "MonitorTrackResiduals.h" { header "DQM/TrackerMonitorTrack/interface/MonitorTrackResiduals.h" export * }
+  export *
+}
+

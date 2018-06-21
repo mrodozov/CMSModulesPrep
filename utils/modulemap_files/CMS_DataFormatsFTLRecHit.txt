@@ -1,0 +1,9 @@
+module CMS_DataFormatsFTLRecHit {
+  module "FTLRecHit.h" { header "DataFormats/FTLRecHit/interface/FTLRecHit.h" export * }
+  module "FTLRecHitCollections.h" { header "DataFormats/FTLRecHit/interface/FTLRecHitCollections.h" export * }
+  module "FTLRecHitComparison.h" { header "DataFormats/FTLRecHit/interface/FTLRecHitComparison.h" export * }
+  module "FTLSeverityLevel.h" { header "DataFormats/FTLRecHit/interface/FTLSeverityLevel.h" export * }
+  module "FTLUncalibratedRecHit.h" { header "DataFormats/FTLRecHit/interface/FTLUncalibratedRecHit.h" export * }
+  export *
+}
+

@@ -1,0 +1,9 @@
+module CMS_RecoEgammaEgammaHLTAlgos {
+  module "EgammaHLTEcalIsolation.h" { header "RecoEgamma/EgammaHLTAlgos/interface/EgammaHLTEcalIsolation.h" export * }
+  module "EgammaHLTHcalIsolation.h" { header "RecoEgamma/EgammaHLTAlgos/interface/EgammaHLTHcalIsolation.h" export * }
+  module "EgammaHLTHcalIsolationDoubleCone.h" { header "RecoEgamma/EgammaHLTAlgos/interface/EgammaHLTHcalIsolationDoubleCone.h" export * }
+  module "EgammaHLTPixelMatchElectronAlgo.h" { header "RecoEgamma/EgammaHLTAlgos/interface/EgammaHLTPixelMatchElectronAlgo.h" export * }
+  module "EgammaHLTTrackIsolation.h" { header "RecoEgamma/EgammaHLTAlgos/interface/EgammaHLTTrackIsolation.h" export * }
+  export *
+}
+

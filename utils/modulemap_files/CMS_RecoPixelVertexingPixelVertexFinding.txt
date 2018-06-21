@@ -1,0 +1,13 @@
+module CMS_RecoPixelVertexingPixelVertexFinding {
+  module "Cluster1DCleaner.h" { header "RecoPixelVertexing/PixelVertexFinding/interface/Cluster1DCleaner.h" export * }
+  module "Cluster1DMerger.h" { header "RecoPixelVertexing/PixelVertexFinding/interface/Cluster1DMerger.h" export * }
+  module "DivisiveClusterizer1D.h" { header "RecoPixelVertexing/PixelVertexFinding/interface/DivisiveClusterizer1D.h" export * }
+  module "DivisiveVertexFinder.h" { header "RecoPixelVertexing/PixelVertexFinding/interface/DivisiveVertexFinder.h" export * }
+  module "FindPeakFastPV.h" { header "RecoPixelVertexing/PixelVertexFinding/interface/FindPeakFastPV.h" export * }
+  module "PVCluster.h" { header "RecoPixelVertexing/PixelVertexFinding/interface/PVCluster.h" export * }
+  module "PVClusterComparer.h" { header "RecoPixelVertexing/PixelVertexFinding/interface/PVClusterComparer.h" export * }
+  module "PVPositionBuilder.h" { header "RecoPixelVertexing/PixelVertexFinding/interface/PVPositionBuilder.h" export * }
+  module "PixelVertexProducer.h" { header "RecoPixelVertexing/PixelVertexFinding/interface/PixelVertexProducer.h" export * }
+  export *
+}
+

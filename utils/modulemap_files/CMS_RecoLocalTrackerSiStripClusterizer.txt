@@ -1,0 +1,10 @@
+module CMS_RecoLocalTrackerSiStripClusterizer {
+  module "ClusterChargeCut.h" { header "RecoLocalTracker/SiStripClusterizer/interface/ClusterChargeCut.h" export * }
+  module "SiStripApvShotCleaner.h" { header "RecoLocalTracker/SiStripClusterizer/interface/SiStripApvShotCleaner.h" export * }
+  module "SiStripClusterInfo.h" { header "RecoLocalTracker/SiStripClusterizer/interface/SiStripClusterInfo.h" export * }
+  module "StripClusterizerAlgorithm.h" { header "RecoLocalTracker/SiStripClusterizer/interface/StripClusterizerAlgorithm.h" export * }
+  module "StripClusterizerAlgorithmFactory.h" { header "RecoLocalTracker/SiStripClusterizer/interface/StripClusterizerAlgorithmFactory.h" export * }
+  module "ThreeThresholdAlgorithm.h" { header "RecoLocalTracker/SiStripClusterizer/interface/ThreeThresholdAlgorithm.h" export * }
+  export *
+}
+

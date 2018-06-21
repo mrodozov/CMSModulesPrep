@@ -1,0 +1,11 @@
+module CMS_RecoMuonTrackerSeedGenerator {
+  module "L1MuonPixelTrackFitter.h" { header "RecoMuon/TrackerSeedGenerator/interface/L1MuonPixelTrackFitter.h" export * }
+  module "L1MuonRegionProducer.h" { header "RecoMuon/TrackerSeedGenerator/interface/L1MuonRegionProducer.h" export * }
+  module "L1MuonSeedsMerger.h" { header "RecoMuon/TrackerSeedGenerator/interface/L1MuonSeedsMerger.h" export * }
+  module "RedundantSeedCleaner.h" { header "RecoMuon/TrackerSeedGenerator/interface/RedundantSeedCleaner.h" export * }
+  module "TrackerSeedCleaner.h" { header "RecoMuon/TrackerSeedGenerator/interface/TrackerSeedCleaner.h" export * }
+  module "TrackerSeedGenerator.h" { header "RecoMuon/TrackerSeedGenerator/interface/TrackerSeedGenerator.h" export * }
+  module "TrackerSeedGeneratorFactory.h" { header "RecoMuon/TrackerSeedGenerator/interface/TrackerSeedGeneratorFactory.h" export * }
+  export *
+}
+

@@ -1,0 +1,42 @@
+module CMS_RecoEgammaEgammaHLTProducers {
+  module "ESListOfFEDSProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/ESListOfFEDSProducer.h" export * }
+  module "ESRecHitsMerger.h" { header "RecoEgamma/EgammaHLTProducers/interface/ESRecHitsMerger.h" export * }
+  module "EcalListOfFEDSProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EcalListOfFEDSProducer.h" export * }
+  module "EcalRecHitsMerger.h" { header "RecoEgamma/EgammaHLTProducers/interface/EcalRecHitsMerger.h" export * }
+  module "EgammaHLTBcHcalIsolationProducersRegional.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTBcHcalIsolationProducersRegional.h" export * }
+  module "EgammaHLTCaloTowerProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTCaloTowerProducer.h" export * }
+  module "EgammaHLTClusterShapeProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTClusterShapeProducer.h" export * }
+  module "EgammaHLTCombinedIsolationProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTCombinedIsolationProducer.h" export * }
+  module "EgammaHLTEcalIsolationProducersRegional.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTEcalIsolationProducersRegional.h" export * }
+  module "EgammaHLTEcalRecIsolationProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTEcalRecIsolationProducer.h" export * }
+  module "EgammaHLTElectronCombinedIsolationProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTElectronCombinedIsolationProducer.h" export * }
+  module "EgammaHLTElectronDetaDphiProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTElectronDetaDphiProducer.h" export * }
+  module "EgammaHLTElectronTrackIsolationProducers.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTElectronTrackIsolationProducers.h" export * }
+  module "EgammaHLTFilteredObjProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTFilteredObjProducer.h" export * }
+  module "EgammaHLTGsfTrackVarProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTGsfTrackVarProducer.h" export * }
+  module "EgammaHLTHcalIsolationDoubleConeProducers.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTHcalIsolationDoubleConeProducers.h" export * }
+  module "EgammaHLTHcalIsolationProducersRegional.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTHcalIsolationProducersRegional.h" export * }
+  module "EgammaHLTHybridClusterProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTHybridClusterProducer.h" export * }
+  module "EgammaHLTIslandClusterProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTIslandClusterProducer.h" export * }
+  module "EgammaHLTMulti5x5ClusterProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTMulti5x5ClusterProducer.h" export * }
+  module "EgammaHLTNxNClusterProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTNxNClusterProducer.h" export * }
+  module "EgammaHLTPFChargedIsolationProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTPFChargedIsolationProducer.h" export * }
+  module "EgammaHLTPFNeutralIsolationProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTPFNeutralIsolationProducer.h" export * }
+  module "EgammaHLTPFPhotonIsolationProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTPFPhotonIsolationProducer.h" export * }
+  module "EgammaHLTPhotonTrackIsolationProducersRegional.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTPhotonTrackIsolationProducersRegional.h" export * }
+  module "EgammaHLTPixelMatchElectronProducers.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTPixelMatchElectronProducers.h" export * }
+  module "EgammaHLTPixelMatchParamObjects.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTPixelMatchParamObjects.h" export * }
+  module "EgammaHLTR9IDProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTR9IDProducer.h" export * }
+  module "EgammaHLTR9Producer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTR9Producer.h" export * }
+  module "EgammaHLTRecoEcalCandidateProducers.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTRecoEcalCandidateProducers.h" export * }
+  module "EgammaHLTRegionalPixelSeedGeneratorProducers.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTRegionalPixelSeedGeneratorProducers.h" export * }
+  module "EgammaHLTRemoveDuplicatedSC.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTRemoveDuplicatedSC.h" export * }
+  module "EgammaHLTTimeCleanedRechitProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/EgammaHLTTimeCleanedRechitProducer.h" export * }
+  module "HLTCaloObjInRegionsProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/HLTCaloObjInRegionsProducer.h" export * }
+  module "HLTEcalPFClusterIsolationProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/HLTEcalPFClusterIsolationProducer.h" export * }
+  module "HLTHcalPFClusterIsolationProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/HLTHcalPFClusterIsolationProducer.h" export * }
+  module "HLTRecHitInAllL1RegionsProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/HLTRecHitInAllL1RegionsProducer.h" export * }
+  module "HLTRechitInRegionsProducer.h" { header "RecoEgamma/EgammaHLTProducers/interface/HLTRechitInRegionsProducer.h" export * }
+  export *
+}
+

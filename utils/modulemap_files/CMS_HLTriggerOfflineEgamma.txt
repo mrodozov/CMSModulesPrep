@@ -1,0 +1,7 @@
+module CMS_HLTriggerOfflineEgamma {
+  module "EmDQM.h" { header "HLTriggerOffline/Egamma/interface/EmDQM.h" export * }
+  module "EmDQMPostProcessor.h" { header "HLTriggerOffline/Egamma/interface/EmDQMPostProcessor.h" export * }
+  module "EmDQMReco.h" { header "HLTriggerOffline/Egamma/interface/EmDQMReco.h" export * }
+  export *
+}
+

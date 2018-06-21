@@ -1,0 +1,5 @@
+module CMS_L1TriggerOfflineL1Analyzer {
+  module "L1PromptAnalysis.h" { header "L1TriggerOffline/L1Analyzer/interface/L1PromptAnalysis.h" export * }
+  export *
+}
+

@@ -1,0 +1,7 @@
+module CMS_FireworksCandidates {
+  module "CandidateUtils.h" { header "Fireworks/Candidates/interface/CandidateUtils.h" export * }
+  module "FWCandidateTowerSliceSelector.h" { header "Fireworks/Candidates/interface/FWCandidateTowerSliceSelector.h" export * }
+  module "FWLegoCandidate.h" { header "Fireworks/Candidates/interface/FWLegoCandidate.h" export * }
+  export *
+}
+

@@ -1,0 +1,11 @@
+module CMS_JetMETCorrectionsType1MET {
+  module "AddCorrectionsToGenericMET.h" { header "JetMETCorrections/Type1MET/interface/AddCorrectionsToGenericMET.h" export * }
+  module "CaloJetMETcorrInputProducerT.h" { header "JetMETCorrections/Type1MET/interface/CaloJetMETcorrInputProducerT.h" export * }
+  module "CorrectedMETProducerT.h" { header "JetMETCorrections/Type1MET/interface/CorrectedMETProducerT.h" export * }
+  module "JetCleanerForType1METT.h" { header "JetMETCorrections/Type1MET/interface/JetCleanerForType1METT.h" export * }
+  module "JetCorrExtractorT.h" { header "JetMETCorrections/Type1MET/interface/JetCorrExtractorT.h" export * }
+  module "METCorrectionAlgorithm.h" { header "JetMETCorrections/Type1MET/interface/METCorrectionAlgorithm.h" export * }
+  module "PFJetMETcorrInputProducerT.h" { header "JetMETCorrections/Type1MET/interface/PFJetMETcorrInputProducerT.h" export * }
+  export *
+}
+

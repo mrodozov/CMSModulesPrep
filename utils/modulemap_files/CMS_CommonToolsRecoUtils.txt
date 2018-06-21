@@ -1,0 +1,10 @@
+module CMS_CommonToolsRecoUtils {
+  module "PFCand_AssoMap.h" { header "CommonTools/RecoUtils/interface/PFCand_AssoMap.h" export * }
+  module "PFCand_AssoMapAlgos.h" { header "CommonTools/RecoUtils/interface/PFCand_AssoMapAlgos.h" export * }
+  module "PFCand_NoPU_WithAM.h" { header "CommonTools/RecoUtils/interface/PFCand_NoPU_WithAM.h" export * }
+  module "PF_PU_AssoMap.h" { header "CommonTools/RecoUtils/interface/PF_PU_AssoMap.h" export * }
+  module "PF_PU_AssoMapAlgos.h" { header "CommonTools/RecoUtils/interface/PF_PU_AssoMapAlgos.h" export * }
+  module "PF_PU_FirstVertexTracks.h" { header "CommonTools/RecoUtils/interface/PF_PU_FirstVertexTracks.h" export * }
+  export *
+}
+

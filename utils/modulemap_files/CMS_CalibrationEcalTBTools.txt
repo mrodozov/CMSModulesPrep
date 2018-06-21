@@ -1,0 +1,8 @@
+module CMS_CalibrationEcalTBTools {
+  module "TB06Reco.h" { header "Calibration/EcalTBTools/interface/TB06Reco.h" export * }
+  module "TB06RecoH2.h" { header "Calibration/EcalTBTools/interface/TB06RecoH2.h" export * }
+  module "TB06Tree.h" { header "Calibration/EcalTBTools/interface/TB06Tree.h" export * }
+  module "TB06TreeH2.h" { header "Calibration/EcalTBTools/interface/TB06TreeH2.h" export * }
+  export *
+}
+

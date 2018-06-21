@@ -1,0 +1,24 @@
+module CMS_SimRomanPotSimFP420 {
+  module "AmplitudeSegmentFP420.h" { header "SimRomanPot/SimFP420/interface/AmplitudeSegmentFP420.h" export * }
+  module "CDividerFP420.h" { header "SimRomanPot/SimFP420/interface/CDividerFP420.h" export * }
+  module "CDrifterFP420.h" { header "SimRomanPot/SimFP420/interface/CDrifterFP420.h" export * }
+  module "ChargeDividerFP420.h" { header "SimRomanPot/SimFP420/interface/ChargeDividerFP420.h" export * }
+  module "ChargeDrifterFP420.h" { header "SimRomanPot/SimFP420/interface/ChargeDrifterFP420.h" export * }
+  module "DConverterFP420.h" { header "SimRomanPot/SimFP420/interface/DConverterFP420.h" export * }
+  module "DigiConverterFP420.h" { header "SimRomanPot/SimFP420/interface/DigiConverterFP420.h" export * }
+  module "DigitizerFP420.h" { header "SimRomanPot/SimFP420/interface/DigitizerFP420.h" export * }
+  module "EnergySegmentFP420.h" { header "SimRomanPot/SimFP420/interface/EnergySegmentFP420.h" export * }
+  module "FP420DigiMain.h" { header "SimRomanPot/SimFP420/interface/FP420DigiMain.h" export * }
+  module "GNoiseFP420.h" { header "SimRomanPot/SimFP420/interface/GNoiseFP420.h" export * }
+  module "GaussNoiseFP420.h" { header "SimRomanPot/SimFP420/interface/GaussNoiseFP420.h" export * }
+  module "GaussNoiseProducerFP420.h" { header "SimRomanPot/SimFP420/interface/GaussNoiseProducerFP420.h" export * }
+  module "HitDigitizerFP420.h" { header "SimRomanPot/SimFP420/interface/HitDigitizerFP420.h" export * }
+  module "IChargeFP420.h" { header "SimRomanPot/SimFP420/interface/IChargeFP420.h" export * }
+  module "InduceChargeFP420.h" { header "SimRomanPot/SimFP420/interface/InduceChargeFP420.h" export * }
+  module "LandauFP420.h" { header "SimRomanPot/SimFP420/interface/LandauFP420.h" export * }
+  module "PileUpFP420.h" { header "SimRomanPot/SimFP420/interface/PileUpFP420.h" export * }
+  module "ZSuppressFP420.h" { header "SimRomanPot/SimFP420/interface/ZSuppressFP420.h" export * }
+  module "ZeroSuppressFP420.h" { header "SimRomanPot/SimFP420/interface/ZeroSuppressFP420.h" export * }
+  export *
+}
+

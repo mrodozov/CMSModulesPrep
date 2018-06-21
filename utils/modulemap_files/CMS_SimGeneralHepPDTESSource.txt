@@ -1,0 +1,5 @@
+module CMS_SimGeneralHepPDTESSource {
+  module "HepPDTESSource.h" { header "SimGeneral/HepPDTESSource/interface/HepPDTESSource.h" export * }
+  export *
+}
+

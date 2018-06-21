@@ -1,0 +1,6 @@
+module CMS_SimG4CMSCherenkovAnalysis {
+  module "DreamSD.h" { header "SimG4CMS/CherenkovAnalysis/interface/DreamSD.h" export * }
+  module "PMTResponse.h" { header "SimG4CMS/CherenkovAnalysis/interface/PMTResponse.h" export * }
+  export *
+}
+

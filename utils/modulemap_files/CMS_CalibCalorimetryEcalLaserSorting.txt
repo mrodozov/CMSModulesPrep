@@ -1,0 +1,8 @@
+module CMS_CalibCalorimetryEcalLaserSorting {
+  module "LaserSorter.h" { header "CalibCalorimetry/EcalLaserSorting/interface/LaserSorter.h" export * }
+  module "LmfSource.h" { header "CalibCalorimetry/EcalLaserSorting/interface/LmfSource.h" export * }
+  module "WatcherSource.h" { header "CalibCalorimetry/EcalLaserSorting/interface/WatcherSource.h" export * }
+  module "WatcherStreamFileReader.h" { header "CalibCalorimetry/EcalLaserSorting/interface/WatcherStreamFileReader.h" export * }
+  export *
+}
+

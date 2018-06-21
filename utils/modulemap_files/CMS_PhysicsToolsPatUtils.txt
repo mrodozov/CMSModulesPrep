@@ -1,0 +1,41 @@
+module CMS_PhysicsToolsPatUtils {
+  module "BoostedJetMerger.h" { header "PhysicsTools/PatUtils/interface/BoostedJetMerger.h" export * }
+  module "CaloIsolationEnergy.h" { header "PhysicsTools/PatUtils/interface/CaloIsolationEnergy.h" export * }
+  module "CaloJetSelector.h" { header "PhysicsTools/PatUtils/interface/CaloJetSelector.h" export * }
+  module "DuplicatedElectronRemover.h" { header "PhysicsTools/PatUtils/interface/DuplicatedElectronRemover.h" export * }
+  module "DuplicatedPhotonRemover.h" { header "PhysicsTools/PatUtils/interface/DuplicatedPhotonRemover.h" export * }
+  module "ElectronSelector.h" { header "PhysicsTools/PatUtils/interface/ElectronSelector.h" export * }
+  module "ElectronVPlusJetsIDSelectionFunctor.h" { header "PhysicsTools/PatUtils/interface/ElectronVPlusJetsIDSelectionFunctor.h" export * }
+  module "EventHypothesisTools.h" { header "PhysicsTools/PatUtils/interface/EventHypothesisTools.h" export * }
+  module "GenericDuplicateRemover.h" { header "PhysicsTools/PatUtils/interface/GenericDuplicateRemover.h" export * }
+  module "GenericOverlapFinder.h" { header "PhysicsTools/PatUtils/interface/GenericOverlapFinder.h" export * }
+  module "JetIDSelectionFunctor.h" { header "PhysicsTools/PatUtils/interface/JetIDSelectionFunctor.h" export * }
+  module "JetSelection.h" { header "PhysicsTools/PatUtils/interface/JetSelection.h" export * }
+  module "JetSelector.h" { header "PhysicsTools/PatUtils/interface/JetSelector.h" export * }
+  module "JetSelector.icc" { textual header "PhysicsTools/PatUtils/interface/JetSelector.icc" export * }
+  module "JetSubstructurePacker.h" { header "PhysicsTools/PatUtils/interface/JetSubstructurePacker.h" export * }
+  module "LeptonJetIsolationAngle.h" { header "PhysicsTools/PatUtils/interface/LeptonJetIsolationAngle.h" export * }
+  module "LeptonVertexSignificance.h" { header "PhysicsTools/PatUtils/interface/LeptonVertexSignificance.h" export * }
+  module "MiniIsolation.h" { header "PhysicsTools/PatUtils/interface/MiniIsolation.h" export * }
+  module "MuonSelector.h" { header "PhysicsTools/PatUtils/interface/MuonSelector.h" export * }
+  module "MuonVPlusJetsIDSelectionFunctor.h" { header "PhysicsTools/PatUtils/interface/MuonVPlusJetsIDSelectionFunctor.h" export * }
+  module "ObjectResolutionCalc.h" { header "PhysicsTools/PatUtils/interface/ObjectResolutionCalc.h" export * }
+  module "PATDiObjectProxy.h" { header "PhysicsTools/PatUtils/interface/PATDiObjectProxy.h" export * }
+  module "PATJetCorrExtractor.h" { header "PhysicsTools/PatUtils/interface/PATJetCorrExtractor.h" export * }
+  module "ParticleCode.h" { header "PhysicsTools/PatUtils/interface/ParticleCode.h" export * }
+  module "PatSelectorByFlags.h" { header "PhysicsTools/PatUtils/interface/PatSelectorByFlags.h" export * }
+  module "RawJetExtractorT.h" { header "PhysicsTools/PatUtils/interface/RawJetExtractorT.h" export * }
+  module "RazorComputer.h" { header "PhysicsTools/PatUtils/interface/RazorComputer.h" export * }
+  module "RefHelper.h" { header "PhysicsTools/PatUtils/interface/RefHelper.h" export * }
+  module "ShiftedJetProducerT.h" { header "PhysicsTools/PatUtils/interface/ShiftedJetProducerT.h" export * }
+  module "ShiftedParticleProducerT.h" { header "PhysicsTools/PatUtils/interface/ShiftedParticleProducerT.h" export * }
+  module "SimpleJetTrackAssociator.h" { header "PhysicsTools/PatUtils/interface/SimpleJetTrackAssociator.h" export * }
+  module "SmearedJetProducerT.h" { header "PhysicsTools/PatUtils/interface/SmearedJetProducerT.h" export * }
+  module "StringParserTools.h" { header "PhysicsTools/PatUtils/interface/StringParserTools.h" export * }
+  module "TrackerIsolationPt.h" { header "PhysicsTools/PatUtils/interface/TrackerIsolationPt.h" export * }
+  module "TriggerHelper.h" { header "PhysicsTools/PatUtils/interface/TriggerHelper.h" export * }
+  module "VertexAssociationSelector.h" { header "PhysicsTools/PatUtils/interface/VertexAssociationSelector.h" export * }
+  module "bJetSelector.h" { header "PhysicsTools/PatUtils/interface/bJetSelector.h" export * }
+  export *
+}
+

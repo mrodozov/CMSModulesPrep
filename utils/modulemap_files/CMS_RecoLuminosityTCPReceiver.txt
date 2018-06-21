@@ -1,0 +1,7 @@
+module CMS_RecoLuminosityTCPReceiver {
+  module "LumiStructures.hh" { header "RecoLuminosity/TCPReceiver/interface/LumiStructures.hh" export * }
+  module "TCPReceiver.h" { header "RecoLuminosity/TCPReceiver/interface/TCPReceiver.h" export * }
+  module "TimeStamp.h" { header "RecoLuminosity/TCPReceiver/interface/TimeStamp.h" export * }
+  export *
+}
+

@@ -1,0 +1,9 @@
+module CMS_DataFormatsCastorReco {
+  module "CastorCell.h" { header "DataFormats/CastorReco/interface/CastorCell.h" export * }
+  module "CastorCluster.h" { header "DataFormats/CastorReco/interface/CastorCluster.h" export * }
+  module "CastorEgamma.h" { header "DataFormats/CastorReco/interface/CastorEgamma.h" export * }
+  module "CastorJet.h" { header "DataFormats/CastorReco/interface/CastorJet.h" export * }
+  module "CastorTower.h" { header "DataFormats/CastorReco/interface/CastorTower.h" export * }
+  export *
+}
+

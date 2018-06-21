@@ -1,0 +1,16 @@
+module CMS_RecoMuonMuonIsolation {
+  module "Cuts.h" { header "RecoMuon/MuonIsolation/interface/Cuts.h" export * }
+  module "CutsConeSizeFunction.h" { header "RecoMuon/MuonIsolation/interface/CutsConeSizeFunction.h" export * }
+  module "IsolatorByDeposit.h" { header "RecoMuon/MuonIsolation/interface/IsolatorByDeposit.h" export * }
+  module "IsolatorByDepositCount.h" { header "RecoMuon/MuonIsolation/interface/IsolatorByDepositCount.h" export * }
+  module "IsolatorByNominalEfficiency.h" { header "RecoMuon/MuonIsolation/interface/IsolatorByNominalEfficiency.h" export * }
+  module "MuIsoBaseAlgorithm.h" { header "RecoMuon/MuonIsolation/interface/MuIsoBaseAlgorithm.h" export * }
+  module "MuIsoBaseIsolator.h" { header "RecoMuon/MuonIsolation/interface/MuIsoBaseIsolator.h" export * }
+  module "MuIsoByTrackPt.h" { header "RecoMuon/MuonIsolation/interface/MuIsoByTrackPt.h" export * }
+  module "MuPFIsoHelper.h" { header "RecoMuon/MuonIsolation/interface/MuPFIsoHelper.h" export * }
+  module "MuonIsolatorFactory.h" { header "RecoMuon/MuonIsolation/interface/MuonIsolatorFactory.h" export * }
+  module "Range.h" { header "RecoMuon/MuonIsolation/interface/Range.h" export * }
+  module "SimpleCutsIsolator.h" { header "RecoMuon/MuonIsolation/interface/SimpleCutsIsolator.h" export * }
+  export *
+}
+

@@ -1,0 +1,5 @@
+module CMS_MagneticFieldRecords {
+  module "IdealMagneticFieldRecord.h" { header "MagneticField/Records/interface/IdealMagneticFieldRecord.h" export * }
+  export *
+}
+

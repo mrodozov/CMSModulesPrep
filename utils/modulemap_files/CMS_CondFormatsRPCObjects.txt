@@ -1,0 +1,51 @@
+module CMS_CondFormatsRPCObjects {
+  module "ChamberLocationSpec.h" { header "CondFormats/RPCObjects/interface/ChamberLocationSpec.h" export * }
+  module "ChamberStripSpec.h" { header "CondFormats/RPCObjects/interface/ChamberStripSpec.h" export * }
+  module "DBSpecToDetUnit.h" { header "CondFormats/RPCObjects/interface/DBSpecToDetUnit.h" export * }
+  module "DccSpec.h" { header "CondFormats/RPCObjects/interface/DccSpec.h" export * }
+  module "FebConnectorSpec.h" { header "CondFormats/RPCObjects/interface/FebConnectorSpec.h" export * }
+  module "FebLocationSpec.h" { header "CondFormats/RPCObjects/interface/FebLocationSpec.h" export * }
+  module "L1RPCConeBuilder.h" { header "CondFormats/RPCObjects/interface/L1RPCConeBuilder.h" export * }
+  module "L1RPCHwConfig.h" { header "CondFormats/RPCObjects/interface/L1RPCHwConfig.h" export * }
+  module "LinkBoardElectronicIndex.h" { header "CondFormats/RPCObjects/interface/LinkBoardElectronicIndex.h" export * }
+  module "LinkBoardPackedStrip.h" { header "CondFormats/RPCObjects/interface/LinkBoardPackedStrip.h" export * }
+  module "LinkBoardSpec.h" { header "CondFormats/RPCObjects/interface/LinkBoardSpec.h" export * }
+  module "LinkConnSpec.h" { header "CondFormats/RPCObjects/interface/LinkConnSpec.h" export * }
+  module "RBCBoardSpecs.h" { header "CondFormats/RPCObjects/interface/RBCBoardSpecs.h" export * }
+  module "RPCAMCLink.h" { header "CondFormats/RPCObjects/interface/RPCAMCLink.h" export * }
+  module "RPCAMCLink.icc" { textual header "CondFormats/RPCObjects/interface/RPCAMCLink.icc" export * }
+  module "RPCAMCLinkMap.h" { header "CondFormats/RPCObjects/interface/RPCAMCLinkMap.h" export * }
+  module "RPCClusterSize.h" { header "CondFormats/RPCObjects/interface/RPCClusterSize.h" export * }
+  module "RPCDCCLink.h" { header "CondFormats/RPCObjects/interface/RPCDCCLink.h" export * }
+  module "RPCDCCLink.icc" { textual header "CondFormats/RPCObjects/interface/RPCDCCLink.icc" export * }
+  module "RPCDCCLinkMap.h" { header "CondFormats/RPCObjects/interface/RPCDCCLinkMap.h" export * }
+  module "RPCDQMObject.h" { header "CondFormats/RPCObjects/interface/RPCDQMObject.h" export * }
+  module "RPCDeadStrips.h" { header "CondFormats/RPCObjects/interface/RPCDeadStrips.h" export * }
+  module "RPCEMap.h" { header "CondFormats/RPCObjects/interface/RPCEMap.h" export * }
+  module "RPCFebConnector.h" { header "CondFormats/RPCObjects/interface/RPCFebConnector.h" export * }
+  module "RPCFebConnector.icc" { textual header "CondFormats/RPCObjects/interface/RPCFebConnector.icc" export * }
+  module "RPCInverseAMCLinkMap.h" { header "CondFormats/RPCObjects/interface/RPCInverseAMCLinkMap.h" export * }
+  module "RPCInverseLBLinkMap.h" { header "CondFormats/RPCObjects/interface/RPCInverseLBLinkMap.h" export * }
+  module "RPCLBLink.h" { header "CondFormats/RPCObjects/interface/RPCLBLink.h" export * }
+  module "RPCLBLink.icc" { textual header "CondFormats/RPCObjects/interface/RPCLBLink.icc" export * }
+  module "RPCLBLinkMap.h" { header "CondFormats/RPCObjects/interface/RPCLBLinkMap.h" export * }
+  module "RPCMaskedStrips.h" { header "CondFormats/RPCObjects/interface/RPCMaskedStrips.h" export * }
+  module "RPCObAlignment.h" { header "CondFormats/RPCObjects/interface/RPCObAlignment.h" export * }
+  module "RPCObCond.h" { header "CondFormats/RPCObjects/interface/RPCObCond.h" export * }
+  module "RPCObFebAssmap.h" { header "CondFormats/RPCObjects/interface/RPCObFebAssmap.h" export * }
+  module "RPCObFebmap.h" { header "CondFormats/RPCObjects/interface/RPCObFebmap.h" export * }
+  module "RPCObGas.h" { header "CondFormats/RPCObjects/interface/RPCObGas.h" export * }
+  module "RPCObGasHum.h" { header "CondFormats/RPCObjects/interface/RPCObGasHum.h" export * }
+  module "RPCObGasMix.h" { header "CondFormats/RPCObjects/interface/RPCObGasMix.h" export * }
+  module "RPCObGasmap.h" { header "CondFormats/RPCObjects/interface/RPCObGasmap.h" export * }
+  module "RPCObPVSSmap.h" { header "CondFormats/RPCObjects/interface/RPCObPVSSmap.h" export * }
+  module "RPCObUXC.h" { header "CondFormats/RPCObjects/interface/RPCObUXC.h" export * }
+  module "RPCReadOutMapping.h" { header "CondFormats/RPCObjects/interface/RPCReadOutMapping.h" export * }
+  module "RPCRunIOV.h" { header "CondFormats/RPCObjects/interface/RPCRunIOV.h" export * }
+  module "RPCStripNoises.h" { header "CondFormats/RPCObjects/interface/RPCStripNoises.h" export * }
+  module "RPCTechTriggerConfig.h" { header "CondFormats/RPCObjects/interface/RPCTechTriggerConfig.h" export * }
+  module "TTUBoardSpecs.h" { header "CondFormats/RPCObjects/interface/TTUBoardSpecs.h" export * }
+  module "TriggerBoardSpec.h" { header "CondFormats/RPCObjects/interface/TriggerBoardSpec.h" export * }
+  export *
+}
+

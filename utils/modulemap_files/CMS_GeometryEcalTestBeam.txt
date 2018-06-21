@@ -1,0 +1,7 @@
+module CMS_GeometryEcalTestBeam {
+  module "EcalHodoscopeNumberingScheme.h" { header "Geometry/EcalTestBeam/interface/EcalHodoscopeNumberingScheme.h" export * }
+  module "EcalTBCrystalMap.h" { header "Geometry/EcalTestBeam/interface/EcalTBCrystalMap.h" export * }
+  module "EcalTBHodoscopeGeometry.h" { header "Geometry/EcalTestBeam/interface/EcalTBHodoscopeGeometry.h" export * }
+  export *
+}
+

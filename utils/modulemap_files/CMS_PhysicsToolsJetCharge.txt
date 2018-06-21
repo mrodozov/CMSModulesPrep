@@ -1,0 +1,5 @@
+module CMS_PhysicsToolsJetCharge {
+  module "JetCharge.h" { header "PhysicsTools/JetCharge/interface/JetCharge.h" export * }
+  export *
+}
+

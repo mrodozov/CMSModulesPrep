@@ -1,0 +1,12 @@
+module CMS_RecoLocalTrackerSiStripRecHitConverter {
+  module "CrosstalkInversion.h" { header "RecoLocalTracker/SiStripRecHitConverter/interface/CrosstalkInversion.h" export * }
+  module "ErrorPropogationTypes.h" { header "RecoLocalTracker/SiStripRecHitConverter/interface/ErrorPropogationTypes.h" export * }
+  module "SiStripRecHitConverterAlgorithm.h" { header "RecoLocalTracker/SiStripRecHitConverter/interface/SiStripRecHitConverterAlgorithm.h" export * }
+  module "SiStripRecHitMatcher.h" { header "RecoLocalTracker/SiStripRecHitConverter/interface/SiStripRecHitMatcher.h" export * }
+  module "StripCPE.h" { header "RecoLocalTracker/SiStripRecHitConverter/interface/StripCPE.h" export * }
+  module "StripCPEfromTrackAngle.h" { header "RecoLocalTracker/SiStripRecHitConverter/interface/StripCPEfromTrackAngle.h" export * }
+  module "StripCPEgeometric.h" { header "RecoLocalTracker/SiStripRecHitConverter/interface/StripCPEgeometric.h" export * }
+  module "VVIObj.h" { header "RecoLocalTracker/SiStripRecHitConverter/interface/VVIObj.h" export * }
+  export *
+}
+

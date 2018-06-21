@@ -1,0 +1,10 @@
+module CMS_TrackingToolsTrackRefitter {
+  module "RefitDirection.h" { header "TrackingTools/TrackRefitter/interface/RefitDirection.h" export * }
+  module "SeedTransformer.h" { header "TrackingTools/TrackRefitter/interface/SeedTransformer.h" export * }
+  module "TrackTransformer.h" { header "TrackingTools/TrackRefitter/interface/TrackTransformer.h" export * }
+  module "TrackTransformerBase.h" { header "TrackingTools/TrackRefitter/interface/TrackTransformerBase.h" export * }
+  module "TrackTransformerForCosmicMuons.h" { header "TrackingTools/TrackRefitter/interface/TrackTransformerForCosmicMuons.h" export * }
+  module "TrackTransformerForGlobalCosmicMuons.h" { header "TrackingTools/TrackRefitter/interface/TrackTransformerForGlobalCosmicMuons.h" export * }
+  export *
+}
+

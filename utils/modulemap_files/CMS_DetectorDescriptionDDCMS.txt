@@ -1,0 +1,10 @@
+module CMS_DetectorDescriptionDDCMS {
+  module "DDAlgoArguments.h" { header "DetectorDescription/DDCMS/interface/DDAlgoArguments.h" export * }
+  module "DDNamespace.h" { header "DetectorDescription/DDCMS/interface/DDNamespace.h" export * }
+  module "DDParsingContext.h" { header "DetectorDescription/DDCMS/interface/DDParsingContext.h" export * }
+  module "DDSingleton.h" { header "DetectorDescription/DDCMS/interface/DDSingleton.h" export * }
+  module "DDUnits.h" { header "DetectorDescription/DDCMS/interface/DDUnits.h" export * }
+  module "DDXMLTags.h" { header "DetectorDescription/DDCMS/interface/DDXMLTags.h" export * }
+  export *
+}
+

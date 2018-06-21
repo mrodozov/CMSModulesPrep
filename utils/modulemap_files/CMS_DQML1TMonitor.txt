@@ -1,0 +1,48 @@
+module CMS_DQML1TMonitor {
+  module "BxTiming.h" { header "DQM/L1TMonitor/interface/BxTiming.h" export * }
+  module "L1ExtraDQM.h" { header "DQM/L1TMonitor/interface/L1ExtraDQM.h" export * }
+  module "L1GtHwValidation.h" { header "DQM/L1TMonitor/interface/L1GtHwValidation.h" export * }
+  module "L1TBPTX.h" { header "DQM/L1TMonitor/interface/L1TBPTX.h" export * }
+  module "L1TCSCTF.h" { header "DQM/L1TMonitor/interface/L1TCSCTF.h" export * }
+  module "L1TCSCTPG.h" { header "DQM/L1TMonitor/interface/L1TCSCTPG.h" export * }
+  module "L1TCompare.h" { header "DQM/L1TMonitor/interface/L1TCompare.h" export * }
+  module "L1TDEMON.h" { header "DQM/L1TMonitor/interface/L1TDEMON.h" export * }
+  module "L1TDTTF.h" { header "DQM/L1TMonitor/interface/L1TDTTF.h" export * }
+  module "L1TDTTPG.h" { header "DQM/L1TMonitor/interface/L1TDTTPG.h" export * }
+  module "L1TFED.h" { header "DQM/L1TMonitor/interface/L1TFED.h" export * }
+  module "L1TGCT.h" { header "DQM/L1TMonitor/interface/L1TGCT.h" export * }
+  module "L1TGMT.h" { header "DQM/L1TMonitor/interface/L1TGMT.h" export * }
+  module "L1TGT.h" { header "DQM/L1TMonitor/interface/L1TGT.h" export * }
+  module "L1THIonImp.h" { header "DQM/L1TMonitor/interface/L1THIonImp.h" export * }
+  module "L1TMP7ZeroSupp.h" { header "DQM/L1TMonitor/interface/L1TMP7ZeroSupp.h" export * }
+  module "L1TMenuHelper.h" { header "DQM/L1TMonitor/interface/L1TMenuHelper.h" export * }
+  module "L1TOMDSHelper.h" { header "DQM/L1TMonitor/interface/L1TOMDSHelper.h" export * }
+  module "L1TObjectsTiming.h" { header "DQM/L1TMonitor/interface/L1TObjectsTiming.h" export * }
+  module "L1TPUM.h" { header "DQM/L1TMonitor/interface/L1TPUM.h" export * }
+  module "L1TRCT.h" { header "DQM/L1TMonitor/interface/L1TRCT.h" export * }
+  module "L1TRPCTF.h" { header "DQM/L1TMonitor/interface/L1TRPCTF.h" export * }
+  module "L1TRPCTPG.h" { header "DQM/L1TMonitor/interface/L1TRPCTPG.h" export * }
+  module "L1TRate.h" { header "DQM/L1TMonitor/interface/L1TRate.h" export * }
+  module "L1TStage2BMTF.h" { header "DQM/L1TMonitor/interface/L1TStage2BMTF.h" export * }
+  module "L1TStage2CaloLayer1.h" { header "DQM/L1TMonitor/interface/L1TStage2CaloLayer1.h" export * }
+  module "L1TStage2CaloLayer2.h" { header "DQM/L1TMonitor/interface/L1TStage2CaloLayer2.h" export * }
+  module "L1TStage2EMTF.h" { header "DQM/L1TMonitor/interface/L1TStage2EMTF.h" export * }
+  module "L1TStage2MuonComp.h" { header "DQM/L1TMonitor/interface/L1TStage2MuonComp.h" export * }
+  module "L1TStage2OMTF.h" { header "DQM/L1TMonitor/interface/L1TStage2OMTF.h" export * }
+  module "L1TStage2RegionalMuonCandComp.h" { header "DQM/L1TMonitor/interface/L1TStage2RegionalMuonCandComp.h" export * }
+  module "L1TStage2uGMT.h" { header "DQM/L1TMonitor/interface/L1TStage2uGMT.h" export * }
+  module "L1TStage2uGMTMuon.h" { header "DQM/L1TMonitor/interface/L1TStage2uGMTMuon.h" export * }
+  module "L1TStage2uGT.h" { header "DQM/L1TMonitor/interface/L1TStage2uGT.h" export * }
+  module "L1TStage2uGTCaloLayer2Comp.h" { header "DQM/L1TMonitor/interface/L1TStage2uGTCaloLayer2Comp.h" export * }
+  module "L1TStage2uGTTiming.h" { header "DQM/L1TMonitor/interface/L1TStage2uGTTiming.h" export * }
+  module "L1TSync.h" { header "DQM/L1TMonitor/interface/L1TSync.h" export * }
+  module "L1TdeCSCTF.h" { header "DQM/L1TMonitor/interface/L1TdeCSCTF.h" export * }
+  module "L1TdeGCT.h" { header "DQM/L1TMonitor/interface/L1TdeGCT.h" export * }
+  module "L1TdeRCT.h" { header "DQM/L1TMonitor/interface/L1TdeRCT.h" export * }
+  module "L1TdeStage2CaloLayer1.h" { header "DQM/L1TMonitor/interface/L1TdeStage2CaloLayer1.h" export * }
+  module "L1TdeStage2CaloLayer2.h" { header "DQM/L1TMonitor/interface/L1TdeStage2CaloLayer2.h" export * }
+  module "L1TdeStage2EMTF.h" { header "DQM/L1TMonitor/interface/L1TdeStage2EMTF.h" export * }
+  module "L1TdeStage2uGT.h" { header "DQM/L1TMonitor/interface/L1TdeStage2uGT.h" export * }
+  export *
+}
+

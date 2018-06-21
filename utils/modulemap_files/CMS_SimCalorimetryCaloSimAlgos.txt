@@ -1,0 +1,20 @@
+module CMS_SimCalorimetryCaloSimAlgos {
+  module "CaloCachedShapeIntegrator.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloCachedShapeIntegrator.h" export * }
+  module "CaloDigiCollectionSorter.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloDigiCollectionSorter.h" export * }
+  module "CaloHitAnalyzer.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloHitAnalyzer.h" export * }
+  module "CaloHitResponse.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloHitResponse.h" export * }
+  module "CaloShapeIntegrator.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloShapeIntegrator.h" export * }
+  module "CaloShapes.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloShapes.h" export * }
+  module "CaloSimParameters.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloSimParameters.h" export * }
+  module "CaloTDigitizer.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloTDigitizer.h" export * }
+  module "CaloVHitCorrection.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloVHitCorrection.h" export * }
+  module "CaloVHitFilter.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloVHitFilter.h" export * }
+  module "CaloVNoiseSignalGenerator.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloVNoiseSignalGenerator.h" export * }
+  module "CaloVNoisifier.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloVNoisifier.h" export * }
+  module "CaloVPECorrection.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloVPECorrection.h" export * }
+  module "CaloVShape.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloVShape.h" export * }
+  module "CaloVSimParameterMap.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloVSimParameterMap.h" export * }
+  module "CaloValidationStatistics.h" { header "SimCalorimetry/CaloSimAlgos/interface/CaloValidationStatistics.h" export * }
+  export *
+}
+

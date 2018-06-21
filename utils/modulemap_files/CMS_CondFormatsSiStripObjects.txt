@@ -1,0 +1,37 @@
+module CMS_CondFormatsSiStripObjects {
+  module "ApvLatencyAnalysis.h" { header "CondFormats/SiStripObjects/interface/ApvLatencyAnalysis.h" export * }
+  module "ApvTimingAnalysis.h" { header "CondFormats/SiStripObjects/interface/ApvTimingAnalysis.h" export * }
+  module "CalibrationAnalysis.h" { header "CondFormats/SiStripObjects/interface/CalibrationAnalysis.h" export * }
+  module "CommissioningAnalysis.h" { header "CondFormats/SiStripObjects/interface/CommissioningAnalysis.h" export * }
+  module "DaqScopeModeAnalysis.h" { header "CondFormats/SiStripObjects/interface/DaqScopeModeAnalysis.h" export * }
+  module "FastFedCablingAnalysis.h" { header "CondFormats/SiStripObjects/interface/FastFedCablingAnalysis.h" export * }
+  module "FedCablingAnalysis.h" { header "CondFormats/SiStripObjects/interface/FedCablingAnalysis.h" export * }
+  module "FedChannelConnection.h" { header "CondFormats/SiStripObjects/interface/FedChannelConnection.h" export * }
+  module "FedTimingAnalysis.h" { header "CondFormats/SiStripObjects/interface/FedTimingAnalysis.h" export * }
+  module "NoiseAnalysis.h" { header "CondFormats/SiStripObjects/interface/NoiseAnalysis.h" export * }
+  module "OptoScanAnalysis.h" { header "CondFormats/SiStripObjects/interface/OptoScanAnalysis.h" export * }
+  module "PedestalsAnalysis.h" { header "CondFormats/SiStripObjects/interface/PedestalsAnalysis.h" export * }
+  module "PedsFullNoiseAnalysis.h" { header "CondFormats/SiStripObjects/interface/PedsFullNoiseAnalysis.h" export * }
+  module "PedsOnlyAnalysis.h" { header "CondFormats/SiStripObjects/interface/PedsOnlyAnalysis.h" export * }
+  module "Phase2TrackerCabling.h" { header "CondFormats/SiStripObjects/interface/Phase2TrackerCabling.h" export * }
+  module "Phase2TrackerModule.h" { header "CondFormats/SiStripObjects/interface/Phase2TrackerModule.h" export * }
+  module "SamplingAnalysis.h" { header "CondFormats/SiStripObjects/interface/SamplingAnalysis.h" export * }
+  module "SiStripApvGain.h" { header "CondFormats/SiStripObjects/interface/SiStripApvGain.h" export * }
+  module "SiStripBackPlaneCorrection.h" { header "CondFormats/SiStripObjects/interface/SiStripBackPlaneCorrection.h" export * }
+  module "SiStripBadStrip.h" { header "CondFormats/SiStripObjects/interface/SiStripBadStrip.h" export * }
+  module "SiStripBaseDelay.h" { header "CondFormats/SiStripObjects/interface/SiStripBaseDelay.h" export * }
+  module "SiStripConfObject.h" { header "CondFormats/SiStripObjects/interface/SiStripConfObject.h" export * }
+  module "SiStripDetSummary.h" { header "CondFormats/SiStripObjects/interface/SiStripDetSummary.h" export * }
+  module "SiStripDetVOff.h" { header "CondFormats/SiStripObjects/interface/SiStripDetVOff.h" export * }
+  module "SiStripFedCabling.h" { header "CondFormats/SiStripObjects/interface/SiStripFedCabling.h" export * }
+  module "SiStripLatency.h" { header "CondFormats/SiStripObjects/interface/SiStripLatency.h" export * }
+  module "SiStripLorentzAngle.h" { header "CondFormats/SiStripObjects/interface/SiStripLorentzAngle.h" export * }
+  module "SiStripNoises.h" { header "CondFormats/SiStripObjects/interface/SiStripNoises.h" export * }
+  module "SiStripPedestals.h" { header "CondFormats/SiStripObjects/interface/SiStripPedestals.h" export * }
+  module "SiStripRunSummary.h" { header "CondFormats/SiStripObjects/interface/SiStripRunSummary.h" export * }
+  module "SiStripSummary.h" { header "CondFormats/SiStripObjects/interface/SiStripSummary.h" export * }
+  module "SiStripThreshold.h" { header "CondFormats/SiStripObjects/interface/SiStripThreshold.h" export * }
+  module "VpspScanAnalysis.h" { header "CondFormats/SiStripObjects/interface/VpspScanAnalysis.h" export * }
+  export *
+}
+

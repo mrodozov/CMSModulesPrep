@@ -1,0 +1,27 @@
+module CMS_RecoEgammaElectronIdentification {
+  module "ClassBasedElectronID.h" { header "RecoEgamma/ElectronIdentification/interface/ClassBasedElectronID.h" export * }
+  module "CutBasedElectronID.h" { header "RecoEgamma/ElectronIdentification/interface/CutBasedElectronID.h" export * }
+  module "EBEECutValues.h" { header "RecoEgamma/ElectronIdentification/interface/EBEECutValues.h" export * }
+  module "ElectronIDAlgo.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronIDAlgo.h" export * }
+  module "ElectronLikelihood.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronLikelihood.h" export * }
+  module "ElectronMVAEstimator.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronMVAEstimator.h" export * }
+  module "ElectronMVAEstimatorRun2Fall17.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronMVAEstimatorRun2Fall17.h" export * }
+  module "ElectronMVAEstimatorRun2Fall17Iso.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronMVAEstimatorRun2Fall17Iso.h" export * }
+  module "ElectronMVAEstimatorRun2Fall17NoIso.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronMVAEstimatorRun2Fall17NoIso.h" export * }
+  module "ElectronMVAEstimatorRun2Phys14NonTrig.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronMVAEstimatorRun2Phys14NonTrig.h" export * }
+  module "ElectronMVAEstimatorRun2Spring15NonTrig.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronMVAEstimatorRun2Spring15NonTrig.h" export * }
+  module "ElectronMVAEstimatorRun2Spring15Trig.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronMVAEstimatorRun2Spring15Trig.h" export * }
+  module "ElectronMVAEstimatorRun2Spring16GeneralPurpose.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronMVAEstimatorRun2Spring16GeneralPurpose.h" export * }
+  module "ElectronMVAEstimatorRun2Spring16HZZ.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronMVAEstimatorRun2Spring16HZZ.h" export * }
+  module "ElectronNeuralNet.h" { header "RecoEgamma/ElectronIdentification/interface/ElectronNeuralNet.h" export * }
+  module "LikelihoodPdf.h" { header "RecoEgamma/ElectronIdentification/interface/LikelihoodPdf.h" export * }
+  module "LikelihoodPdfProduct.h" { header "RecoEgamma/ElectronIdentification/interface/LikelihoodPdfProduct.h" export * }
+  module "LikelihoodSpecies.h" { header "RecoEgamma/ElectronIdentification/interface/LikelihoodSpecies.h" export * }
+  module "LikelihoodSwitches.h" { header "RecoEgamma/ElectronIdentification/interface/LikelihoodSwitches.h" export * }
+  module "PTDRElectronID.h" { header "RecoEgamma/ElectronIdentification/interface/PTDRElectronID.h" export * }
+  module "SoftElectronMVAEstimator.h" { header "RecoEgamma/ElectronIdentification/interface/SoftElectronMVAEstimator.h" export * }
+  module "VersionedGsfElectronSelector.h" { header "RecoEgamma/ElectronIdentification/interface/VersionedGsfElectronSelector.h" export * }
+  module "VersionedPatElectronSelector.h" { header "RecoEgamma/ElectronIdentification/interface/VersionedPatElectronSelector.h" export * }
+  export *
+}
+

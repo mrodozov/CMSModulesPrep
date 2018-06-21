@@ -1,0 +1,5 @@
+module CMS_FastSimulationParticleDecay {
+  module "PythiaDecays.h" { header "FastSimulation/ParticleDecay/interface/PythiaDecays.h" export * }
+  export *
+}
+

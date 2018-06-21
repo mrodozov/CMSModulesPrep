@@ -1,0 +1,7 @@
+module CMS_RecoHIHiEvtPlaneAlgos {
+  module "HiEvtPlaneFlatten.h" { header "RecoHI/HiEvtPlaneAlgos/interface/HiEvtPlaneFlatten.h" export * }
+  module "HiEvtPlaneList.h" { header "RecoHI/HiEvtPlaneAlgos/interface/HiEvtPlaneList.h" export * }
+  module "LoadEPDB.h" { header "RecoHI/HiEvtPlaneAlgos/interface/LoadEPDB.h" export * }
+  export *
+}
+

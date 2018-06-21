@@ -1,0 +1,12 @@
+module CMS_TrackingToolsTransientTrack {
+  module "BasicTransientTrack.h" { header "TrackingTools/TransientTrack/interface/BasicTransientTrack.h" export * }
+  module "CandidatePtrTransientTrack.h" { header "TrackingTools/TransientTrack/interface/CandidatePtrTransientTrack.h" export * }
+  module "GsfTransientTrack.h" { header "TrackingTools/TransientTrack/interface/GsfTransientTrack.h" export * }
+  module "TrackTransientTrack.h" { header "TrackingTools/TransientTrack/interface/TrackTransientTrack.h" export * }
+  module "TransientTrack.h" { header "TrackingTools/TransientTrack/interface/TransientTrack.h" export * }
+  module "TransientTrackBuilder.h" { header "TrackingTools/TransientTrack/interface/TransientTrackBuilder.h" export * }
+  module "TransientTrackFromFTS.h" { header "TrackingTools/TransientTrack/interface/TransientTrackFromFTS.h" export * }
+  module "TransientTrackFromFTSFactory.h" { header "TrackingTools/TransientTrack/interface/TransientTrackFromFTSFactory.h" export * }
+  export *
+}
+

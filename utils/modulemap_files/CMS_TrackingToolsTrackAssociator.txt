@@ -1,0 +1,13 @@
+module CMS_TrackingToolsTrackAssociator {
+  module "CachedTrajectory.h" { header "TrackingTools/TrackAssociator/interface/CachedTrajectory.h" export * }
+  module "DetIdAssociator.h" { header "TrackingTools/TrackAssociator/interface/DetIdAssociator.h" export * }
+  module "DetIdInfo.h" { header "TrackingTools/TrackAssociator/interface/DetIdInfo.h" export * }
+  module "FiducialVolume.h" { header "TrackingTools/TrackAssociator/interface/FiducialVolume.h" export * }
+  module "TAMuonChamberMatch.h" { header "TrackingTools/TrackAssociator/interface/TAMuonChamberMatch.h" export * }
+  module "TAMuonSegmentMatch.h" { header "TrackingTools/TrackAssociator/interface/TAMuonSegmentMatch.h" export * }
+  module "TrackAssociatorParameters.h" { header "TrackingTools/TrackAssociator/interface/TrackAssociatorParameters.h" export * }
+  module "TrackDetMatchInfo.h" { header "TrackingTools/TrackAssociator/interface/TrackDetMatchInfo.h" export * }
+  module "TrackDetectorAssociator.h" { header "TrackingTools/TrackAssociator/interface/TrackDetectorAssociator.h" export * }
+  export *
+}
+

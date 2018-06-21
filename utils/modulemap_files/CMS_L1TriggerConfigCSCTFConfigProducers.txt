@@ -1,0 +1,10 @@
+module CMS_L1TriggerConfigCSCTFConfigProducers {
+  module "CSCTFAlignmentOnlineProd.h" { header "L1TriggerConfig/CSCTFConfigProducers/interface/CSCTFAlignmentOnlineProd.h" export * }
+  module "CSCTFConfigOnlineProd.h" { header "L1TriggerConfig/CSCTFConfigProducers/interface/CSCTFConfigOnlineProd.h" export * }
+  module "CSCTFConfigProducer.h" { header "L1TriggerConfig/CSCTFConfigProducers/interface/CSCTFConfigProducer.h" export * }
+  module "CSCTFObjectKeysOnlineProd.h" { header "L1TriggerConfig/CSCTFConfigProducers/interface/CSCTFObjectKeysOnlineProd.h" export * }
+  module "L1MuCSCPtLutConfigOnlineProd.h" { header "L1TriggerConfig/CSCTFConfigProducers/interface/L1MuCSCPtLutConfigOnlineProd.h" export * }
+  module "L1MuCSCTFParametersTester.h" { header "L1TriggerConfig/CSCTFConfigProducers/interface/L1MuCSCTFParametersTester.h" export * }
+  export *
+}
+

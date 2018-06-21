@@ -1,0 +1,7 @@
+module CMS_AlignmentCocoaToDDL {
+  module "CocoaToDDLMgr.h" { header "Alignment/CocoaToDDL/interface/CocoaToDDLMgr.h" export * }
+  module "CocoaUnitsTable.h" { header "Alignment/CocoaToDDL/interface/CocoaUnitsTable.h" export * }
+  module "UnitConverter.h" { header "Alignment/CocoaToDDL/interface/UnitConverter.h" export * }
+  export *
+}
+

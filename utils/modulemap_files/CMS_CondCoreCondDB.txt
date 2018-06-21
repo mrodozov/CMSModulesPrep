@@ -1,0 +1,30 @@
+module CMS_CondCoreCondDB {
+  module "Auth.h" { header "CondCore/CondDB/interface/Auth.h" export * }
+  module "Binary.h" { header "CondCore/CondDB/interface/Binary.h" export * }
+  module "Cipher.h" { header "CondCore/CondDB/interface/Cipher.h" export * }
+  module "ConnectionPool.h" { header "CondCore/CondDB/interface/ConnectionPool.h" export * }
+  module "CoralServiceFactory.h" { header "CondCore/CondDB/interface/CoralServiceFactory.h" export * }
+  module "CoralServiceMacros.h" { header "CondCore/CondDB/interface/CoralServiceMacros.h" export * }
+  module "CoralServiceManager.h" { header "CondCore/CondDB/interface/CoralServiceManager.h" export * }
+  module "CredentialStore.h" { header "CondCore/CondDB/interface/CredentialStore.h" export * }
+  module "DecodingKey.h" { header "CondCore/CondDB/interface/DecodingKey.h" export * }
+  module "Exception.h" { header "CondCore/CondDB/interface/Exception.h" export * }
+  module "FileUtils.h" { header "CondCore/CondDB/interface/FileUtils.h" export * }
+  module "GTEditor.h" { header "CondCore/CondDB/interface/GTEditor.h" export * }
+  module "GTProxy.h" { header "CondCore/CondDB/interface/GTProxy.h" export * }
+  module "IOVEditor.h" { header "CondCore/CondDB/interface/IOVEditor.h" export * }
+  module "IOVProxy.h" { header "CondCore/CondDB/interface/IOVProxy.h" export * }
+  module "KeyList.h" { header "CondCore/CondDB/interface/KeyList.h" export * }
+  module "KeyListProxy.h" { header "CondCore/CondDB/interface/KeyListProxy.h" export * }
+  module "PayloadProxy.h" { header "CondCore/CondDB/interface/PayloadProxy.h" export * }
+  module "PayloadReader.h" { header "CondCore/CondDB/interface/PayloadReader.h" export * }
+  module "RunInfoEditor.h" { header "CondCore/CondDB/interface/RunInfoEditor.h" export * }
+  module "RunInfoProxy.h" { header "CondCore/CondDB/interface/RunInfoProxy.h" export * }
+  module "Serialization.h" { header "CondCore/CondDB/interface/Serialization.h" export * }
+  module "Session.h" { header "CondCore/CondDB/interface/Session.h" export * }
+  module "Time.h" { header "CondCore/CondDB/interface/Time.h" export * }
+  module "Types.h" { header "CondCore/CondDB/interface/Types.h" export * }
+  module "Utils.h" { header "CondCore/CondDB/interface/Utils.h" export * }
+  export *
+}
+

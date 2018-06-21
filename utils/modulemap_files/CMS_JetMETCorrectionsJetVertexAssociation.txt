@@ -1,0 +1,6 @@
+module CMS_JetMETCorrectionsJetVertexAssociation {
+  module "JetVertexAssociation.h" { header "JetMETCorrections/JetVertexAssociation/interface/JetVertexAssociation.h" export * }
+  module "JetVertexMain.h" { header "JetMETCorrections/JetVertexAssociation/interface/JetVertexMain.h" export * }
+  export *
+}
+

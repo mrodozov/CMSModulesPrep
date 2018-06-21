@@ -1,0 +1,5 @@
+module CMS_SimCalorimetryEcalSelectiveReadoutAlgos {
+  module "EcalSelectiveReadoutSuppressor.h" { header "SimCalorimetry/EcalSelectiveReadoutAlgos/interface/EcalSelectiveReadoutSuppressor.h" export * }
+  export *
+}
+

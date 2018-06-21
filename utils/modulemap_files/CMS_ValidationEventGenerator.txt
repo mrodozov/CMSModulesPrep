@@ -1,0 +1,27 @@
+module CMS_ValidationEventGenerator {
+  module "BPhysicsSpectrum.h" { header "Validation/EventGenerator/interface/BPhysicsSpectrum.h" export * }
+  module "BPhysicsValidation.h" { header "Validation/EventGenerator/interface/BPhysicsValidation.h" export * }
+  module "BasicGenParticleValidation.h" { header "Validation/EventGenerator/interface/BasicGenParticleValidation.h" export * }
+  module "BasicHepMCHeavyIonValidation.h" { header "Validation/EventGenerator/interface/BasicHepMCHeavyIonValidation.h" export * }
+  module "BasicHepMCValidation.h" { header "Validation/EventGenerator/interface/BasicHepMCValidation.h" export * }
+  module "CaloCellId.h" { header "Validation/EventGenerator/interface/CaloCellId.h" export * }
+  module "CaloCellManager.h" { header "Validation/EventGenerator/interface/CaloCellManager.h" export * }
+  module "DQMHelper.h" { header "Validation/EventGenerator/interface/DQMHelper.h" export * }
+  module "DrellYanValidation.h" { header "Validation/EventGenerator/interface/DrellYanValidation.h" export * }
+  module "DuplicationChecker.h" { header "Validation/EventGenerator/interface/DuplicationChecker.h" export * }
+  module "HepMCValidationHelper.h" { header "Validation/EventGenerator/interface/HepMCValidationHelper.h" export * }
+  module "HiggsValidation.h" { header "Validation/EventGenerator/interface/HiggsValidation.h" export * }
+  module "PdtPdgMini.h" { header "Validation/EventGenerator/interface/PdtPdgMini.h" export * }
+  module "TTbarSpinCorrHepMCAnalyzer.h" { header "Validation/EventGenerator/interface/TTbarSpinCorrHepMCAnalyzer.h" export * }
+  module "TTbar_GenJetAnalyzer.h" { header "Validation/EventGenerator/interface/TTbar_GenJetAnalyzer.h" export * }
+  module "TTbar_GenLepAnalyzer.h" { header "Validation/EventGenerator/interface/TTbar_GenLepAnalyzer.h" export * }
+  module "TTbar_Kinematics.h" { header "Validation/EventGenerator/interface/TTbar_Kinematics.h" export * }
+  module "TauDecay.h" { header "Validation/EventGenerator/interface/TauDecay.h" export * }
+  module "TauDecay_CMSSW.h" { header "Validation/EventGenerator/interface/TauDecay_CMSSW.h" export * }
+  module "TauDecay_GenParticle.h" { header "Validation/EventGenerator/interface/TauDecay_GenParticle.h" export * }
+  module "TauValidation.h" { header "Validation/EventGenerator/interface/TauValidation.h" export * }
+  module "WValidation.h" { header "Validation/EventGenerator/interface/WValidation.h" export * }
+  module "WeightManager.h" { header "Validation/EventGenerator/interface/WeightManager.h" export * }
+  export *
+}
+

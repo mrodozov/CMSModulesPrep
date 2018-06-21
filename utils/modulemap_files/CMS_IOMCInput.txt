@@ -1,0 +1,6 @@
+module CMS_IOMCInput {
+  module "HepMCFileReader.h" { header "IOMC/Input/interface/HepMCFileReader.h" export * }
+  module "MCFileSource.h" { header "IOMC/Input/interface/MCFileSource.h" export * }
+  export *
+}
+

@@ -1,0 +1,5 @@
+module CMS_SimCalorimetryEcalTestBeamAlgos {
+  module "EcalTBReadout.h" { header "SimCalorimetry/EcalTestBeamAlgos/interface/EcalTBReadout.h" export * }
+  export *
+}
+

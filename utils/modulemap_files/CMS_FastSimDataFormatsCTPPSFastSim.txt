@@ -1,0 +1,8 @@
+module CMS_FastSimDataFormatsCTPPSFastSim {
+  module "CTPPSFastRecHit.h" { header "FastSimDataFormats/CTPPSFastSim/interface/CTPPSFastRecHit.h" export * }
+  module "CTPPSFastRecHitContainer.h" { header "FastSimDataFormats/CTPPSFastSim/interface/CTPPSFastRecHitContainer.h" export * }
+  module "CTPPSFastTrack.h" { header "FastSimDataFormats/CTPPSFastSim/interface/CTPPSFastTrack.h" export * }
+  module "CTPPSFastTrackContainer.h" { header "FastSimDataFormats/CTPPSFastSim/interface/CTPPSFastTrackContainer.h" export * }
+  export *
+}
+

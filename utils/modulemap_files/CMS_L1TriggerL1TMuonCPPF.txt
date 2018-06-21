@@ -1,0 +1,6 @@
+module CMS_L1TriggerL1TMuonCPPF {
+  module "EmulateCPPF.h" { header "L1Trigger/L1TMuonCPPF/interface/EmulateCPPF.h" export * }
+  module "RecHitProcessor.h" { header "L1Trigger/L1TMuonCPPF/interface/RecHitProcessor.h" export * }
+  export *
+}
+

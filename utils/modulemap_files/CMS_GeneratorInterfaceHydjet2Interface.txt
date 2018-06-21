@@ -1,0 +1,22 @@
+module CMS_GeneratorInterfaceHydjet2Interface {
+  module "DatabasePDG.h" { header "GeneratorInterface/Hydjet2Interface/interface/DatabasePDG.h" export * }
+  module "DecayChannel.h" { header "GeneratorInterface/Hydjet2Interface/interface/DecayChannel.h" export * }
+  module "EquationSolver.h" { header "GeneratorInterface/Hydjet2Interface/interface/EquationSolver.h" export * }
+  module "GrandCanonical.h" { header "GeneratorInterface/Hydjet2Interface/interface/GrandCanonical.h" export * }
+  module "HYJET_COMMONS.h" { header "GeneratorInterface/Hydjet2Interface/interface/HYJET_COMMONS.h" export * }
+  module "HadronDecayer.h" { header "GeneratorInterface/Hydjet2Interface/interface/HadronDecayer.h" export * }
+  module "HankelFunction.h" { header "GeneratorInterface/Hydjet2Interface/interface/HankelFunction.h" export * }
+  module "Hydjet2GeneratorFilter.h" { header "GeneratorInterface/Hydjet2Interface/interface/Hydjet2GeneratorFilter.h" export * }
+  module "Hydjet2Hadronizer.h" { header "GeneratorInterface/Hydjet2Interface/interface/Hydjet2Hadronizer.h" export * }
+  module "InitialState.h" { header "GeneratorInterface/Hydjet2Interface/interface/InitialState.h" export * }
+  module "MathUtil.h" { header "GeneratorInterface/Hydjet2Interface/interface/MathUtil.h" export * }
+  module "Particle.h" { header "GeneratorInterface/Hydjet2Interface/interface/Particle.h" export * }
+  module "ParticlePDG.h" { header "GeneratorInterface/Hydjet2Interface/interface/ParticlePDG.h" export * }
+  module "ParticleTable.h" { header "GeneratorInterface/Hydjet2Interface/interface/ParticleTable.h" export * }
+  module "RandArrayFunction.h" { header "GeneratorInterface/Hydjet2Interface/interface/RandArrayFunction.h" export * }
+  module "StrangeDensity.h" { header "GeneratorInterface/Hydjet2Interface/interface/StrangeDensity.h" export * }
+  module "StrangePotential.h" { header "GeneratorInterface/Hydjet2Interface/interface/StrangePotential.h" export * }
+  module "UKUtility.h" { header "GeneratorInterface/Hydjet2Interface/interface/UKUtility.h" export * }
+  export *
+}
+

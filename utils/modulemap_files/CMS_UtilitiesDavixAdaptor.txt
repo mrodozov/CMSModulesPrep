@@ -1,0 +1,5 @@
+module CMS_UtilitiesDavixAdaptor {
+  module "DavixFile.h" { header "Utilities/DavixAdaptor/interface/DavixFile.h" export * }
+  export *
+}
+

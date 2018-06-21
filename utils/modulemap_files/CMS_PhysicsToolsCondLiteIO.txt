@@ -1,0 +1,5 @@
+module CMS_PhysicsToolsCondLiteIO {
+  module "RecordWriter.h" { header "PhysicsTools/CondLiteIO/interface/RecordWriter.h" export * }
+  export *
+}
+

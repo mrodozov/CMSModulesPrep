@@ -1,0 +1,6 @@
+module CMS_RecoTBCaloEcalSimpleTBAnalysis {
+  module "EcalSimple2007H4TBAnalyzer.h" { header "RecoTBCalo/EcalSimpleTBAnalysis/interface/EcalSimple2007H4TBAnalyzer.h" export * }
+  module "EcalSimpleTBAnalyzer.h" { header "RecoTBCalo/EcalSimpleTBAnalysis/interface/EcalSimpleTBAnalyzer.h" export * }
+  export *
+}
+

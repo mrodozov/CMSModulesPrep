@@ -1,0 +1,39 @@
+module CMS_CondFormatsSiPixelObjects {
+  module "CablingPathToDetUnit.h" { header "CondFormats/SiPixelObjects/interface/CablingPathToDetUnit.h" export * }
+  module "DetectorIndex.h" { header "CondFormats/SiPixelObjects/interface/DetectorIndex.h" export * }
+  module "ElectronicIndex.h" { header "CondFormats/SiPixelObjects/interface/ElectronicIndex.h" export * }
+  module "FrameConversion.h" { header "CondFormats/SiPixelObjects/interface/FrameConversion.h" export * }
+  module "GlobalPixel.h" { header "CondFormats/SiPixelObjects/interface/GlobalPixel.h" export * }
+  module "LinearConversion.h" { header "CondFormats/SiPixelObjects/interface/LinearConversion.h" export * }
+  module "LocalPixel.h" { header "CondFormats/SiPixelObjects/interface/LocalPixel.h" export * }
+  module "MapPathTodetUnit.h" { header "CondFormats/SiPixelObjects/interface/MapPathTodetUnit.h" export * }
+  module "PixelDCSObject.h" { header "CondFormats/SiPixelObjects/interface/PixelDCSObject.h" export * }
+  module "PixelFEDCabling.h" { header "CondFormats/SiPixelObjects/interface/PixelFEDCabling.h" export * }
+  module "PixelFEDLink.h" { header "CondFormats/SiPixelObjects/interface/PixelFEDLink.h" export * }
+  module "PixelIndices.h" { header "CondFormats/SiPixelObjects/interface/PixelIndices.h" export * }
+  module "PixelROC.h" { header "CondFormats/SiPixelObjects/interface/PixelROC.h" export * }
+  module "SerializationManual.h" { textual header "CondFormats/SiPixelObjects/interface/SerializationManual.h" export * }
+  module "SiPixel2DTemplateDBObject.h" { header "CondFormats/SiPixelObjects/interface/SiPixel2DTemplateDBObject.h" export * }
+  module "SiPixelCPEGenericErrorParm.h" { header "CondFormats/SiPixelObjects/interface/SiPixelCPEGenericErrorParm.h" export * }
+  module "SiPixelCalibConfiguration.h" { header "CondFormats/SiPixelObjects/interface/SiPixelCalibConfiguration.h" export * }
+  module "SiPixelDbItem.h" { header "CondFormats/SiPixelObjects/interface/SiPixelDbItem.h" export * }
+  module "SiPixelDetSummary.h" { header "CondFormats/SiPixelObjects/interface/SiPixelDetSummary.h" export * }
+  module "SiPixelDisabledModules.h" { header "CondFormats/SiPixelObjects/interface/SiPixelDisabledModules.h" export * }
+  module "SiPixelDynamicInefficiency.h" { header "CondFormats/SiPixelObjects/interface/SiPixelDynamicInefficiency.h" export * }
+  module "SiPixelFedCabling.h" { header "CondFormats/SiPixelObjects/interface/SiPixelFedCabling.h" export * }
+  module "SiPixelFedCablingMap.h" { header "CondFormats/SiPixelObjects/interface/SiPixelFedCablingMap.h" export * }
+  module "SiPixelFedCablingTree.h" { header "CondFormats/SiPixelObjects/interface/SiPixelFedCablingTree.h" export * }
+  module "SiPixelFrameConverter.h" { header "CondFormats/SiPixelObjects/interface/SiPixelFrameConverter.h" export * }
+  module "SiPixelFrameReverter.h" { header "CondFormats/SiPixelObjects/interface/SiPixelFrameReverter.h" export * }
+  module "SiPixelGainCalibration.h" { header "CondFormats/SiPixelObjects/interface/SiPixelGainCalibration.h" export * }
+  module "SiPixelGainCalibrationForHLT.h" { header "CondFormats/SiPixelObjects/interface/SiPixelGainCalibrationForHLT.h" export * }
+  module "SiPixelGainCalibrationOffline.h" { header "CondFormats/SiPixelObjects/interface/SiPixelGainCalibrationOffline.h" export * }
+  module "SiPixelGenErrorDBObject.h" { header "CondFormats/SiPixelObjects/interface/SiPixelGenErrorDBObject.h" export * }
+  module "SiPixelLorentzAngle.h" { header "CondFormats/SiPixelObjects/interface/SiPixelLorentzAngle.h" export * }
+  module "SiPixelPedestals.h" { header "CondFormats/SiPixelObjects/interface/SiPixelPedestals.h" export * }
+  module "SiPixelPerformanceSummary.h" { header "CondFormats/SiPixelObjects/interface/SiPixelPerformanceSummary.h" export * }
+  module "SiPixelQuality.h" { header "CondFormats/SiPixelObjects/interface/SiPixelQuality.h" export * }
+  module "SiPixelTemplateDBObject.h" { header "CondFormats/SiPixelObjects/interface/SiPixelTemplateDBObject.h" export * }
+  export *
+}
+

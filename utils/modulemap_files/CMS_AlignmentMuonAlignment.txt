@@ -1,0 +1,21 @@
+module CMS_AlignmentMuonAlignment {
+  module "AlignableCSCChamber.h" { header "Alignment/MuonAlignment/interface/AlignableCSCChamber.h" export * }
+  module "AlignableCSCEndcap.h" { header "Alignment/MuonAlignment/interface/AlignableCSCEndcap.h" export * }
+  module "AlignableCSCRing.h" { header "Alignment/MuonAlignment/interface/AlignableCSCRing.h" export * }
+  module "AlignableCSCStation.h" { header "Alignment/MuonAlignment/interface/AlignableCSCStation.h" export * }
+  module "AlignableDTBarrel.h" { header "Alignment/MuonAlignment/interface/AlignableDTBarrel.h" export * }
+  module "AlignableDTChamber.h" { header "Alignment/MuonAlignment/interface/AlignableDTChamber.h" export * }
+  module "AlignableDTStation.h" { header "Alignment/MuonAlignment/interface/AlignableDTStation.h" export * }
+  module "AlignableDTSuperLayer.h" { header "Alignment/MuonAlignment/interface/AlignableDTSuperLayer.h" export * }
+  module "AlignableDTWheel.h" { header "Alignment/MuonAlignment/interface/AlignableDTWheel.h" export * }
+  module "AlignableMuon.h" { header "Alignment/MuonAlignment/interface/AlignableMuon.h" export * }
+  module "MuonAlignment.h" { header "Alignment/MuonAlignment/interface/MuonAlignment.h" export * }
+  module "MuonAlignmentInputDB.h" { header "Alignment/MuonAlignment/interface/MuonAlignmentInputDB.h" export * }
+  module "MuonAlignmentInputMethod.h" { header "Alignment/MuonAlignment/interface/MuonAlignmentInputMethod.h" export * }
+  module "MuonAlignmentInputSurveyDB.h" { header "Alignment/MuonAlignment/interface/MuonAlignmentInputSurveyDB.h" export * }
+  module "MuonAlignmentInputXML.h" { header "Alignment/MuonAlignment/interface/MuonAlignmentInputXML.h" export * }
+  module "MuonAlignmentOutputXML.h" { header "Alignment/MuonAlignment/interface/MuonAlignmentOutputXML.h" export * }
+  module "MuonScenarioBuilder.h" { header "Alignment/MuonAlignment/interface/MuonScenarioBuilder.h" export * }
+  export *
+}
+

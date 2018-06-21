@@ -1,0 +1,6 @@
+module CMS_PhysicsToolsCandUtils {
+  module "EventShapeVariables.h" { header "PhysicsTools/CandUtils/interface/EventShapeVariables.h" export * }
+  module "Thrust.h" { header "PhysicsTools/CandUtils/interface/Thrust.h" export * }
+  export *
+}
+

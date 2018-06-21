@@ -1,0 +1,5 @@
+module CMS_JetMETCorrectionsJetParton {
+  module "JetPartonCorrector.h" { header "JetMETCorrections/JetParton/interface/JetPartonCorrector.h" export * }
+  export *
+}
+

@@ -1,0 +1,10 @@
+module CMS_DataFormatsGsfTrackReco {
+  module "GsfComponent5D.h" { header "DataFormats/GsfTrackReco/interface/GsfComponent5D.h" export * }
+  module "GsfTangent.h" { header "DataFormats/GsfTrackReco/interface/GsfTangent.h" export * }
+  module "GsfTrack.h" { header "DataFormats/GsfTrackReco/interface/GsfTrack.h" export * }
+  module "GsfTrackExtra.h" { header "DataFormats/GsfTrackReco/interface/GsfTrackExtra.h" export * }
+  module "GsfTrackExtraFwd.h" { header "DataFormats/GsfTrackReco/interface/GsfTrackExtraFwd.h" export * }
+  module "GsfTrackFwd.h" { header "DataFormats/GsfTrackReco/interface/GsfTrackFwd.h" export * }
+  export *
+}
+

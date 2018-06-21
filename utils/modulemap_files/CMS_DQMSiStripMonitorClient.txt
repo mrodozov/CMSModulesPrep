@@ -1,0 +1,19 @@
+module CMS_DQMSiStripMonitorClient {
+  module "SiStripActionExecutor.h" { header "DQM/SiStripMonitorClient/interface/SiStripActionExecutor.h" export * }
+  module "SiStripAnalyser.h" { header "DQM/SiStripMonitorClient/interface/SiStripAnalyser.h" export * }
+  module "SiStripCertificationInfo.h" { header "DQM/SiStripMonitorClient/interface/SiStripCertificationInfo.h" export * }
+  module "SiStripConfigParser.h" { header "DQM/SiStripMonitorClient/interface/SiStripConfigParser.h" export * }
+  module "SiStripConfigWriter.h" { header "DQM/SiStripMonitorClient/interface/SiStripConfigWriter.h" export * }
+  module "SiStripDaqInfo.h" { header "DQM/SiStripMonitorClient/interface/SiStripDaqInfo.h" export * }
+  module "SiStripDcsInfo.h" { header "DQM/SiStripMonitorClient/interface/SiStripDcsInfo.h" export * }
+  module "SiStripHistoPlotter.h" { header "DQM/SiStripMonitorClient/interface/SiStripHistoPlotter.h" export * }
+  module "SiStripInformationExtractor.h" { header "DQM/SiStripMonitorClient/interface/SiStripInformationExtractor.h" export * }
+  module "SiStripLayoutParser.h" { header "DQM/SiStripMonitorClient/interface/SiStripLayoutParser.h" export * }
+  module "SiStripOfflineDQM.h" { header "DQM/SiStripMonitorClient/interface/SiStripOfflineDQM.h" export * }
+  module "SiStripQualityChecker.h" { header "DQM/SiStripMonitorClient/interface/SiStripQualityChecker.h" export * }
+  module "SiStripSummaryCreator.h" { header "DQM/SiStripMonitorClient/interface/SiStripSummaryCreator.h" export * }
+  module "SiStripTrackerMapCreator.h" { header "DQM/SiStripMonitorClient/interface/SiStripTrackerMapCreator.h" export * }
+  module "SiStripUtility.h" { header "DQM/SiStripMonitorClient/interface/SiStripUtility.h" export * }
+  export *
+}
+

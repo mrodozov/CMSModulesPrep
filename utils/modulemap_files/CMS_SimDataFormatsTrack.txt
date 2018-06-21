@@ -1,0 +1,7 @@
+module CMS_SimDataFormatsTrack {
+  module "CoreSimTrack.h" { header "SimDataFormats/Track/interface/CoreSimTrack.h" export * }
+  module "SimTrack.h" { header "SimDataFormats/Track/interface/SimTrack.h" export * }
+  module "SimTrackContainer.h" { header "SimDataFormats/Track/interface/SimTrackContainer.h" export * }
+  export *
+}
+

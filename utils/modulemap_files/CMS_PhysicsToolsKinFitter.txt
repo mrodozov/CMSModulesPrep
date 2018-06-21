@@ -1,0 +1,24 @@
+module CMS_PhysicsToolsKinFitter {
+  module "TAbsFitConstraint.h" { header "PhysicsTools/KinFitter/interface/TAbsFitConstraint.h" export * }
+  module "TAbsFitParticle.h" { header "PhysicsTools/KinFitter/interface/TAbsFitParticle.h" export * }
+  module "TFitConstraintEp.h" { header "PhysicsTools/KinFitter/interface/TFitConstraintEp.h" export * }
+  module "TFitConstraintM.h" { header "PhysicsTools/KinFitter/interface/TFitConstraintM.h" export * }
+  module "TFitConstraintMGaus.h" { header "PhysicsTools/KinFitter/interface/TFitConstraintMGaus.h" export * }
+  module "TFitParticleCart.h" { header "PhysicsTools/KinFitter/interface/TFitParticleCart.h" export * }
+  module "TFitParticleECart.h" { header "PhysicsTools/KinFitter/interface/TFitParticleECart.h" export * }
+  module "TFitParticleEMomDev.h" { header "PhysicsTools/KinFitter/interface/TFitParticleEMomDev.h" export * }
+  module "TFitParticleEScaledMomDev.h" { header "PhysicsTools/KinFitter/interface/TFitParticleEScaledMomDev.h" export * }
+  module "TFitParticleESpher.h" { header "PhysicsTools/KinFitter/interface/TFitParticleESpher.h" export * }
+  module "TFitParticleEtEtaPhi.h" { header "PhysicsTools/KinFitter/interface/TFitParticleEtEtaPhi.h" export * }
+  module "TFitParticleEtThetaPhi.h" { header "PhysicsTools/KinFitter/interface/TFitParticleEtThetaPhi.h" export * }
+  module "TFitParticleMCCart.h" { header "PhysicsTools/KinFitter/interface/TFitParticleMCCart.h" export * }
+  module "TFitParticleMCMomDev.h" { header "PhysicsTools/KinFitter/interface/TFitParticleMCMomDev.h" export * }
+  module "TFitParticleMCPInvSpher.h" { header "PhysicsTools/KinFitter/interface/TFitParticleMCPInvSpher.h" export * }
+  module "TFitParticleMCSpher.h" { header "PhysicsTools/KinFitter/interface/TFitParticleMCSpher.h" export * }
+  module "TFitParticleMomDev.h" { header "PhysicsTools/KinFitter/interface/TFitParticleMomDev.h" export * }
+  module "TFitParticleSpher.h" { header "PhysicsTools/KinFitter/interface/TFitParticleSpher.h" export * }
+  module "TKinFitter.h" { header "PhysicsTools/KinFitter/interface/TKinFitter.h" export * }
+  module "TSLToyGen.h" { header "PhysicsTools/KinFitter/interface/TSLToyGen.h" export * }
+  export *
+}
+

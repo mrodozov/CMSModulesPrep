@@ -1,0 +1,21 @@
+module CMS_L1TriggerGlobalTrigger {
+  module "L1GlobalTriggerFDL.h" { header "L1Trigger/GlobalTrigger/interface/L1GlobalTriggerFDL.h" export * }
+  module "L1GlobalTriggerFunctions.h" { header "L1Trigger/GlobalTrigger/interface/L1GlobalTriggerFunctions.h" export * }
+  module "L1GlobalTriggerGTL.h" { header "L1Trigger/GlobalTrigger/interface/L1GlobalTriggerGTL.h" export * }
+  module "L1GlobalTriggerPSB.h" { header "L1Trigger/GlobalTrigger/interface/L1GlobalTriggerPSB.h" export * }
+  module "L1GtAlgorithmEvaluation.h" { header "L1Trigger/GlobalTrigger/interface/L1GtAlgorithmEvaluation.h" export * }
+  module "L1GtBptxCondition.h" { header "L1Trigger/GlobalTrigger/interface/L1GtBptxCondition.h" export * }
+  module "L1GtCaloCondition.h" { header "L1Trigger/GlobalTrigger/interface/L1GtCaloCondition.h" export * }
+  module "L1GtCastorCondition.h" { header "L1Trigger/GlobalTrigger/interface/L1GtCastorCondition.h" export * }
+  module "L1GtConditionEvaluation.h" { header "L1Trigger/GlobalTrigger/interface/L1GtConditionEvaluation.h" export * }
+  module "L1GtCorrelationCondition.h" { header "L1Trigger/GlobalTrigger/interface/L1GtCorrelationCondition.h" export * }
+  module "L1GtEnergySumCondition.h" { header "L1Trigger/GlobalTrigger/interface/L1GtEnergySumCondition.h" export * }
+  module "L1GtEtaPhiConversions.h" { header "L1Trigger/GlobalTrigger/interface/L1GtEtaPhiConversions.h" export * }
+  module "L1GtExternalCondition.h" { header "L1Trigger/GlobalTrigger/interface/L1GtExternalCondition.h" export * }
+  module "L1GtHfBitCountsCondition.h" { header "L1Trigger/GlobalTrigger/interface/L1GtHfBitCountsCondition.h" export * }
+  module "L1GtHfRingEtSumsCondition.h" { header "L1Trigger/GlobalTrigger/interface/L1GtHfRingEtSumsCondition.h" export * }
+  module "L1GtJetCountsCondition.h" { header "L1Trigger/GlobalTrigger/interface/L1GtJetCountsCondition.h" export * }
+  module "L1GtMuonCondition.h" { header "L1Trigger/GlobalTrigger/interface/L1GtMuonCondition.h" export * }
+  export *
+}
+

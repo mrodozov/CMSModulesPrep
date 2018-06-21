@@ -1,0 +1,5 @@
+module CMS_RecoVertexTrimmedVertexFit {
+  module "TrimmedVertexFitter.h" { header "RecoVertex/TrimmedVertexFit/interface/TrimmedVertexFitter.h" export * }
+  export *
+}
+

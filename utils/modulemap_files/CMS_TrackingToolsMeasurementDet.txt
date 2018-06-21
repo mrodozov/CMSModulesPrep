@@ -1,0 +1,11 @@
+module CMS_TrackingToolsMeasurementDet {
+  module "LayerMeasurements.h" { header "TrackingTools/MeasurementDet/interface/LayerMeasurements.h" export * }
+  module "MeasurementDet.h" { header "TrackingTools/MeasurementDet/interface/MeasurementDet.h" export * }
+  module "MeasurementDetException.h" { header "TrackingTools/MeasurementDet/interface/MeasurementDetException.h" export * }
+  module "MeasurementDetSystem.h" { header "TrackingTools/MeasurementDet/interface/MeasurementDetSystem.h" export * }
+  module "MeasurementDetWithData.h" { header "TrackingTools/MeasurementDet/interface/MeasurementDetWithData.h" export * }
+  module "TempMeasurements.h" { header "TrackingTools/MeasurementDet/interface/TempMeasurements.h" export * }
+  module "TrajectoryMeasurementGroup.h" { header "TrackingTools/MeasurementDet/interface/TrajectoryMeasurementGroup.h" export * }
+  export *
+}
+

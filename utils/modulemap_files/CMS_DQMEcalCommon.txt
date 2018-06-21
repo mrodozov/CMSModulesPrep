@@ -1,0 +1,23 @@
+module CMS_DQMEcalCommon {
+  module "DQWorker.h" { header "DQM/EcalCommon/interface/DQWorker.h" export * }
+  module "EcalDQMCommonUtils.h" { header "DQM/EcalCommon/interface/EcalDQMCommonUtils.h" export * }
+  module "EcalDQMonitor.h" { header "DQM/EcalCommon/interface/EcalDQMonitor.h" export * }
+  module "EcalMEFormatter.h" { header "DQM/EcalCommon/interface/EcalMEFormatter.h" export * }
+  module "EcalMonitorPrescaler.h" { header "DQM/EcalCommon/interface/EcalMonitorPrescaler.h" export * }
+  module "FEFlags.h" { header "DQM/EcalCommon/interface/FEFlags.h" export * }
+  module "MESet.h" { header "DQM/EcalCommon/interface/MESet.h" export * }
+  module "MESetBinningUtils.h" { header "DQM/EcalCommon/interface/MESetBinningUtils.h" export * }
+  module "MESetChannel.h" { header "DQM/EcalCommon/interface/MESetChannel.h" export * }
+  module "MESetDet0D.h" { header "DQM/EcalCommon/interface/MESetDet0D.h" export * }
+  module "MESetDet1D.h" { header "DQM/EcalCommon/interface/MESetDet1D.h" export * }
+  module "MESetDet2D.h" { header "DQM/EcalCommon/interface/MESetDet2D.h" export * }
+  module "MESetEcal.h" { header "DQM/EcalCommon/interface/MESetEcal.h" export * }
+  module "MESetMulti.h" { header "DQM/EcalCommon/interface/MESetMulti.h" export * }
+  module "MESetNonObject.h" { header "DQM/EcalCommon/interface/MESetNonObject.h" export * }
+  module "MESetProjection.h" { header "DQM/EcalCommon/interface/MESetProjection.h" export * }
+  module "MESetTrend.h" { header "DQM/EcalCommon/interface/MESetTrend.h" export * }
+  module "MESetUtils.h" { header "DQM/EcalCommon/interface/MESetUtils.h" export * }
+  module "StatusManager.h" { header "DQM/EcalCommon/interface/StatusManager.h" export * }
+  export *
+}
+

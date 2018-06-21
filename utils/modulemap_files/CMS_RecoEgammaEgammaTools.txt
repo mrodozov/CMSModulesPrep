@@ -1,0 +1,36 @@
+module CMS_RecoEgammaEgammaTools {
+  module "AnyMVAEstimatorRun2Base.h" { header "RecoEgamma/EgammaTools/interface/AnyMVAEstimatorRun2Base.h" export * }
+  module "BaselinePFSCRegression.h" { header "RecoEgamma/EgammaTools/interface/BaselinePFSCRegression.h" export * }
+  module "ConversionFinder.h" { header "RecoEgamma/EgammaTools/interface/ConversionFinder.h" export * }
+  module "ConversionInfo.h" { header "RecoEgamma/EgammaTools/interface/ConversionInfo.h" export * }
+  module "ConversionLikelihoodCalculator.h" { header "RecoEgamma/EgammaTools/interface/ConversionLikelihoodCalculator.h" export * }
+  module "ConversionTools.h" { header "RecoEgamma/EgammaTools/interface/ConversionTools.h" export * }
+  module "ECALPositionCalculator.h" { header "RecoEgamma/EgammaTools/interface/ECALPositionCalculator.h" export * }
+  module "EGEnergyCorrector.h" { header "RecoEgamma/EgammaTools/interface/EGEnergyCorrector.h" export * }
+  module "EGEnergySysIndex.h" { header "RecoEgamma/EgammaTools/interface/EGEnergySysIndex.h" export * }
+  module "EGExtraInfoModifierFromValueMaps.h" { header "RecoEgamma/EgammaTools/interface/EGExtraInfoModifierFromValueMaps.h" export * }
+  module "EcalClusterLocal.h" { header "RecoEgamma/EgammaTools/interface/EcalClusterLocal.h" export * }
+  module "EcalRegressionData.h" { header "RecoEgamma/EgammaTools/interface/EcalRegressionData.h" export * }
+  module "EffectiveAreas.h" { header "RecoEgamma/EgammaTools/interface/EffectiveAreas.h" export * }
+  module "EgammaBDTOutputTransformer.h" { header "RecoEgamma/EgammaTools/interface/EgammaBDTOutputTransformer.h" export * }
+  module "EgammaPCAHelper.h" { header "RecoEgamma/EgammaTools/interface/EgammaPCAHelper.h" export * }
+  module "EgammaRandomSeeds.h" { header "RecoEgamma/EgammaTools/interface/EgammaRandomSeeds.h" export * }
+  module "EgammaRegressionContainer.h" { header "RecoEgamma/EgammaTools/interface/EgammaRegressionContainer.h" export * }
+  module "ElectronEnergyCalibrator.h" { header "RecoEgamma/EgammaTools/interface/ElectronEnergyCalibrator.h" export * }
+  module "EnergyScaleCorrection.h" { header "RecoEgamma/EgammaTools/interface/EnergyScaleCorrection.h" export * }
+  module "EpCombinationTool.h" { header "RecoEgamma/EgammaTools/interface/EpCombinationTool.h" export * }
+  module "GBRForestTools.h" { header "RecoEgamma/EgammaTools/interface/GBRForestTools.h" export * }
+  module "HGCalEgammaIDHelper.h" { header "RecoEgamma/EgammaTools/interface/HGCalEgammaIDHelper.h" export * }
+  module "HGCalIsoCalculator.h" { header "RecoEgamma/EgammaTools/interface/HGCalIsoCalculator.h" export * }
+  module "HoECalculator.h" { header "RecoEgamma/EgammaTools/interface/HoECalculator.h" export * }
+  module "LongDeps.h" { header "RecoEgamma/EgammaTools/interface/LongDeps.h" export * }
+  module "MVAObjectCache.h" { header "RecoEgamma/EgammaTools/interface/MVAObjectCache.h" export * }
+  module "MVAValueMapProducer.h" { header "RecoEgamma/EgammaTools/interface/MVAValueMapProducer.h" export * }
+  module "PhotonEnergyCalibrator.h" { header "RecoEgamma/EgammaTools/interface/PhotonEnergyCalibrator.h" export * }
+  module "SCEnergyCorrectorSemiParm.h" { header "RecoEgamma/EgammaTools/interface/SCEnergyCorrectorSemiParm.h" export * }
+  module "SCRegressionCalculator.h" { header "RecoEgamma/EgammaTools/interface/SCRegressionCalculator.h" export * }
+  module "ShowerDepth.h" { header "RecoEgamma/EgammaTools/interface/ShowerDepth.h" export * }
+  module "Spot.h" { header "RecoEgamma/EgammaTools/interface/Spot.h" export * }
+  export *
+}
+

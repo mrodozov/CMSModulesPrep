@@ -1,0 +1,45 @@
+module CMS_DataFormatsBTauReco {
+  module "BaseTagInfo.h" { header "DataFormats/BTauReco/interface/BaseTagInfo.h" export * }
+  module "BoostedDoubleSVTagInfo.h" { header "DataFormats/BTauReco/interface/BoostedDoubleSVTagInfo.h" export * }
+  module "CATopJetTagInfo.h" { header "DataFormats/BTauReco/interface/CATopJetTagInfo.h" export * }
+  module "CandIPTagInfo.h" { header "DataFormats/BTauReco/interface/CandIPTagInfo.h" export * }
+  module "CandSecondaryVertexTagInfo.h" { header "DataFormats/BTauReco/interface/CandSecondaryVertexTagInfo.h" export * }
+  module "CandSoftLeptonTagInfo.h" { header "DataFormats/BTauReco/interface/CandSoftLeptonTagInfo.h" export * }
+  module "ChargedCandidateFeatures.h" { header "DataFormats/BTauReco/interface/ChargedCandidateFeatures.h" export * }
+  module "CombinedTauTagInfo.h" { header "DataFormats/BTauReco/interface/CombinedTauTagInfo.h" export * }
+  module "DeepFlavourFeatures.h" { header "DataFormats/BTauReco/interface/DeepFlavourFeatures.h" export * }
+  module "DeepFlavourTagInfo.h" { header "DataFormats/BTauReco/interface/DeepFlavourTagInfo.h" export * }
+  module "EMIsolatedTauTagInfo.h" { header "DataFormats/BTauReco/interface/EMIsolatedTauTagInfo.h" export * }
+  module "HTTTopJetTagInfo.h" { header "DataFormats/BTauReco/interface/HTTTopJetTagInfo.h" export * }
+  module "IPTagInfo.h" { header "DataFormats/BTauReco/interface/IPTagInfo.h" export * }
+  module "IsolatedTauTagInfo.h" { header "DataFormats/BTauReco/interface/IsolatedTauTagInfo.h" export * }
+  module "JTATagInfo.h" { header "DataFormats/BTauReco/interface/JTATagInfo.h" export * }
+  module "JetCrystalsAssociation.h" { header "DataFormats/BTauReco/interface/JetCrystalsAssociation.h" export * }
+  module "JetEisolAssociation.h" { header "DataFormats/BTauReco/interface/JetEisolAssociation.h" export * }
+  module "JetFeatures.h" { header "DataFormats/BTauReco/interface/JetFeatures.h" export * }
+  module "JetTag.h" { header "DataFormats/BTauReco/interface/JetTag.h" export * }
+  module "JetTagInfo.h" { header "DataFormats/BTauReco/interface/JetTagInfo.h" export * }
+  module "JetTracksAssociation.h" { header "DataFormats/BTauReco/interface/JetTracksAssociation.h" export * }
+  module "NeutralCandidateFeatures.h" { header "DataFormats/BTauReco/interface/NeutralCandidateFeatures.h" export * }
+  module "PFCombinedTauTagInfo.h" { header "DataFormats/BTauReco/interface/PFCombinedTauTagInfo.h" export * }
+  module "PFIsolatedTauTagInfo.h" { header "DataFormats/BTauReco/interface/PFIsolatedTauTagInfo.h" export * }
+  module "ParticleMasses.h" { header "DataFormats/BTauReco/interface/ParticleMasses.h" export * }
+  module "RefMacros.h" { header "DataFormats/BTauReco/interface/RefMacros.h" export * }
+  module "SecondaryVertexFeatures.h" { header "DataFormats/BTauReco/interface/SecondaryVertexFeatures.h" export * }
+  module "SecondaryVertexTagInfo.h" { header "DataFormats/BTauReco/interface/SecondaryVertexTagInfo.h" export * }
+  module "ShallowTagInfo.h" { header "DataFormats/BTauReco/interface/ShallowTagInfo.h" export * }
+  module "ShallowTagInfoFeatures.h" { header "DataFormats/BTauReco/interface/ShallowTagInfoFeatures.h" export * }
+  module "SoftLeptonTagInfo.h" { header "DataFormats/BTauReco/interface/SoftLeptonTagInfo.h" export * }
+  module "TaggingVariable.h" { header "DataFormats/BTauReco/interface/TaggingVariable.h" export * }
+  module "TauImpactParameterInfo.h" { header "DataFormats/BTauReco/interface/TauImpactParameterInfo.h" export * }
+  module "TauMassTagInfo.h" { header "DataFormats/BTauReco/interface/TauMassTagInfo.h" export * }
+  module "TemplatedSecondaryVertexTagInfo.h" { header "DataFormats/BTauReco/interface/TemplatedSecondaryVertexTagInfo.h" export * }
+  module "TemplatedSoftLeptonTagInfo.h" { header "DataFormats/BTauReco/interface/TemplatedSoftLeptonTagInfo.h" export * }
+  module "TrackCountingTagInfo.h" { header "DataFormats/BTauReco/interface/TrackCountingTagInfo.h" export * }
+  module "TrackIPData.h" { header "DataFormats/BTauReco/interface/TrackIPData.h" export * }
+  module "TrackIPTagInfo.h" { header "DataFormats/BTauReco/interface/TrackIPTagInfo.h" export * }
+  module "TrackProbabilityTagInfo.h" { header "DataFormats/BTauReco/interface/TrackProbabilityTagInfo.h" export * }
+  module "VertexTypes.h" { header "DataFormats/BTauReco/interface/VertexTypes.h" export * }
+  export *
+}
+

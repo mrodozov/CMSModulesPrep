@@ -1,0 +1,12 @@
+module CMS_CondFormatsExternal {
+  module "CLHEP.h" { header "CondFormats/External/interface/CLHEP.h" export * }
+  module "DetID.h" { header "CondFormats/External/interface/DetID.h" export * }
+  module "EcalDetID.h" { header "CondFormats/External/interface/EcalDetID.h" export * }
+  module "FFTJet.h" { header "CondFormats/External/interface/FFTJet.h" export * }
+  module "HLTPrescaleTable.h" { header "CondFormats/External/interface/HLTPrescaleTable.h" export * }
+  module "L1GtLogicParser.h" { header "CondFormats/External/interface/L1GtLogicParser.h" export * }
+  module "SMatrix.h" { header "CondFormats/External/interface/SMatrix.h" export * }
+  module "Timestamp.h" { header "CondFormats/External/interface/Timestamp.h" export * }
+  export *
+}
+

@@ -1,0 +1,25 @@
+module CMS_DQMSiStripCommissioningSources {
+  module "ApvTimingTask.h" { header "DQM/SiStripCommissioningSources/interface/ApvTimingTask.h" export * }
+  module "Averages.h" { header "DQM/SiStripCommissioningSources/interface/Averages.h" export * }
+  module "CalibrationScanTask.h" { header "DQM/SiStripCommissioningSources/interface/CalibrationScanTask.h" export * }
+  module "CalibrationTask.h" { header "DQM/SiStripCommissioningSources/interface/CalibrationTask.h" export * }
+  module "CommissioningTask.h" { header "DQM/SiStripCommissioningSources/interface/CommissioningTask.h" export * }
+  module "DaqScopeModeTask.h" { header "DQM/SiStripCommissioningSources/interface/DaqScopeModeTask.h" export * }
+  module "FastFedCablingTask.h" { header "DQM/SiStripCommissioningSources/interface/FastFedCablingTask.h" export * }
+  module "FedCablingTask.h" { header "DQM/SiStripCommissioningSources/interface/FedCablingTask.h" export * }
+  module "FedTimingTask.h" { header "DQM/SiStripCommissioningSources/interface/FedTimingTask.h" export * }
+  module "FineDelayTask.h" { header "DQM/SiStripCommissioningSources/interface/FineDelayTask.h" export * }
+  module "LatencyTask.h" { header "DQM/SiStripCommissioningSources/interface/LatencyTask.h" export * }
+  module "NoiseTask.h" { header "DQM/SiStripCommissioningSources/interface/NoiseTask.h" export * }
+  module "OptoScanTask.h" { header "DQM/SiStripCommissioningSources/interface/OptoScanTask.h" export * }
+  module "PedestalsTask.h" { header "DQM/SiStripCommissioningSources/interface/PedestalsTask.h" export * }
+  module "PedsFullNoiseTask.h" { header "DQM/SiStripCommissioningSources/interface/PedsFullNoiseTask.h" export * }
+  module "PedsOnlyTask.h" { header "DQM/SiStripCommissioningSources/interface/PedsOnlyTask.h" export * }
+  module "SiStripCommissioningBasicPrescaler.h" { header "DQM/SiStripCommissioningSources/interface/SiStripCommissioningBasicPrescaler.h" export * }
+  module "SiStripCommissioningRunTypeFilter.h" { header "DQM/SiStripCommissioningSources/interface/SiStripCommissioningRunTypeFilter.h" export * }
+  module "SiStripCommissioningSeedFilter.h" { header "DQM/SiStripCommissioningSources/interface/SiStripCommissioningSeedFilter.h" export * }
+  module "SiStripCommissioningSource.h" { header "DQM/SiStripCommissioningSources/interface/SiStripCommissioningSource.h" export * }
+  module "VpspScanTask.h" { header "DQM/SiStripCommissioningSources/interface/VpspScanTask.h" export * }
+  export *
+}
+

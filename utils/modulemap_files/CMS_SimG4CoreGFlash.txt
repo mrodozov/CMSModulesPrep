@@ -1,0 +1,10 @@
+module CMS_SimG4CoreGFlash {
+  module "GFlash.h" { header "SimG4Core/GFlash/interface/GFlash.h" export * }
+  module "GflashEMShowerModel.h" { header "SimG4Core/GFlash/interface/GflashEMShowerModel.h" export * }
+  module "GflashG4Watcher.h" { header "SimG4Core/GFlash/interface/GflashG4Watcher.h" export * }
+  module "GflashHadronShowerModel.h" { header "SimG4Core/GFlash/interface/GflashHadronShowerModel.h" export * }
+  module "GflashHadronWrapperProcess.h" { header "SimG4Core/GFlash/interface/GflashHadronWrapperProcess.h" export * }
+  module "ParametrisedPhysics.h" { header "SimG4Core/GFlash/interface/ParametrisedPhysics.h" export * }
+  export *
+}
+

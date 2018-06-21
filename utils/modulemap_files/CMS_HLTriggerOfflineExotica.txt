@@ -1,0 +1,7 @@
+module CMS_HLTriggerOfflineExotica {
+  module "HLTExoticaPlotter.h" { header "HLTriggerOffline/Exotica/interface/HLTExoticaPlotter.h" export * }
+  module "HLTExoticaSubAnalysis.h" { header "HLTriggerOffline/Exotica/interface/HLTExoticaSubAnalysis.h" export * }
+  module "HLTExoticaValidator.h" { header "HLTriggerOffline/Exotica/interface/HLTExoticaValidator.h" export * }
+  export *
+}
+

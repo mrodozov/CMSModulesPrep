@@ -1,0 +1,6 @@
+module CMS_GeometryReadersXMLIdealGeometryESSource {
+  module "GeometryConfiguration.h" { header "GeometryReaders/XMLIdealGeometryESSource/interface/GeometryConfiguration.h" export * }
+  module "XMLIdealGeometryESSource.h" { header "GeometryReaders/XMLIdealGeometryESSource/interface/XMLIdealGeometryESSource.h" export * }
+  export *
+}
+

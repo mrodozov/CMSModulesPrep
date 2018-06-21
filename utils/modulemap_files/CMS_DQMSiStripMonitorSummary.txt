@@ -1,0 +1,16 @@
+module CMS_DQMSiStripMonitorSummary {
+  module "SiStripApvGainsDQM.h" { header "DQM/SiStripMonitorSummary/interface/SiStripApvGainsDQM.h" export * }
+  module "SiStripBackPlaneCorrectionDQM.h" { header "DQM/SiStripMonitorSummary/interface/SiStripBackPlaneCorrectionDQM.h" export * }
+  module "SiStripBaseCondObjDQM.h" { header "DQM/SiStripMonitorSummary/interface/SiStripBaseCondObjDQM.h" export * }
+  module "SiStripCablingDQM.h" { header "DQM/SiStripMonitorSummary/interface/SiStripCablingDQM.h" export * }
+  module "SiStripClassToMonitorCondData.h" { header "DQM/SiStripMonitorSummary/interface/SiStripClassToMonitorCondData.h" export * }
+  module "SiStripLorentzAngleDQM.h" { header "DQM/SiStripMonitorSummary/interface/SiStripLorentzAngleDQM.h" export * }
+  module "SiStripMonitorCondData.h" { header "DQM/SiStripMonitorSummary/interface/SiStripMonitorCondData.h" export * }
+  module "SiStripMonitorCondDataOnDemandExample.h" { header "DQM/SiStripMonitorSummary/interface/SiStripMonitorCondDataOnDemandExample.h" export * }
+  module "SiStripNoisesDQM.h" { header "DQM/SiStripMonitorSummary/interface/SiStripNoisesDQM.h" export * }
+  module "SiStripPedestalsDQM.h" { header "DQM/SiStripMonitorSummary/interface/SiStripPedestalsDQM.h" export * }
+  module "SiStripQualityDQM.h" { header "DQM/SiStripMonitorSummary/interface/SiStripQualityDQM.h" export * }
+  module "SiStripThresholdDQM.h" { header "DQM/SiStripMonitorSummary/interface/SiStripThresholdDQM.h" export * }
+  export *
+}
+

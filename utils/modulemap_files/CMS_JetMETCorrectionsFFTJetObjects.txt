@@ -1,0 +1,35 @@
+module CMS_JetMETCorrectionsFFTJetObjects {
+  module "AbsFFTJetAdjuster.h" { header "JetMETCorrections/FFTJetObjects/interface/AbsFFTJetAdjuster.h" export * }
+  module "AbsFFTJetScaleCalculator.h" { header "JetMETCorrections/FFTJetObjects/interface/AbsFFTJetScaleCalculator.h" export * }
+  module "AbsFFTSpecificScaleCalculator.h" { header "JetMETCorrections/FFTJetObjects/interface/AbsFFTSpecificScaleCalculator.h" export * }
+  module "FFTGenericScaleCalculator.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTGenericScaleCalculator.h" export * }
+  module "FFTJetAdjusters.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetAdjusters.h" export * }
+  module "FFTJetCorrectionsTypemap.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectionsTypemap.h" export * }
+  module "FFTJetCorrector.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrector.h" export * }
+  module "FFTJetCorrectorApp.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorApp.h" export * }
+  module "FFTJetCorrectorParametersLoader.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorParametersLoader.h" export * }
+  module "FFTJetCorrectorResult.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorResult.h" export * }
+  module "FFTJetCorrectorResultFromTransient.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorResultFromTransient.h" export * }
+  module "FFTJetCorrectorSequence.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorSequence.h" export * }
+  module "FFTJetCorrectorSequenceLoader.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorSequenceLoader.h" export * }
+  module "FFTJetCorrectorSequenceRcd.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorSequenceRcd.h" export * }
+  module "FFTJetCorrectorSequenceRcdTypes.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorSequenceRcdTypes.h" export * }
+  module "FFTJetCorrectorSequenceTypemap.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorSequenceTypemap.h" export * }
+  module "FFTJetCorrectorSequenceTypes.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorSequenceTypes.h" export * }
+  module "FFTJetCorrectorTransient.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorTransient.h" export * }
+  module "FFTJetCorrectorTransientFromJet.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetCorrectorTransientFromJet.h" export * }
+  module "FFTJetDict.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetDict.h" export * }
+  module "FFTJetLookupTableRcd.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetLookupTableRcd.h" export * }
+  module "FFTJetLookupTableRcdTypes.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetLookupTableRcdTypes.h" export * }
+  module "FFTJetLookupTableSequence.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetLookupTableSequence.h" export * }
+  module "FFTJetLookupTableSequenceLoader.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetLookupTableSequenceLoader.h" export * }
+  module "FFTJetObjectFactory.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetObjectFactory.h" export * }
+  module "FFTJetRcdMapper.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetRcdMapper.h" export * }
+  module "FFTJetScaleCalculators.h" { header "JetMETCorrections/FFTJetObjects/interface/FFTJetScaleCalculators.h" export * }
+  module "L2AbsScaleCalculator.h" { header "JetMETCorrections/FFTJetObjects/interface/L2AbsScaleCalculator.h" export * }
+  module "L2RecoScaleCalculator.h" { header "JetMETCorrections/FFTJetObjects/interface/L2RecoScaleCalculator.h" export * }
+  module "L2ResScaleCalculator.h" { header "JetMETCorrections/FFTJetObjects/interface/L2ResScaleCalculator.h" export * }
+  module "loadFFTJetInterpolationTable.h" { header "JetMETCorrections/FFTJetObjects/interface/loadFFTJetInterpolationTable.h" export * }
+  export *
+}
+

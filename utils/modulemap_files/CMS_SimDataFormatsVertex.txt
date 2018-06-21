@@ -1,0 +1,7 @@
+module CMS_SimDataFormatsVertex {
+  module "CoreSimVertex.h" { header "SimDataFormats/Vertex/interface/CoreSimVertex.h" export * }
+  module "SimVertex.h" { header "SimDataFormats/Vertex/interface/SimVertex.h" export * }
+  module "SimVertexContainer.h" { header "SimDataFormats/Vertex/interface/SimVertexContainer.h" export * }
+  export *
+}
+

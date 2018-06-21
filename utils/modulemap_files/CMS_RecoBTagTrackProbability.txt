@@ -1,0 +1,6 @@
+module CMS_RecoBTagTrackProbability {
+  module "HistogramProbabilityEstimator.h" { header "RecoBTag/TrackProbability/interface/HistogramProbabilityEstimator.h" export * }
+  module "TrackClassFilter.h" { header "RecoBTag/TrackProbability/interface/TrackClassFilter.h" export * }
+  export *
+}
+

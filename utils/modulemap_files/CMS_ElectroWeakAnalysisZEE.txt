@@ -1,0 +1,11 @@
+module CMS_ElectroWeakAnalysisZEE {
+  module "AnalysisErsatz.h" { header "ElectroWeakAnalysis/ZEE/interface/AnalysisErsatz.h" export * }
+  module "CaloVectors.h" { header "ElectroWeakAnalysis/ZEE/interface/CaloVectors.h" export * }
+  module "ElectronSelector.h" { header "ElectroWeakAnalysis/ZEE/interface/ElectronSelector.h" export * }
+  module "ErsatzMEt.h" { header "ElectroWeakAnalysis/ZEE/interface/ErsatzMEt.h" export * }
+  module "SCEnergyCorrections.h" { header "ElectroWeakAnalysis/ZEE/interface/SCEnergyCorrections.h" export * }
+  module "UniqueElectrons.h" { header "ElectroWeakAnalysis/ZEE/interface/UniqueElectrons.h" export * }
+  module "ZeePlots.h" { header "ElectroWeakAnalysis/ZEE/interface/ZeePlots.h" export * }
+  export *
+}
+

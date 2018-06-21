@@ -1,0 +1,5 @@
+module CMS_SimG4CoreHelpfulWatchers {
+  module "MonopoleSteppingAction.h" { header "SimG4Core/HelpfulWatchers/interface/MonopoleSteppingAction.h" export * }
+  export *
+}
+

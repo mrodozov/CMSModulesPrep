@@ -1,0 +1,6 @@
+module CMS_RecoLocalTrackerPhase2TrackerRecHits {
+  module "Phase2StripCPE.h" { header "RecoLocalTracker/Phase2TrackerRecHits/interface/Phase2StripCPE.h" export * }
+  module "Phase2StripCPEGeometric.h" { header "RecoLocalTracker/Phase2TrackerRecHits/interface/Phase2StripCPEGeometric.h" export * }
+  export *
+}
+

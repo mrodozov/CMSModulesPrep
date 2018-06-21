@@ -1,0 +1,11 @@
+module CMS_DataFormatsDTDigi {
+  module "DTControlData.h" { header "DataFormats/DTDigi/interface/DTControlData.h" export * }
+  module "DTDDUWords.h" { header "DataFormats/DTDigi/interface/DTDDUWords.h" export * }
+  module "DTDigi.h" { header "DataFormats/DTDigi/interface/DTDigi.h" export * }
+  module "DTDigiCollection.h" { header "DataFormats/DTDigi/interface/DTDigiCollection.h" export * }
+  module "DTLocalTrigger.h" { header "DataFormats/DTDigi/interface/DTLocalTrigger.h" export * }
+  module "DTLocalTriggerCollection.h" { header "DataFormats/DTDigi/interface/DTLocalTriggerCollection.h" export * }
+  module "DTuROSControlData.h" { header "DataFormats/DTDigi/interface/DTuROSControlData.h" export * }
+  export *
+}
+

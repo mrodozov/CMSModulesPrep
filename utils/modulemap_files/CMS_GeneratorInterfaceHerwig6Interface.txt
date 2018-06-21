@@ -1,0 +1,6 @@
+module CMS_GeneratorInterfaceHerwig6Interface {
+  module "Herwig6Instance.h" { header "GeneratorInterface/Herwig6Interface/interface/Herwig6Instance.h" export * }
+  module "herwig.h" { header "GeneratorInterface/Herwig6Interface/interface/herwig.h" export * }
+  export *
+}
+

@@ -1,0 +1,8 @@
+module CMS_DataFormatsTCDS {
+  module "BSTRecord.h" { header "DataFormats/TCDS/interface/BSTRecord.h" export * }
+  module "L1aInfo.h" { header "DataFormats/TCDS/interface/L1aInfo.h" export * }
+  module "TCDSRaw.h" { header "DataFormats/TCDS/interface/TCDSRaw.h" export * }
+  module "TCDSRecord.h" { header "DataFormats/TCDS/interface/TCDSRecord.h" export * }
+  export *
+}
+

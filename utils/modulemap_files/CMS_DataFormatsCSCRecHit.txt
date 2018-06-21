@@ -1,0 +1,9 @@
+module CMS_DataFormatsCSCRecHit {
+  module "CSCRangeMapAccessor.h" { header "DataFormats/CSCRecHit/interface/CSCRangeMapAccessor.h" export * }
+  module "CSCRecHit2D.h" { header "DataFormats/CSCRecHit/interface/CSCRecHit2D.h" export * }
+  module "CSCRecHit2DCollection.h" { header "DataFormats/CSCRecHit/interface/CSCRecHit2DCollection.h" export * }
+  module "CSCSegment.h" { header "DataFormats/CSCRecHit/interface/CSCSegment.h" export * }
+  module "CSCSegmentCollection.h" { header "DataFormats/CSCRecHit/interface/CSCSegmentCollection.h" export * }
+  export *
+}
+

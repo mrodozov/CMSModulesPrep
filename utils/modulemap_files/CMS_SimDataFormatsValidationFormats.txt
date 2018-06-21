@@ -1,0 +1,9 @@
+module CMS_SimDataFormatsValidationFormats {
+  module "MaterialAccountingDetector.h" { header "SimDataFormats/ValidationFormats/interface/MaterialAccountingDetector.h" export * }
+  module "MaterialAccountingStep.h" { header "SimDataFormats/ValidationFormats/interface/MaterialAccountingStep.h" export * }
+  module "MaterialAccountingTrack.h" { header "SimDataFormats/ValidationFormats/interface/MaterialAccountingTrack.h" export * }
+  module "PHGCalValidInfo.h" { header "SimDataFormats/ValidationFormats/interface/PHGCalValidInfo.h" export * }
+  module "PValidationFormats.h" { header "SimDataFormats/ValidationFormats/interface/PValidationFormats.h" export * }
+  export *
+}
+

@@ -1,0 +1,39 @@
+module CMS_CondFormatsCSCObjects {
+  module "CSCBadChambers.h" { header "CondFormats/CSCObjects/interface/CSCBadChambers.h" export * }
+  module "CSCBadStrips.h" { header "CondFormats/CSCObjects/interface/CSCBadStrips.h" export * }
+  module "CSCBadWires.h" { header "CondFormats/CSCObjects/interface/CSCBadWires.h" export * }
+  module "CSCChamberIndex.h" { header "CondFormats/CSCObjects/interface/CSCChamberIndex.h" export * }
+  module "CSCChamberMap.h" { header "CondFormats/CSCObjects/interface/CSCChamberMap.h" export * }
+  module "CSCChamberTimeCorrections.h" { header "CondFormats/CSCObjects/interface/CSCChamberTimeCorrections.h" export * }
+  module "CSCChannelTranslator.h" { header "CondFormats/CSCObjects/interface/CSCChannelTranslator.h" export * }
+  module "CSCCrateMap.h" { header "CondFormats/CSCObjects/interface/CSCCrateMap.h" export * }
+  module "CSCDBChipSpeedCorrection.h" { header "CondFormats/CSCObjects/interface/CSCDBChipSpeedCorrection.h" export * }
+  module "CSCDBCrosstalk.h" { header "CondFormats/CSCObjects/interface/CSCDBCrosstalk.h" export * }
+  module "CSCDBGains.h" { header "CondFormats/CSCObjects/interface/CSCDBGains.h" export * }
+  module "CSCDBGasGainCorrection.h" { header "CondFormats/CSCObjects/interface/CSCDBGasGainCorrection.h" export * }
+  module "CSCDBL1TPParameters.h" { header "CondFormats/CSCObjects/interface/CSCDBL1TPParameters.h" export * }
+  module "CSCDBL1TPParametersExtended.h" { header "CondFormats/CSCObjects/interface/CSCDBL1TPParametersExtended.h" export * }
+  module "CSCDBNoiseMatrix.h" { header "CondFormats/CSCObjects/interface/CSCDBNoiseMatrix.h" export * }
+  module "CSCDBPedestals.h" { header "CondFormats/CSCObjects/interface/CSCDBPedestals.h" export * }
+  module "CSCDDUMap.h" { header "CondFormats/CSCObjects/interface/CSCDDUMap.h" export * }
+  module "CSCDQM_DCSBase.h" { header "CondFormats/CSCObjects/interface/CSCDQM_DCSBase.h" export * }
+  module "CSCDQM_DCSData.h" { header "CondFormats/CSCObjects/interface/CSCDQM_DCSData.h" export * }
+  module "CSCGains.h" { header "CondFormats/CSCObjects/interface/CSCGains.h" export * }
+  module "CSCIdentifier.h" { header "CondFormats/CSCObjects/interface/CSCIdentifier.h" export * }
+  module "CSCL1TPParameters.h" { header "CondFormats/CSCObjects/interface/CSCL1TPParameters.h" export * }
+  module "CSCMapItem.h" { header "CondFormats/CSCObjects/interface/CSCMapItem.h" export * }
+  module "CSCNoiseMatrix.h" { header "CondFormats/CSCObjects/interface/CSCNoiseMatrix.h" export * }
+  module "CSCPedestals.h" { header "CondFormats/CSCObjects/interface/CSCPedestals.h" export * }
+  module "CSCReadoutMapping.h" { header "CondFormats/CSCObjects/interface/CSCReadoutMapping.h" export * }
+  module "CSCReadoutMappingForSliceTest.h" { header "CondFormats/CSCObjects/interface/CSCReadoutMappingForSliceTest.h" export * }
+  module "CSCReadoutMappingFromFile.h" { header "CondFormats/CSCObjects/interface/CSCReadoutMappingFromFile.h" export * }
+  module "CSCTriggerElectronicsMapping.h" { header "CondFormats/CSCObjects/interface/CSCTriggerElectronicsMapping.h" export * }
+  module "CSCTriggerElectronicsMappingFromFile.h" { header "CondFormats/CSCObjects/interface/CSCTriggerElectronicsMappingFromFile.h" export * }
+  module "CSCTriggerMapping.h" { header "CondFormats/CSCObjects/interface/CSCTriggerMapping.h" export * }
+  module "CSCTriggerMappingFromFile.h" { header "CondFormats/CSCObjects/interface/CSCTriggerMappingFromFile.h" export * }
+  module "CSCTriggerSimpleMapping.h" { header "CondFormats/CSCObjects/interface/CSCTriggerSimpleMapping.h" export * }
+  module "CSCcrosstalk.h" { header "CondFormats/CSCObjects/interface/CSCcrosstalk.h" export * }
+  module "CSCobject.h" { header "CondFormats/CSCObjects/interface/CSCobject.h" export * }
+  export *
+}
+

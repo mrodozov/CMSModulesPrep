@@ -1,0 +1,8 @@
+module CMS_DQMOfflineAlignment {
+  module "LaserAlignmentT0ProducerDQM.h" { header "DQMOffline/Alignment/interface/LaserAlignmentT0ProducerDQM.h" export * }
+  module "MuonAlignment.h" { header "DQMOffline/Alignment/interface/MuonAlignment.h" export * }
+  module "MuonAlignmentSummary.h" { header "DQMOffline/Alignment/interface/MuonAlignmentSummary.h" export * }
+  module "TkAlCaRecoMonitor.h" { header "DQMOffline/Alignment/interface/TkAlCaRecoMonitor.h" export * }
+  export *
+}
+

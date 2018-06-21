@@ -1,0 +1,8 @@
+module CMS_DQMDataScouting {
+  module "AlphaTVarProducer.h" { header "DQM/DataScouting/interface/AlphaTVarProducer.h" export * }
+  module "DiJetVarProducer.h" { header "DQM/DataScouting/interface/DiJetVarProducer.h" export * }
+  module "RazorVarProducer.h" { header "DQM/DataScouting/interface/RazorVarProducer.h" export * }
+  module "ScoutingAnalyzerBase.h" { header "DQM/DataScouting/interface/ScoutingAnalyzerBase.h" export * }
+  export *
+}
+

@@ -1,0 +1,7 @@
+module CMS_FastSimulationTrackerSetup {
+  module "TrackerInteractionGeometry.h" { header "FastSimulation/TrackerSetup/interface/TrackerInteractionGeometry.h" export * }
+  module "TrackerInteractionGeometryRecord.h" { header "FastSimulation/TrackerSetup/interface/TrackerInteractionGeometryRecord.h" export * }
+  module "TrackerLayer.h" { header "FastSimulation/TrackerSetup/interface/TrackerLayer.h" export * }
+  export *
+}
+

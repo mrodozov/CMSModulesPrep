@@ -1,0 +1,9 @@
+module CMS_DQMOfflineLumi {
+  module "ElectronIdentifier.h" { header "DQMOffline/Lumi/interface/ElectronIdentifier.h" export * }
+  module "TTrigger.h" { header "DQMOffline/Lumi/interface/TTrigger.h" export * }
+  module "TriggerDefs.h" { header "DQMOffline/Lumi/interface/TriggerDefs.h" export * }
+  module "TriggerRecord.h" { header "DQMOffline/Lumi/interface/TriggerRecord.h" export * }
+  module "TriggerTools.h" { header "DQMOffline/Lumi/interface/TriggerTools.h" export * }
+  export *
+}
+

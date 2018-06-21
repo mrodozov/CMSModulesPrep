@@ -1,0 +1,6 @@
+module CMS_SimDataFormatsSimHitMaker {
+  module "CaloSlaveSD.h" { header "SimDataFormats/SimHitMaker/interface/CaloSlaveSD.h" export * }
+  module "TrackingSlaveSD.h" { header "SimDataFormats/SimHitMaker/interface/TrackingSlaveSD.h" export * }
+  export *
+}
+

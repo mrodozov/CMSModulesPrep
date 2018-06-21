@@ -1,0 +1,5 @@
+module CMS_FireworksEve {
+  module "EveService.h" { header "Fireworks/Eve/interface/EveService.h" export * }
+  export *
+}
+

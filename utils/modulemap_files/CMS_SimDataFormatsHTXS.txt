@@ -1,0 +1,5 @@
+module CMS_SimDataFormatsHTXS {
+  module "HiggsTemplateCrossSections.h" { header "SimDataFormats/HTXS/interface/HiggsTemplateCrossSections.h" export * }
+  export *
+}
+

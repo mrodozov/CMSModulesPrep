@@ -1,0 +1,12 @@
+module CMS_TrackingToolsAnalyticalJacobians {
+  module "AnalyticalCurvilinearJacobian.h" { header "TrackingTools/AnalyticalJacobians/interface/AnalyticalCurvilinearJacobian.h" export * }
+  module "CurvilinearJacobian.h" { header "TrackingTools/AnalyticalJacobians/interface/CurvilinearJacobian.h" export * }
+  module "JacobianCartesianToCurvilinear.h" { header "TrackingTools/AnalyticalJacobians/interface/JacobianCartesianToCurvilinear.h" export * }
+  module "JacobianCartesianToLocal.h" { header "TrackingTools/AnalyticalJacobians/interface/JacobianCartesianToLocal.h" export * }
+  module "JacobianCurvilinearToCartesian.h" { header "TrackingTools/AnalyticalJacobians/interface/JacobianCurvilinearToCartesian.h" export * }
+  module "JacobianCurvilinearToLocal.h" { header "TrackingTools/AnalyticalJacobians/interface/JacobianCurvilinearToLocal.h" export * }
+  module "JacobianLocalToCartesian.h" { header "TrackingTools/AnalyticalJacobians/interface/JacobianLocalToCartesian.h" export * }
+  module "JacobianLocalToCurvilinear.h" { header "TrackingTools/AnalyticalJacobians/interface/JacobianLocalToCurvilinear.h" export * }
+  export *
+}
+

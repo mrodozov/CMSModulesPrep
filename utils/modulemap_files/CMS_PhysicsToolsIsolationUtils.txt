@@ -1,0 +1,11 @@
+module CMS_PhysicsToolsIsolationUtils {
+  module "ConeAreaFunction.h" { header "PhysicsTools/IsolationUtils/interface/ConeAreaFunction.h" export * }
+  module "ConeAreaRootFunction.h" { header "PhysicsTools/IsolationUtils/interface/ConeAreaRootFunction.h" export * }
+  module "FixedAreaIsolationCone.h" { header "PhysicsTools/IsolationUtils/interface/FixedAreaIsolationCone.h" export * }
+  module "IntegralOverPhiFunction.h" { header "PhysicsTools/IsolationUtils/interface/IntegralOverPhiFunction.h" export * }
+  module "IntegrandThetaFunction.h" { header "PhysicsTools/IsolationUtils/interface/IntegrandThetaFunction.h" export * }
+  module "PtIsolationAlgo.h" { header "PhysicsTools/IsolationUtils/interface/PtIsolationAlgo.h" export * }
+  module "TrkCalIsolationAlgo.h" { header "PhysicsTools/IsolationUtils/interface/TrkCalIsolationAlgo.h" export * }
+  export *
+}
+

@@ -1,0 +1,14 @@
+module CMS_PhysicsToolsTagAndProbe {
+  module "BaseTreeFiller.h" { header "PhysicsTools/TagAndProbe/interface/BaseTreeFiller.h" export * }
+  module "ColinsSoperVariables.h" { header "PhysicsTools/TagAndProbe/interface/ColinsSoperVariables.h" export * }
+  module "ElectronMatchedCandidateProducer.h" { header "PhysicsTools/TagAndProbe/interface/ElectronMatchedCandidateProducer.h" export * }
+  module "RooCBExGaussShape.h" { header "PhysicsTools/TagAndProbe/interface/RooCBExGaussShape.h" export * }
+  module "RooCMSShape.h" { header "PhysicsTools/TagAndProbe/interface/RooCMSShape.h" export * }
+  module "TPTreeFiller.h" { header "PhysicsTools/TagAndProbe/interface/TPTreeFiller.h" export * }
+  module "TagProbeFitter.h" { header "PhysicsTools/TagAndProbe/interface/TagProbeFitter.h" export * }
+  module "TagProbePairMaker.h" { header "PhysicsTools/TagAndProbe/interface/TagProbePairMaker.h" export * }
+  module "TriggerCandProducer.h" { header "PhysicsTools/TagAndProbe/interface/TriggerCandProducer.h" export * }
+  module "ZGeneratorLineShape.h" { header "PhysicsTools/TagAndProbe/interface/ZGeneratorLineShape.h" export * }
+  export *
+}
+

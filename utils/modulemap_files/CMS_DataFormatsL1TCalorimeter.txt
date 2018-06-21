@@ -1,0 +1,9 @@
+module CMS_DataFormatsL1TCalorimeter {
+  module "CaloCluster.h" { header "DataFormats/L1TCalorimeter/interface/CaloCluster.h" export * }
+  module "CaloEmCand.h" { header "DataFormats/L1TCalorimeter/interface/CaloEmCand.h" export * }
+  module "CaloRegion.h" { header "DataFormats/L1TCalorimeter/interface/CaloRegion.h" export * }
+  module "CaloStage1Cluster.h" { header "DataFormats/L1TCalorimeter/interface/CaloStage1Cluster.h" export * }
+  module "CaloTower.h" { header "DataFormats/L1TCalorimeter/interface/CaloTower.h" export * }
+  export *
+}
+

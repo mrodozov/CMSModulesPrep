@@ -1,0 +1,12 @@
+module CMS_SimG4CoreSensitiveDetector {
+  module "AttachSD.h" { header "SimG4Core/SensitiveDetector/interface/AttachSD.h" export * }
+  module "FrameRotation.h" { header "SimG4Core/SensitiveDetector/interface/FrameRotation.h" export * }
+  module "SensitiveCaloDetector.h" { header "SimG4Core/SensitiveDetector/interface/SensitiveCaloDetector.h" export * }
+  module "SensitiveDetector.h" { header "SimG4Core/SensitiveDetector/interface/SensitiveDetector.h" export * }
+  module "SensitiveDetectorMaker.h" { header "SimG4Core/SensitiveDetector/interface/SensitiveDetectorMaker.h" export * }
+  module "SensitiveDetectorMakerBase.h" { header "SimG4Core/SensitiveDetector/interface/SensitiveDetectorMakerBase.h" export * }
+  module "SensitiveDetectorPluginFactory.h" { header "SimG4Core/SensitiveDetector/interface/SensitiveDetectorPluginFactory.h" export * }
+  module "SensitiveTkDetector.h" { header "SimG4Core/SensitiveDetector/interface/SensitiveTkDetector.h" export * }
+  export *
+}
+

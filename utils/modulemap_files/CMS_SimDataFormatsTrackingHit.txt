@@ -1,0 +1,7 @@
+module CMS_SimDataFormatsTrackingHit {
+  module "PSimHit.h" { header "SimDataFormats/TrackingHit/interface/PSimHit.h" export * }
+  module "PSimHitContainer.h" { header "SimDataFormats/TrackingHit/interface/PSimHitContainer.h" export * }
+  module "UpdatablePSimHit.h" { header "SimDataFormats/TrackingHit/interface/UpdatablePSimHit.h" export * }
+  export *
+}
+

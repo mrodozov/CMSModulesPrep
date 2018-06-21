@@ -1,0 +1,32 @@
+module CMS_L1TriggerL1TMuon {
+  module "GMTInternalMuon.h" { header "L1Trigger/L1TMuon/interface/GMTInternalMuon.h" export * }
+  module "GMTInternalMuonFwd.h" { header "L1Trigger/L1TMuon/interface/GMTInternalMuonFwd.h" export * }
+  module "GeometryTranslator.h" { header "L1Trigger/L1TMuon/interface/GeometryTranslator.h" export * }
+  module "L1TMuonGlobalParamsHelper.h" { header "L1Trigger/L1TMuon/interface/L1TMuonGlobalParamsHelper.h" export * }
+  module "L1TMuonGlobalParams_PUBLIC.h" { header "L1Trigger/L1TMuon/interface/L1TMuonGlobalParams_PUBLIC.h" export * }
+  module "MicroGMTAbsoluteIsolationCheckLUT.h" { header "L1Trigger/L1TMuon/interface/MicroGMTAbsoluteIsolationCheckLUT.h" export * }
+  module "MicroGMTCaloIndexSelectionLUT.h" { header "L1Trigger/L1TMuon/interface/MicroGMTCaloIndexSelectionLUT.h" export * }
+  module "MicroGMTCancelOutUnit.h" { header "L1Trigger/L1TMuon/interface/MicroGMTCancelOutUnit.h" export * }
+  module "MicroGMTConfiguration.h" { header "L1Trigger/L1TMuon/interface/MicroGMTConfiguration.h" export * }
+  module "MicroGMTExtrapolationLUT.h" { header "L1Trigger/L1TMuon/interface/MicroGMTExtrapolationLUT.h" export * }
+  module "MicroGMTIsolationUnit.h" { header "L1Trigger/L1TMuon/interface/MicroGMTIsolationUnit.h" export * }
+  module "MicroGMTLUT.h" { header "L1Trigger/L1TMuon/interface/MicroGMTLUT.h" export * }
+  module "MicroGMTLUTFactories.h" { header "L1Trigger/L1TMuon/interface/MicroGMTLUTFactories.h" export * }
+  module "MicroGMTMatchQualLUT.h" { header "L1Trigger/L1TMuon/interface/MicroGMTMatchQualLUT.h" export * }
+  module "MicroGMTRankPtQualLUT.h" { header "L1Trigger/L1TMuon/interface/MicroGMTRankPtQualLUT.h" export * }
+  module "MicroGMTRelativeIsolationCheckLUT.h" { header "L1Trigger/L1TMuon/interface/MicroGMTRelativeIsolationCheckLUT.h" export * }
+  module "MuonRawDigiTranslator.h" { header "L1Trigger/L1TMuon/interface/MuonRawDigiTranslator.h" export * }
+  module "MuonTriggerPrimitive.h" { header "L1Trigger/L1TMuon/interface/MuonTriggerPrimitive.h" export * }
+  module "MuonTriggerPrimitiveFwd.h" { header "L1Trigger/L1TMuon/interface/MuonTriggerPrimitiveFwd.h" export * }
+  module "RegionalMuonRawDigiTranslator.h" { header "L1Trigger/L1TMuon/interface/RegionalMuonRawDigiTranslator.h" export * }
+  module "TTGeometryTranslator.h" { header "L1Trigger/L1TMuon/interface/TTGeometryTranslator.h" export * }
+  module "TTMuonTriggerPrimitive.h" { header "L1Trigger/L1TMuon/interface/TTMuonTriggerPrimitive.h" export * }
+  module "deprecate/CSCCollector.h" { header "L1Trigger/L1TMuon/interface/deprecate/CSCCollector.h" export * }
+  module "deprecate/DTBunchCrossingCleaner.h" { header "L1Trigger/L1TMuon/interface/deprecate/DTBunchCrossingCleaner.h" export * }
+  module "deprecate/DTCollector.h" { header "L1Trigger/L1TMuon/interface/deprecate/DTCollector.h" export * }
+  module "deprecate/RPCCollector.h" { header "L1Trigger/L1TMuon/interface/deprecate/RPCCollector.h" export * }
+  module "deprecate/SubsystemCollector.h" { header "L1Trigger/L1TMuon/interface/deprecate/SubsystemCollector.h" export * }
+  module "deprecate/SubsystemCollectorFactory.h" { header "L1Trigger/L1TMuon/interface/deprecate/SubsystemCollectorFactory.h" export * }
+  export *
+}
+

@@ -1,0 +1,7 @@
+module CMS_SimGeneralHepPDTRecord {
+  module "PDTRecord.h" { header "SimGeneral/HepPDTRecord/interface/PDTRecord.h" export * }
+  module "ParticleDataTable.h" { header "SimGeneral/HepPDTRecord/interface/ParticleDataTable.h" export * }
+  module "PdtEntry.h" { header "SimGeneral/HepPDTRecord/interface/PdtEntry.h" export * }
+  export *
+}
+

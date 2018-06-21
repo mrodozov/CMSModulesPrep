@@ -1,0 +1,11 @@
+module CMS_DQMServicesExamples {
+  module "ConverterTester.h" { header "DQMServices/Examples/interface/ConverterTester.h" export * }
+  module "DQMClientExample.h" { header "DQMServices/Examples/interface/DQMClientExample.h" export * }
+  module "DQMExample_Step1.h" { header "DQMServices/Examples/interface/DQMExample_Step1.h" export * }
+  module "DQMExample_Step2.h" { header "DQMServices/Examples/interface/DQMExample_Step2.h" export * }
+  module "DQMSourceExample.h" { header "DQMServices/Examples/interface/DQMSourceExample.h" export * }
+  module "HarvestingAnalyzer.h" { header "DQMServices/Examples/interface/HarvestingAnalyzer.h" export * }
+  module "HarvestingDataCertification.h" { header "DQMServices/Examples/interface/HarvestingDataCertification.h" export * }
+  export *
+}
+

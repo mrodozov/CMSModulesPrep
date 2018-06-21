@@ -1,0 +1,15 @@
+module CMS_DataFormatsSiPixelDetId {
+  module "PXBDetId.h" { header "DataFormats/SiPixelDetId/interface/PXBDetId.h" export * }
+  module "PXFDetId.h" { header "DataFormats/SiPixelDetId/interface/PXFDetId.h" export * }
+  module "PixelBarrelName.h" { header "DataFormats/SiPixelDetId/interface/PixelBarrelName.h" export * }
+  module "PixelBarrelNameUpgrade.h" { header "DataFormats/SiPixelDetId/interface/PixelBarrelNameUpgrade.h" export * }
+  module "PixelChannelIdentifier.h" { header "DataFormats/SiPixelDetId/interface/PixelChannelIdentifier.h" export * }
+  module "PixelEndcapName.h" { header "DataFormats/SiPixelDetId/interface/PixelEndcapName.h" export * }
+  module "PixelEndcapNameUpgrade.h" { header "DataFormats/SiPixelDetId/interface/PixelEndcapNameUpgrade.h" export * }
+  module "PixelFEDChannel.h" { header "DataFormats/SiPixelDetId/interface/PixelFEDChannel.h" export * }
+  module "PixelModuleName.h" { header "DataFormats/SiPixelDetId/interface/PixelModuleName.h" export * }
+  module "PixelPannelType.h" { header "DataFormats/SiPixelDetId/interface/PixelPannelType.h" export * }
+  module "PixelSubdetector.h" { header "DataFormats/SiPixelDetId/interface/PixelSubdetector.h" export * }
+  export *
+}
+

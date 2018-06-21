@@ -1,0 +1,53 @@
+module CMS_DataFormatsPatCandidates {
+  module "CandKinResolution.h" { header "DataFormats/PatCandidates/interface/CandKinResolution.h" export * }
+  module "CompositeCandidate.h" { header "DataFormats/PatCandidates/interface/CompositeCandidate.h" export * }
+  module "Conversion.h" { header "DataFormats/PatCandidates/interface/Conversion.h" export * }
+  module "CovarianceParameterization.h" { header "DataFormats/PatCandidates/interface/CovarianceParameterization.h" export * }
+  module "Electron.h" { header "DataFormats/PatCandidates/interface/Electron.h" export * }
+  module "EventHypothesis.h" { header "DataFormats/PatCandidates/interface/EventHypothesis.h" export * }
+  module "EventHypothesisLooper.h" { header "DataFormats/PatCandidates/interface/EventHypothesisLooper.h" export * }
+  module "Flags.h" { header "DataFormats/PatCandidates/interface/Flags.h" export * }
+  module "GenericParticle.h" { header "DataFormats/PatCandidates/interface/GenericParticle.h" export * }
+  module "HardEventHypothesis.h" { header "DataFormats/PatCandidates/interface/HardEventHypothesis.h" export * }
+  module "Hemisphere.h" { header "DataFormats/PatCandidates/interface/Hemisphere.h" export * }
+  module "IsolatedTrack.h" { header "DataFormats/PatCandidates/interface/IsolatedTrack.h" export * }
+  module "Isolation.h" { header "DataFormats/PatCandidates/interface/Isolation.h" export * }
+  module "Jet.h" { header "DataFormats/PatCandidates/interface/Jet.h" export * }
+  module "JetCorrFactors.h" { header "DataFormats/PatCandidates/interface/JetCorrFactors.h" export * }
+  module "Lepton.h" { header "DataFormats/PatCandidates/interface/Lepton.h" export * }
+  module "LookupTableRecord.h" { header "DataFormats/PatCandidates/interface/LookupTableRecord.h" export * }
+  module "MET.h" { header "DataFormats/PatCandidates/interface/MET.h" export * }
+  module "MHT.h" { header "DataFormats/PatCandidates/interface/MHT.h" export * }
+  module "Muon.h" { header "DataFormats/PatCandidates/interface/Muon.h" export * }
+  module "PATObject.h" { header "DataFormats/PatCandidates/interface/PATObject.h" export * }
+  module "PATTauDiscriminator.h" { header "DataFormats/PatCandidates/interface/PATTauDiscriminator.h" export * }
+  module "PFIsolation.h" { header "DataFormats/PatCandidates/interface/PFIsolation.h" export * }
+  module "PFParticle.h" { header "DataFormats/PatCandidates/interface/PFParticle.h" export * }
+  module "PackedCandidate.h" { header "DataFormats/PatCandidates/interface/PackedCandidate.h" export * }
+  module "PackedGenParticle.h" { header "DataFormats/PatCandidates/interface/PackedGenParticle.h" export * }
+  module "PackedTriggerPrescales.h" { header "DataFormats/PatCandidates/interface/PackedTriggerPrescales.h" export * }
+  module "ParametrizationHelper.h" { header "DataFormats/PatCandidates/interface/ParametrizationHelper.h" export * }
+  module "Particle.h" { header "DataFormats/PatCandidates/interface/Particle.h" export * }
+  module "Photon.h" { header "DataFormats/PatCandidates/interface/Photon.h" export * }
+  module "ResolutionHelper.h" { header "DataFormats/PatCandidates/interface/ResolutionHelper.h" export * }
+  module "StringMap.h" { header "DataFormats/PatCandidates/interface/StringMap.h" export * }
+  module "Tau.h" { header "DataFormats/PatCandidates/interface/Tau.h" export * }
+  module "TauCaloSpecific.h" { header "DataFormats/PatCandidates/interface/TauCaloSpecific.h" export * }
+  module "TauJetCorrFactors.h" { header "DataFormats/PatCandidates/interface/TauJetCorrFactors.h" export * }
+  module "TauPFEssential.h" { header "DataFormats/PatCandidates/interface/TauPFEssential.h" export * }
+  module "TauPFSpecific.h" { header "DataFormats/PatCandidates/interface/TauPFSpecific.h" export * }
+  module "TriggerAlgorithm.h" { header "DataFormats/PatCandidates/interface/TriggerAlgorithm.h" export * }
+  module "TriggerCondition.h" { header "DataFormats/PatCandidates/interface/TriggerCondition.h" export * }
+  module "TriggerEvent.h" { header "DataFormats/PatCandidates/interface/TriggerEvent.h" export * }
+  module "TriggerFilter.h" { header "DataFormats/PatCandidates/interface/TriggerFilter.h" export * }
+  module "TriggerObject.h" { header "DataFormats/PatCandidates/interface/TriggerObject.h" export * }
+  module "TriggerObjectStandAlone.h" { header "DataFormats/PatCandidates/interface/TriggerObjectStandAlone.h" export * }
+  module "TriggerPath.h" { header "DataFormats/PatCandidates/interface/TriggerPath.h" export * }
+  module "UserData.h" { header "DataFormats/PatCandidates/interface/UserData.h" export * }
+  module "VIDCutFlowResult.h" { header "DataFormats/PatCandidates/interface/VIDCutFlowResult.h" export * }
+  module "Vertexing.h" { header "DataFormats/PatCandidates/interface/Vertexing.h" export * }
+  module "ioread_packedgen.h" { header "DataFormats/PatCandidates/interface/ioread_packedgen.h" export * }
+  module "throwMissingLabel.h" { header "DataFormats/PatCandidates/interface/throwMissingLabel.h" export * }
+  export *
+}
+

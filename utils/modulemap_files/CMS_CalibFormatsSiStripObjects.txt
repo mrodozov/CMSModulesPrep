@@ -1,0 +1,17 @@
+module CMS_CalibFormatsSiStripObjects {
+  module "NumberOfDevices.h" { header "CalibFormats/SiStripObjects/interface/NumberOfDevices.h" export * }
+  module "SiStripCcu.h" { header "CalibFormats/SiStripObjects/interface/SiStripCcu.h" export * }
+  module "SiStripDelay.h" { header "CalibFormats/SiStripObjects/interface/SiStripDelay.h" export * }
+  module "SiStripDetCabling.h" { header "CalibFormats/SiStripObjects/interface/SiStripDetCabling.h" export * }
+  module "SiStripFec.h" { header "CalibFormats/SiStripObjects/interface/SiStripFec.h" export * }
+  module "SiStripFecCabling.h" { header "CalibFormats/SiStripObjects/interface/SiStripFecCabling.h" export * }
+  module "SiStripFecCrate.h" { header "CalibFormats/SiStripObjects/interface/SiStripFecCrate.h" export * }
+  module "SiStripGain.h" { header "CalibFormats/SiStripObjects/interface/SiStripGain.h" export * }
+  module "SiStripHashedDetId.h" { header "CalibFormats/SiStripObjects/interface/SiStripHashedDetId.h" export * }
+  module "SiStripModule.h" { header "CalibFormats/SiStripObjects/interface/SiStripModule.h" export * }
+  module "SiStripQuality.h" { header "CalibFormats/SiStripObjects/interface/SiStripQuality.h" export * }
+  module "SiStripRegionCabling.h" { header "CalibFormats/SiStripObjects/interface/SiStripRegionCabling.h" export * }
+  module "SiStripRing.h" { header "CalibFormats/SiStripObjects/interface/SiStripRing.h" export * }
+  export *
+}
+

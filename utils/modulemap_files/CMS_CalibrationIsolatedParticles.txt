@@ -1,0 +1,35 @@
+module CMS_CalibrationIsolatedParticles {
+  module "CaloConstants.h" { header "Calibration/IsolatedParticles/interface/CaloConstants.h" export * }
+  module "CaloPropagateTrack.h" { header "Calibration/IsolatedParticles/interface/CaloPropagateTrack.h" export * }
+  module "CaloSimInfo.h" { header "Calibration/IsolatedParticles/interface/CaloSimInfo.h" export * }
+  module "CaloSimInfo.icc" { textual header "Calibration/IsolatedParticles/interface/CaloSimInfo.icc" export * }
+  module "CaloSimInfoExtra.h" { header "Calibration/IsolatedParticles/interface/CaloSimInfoExtra.h" export * }
+  module "CaloSimInfoExtra.icc" { textual header "Calibration/IsolatedParticles/interface/CaloSimInfoExtra.icc" export * }
+  module "ChargeIsolation.h" { header "Calibration/IsolatedParticles/interface/ChargeIsolation.h" export * }
+  module "ChargeIsolationExtra.h" { header "Calibration/IsolatedParticles/interface/ChargeIsolationExtra.h" export * }
+  module "DebugInfo.h" { header "Calibration/IsolatedParticles/interface/DebugInfo.h" export * }
+  module "DetIdFromEtaPhi.h" { header "Calibration/IsolatedParticles/interface/DetIdFromEtaPhi.h" export * }
+  module "FindCaloHit.h" { header "Calibration/IsolatedParticles/interface/FindCaloHit.h" export * }
+  module "FindCaloHit.icc" { textual header "Calibration/IsolatedParticles/interface/FindCaloHit.icc" export * }
+  module "FindCaloHitCone.h" { header "Calibration/IsolatedParticles/interface/FindCaloHitCone.h" export * }
+  module "FindCaloHitCone.icc" { textual header "Calibration/IsolatedParticles/interface/FindCaloHitCone.icc" export * }
+  module "FindDistCone.h" { header "Calibration/IsolatedParticles/interface/FindDistCone.h" export * }
+  module "FindEtaPhi.h" { header "Calibration/IsolatedParticles/interface/FindEtaPhi.h" export * }
+  module "GenSimInfo.h" { header "Calibration/IsolatedParticles/interface/GenSimInfo.h" export * }
+  module "MatchingSimTrack.h" { header "Calibration/IsolatedParticles/interface/MatchingSimTrack.h" export * }
+  module "MatrixECALDetIds.h" { header "Calibration/IsolatedParticles/interface/MatrixECALDetIds.h" export * }
+  module "MatrixHCALDetIds.h" { header "Calibration/IsolatedParticles/interface/MatrixHCALDetIds.h" export * }
+  module "TrackSelection.h" { header "Calibration/IsolatedParticles/interface/TrackSelection.h" export * }
+  module "eCone.h" { header "Calibration/IsolatedParticles/interface/eCone.h" export * }
+  module "eCone.icc" { textual header "Calibration/IsolatedParticles/interface/eCone.icc" export * }
+  module "eECALMatrix.h" { header "Calibration/IsolatedParticles/interface/eECALMatrix.h" export * }
+  module "eECALMatrix.icc" { textual header "Calibration/IsolatedParticles/interface/eECALMatrix.icc" export * }
+  module "eECALMatrixExtra.h" { header "Calibration/IsolatedParticles/interface/eECALMatrixExtra.h" export * }
+  module "eECALMatrixExtra.icc" { textual header "Calibration/IsolatedParticles/interface/eECALMatrixExtra.icc" export * }
+  module "eHCALMatrix.h" { header "Calibration/IsolatedParticles/interface/eHCALMatrix.h" export * }
+  module "eHCALMatrix.icc" { textual header "Calibration/IsolatedParticles/interface/eHCALMatrix.icc" export * }
+  module "eHCALMatrixExtra.h" { header "Calibration/IsolatedParticles/interface/eHCALMatrixExtra.h" export * }
+  module "eHCALMatrixExtra.icc" { textual header "Calibration/IsolatedParticles/interface/eHCALMatrixExtra.icc" export * }
+  export *
+}
+

@@ -1,0 +1,14 @@
+module CMS_DataFormatsCTPPSReco {
+  module "CTPPSDiamondLocalTrack.h" { header "DataFormats/CTPPSReco/interface/CTPPSDiamondLocalTrack.h" export * }
+  module "CTPPSDiamondRecHit.h" { header "DataFormats/CTPPSReco/interface/CTPPSDiamondRecHit.h" export * }
+  module "CTPPSLocalTrackLite.h" { header "DataFormats/CTPPSReco/interface/CTPPSLocalTrackLite.h" export * }
+  module "CTPPSPixelCluster.h" { header "DataFormats/CTPPSReco/interface/CTPPSPixelCluster.h" export * }
+  module "CTPPSPixelLocalTrack.h" { header "DataFormats/CTPPSReco/interface/CTPPSPixelLocalTrack.h" export * }
+  module "CTPPSPixelRecHit.h" { header "DataFormats/CTPPSReco/interface/CTPPSPixelRecHit.h" export * }
+  module "TotemRPCluster.h" { header "DataFormats/CTPPSReco/interface/TotemRPCluster.h" export * }
+  module "TotemRPLocalTrack.h" { header "DataFormats/CTPPSReco/interface/TotemRPLocalTrack.h" export * }
+  module "TotemRPRecHit.h" { header "DataFormats/CTPPSReco/interface/TotemRPRecHit.h" export * }
+  module "TotemRPUVPattern.h" { header "DataFormats/CTPPSReco/interface/TotemRPUVPattern.h" export * }
+  export *
+}
+

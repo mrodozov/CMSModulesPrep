@@ -1,0 +1,6 @@
+module CMS_SimTrackerTrackerHitAssociation {
+  module "ClusterTPAssociation.h" { header "SimTracker/TrackerHitAssociation/interface/ClusterTPAssociation.h" export * }
+  module "TrackerHitAssociator.h" { header "SimTracker/TrackerHitAssociation/interface/TrackerHitAssociator.h" export * }
+  export *
+}
+

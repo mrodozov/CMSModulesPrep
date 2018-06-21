@@ -1,0 +1,9 @@
+module CMS_GeometryRPCGeometry {
+  module "RPCChamber.h" { header "Geometry/RPCGeometry/interface/RPCChamber.h" export * }
+  module "RPCGeomServ.h" { header "Geometry/RPCGeometry/interface/RPCGeomServ.h" export * }
+  module "RPCGeometry.h" { header "Geometry/RPCGeometry/interface/RPCGeometry.h" export * }
+  module "RPCRoll.h" { header "Geometry/RPCGeometry/interface/RPCRoll.h" export * }
+  module "RPCRollSpecs.h" { header "Geometry/RPCGeometry/interface/RPCRollSpecs.h" export * }
+  export *
+}
+

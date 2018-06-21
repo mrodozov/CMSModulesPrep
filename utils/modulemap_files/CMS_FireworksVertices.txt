@@ -1,0 +1,6 @@
+module CMS_FireworksVertices {
+  module "TEveEllipsoid.h" { header "Fireworks/Vertices/interface/TEveEllipsoid.h" export * }
+  module "TEveEllipsoidGL.h" { header "Fireworks/Vertices/interface/TEveEllipsoidGL.h" export * }
+  export *
+}
+

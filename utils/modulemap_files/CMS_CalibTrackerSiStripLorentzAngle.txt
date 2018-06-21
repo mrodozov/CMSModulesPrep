@@ -1,0 +1,8 @@
+module CMS_CalibTrackerSiStripLorentzAngle {
+  module "LA_Filler_Fitter.h" { header "CalibTracker/SiStripLorentzAngle/interface/LA_Filler_Fitter.h" export * }
+  module "SiStripCalibLorentzAngle.h" { header "CalibTracker/SiStripLorentzAngle/interface/SiStripCalibLorentzAngle.h" export * }
+  module "SiStripLAProfileBooker.h" { header "CalibTracker/SiStripLorentzAngle/interface/SiStripLAProfileBooker.h" export * }
+  module "SymmetryFit.h" { header "CalibTracker/SiStripLorentzAngle/interface/SymmetryFit.h" export * }
+  export *
+}
+

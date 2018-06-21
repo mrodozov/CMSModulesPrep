@@ -1,0 +1,33 @@
+module CMS_TrackingToolsPatternTools {
+  module "ClosestApproachInRPhi.h" { header "TrackingTools/PatternTools/interface/ClosestApproachInRPhi.h" export * }
+  module "ClosestApproachOnHelices.h" { header "TrackingTools/PatternTools/interface/ClosestApproachOnHelices.h" export * }
+  module "CollinearFitAtTM.h" { header "TrackingTools/PatternTools/interface/CollinearFitAtTM.h" export * }
+  module "MeasurementExtractor.h" { header "TrackingTools/PatternTools/interface/MeasurementExtractor.h" export * }
+  module "MediumProperties.h" { header "TrackingTools/PatternTools/interface/MediumProperties.h" export * }
+  module "TSCBLBuilderNoMaterial.h" { header "TrackingTools/PatternTools/interface/TSCBLBuilderNoMaterial.h" export * }
+  module "TSCBLBuilderWithPropagator.h" { header "TrackingTools/PatternTools/interface/TSCBLBuilderWithPropagator.h" export * }
+  module "TSCPBuilderNoMaterial.h" { header "TrackingTools/PatternTools/interface/TSCPBuilderNoMaterial.h" export * }
+  module "TempTrajectory.h" { header "TrackingTools/PatternTools/interface/TempTrajectory.h" export * }
+  module "TrackCollectionTokens.h" { header "TrackingTools/PatternTools/interface/TrackCollectionTokens.h" export * }
+  module "TrackConstraintAssociation.h" { header "TrackingTools/PatternTools/interface/TrackConstraintAssociation.h" export * }
+  module "TrajAnnealing.h" { header "TrackingTools/PatternTools/interface/TrajAnnealing.h" export * }
+  module "TrajMeasLessEstim.h" { header "TrackingTools/PatternTools/interface/TrajMeasLessEstim.h" export * }
+  module "TrajTrackAssociation.h" { header "TrackingTools/PatternTools/interface/TrajTrackAssociation.h" export * }
+  module "Trajectory.h" { header "TrackingTools/PatternTools/interface/Trajectory.h" export * }
+  module "TrajectoryBuilder.h" { header "TrackingTools/PatternTools/interface/TrajectoryBuilder.h" export * }
+  module "TrajectoryExtrapolatorToLine.h" { header "TrackingTools/PatternTools/interface/TrajectoryExtrapolatorToLine.h" export * }
+  module "TrajectoryMeasurement.h" { header "TrackingTools/PatternTools/interface/TrajectoryMeasurement.h" export * }
+  module "TrajectorySmoother.h" { header "TrackingTools/PatternTools/interface/TrajectorySmoother.h" export * }
+  module "TrajectoryStateClosestToBeamLineBuilder.h" { header "TrackingTools/PatternTools/interface/TrajectoryStateClosestToBeamLineBuilder.h" export * }
+  module "TrajectoryStateClosestToPointBuilder.h" { header "TrackingTools/PatternTools/interface/TrajectoryStateClosestToPointBuilder.h" export * }
+  module "TrajectoryStateUpdator.h" { header "TrackingTools/PatternTools/interface/TrajectoryStateUpdator.h" export * }
+  module "TransverseImpactPointExtrapolator.h" { header "TrackingTools/PatternTools/interface/TransverseImpactPointExtrapolator.h" export * }
+  module "TwoTrackMinimumDistance.h" { header "TrackingTools/PatternTools/interface/TwoTrackMinimumDistance.h" export * }
+  module "TwoTrackMinimumDistanceHelixHelix.h" { header "TrackingTools/PatternTools/interface/TwoTrackMinimumDistanceHelixHelix.h" export * }
+  module "TwoTrackMinimumDistanceHelixLine.h" { header "TrackingTools/PatternTools/interface/TwoTrackMinimumDistanceHelixLine.h" export * }
+  module "TwoTrackMinimumDistanceLineLine.h" { header "TrackingTools/PatternTools/interface/TwoTrackMinimumDistanceLineLine.h" export * }
+  module "bqueue.h" { header "TrackingTools/PatternTools/interface/bqueue.h" export * }
+  module "trackingParametersAtClosestApproachToBeamSpot.h" { header "TrackingTools/PatternTools/interface/trackingParametersAtClosestApproachToBeamSpot.h" export * }
+  export *
+}
+

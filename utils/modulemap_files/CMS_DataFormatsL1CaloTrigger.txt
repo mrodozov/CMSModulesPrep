@@ -1,0 +1,9 @@
+module CMS_DataFormatsL1CaloTrigger {
+  module "L1CaloCollections.h" { header "DataFormats/L1CaloTrigger/interface/L1CaloCollections.h" export * }
+  module "L1CaloEmCand.h" { header "DataFormats/L1CaloTrigger/interface/L1CaloEmCand.h" export * }
+  module "L1CaloMipQuietRegion.h" { header "DataFormats/L1CaloTrigger/interface/L1CaloMipQuietRegion.h" export * }
+  module "L1CaloRegion.h" { header "DataFormats/L1CaloTrigger/interface/L1CaloRegion.h" export * }
+  module "L1CaloRegionDetId.h" { header "DataFormats/L1CaloTrigger/interface/L1CaloRegionDetId.h" export * }
+  export *
+}
+

@@ -1,0 +1,28 @@
+module CMS_EventFilterRPCRawToDigi {
+  module "DataRecord.h" { header "EventFilter/RPCRawToDigi/interface/DataRecord.h" export * }
+  module "DebugDigisPrintout.h" { header "EventFilter/RPCRawToDigi/interface/DebugDigisPrintout.h" export * }
+  module "EventRecords.h" { header "EventFilter/RPCRawToDigi/interface/EventRecords.h" export * }
+  module "RPCAMC13Record.h" { header "EventFilter/RPCRawToDigi/interface/RPCAMC13Record.h" export * }
+  module "RPCAMC13Record.icc" { textual header "EventFilter/RPCRawToDigi/interface/RPCAMC13Record.icc" export * }
+  module "RPCAMCLinkEvent.h" { header "EventFilter/RPCRawToDigi/interface/RPCAMCLinkEvent.h" export * }
+  module "RPCAMCLinkEvents.h" { header "EventFilter/RPCRawToDigi/interface/RPCAMCLinkEvents.h" export * }
+  module "RPCAMCRecord.h" { header "EventFilter/RPCRawToDigi/interface/RPCAMCRecord.h" export * }
+  module "RPCAMCRecord.icc" { textual header "EventFilter/RPCRawToDigi/interface/RPCAMCRecord.icc" export * }
+  module "RPCCPPFRecord.h" { header "EventFilter/RPCRawToDigi/interface/RPCCPPFRecord.h" export * }
+  module "RPCCPPFRecord.icc" { textual header "EventFilter/RPCRawToDigi/interface/RPCCPPFRecord.icc" export * }
+  module "RPCLBPacker.h" { header "EventFilter/RPCRawToDigi/interface/RPCLBPacker.h" export * }
+  module "RPCLBRecord.h" { header "EventFilter/RPCRawToDigi/interface/RPCLBRecord.h" export * }
+  module "RPCLBRecord.icc" { textual header "EventFilter/RPCRawToDigi/interface/RPCLBRecord.icc" export * }
+  module "RPCMP7Record.h" { header "EventFilter/RPCRawToDigi/interface/RPCMP7Record.h" export * }
+  module "RPCMP7Record.icc" { textual header "EventFilter/RPCRawToDigi/interface/RPCMP7Record.icc" export * }
+  module "RPCPackingModule.h" { header "EventFilter/RPCRawToDigi/interface/RPCPackingModule.h" export * }
+  module "RPCRawDataCounts.h" { header "EventFilter/RPCRawToDigi/interface/RPCRawDataCounts.h" export * }
+  module "RPCRawSynchro.h" { header "EventFilter/RPCRawToDigi/interface/RPCRawSynchro.h" export * }
+  module "RPCRecordFormatter.h" { header "EventFilter/RPCRawToDigi/interface/RPCRecordFormatter.h" export * }
+  module "RPCTwinMuxPacker.h" { header "EventFilter/RPCRawToDigi/interface/RPCTwinMuxPacker.h" export * }
+  module "RPCTwinMuxRecord.h" { header "EventFilter/RPCRawToDigi/interface/RPCTwinMuxRecord.h" export * }
+  module "RPCTwinMuxRecord.icc" { textual header "EventFilter/RPCRawToDigi/interface/RPCTwinMuxRecord.icc" export * }
+  module "ReadoutError.h" { header "EventFilter/RPCRawToDigi/interface/ReadoutError.h" export * }
+  export *
+}
+

@@ -1,0 +1,7 @@
+module CMS_ValidationGlobalRecHits {
+  module "GlobalRecHitsAnalyzer.h" { header "Validation/GlobalRecHits/interface/GlobalRecHitsAnalyzer.h" export * }
+  module "GlobalRecHitsHistogrammer.h" { header "Validation/GlobalRecHits/interface/GlobalRecHitsHistogrammer.h" export * }
+  module "GlobalRecHitsProducer.h" { header "Validation/GlobalRecHits/interface/GlobalRecHitsProducer.h" export * }
+  export *
+}
+

@@ -1,0 +1,25 @@
+module CMS_CalibrationEcalCalibAlgos {
+  module "ClusterFillMap.h" { header "Calibration/EcalCalibAlgos/interface/ClusterFillMap.h" export * }
+  module "ECALpedestalPCLHarvester.h" { header "Calibration/EcalCalibAlgos/interface/ECALpedestalPCLHarvester.h" export * }
+  module "ECALpedestalPCLworker.h" { header "Calibration/EcalCalibAlgos/interface/ECALpedestalPCLworker.h" export * }
+  module "EcalEleCalibLooper.h" { header "Calibration/EcalCalibAlgos/interface/EcalEleCalibLooper.h" export * }
+  module "EcalGeomPhiSymHelper.h" { header "Calibration/EcalCalibAlgos/interface/EcalGeomPhiSymHelper.h" export * }
+  module "ElectronCalibration.h" { header "Calibration/EcalCalibAlgos/interface/ElectronCalibration.h" export * }
+  module "ElectronCalibrationUniv.h" { header "Calibration/EcalCalibAlgos/interface/ElectronCalibrationUniv.h" export * }
+  module "ElectronRecalibSuperClusterAssociator.h" { header "Calibration/EcalCalibAlgos/interface/ElectronRecalibSuperClusterAssociator.h" export * }
+  module "IMACalibBlock.h" { header "Calibration/EcalCalibAlgos/interface/IMACalibBlock.h" export * }
+  module "InvRingCalib.h" { header "Calibration/EcalCalibAlgos/interface/InvRingCalib.h" export * }
+  module "L3CalibBlock.h" { header "Calibration/EcalCalibAlgos/interface/L3CalibBlock.h" export * }
+  module "MatrixFillMap.h" { header "Calibration/EcalCalibAlgos/interface/MatrixFillMap.h" export * }
+  module "PhiSymmetryCalibration.h" { header "Calibration/EcalCalibAlgos/interface/PhiSymmetryCalibration.h" export * }
+  module "Pi0FixedMassWindowCalibration.h" { header "Calibration/EcalCalibAlgos/interface/Pi0FixedMassWindowCalibration.h" export * }
+  module "VEcalCalibBlock.h" { header "Calibration/EcalCalibAlgos/interface/VEcalCalibBlock.h" export * }
+  module "VFillMap.h" { header "Calibration/EcalCalibAlgos/interface/VFillMap.h" export * }
+  module "ZeeCalibration.h" { header "Calibration/EcalCalibAlgos/interface/ZeeCalibration.h" export * }
+  module "ZeeKinematicTools.h" { header "Calibration/EcalCalibAlgos/interface/ZeeKinematicTools.h" export * }
+  module "ZeePlots.h" { header "Calibration/EcalCalibAlgos/interface/ZeePlots.h" export * }
+  module "ZeeRescaleFactorPlots.h" { header "Calibration/EcalCalibAlgos/interface/ZeeRescaleFactorPlots.h" export * }
+  module "miscalibExample.h" { header "Calibration/EcalCalibAlgos/interface/miscalibExample.h" export * }
+  export *
+}
+

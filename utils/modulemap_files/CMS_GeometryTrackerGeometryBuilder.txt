@@ -1,0 +1,21 @@
+module CMS_GeometryTrackerGeometryBuilder {
+  module "PixelGeomDetType.h" { header "Geometry/TrackerGeometryBuilder/interface/PixelGeomDetType.h" export * }
+  module "PixelGeomDetUnit.h" { header "Geometry/TrackerGeometryBuilder/interface/PixelGeomDetUnit.h" export * }
+  module "PixelTopologyBuilder.h" { header "Geometry/TrackerGeometryBuilder/interface/PixelTopologyBuilder.h" export * }
+  module "PlaneBuilderForGluedDet.h" { header "Geometry/TrackerGeometryBuilder/interface/PlaneBuilderForGluedDet.h" export * }
+  module "PlaneBuilderFromGeometricDet.h" { header "Geometry/TrackerGeometryBuilder/interface/PlaneBuilderFromGeometricDet.h" export * }
+  module "ProxyPixelTopology.h" { header "Geometry/TrackerGeometryBuilder/interface/ProxyPixelTopology.h" export * }
+  module "ProxyStripTopology.h" { header "Geometry/TrackerGeometryBuilder/interface/ProxyStripTopology.h" export * }
+  module "RectangularPixelTopology.h" { header "Geometry/TrackerGeometryBuilder/interface/RectangularPixelTopology.h" export * }
+  module "StackGeomDet.h" { header "Geometry/TrackerGeometryBuilder/interface/StackGeomDet.h" export * }
+  module "StripGeomDetType.h" { header "Geometry/TrackerGeometryBuilder/interface/StripGeomDetType.h" export * }
+  module "StripGeomDetUnit.h" { header "Geometry/TrackerGeometryBuilder/interface/StripGeomDetUnit.h" export * }
+  module "StripTopologyBuilder.h" { header "Geometry/TrackerGeometryBuilder/interface/StripTopologyBuilder.h" export * }
+  module "TrackerGeomBuilderFromGeometricDet.h" { header "Geometry/TrackerGeometryBuilder/interface/TrackerGeomBuilderFromGeometricDet.h" export * }
+  module "TrackerGeometry.h" { header "Geometry/TrackerGeometryBuilder/interface/TrackerGeometry.h" export * }
+  module "TrackerParametersFromDD.h" { header "Geometry/TrackerGeometryBuilder/interface/TrackerParametersFromDD.h" export * }
+  module "phase1PixelTopology.h" { header "Geometry/TrackerGeometryBuilder/interface/phase1PixelTopology.h" export * }
+  module "trackerHierarchy.h" { header "Geometry/TrackerGeometryBuilder/interface/trackerHierarchy.h" export * }
+  export *
+}
+

@@ -1,0 +1,17 @@
+module CMS_RecoEgammaEgammaIsolationAlgos {
+  module "EcalPFClusterIsolation.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/EcalPFClusterIsolation.h" export * }
+  module "EgammaEcalIsolation.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/EgammaEcalIsolation.h" export * }
+  module "EgammaHadTower.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/EgammaHadTower.h" export * }
+  module "EgammaHcalIsolation.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/EgammaHcalIsolation.h" export * }
+  module "EgammaRange.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/EgammaRange.h" export * }
+  module "EgammaRecHitIsolation.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/EgammaRecHitIsolation.h" export * }
+  module "EgammaTowerIsolation.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/EgammaTowerIsolation.h" export * }
+  module "EgammaTrackSelector.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/EgammaTrackSelector.h" export * }
+  module "EleTkIsolFromCands.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/EleTkIsolFromCands.h" export * }
+  module "ElectronTkIsolation.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/ElectronTkIsolation.h" export * }
+  module "HcalPFClusterIsolation.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/HcalPFClusterIsolation.h" export * }
+  module "PFBlockBasedIsolation.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/PFBlockBasedIsolation.h" export * }
+  module "PhotonTkIsolation.h" { header "RecoEgamma/EgammaIsolationAlgos/interface/PhotonTkIsolation.h" export * }
+  export *
+}
+

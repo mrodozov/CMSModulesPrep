@@ -1,0 +1,5 @@
+module CMS_ConfigurationSkimming {
+  module "LeptonRecoSkim.h" { header "Configuration/Skimming/interface/LeptonRecoSkim.h" export * }
+  export *
+}
+

@@ -1,0 +1,14 @@
+module CMS_RecoTrackerCkfPattern {
+  module "BaseCkfTrajectoryBuilder.h" { header "RecoTracker/CkfPattern/interface/BaseCkfTrajectoryBuilder.h" export * }
+  module "BaseCkfTrajectoryBuilderFactory.h" { header "RecoTracker/CkfPattern/interface/BaseCkfTrajectoryBuilderFactory.h" export * }
+  module "CachingSeedCleanerBySharedInput.h" { header "RecoTracker/CkfPattern/interface/CachingSeedCleanerBySharedInput.h" export * }
+  module "CkfTrackCandidateMakerBase.h" { header "RecoTracker/CkfPattern/interface/CkfTrackCandidateMakerBase.h" export * }
+  module "CkfTrajectoryBuilder.h" { header "RecoTracker/CkfPattern/interface/CkfTrajectoryBuilder.h" export * }
+  module "IntermediateTrajectoryCleaner.h" { header "RecoTracker/CkfPattern/interface/IntermediateTrajectoryCleaner.h" export * }
+  module "PrintoutHelper.h" { header "RecoTracker/CkfPattern/interface/PrintoutHelper.h" export * }
+  module "RedundantSeedCleaner.h" { header "RecoTracker/CkfPattern/interface/RedundantSeedCleaner.h" export * }
+  module "TrajCandLess.h" { header "RecoTracker/CkfPattern/interface/TrajCandLess.h" export * }
+  module "TransientInitialStateEstimator.h" { header "RecoTracker/CkfPattern/interface/TransientInitialStateEstimator.h" export * }
+  export *
+}
+

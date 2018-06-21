@@ -1,0 +1,14 @@
+module CMS_PhysicsToolsHepMCCandAlgos {
+  module "FlavorHistoryFilter.h" { header "PhysicsTools/HepMCCandAlgos/interface/FlavorHistoryFilter.h" export * }
+  module "FlavorHistoryProducer.h" { header "PhysicsTools/HepMCCandAlgos/interface/FlavorHistoryProducer.h" export * }
+  module "FlavorHistorySelectorUtil.h" { header "PhysicsTools/HepMCCandAlgos/interface/FlavorHistorySelectorUtil.h" export * }
+  module "GenParticlesHelper.h" { header "PhysicsTools/HepMCCandAlgos/interface/GenParticlesHelper.h" export * }
+  module "HFFilter.h" { header "PhysicsTools/HepMCCandAlgos/interface/HFFilter.h" export * }
+  module "MCTruthHelper.h" { header "PhysicsTools/HepMCCandAlgos/interface/MCTruthHelper.h" export * }
+  module "MCTruthPairSelector.h" { header "PhysicsTools/HepMCCandAlgos/interface/MCTruthPairSelector.h" export * }
+  module "ModelFilter.h" { header "PhysicsTools/HepMCCandAlgos/interface/ModelFilter.h" export * }
+  module "PDFWeightsHelper.h" { header "PhysicsTools/HepMCCandAlgos/interface/PDFWeightsHelper.h" export * }
+  module "PdgEntryReplacer.h" { header "PhysicsTools/HepMCCandAlgos/interface/PdgEntryReplacer.h" export * }
+  export *
+}
+

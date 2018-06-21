@@ -1,0 +1,9 @@
+module CMS_DataFormatsEcalRecHit {
+  module "EcalRecHit.h" { header "DataFormats/EcalRecHit/interface/EcalRecHit.h" export * }
+  module "EcalRecHitCollections.h" { header "DataFormats/EcalRecHit/interface/EcalRecHitCollections.h" export * }
+  module "EcalRecHitComparison.h" { header "DataFormats/EcalRecHit/interface/EcalRecHitComparison.h" export * }
+  module "EcalSeverityLevel.h" { header "DataFormats/EcalRecHit/interface/EcalSeverityLevel.h" export * }
+  module "EcalUncalibratedRecHit.h" { header "DataFormats/EcalRecHit/interface/EcalUncalibratedRecHit.h" export * }
+  export *
+}
+

@@ -1,0 +1,43 @@
+module CMS_RecoLocalCaloHcalRecAlgos {
+  module "AbsHBHEPhase1Algo.h" { header "RecoLocalCalo/HcalRecAlgos/interface/AbsHBHEPhase1Algo.h" export * }
+  module "AbsHFPhase1Algo.h" { header "RecoLocalCalo/HcalRecAlgos/interface/AbsHFPhase1Algo.h" export * }
+  module "AbsPlan1RechitCombiner.h" { header "RecoLocalCalo/HcalRecAlgos/interface/AbsPlan1RechitCombiner.h" export * }
+  module "EigenMatrixTypes.h" { header "RecoLocalCalo/HcalRecAlgos/interface/EigenMatrixTypes.h" export * }
+  module "HBHEIsolatedNoiseAlgos.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HBHEIsolatedNoiseAlgos.h" export * }
+  module "HBHENegativeFlag.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HBHENegativeFlag.h" export * }
+  module "HBHEPulseShapeFlag.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HBHEPulseShapeFlag.h" export * }
+  module "HBHEStatusBitSetter.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HBHEStatusBitSetter.h" export * }
+  module "HBHETimeProfileStatusBitSetter.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HBHETimeProfileStatusBitSetter.h" export * }
+  module "HBHETimingShapedFlag.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HBHETimingShapedFlag.h" export * }
+  module "HFAnodeStatus.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HFAnodeStatus.h" export * }
+  module "HFFlexibleTimeCheck.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HFFlexibleTimeCheck.h" export * }
+  module "HFPreRecAlgo.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HFPreRecAlgo.h" export * }
+  module "HFRecHitAuxSetter.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HFRecHitAuxSetter.h" export * }
+  module "HFSimpleTimeCheck.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HFSimpleTimeCheck.h" export * }
+  module "HFTimingTrustFlag.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HFTimingTrustFlag.h" export * }
+  module "HcalADCSaturationFlag.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalADCSaturationFlag.h" export * }
+  module "HcalCorrectionFunctions.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalCorrectionFunctions.h" export * }
+  module "HcalDeterministicFit.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalDeterministicFit.h" export * }
+  module "HcalHFStatusBitFromDigis.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalHFStatusBitFromDigis.h" export * }
+  module "HcalHFStatusBitFromRecHits.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalHFStatusBitFromRecHits.h" export * }
+  module "HcalHF_PETalgorithm.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalHF_PETalgorithm.h" export * }
+  module "HcalHF_S9S1algorithm.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalHF_S9S1algorithm.h" export * }
+  module "HcalSeverityLevelComputer.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalSeverityLevelComputer.h" export * }
+  module "HcalSeverityLevelComputerRcd.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalSeverityLevelComputerRcd.h" export * }
+  module "HcalSimpleRecAlgo.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalSimpleRecAlgo.h" export * }
+  module "HcalTimingCorrector.h" { header "RecoLocalCalo/HcalRecAlgos/interface/HcalTimingCorrector.h" export * }
+  module "MahiFit.h" { header "RecoLocalCalo/HcalRecAlgos/interface/MahiFit.h" export * }
+  module "PedestalSub.h" { header "RecoLocalCalo/HcalRecAlgos/interface/PedestalSub.h" export * }
+  module "PulseShapeFitOOTPileupCorrection.h" { header "RecoLocalCalo/HcalRecAlgos/interface/PulseShapeFitOOTPileupCorrection.h" export * }
+  module "PulseShapeFunctor.h" { header "RecoLocalCalo/HcalRecAlgos/interface/PulseShapeFunctor.h" export * }
+  module "SimpleHBHEPhase1Algo.h" { header "RecoLocalCalo/HcalRecAlgos/interface/SimpleHBHEPhase1Algo.h" export * }
+  module "SimplePlan1RechitCombiner.h" { header "RecoLocalCalo/HcalRecAlgos/interface/SimplePlan1RechitCombiner.h" export * }
+  module "ZdcSimpleRecAlgo.h" { header "RecoLocalCalo/HcalRecAlgos/interface/ZdcSimpleRecAlgo.h" export * }
+  module "fetchHcalAlgoData.h" { header "RecoLocalCalo/HcalRecAlgos/interface/fetchHcalAlgoData.h" export * }
+  module "parseHBHEPhase1AlgoDescription.h" { header "RecoLocalCalo/HcalRecAlgos/interface/parseHBHEPhase1AlgoDescription.h" export * }
+  module "parseHFPhase1AlgoDescription.h" { header "RecoLocalCalo/HcalRecAlgos/interface/parseHFPhase1AlgoDescription.h" export * }
+  module "parsePlan1RechitCombiner.h" { header "RecoLocalCalo/HcalRecAlgos/interface/parsePlan1RechitCombiner.h" export * }
+  module "rawEnergy.h" { header "RecoLocalCalo/HcalRecAlgos/interface/rawEnergy.h" export * }
+  export *
+}
+

@@ -1,0 +1,13 @@
+module CMS_L1TriggerTrackTrigger {
+  module "TTClusterAlgorithm.h" { header "L1Trigger/TrackTrigger/interface/TTClusterAlgorithm.h" export * }
+  module "TTClusterAlgorithmRecord.h" { header "L1Trigger/TrackTrigger/interface/TTClusterAlgorithmRecord.h" export * }
+  module "TTClusterAlgorithm_neighbor.h" { header "L1Trigger/TrackTrigger/interface/TTClusterAlgorithm_neighbor.h" export * }
+  module "TTClusterAlgorithm_official.h" { header "L1Trigger/TrackTrigger/interface/TTClusterAlgorithm_official.h" export * }
+  module "TTStubAlgorithm.h" { header "L1Trigger/TrackTrigger/interface/TTStubAlgorithm.h" export * }
+  module "TTStubAlgorithmRecord.h" { header "L1Trigger/TrackTrigger/interface/TTStubAlgorithmRecord.h" export * }
+  module "TTStubAlgorithm_cbc3.h" { header "L1Trigger/TrackTrigger/interface/TTStubAlgorithm_cbc3.h" export * }
+  module "TTStubAlgorithm_official.h" { header "L1Trigger/TrackTrigger/interface/TTStubAlgorithm_official.h" export * }
+  module "classNameFinder.h" { header "L1Trigger/TrackTrigger/interface/classNameFinder.h" export * }
+  export *
+}
+

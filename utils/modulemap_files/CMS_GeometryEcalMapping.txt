@@ -1,0 +1,7 @@
+module CMS_GeometryEcalMapping {
+  module "ESElectronicsMapper.h" { header "Geometry/EcalMapping/interface/ESElectronicsMapper.h" export * }
+  module "EcalElectronicsMapping.h" { header "Geometry/EcalMapping/interface/EcalElectronicsMapping.h" export * }
+  module "EcalMappingRcd.h" { header "Geometry/EcalMapping/interface/EcalMappingRcd.h" export * }
+  export *
+}
+

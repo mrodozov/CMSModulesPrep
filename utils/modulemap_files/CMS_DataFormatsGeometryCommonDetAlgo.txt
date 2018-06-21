@@ -1,0 +1,19 @@
+module CMS_DataFormatsGeometryCommonDetAlgo {
+  module "DeepCopyPointerByClone.h" { header "DataFormats/GeometryCommonDetAlgo/interface/DeepCopyPointerByClone.h" export * }
+  module "ErrorFrameTransformer.h" { header "DataFormats/GeometryCommonDetAlgo/interface/ErrorFrameTransformer.h" export * }
+  module "GlobalError.h" { header "DataFormats/GeometryCommonDetAlgo/interface/GlobalError.h" export * }
+  module "GlobalErrorBase.h" { header "DataFormats/GeometryCommonDetAlgo/interface/GlobalErrorBase.h" export * }
+  module "GlobalErrorBaseExtended.h" { header "DataFormats/GeometryCommonDetAlgo/interface/GlobalErrorBaseExtended.h" export * }
+  module "GlobalWeight.h" { header "DataFormats/GeometryCommonDetAlgo/interface/GlobalWeight.h" export * }
+  module "LocalError.h" { header "DataFormats/GeometryCommonDetAlgo/interface/LocalError.h" export * }
+  module "Measurement1D.h" { header "DataFormats/GeometryCommonDetAlgo/interface/Measurement1D.h" export * }
+  module "Measurement1DFloat.h" { header "DataFormats/GeometryCommonDetAlgo/interface/Measurement1DFloat.h" export * }
+  module "MeasurementError.h" { header "DataFormats/GeometryCommonDetAlgo/interface/MeasurementError.h" export * }
+  module "MeasurementPoint.h" { header "DataFormats/GeometryCommonDetAlgo/interface/MeasurementPoint.h" export * }
+  module "MeasurementVector.h" { header "DataFormats/GeometryCommonDetAlgo/interface/MeasurementVector.h" export * }
+  module "PerpendicularBoundPlaneBuilder.h" { header "DataFormats/GeometryCommonDetAlgo/interface/PerpendicularBoundPlaneBuilder.h" export * }
+  module "TransverseBoundPlaneFactory.h" { header "DataFormats/GeometryCommonDetAlgo/interface/TransverseBoundPlaneFactory.h" export * }
+  module "WeightMatrixTag.h" { header "DataFormats/GeometryCommonDetAlgo/interface/WeightMatrixTag.h" export * }
+  export *
+}
+

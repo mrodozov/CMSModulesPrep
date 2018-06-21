@@ -1,0 +1,5 @@
+module CMS_ValidationSiPixelPhase1HitsV {
+  module "SiPixelPhase1HitsV.h" { header "Validation/SiPixelPhase1HitsV/interface/SiPixelPhase1HitsV.h" export * }
+  export *
+}
+

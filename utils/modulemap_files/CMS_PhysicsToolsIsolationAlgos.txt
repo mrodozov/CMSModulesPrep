@@ -1,0 +1,17 @@
+module CMS_PhysicsToolsIsolationAlgos {
+  module "CITKIsolationConeDefinitionBase.h" { header "PhysicsTools/IsolationAlgos/interface/CITKIsolationConeDefinitionBase.h" export * }
+  module "CalIsolationAlgo.h" { header "PhysicsTools/IsolationAlgos/interface/CalIsolationAlgo.h" export * }
+  module "CalIsolationExtrapolate.h" { header "PhysicsTools/IsolationAlgos/interface/CalIsolationExtrapolate.h" export * }
+  module "EventDependentAbsVeto.h" { header "PhysicsTools/IsolationAlgos/interface/EventDependentAbsVeto.h" export * }
+  module "EventDependentAbsVetos.h" { header "PhysicsTools/IsolationAlgos/interface/EventDependentAbsVetos.h" export * }
+  module "IsoDepositExtractor.h" { header "PhysicsTools/IsolationAlgos/interface/IsoDepositExtractor.h" export * }
+  module "IsoDepositExtractorFactory.h" { header "PhysicsTools/IsolationAlgos/interface/IsoDepositExtractorFactory.h" export * }
+  module "IsoDepositVetoFactory.h" { header "PhysicsTools/IsolationAlgos/interface/IsoDepositVetoFactory.h" export * }
+  module "IsolationProducer.h" { header "PhysicsTools/IsolationAlgos/interface/IsolationProducer.h" export * }
+  module "IsolationProducerNew.h" { header "PhysicsTools/IsolationAlgos/interface/IsolationProducerNew.h" export * }
+  module "PropagateToCal.h" { header "PhysicsTools/IsolationAlgos/interface/PropagateToCal.h" export * }
+  module "PtIsolationAlgo.h" { header "PhysicsTools/IsolationAlgos/interface/PtIsolationAlgo.h" export * }
+  module "TrkCalIsolationAlgo.h" { header "PhysicsTools/IsolationAlgos/interface/TrkCalIsolationAlgo.h" export * }
+  export *
+}
+

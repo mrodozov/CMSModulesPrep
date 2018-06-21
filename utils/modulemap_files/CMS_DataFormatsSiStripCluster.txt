@@ -1,0 +1,8 @@
+module CMS_DataFormatsSiStripCluster {
+  module "SiStripCluster.h" { header "DataFormats/SiStripCluster/interface/SiStripCluster.h" export * }
+  module "SiStripClusterCollection.h" { header "DataFormats/SiStripCluster/interface/SiStripClusterCollection.h" export * }
+  module "SiStripClusterTools.h" { header "DataFormats/SiStripCluster/interface/SiStripClusterTools.h" export * }
+  module "SiStripClusterfwd.h" { header "DataFormats/SiStripCluster/interface/SiStripClusterfwd.h" export * }
+  export *
+}
+

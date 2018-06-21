@@ -1,0 +1,8 @@
+module CMS_SimG4CMSHGCalTestBeam {
+  module "AHCalDetId.h" { header "SimG4CMS/HGCalTestBeam/interface/AHCalDetId.h" export * }
+  module "AHCalSD.h" { header "SimG4CMS/HGCalTestBeam/interface/AHCalSD.h" export * }
+  module "HGCalTB16SD01.h" { header "SimG4CMS/HGCalTestBeam/interface/HGCalTB16SD01.h" export * }
+  module "HGCalTBMB.h" { header "SimG4CMS/HGCalTestBeam/interface/HGCalTBMB.h" export * }
+  export *
+}
+

@@ -1,0 +1,36 @@
+module CMS_DataFormatsMath {
+  module "AlgebraicROOTObjects.h" { header "DataFormats/Math/interface/AlgebraicROOTObjects.h" export * }
+  module "Error.h" { header "DataFormats/Math/interface/Error.h" export * }
+  module "ExtVec.h" { header "DataFormats/Math/interface/ExtVec.h" export * }
+  module "FastMath.h" { header "DataFormats/Math/interface/FastMath.h" export * }
+  module "Graph.h" { header "DataFormats/Math/interface/Graph.h" export * }
+  module "GraphUtil.h" { header "DataFormats/Math/interface/GraphUtil.h" export * }
+  module "GraphWalker.h" { header "DataFormats/Math/interface/GraphWalker.h" export * }
+  module "LorentzVector.h" { header "DataFormats/Math/interface/LorentzVector.h" export * }
+  module "LorentzVectorFwd.h" { header "DataFormats/Math/interface/LorentzVectorFwd.h" export * }
+  module "Matrix.h" { header "DataFormats/Math/interface/Matrix.h" export * }
+  module "Point3D.h" { header "DataFormats/Math/interface/Point3D.h" export * }
+  module "ProjectMatrix.h" { header "DataFormats/Math/interface/ProjectMatrix.h" export * }
+  module "PtEtaPhiMass.h" { header "DataFormats/Math/interface/PtEtaPhiMass.h" export * }
+  module "RectangularEtaPhiRegion.h" { header "DataFormats/Math/interface/RectangularEtaPhiRegion.h" export * }
+  module "SIMDVec.h" { header "DataFormats/Math/interface/SIMDVec.h" export * }
+  module "SSEArray.h" { header "DataFormats/Math/interface/SSEArray.h" export * }
+  module "SSERot.h" { header "DataFormats/Math/interface/SSERot.h" export * }
+  module "SSEVec.h" { header "DataFormats/Math/interface/SSEVec.h" export * }
+  module "Vector.h" { header "DataFormats/Math/interface/Vector.h" export * }
+  module "Vector3D.h" { header "DataFormats/Math/interface/Vector3D.h" export * }
+  module "angle.h" { header "DataFormats/Math/interface/angle.h" export * }
+  module "approx_asin.h" { header "DataFormats/Math/interface/approx_asin.h" export * }
+  module "approx_atan2.h" { header "DataFormats/Math/interface/approx_atan2.h" export * }
+  module "approx_erf.h" { header "DataFormats/Math/interface/approx_erf.h" export * }
+  module "approx_exp.h" { header "DataFormats/Math/interface/approx_exp.h" export * }
+  module "approx_log.h" { header "DataFormats/Math/interface/approx_log.h" export * }
+  module "deltaPhi.h" { header "DataFormats/Math/interface/deltaPhi.h" export * }
+  module "deltaR.h" { header "DataFormats/Math/interface/deltaR.h" export * }
+  module "invertPosDefMatrix.h" { header "DataFormats/Math/interface/invertPosDefMatrix.h" export * }
+  module "liblogintpack.h" { header "DataFormats/Math/interface/liblogintpack.h" export * }
+  module "libminifloat.h" { header "DataFormats/Math/interface/libminifloat.h" export * }
+  module "normalizedPhi.h" { header "DataFormats/Math/interface/normalizedPhi.h" export * }
+  export *
+}
+

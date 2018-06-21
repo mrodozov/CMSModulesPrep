@@ -1,0 +1,7 @@
+module CMS_FastSimulationParticlePropagator {
+  module "MagneticFieldMap.h" { header "FastSimulation/ParticlePropagator/interface/MagneticFieldMap.h" export * }
+  module "MagneticFieldMapRecord.h" { header "FastSimulation/ParticlePropagator/interface/MagneticFieldMapRecord.h" export * }
+  module "ParticlePropagator.h" { header "FastSimulation/ParticlePropagator/interface/ParticlePropagator.h" export * }
+  export *
+}
+

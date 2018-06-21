@@ -1,0 +1,15 @@
+module CMS_FireworksGeometry {
+  module "DisplayGeomRecord.h" { header "Fireworks/Geometry/interface/DisplayGeomRecord.h" export * }
+  module "DisplayPlugin.h" { header "Fireworks/Geometry/interface/DisplayPlugin.h" export * }
+  module "DisplayPluginFactory.h" { header "Fireworks/Geometry/interface/DisplayPluginFactory.h" export * }
+  module "FWRecoGeometry.h" { header "Fireworks/Geometry/interface/FWRecoGeometry.h" export * }
+  module "FWRecoGeometryESProducer.h" { header "Fireworks/Geometry/interface/FWRecoGeometryESProducer.h" export * }
+  module "FWRecoGeometryRecord.h" { header "Fireworks/Geometry/interface/FWRecoGeometryRecord.h" export * }
+  module "FWTGeoRecoGeometry.h" { header "Fireworks/Geometry/interface/FWTGeoRecoGeometry.h" export * }
+  module "FWTGeoRecoGeometryESProducer.h" { header "Fireworks/Geometry/interface/FWTGeoRecoGeometryESProducer.h" export * }
+  module "FWTGeoRecoGeometryRecord.h" { header "Fireworks/Geometry/interface/FWTGeoRecoGeometryRecord.h" export * }
+  module "TGeoFromDddService.h" { header "Fireworks/Geometry/interface/TGeoFromDddService.h" export * }
+  module "TGeoMgrFromDdd.h" { header "Fireworks/Geometry/interface/TGeoMgrFromDdd.h" export * }
+  export *
+}
+

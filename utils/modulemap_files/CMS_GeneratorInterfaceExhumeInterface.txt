@@ -1,0 +1,18 @@
+module CMS_GeneratorInterfaceExhumeInterface {
+  module "CrossSection.h" { header "GeneratorInterface/ExhumeInterface/interface/CrossSection.h" export * }
+  module "DiPhoton.h" { header "GeneratorInterface/ExhumeInterface/interface/DiPhoton.h" export * }
+  module "Dummy.h" { header "GeneratorInterface/ExhumeInterface/interface/Dummy.h" export * }
+  module "Event.h" { header "GeneratorInterface/ExhumeInterface/interface/Event.h" export * }
+  module "ExhumeHadronizer.h" { header "GeneratorInterface/ExhumeInterface/interface/ExhumeHadronizer.h" export * }
+  module "GG.h" { header "GeneratorInterface/ExhumeInterface/interface/GG.h" export * }
+  module "Higgs.h" { header "GeneratorInterface/ExhumeInterface/interface/Higgs.h" export * }
+  module "I.h" { header "GeneratorInterface/ExhumeInterface/interface/I.h" export * }
+  module "Particle.h" { header "GeneratorInterface/ExhumeInterface/interface/Particle.h" export * }
+  module "PythiaRecord.h" { header "GeneratorInterface/ExhumeInterface/interface/PythiaRecord.h" export * }
+  module "QQ.h" { header "GeneratorInterface/ExhumeInterface/interface/QQ.h" export * }
+  module "TwoSpace.h" { header "GeneratorInterface/ExhumeInterface/interface/TwoSpace.h" export * }
+  module "Weight.h" { header "GeneratorInterface/ExhumeInterface/interface/Weight.h" export * }
+  module "hdecay.h" { header "GeneratorInterface/ExhumeInterface/interface/hdecay.h" export * }
+  export *
+}
+

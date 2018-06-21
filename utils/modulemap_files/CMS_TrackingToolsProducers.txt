@@ -1,0 +1,9 @@
+module CMS_TrackingToolsProducers {
+  module "AnalyticalPropagatorESProducer.h" { header "TrackingTools/Producers/interface/AnalyticalPropagatorESProducer.h" export * }
+  module "BeamHaloPropagatorESProducer.h" { header "TrackingTools/Producers/interface/BeamHaloPropagatorESProducer.h" export * }
+  module "SmartPropagatorESProducer.h" { header "TrackingTools/Producers/interface/SmartPropagatorESProducer.h" export * }
+  module "StraightLinePropagatorESProducer.h" { header "TrackingTools/Producers/interface/StraightLinePropagatorESProducer.h" export * }
+  module "TrajectoryCleanerESProducer.h" { header "TrackingTools/Producers/interface/TrajectoryCleanerESProducer.h" export * }
+  export *
+}
+

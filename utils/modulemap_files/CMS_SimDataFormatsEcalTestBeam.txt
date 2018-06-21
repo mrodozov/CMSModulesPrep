@@ -1,0 +1,6 @@
+module CMS_SimDataFormatsEcalTestBeam {
+  module "HodoscopeDetId.h" { header "SimDataFormats/EcalTestBeam/interface/HodoscopeDetId.h" export * }
+  module "PEcalTBInfo.h" { header "SimDataFormats/EcalTestBeam/interface/PEcalTBInfo.h" export * }
+  export *
+}
+

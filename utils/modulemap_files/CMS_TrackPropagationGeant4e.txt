@@ -1,0 +1,6 @@
+module CMS_TrackPropagationGeant4e {
+  module "ConvertFromToCLHEP.h" { header "TrackPropagation/Geant4e/interface/ConvertFromToCLHEP.h" export * }
+  module "Geant4ePropagator.h" { header "TrackPropagation/Geant4e/interface/Geant4ePropagator.h" export * }
+  export *
+}
+

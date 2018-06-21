@@ -1,0 +1,5 @@
+module CMS_CaloOnlineToolsEcalTools {
+  module "EcalFedMap.h" { header "CaloOnlineTools/EcalTools/interface/EcalFedMap.h" export * }
+  export *
+}
+

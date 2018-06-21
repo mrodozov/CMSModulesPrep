@@ -1,0 +1,8 @@
+module CMS_SimTrackerCommon {
+  module "SiG4UniversalFluctuation.h" { header "SimTracker/Common/interface/SiG4UniversalFluctuation.h" export * }
+  module "SimHitInfoForLinks.h" { header "SimTracker/Common/interface/SimHitInfoForLinks.h" export * }
+  module "SimHitSelectorFromDB.h" { header "SimTracker/Common/interface/SimHitSelectorFromDB.h" export * }
+  module "TrackingParticleSelector.h" { header "SimTracker/Common/interface/TrackingParticleSelector.h" export * }
+  export *
+}
+

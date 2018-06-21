@@ -1,0 +1,6 @@
+module CMS_RecoMuonRecords {
+  module "MuonPerformanceRecord.h" { header "RecoMuon/Records/interface/MuonPerformanceRecord.h" export * }
+  module "MuonRecoGeometryRecord.h" { header "RecoMuon/Records/interface/MuonRecoGeometryRecord.h" export * }
+  export *
+}
+

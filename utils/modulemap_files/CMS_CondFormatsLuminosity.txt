@@ -1,0 +1,6 @@
+module CMS_CondFormatsLuminosity {
+  module "LumiCorrections.h" { header "CondFormats/Luminosity/interface/LumiCorrections.h" export * }
+  module "LumiSectionData.h" { header "CondFormats/Luminosity/interface/LumiSectionData.h" export * }
+  export *
+}
+

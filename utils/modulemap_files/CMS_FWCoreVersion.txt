@@ -1,0 +1,6 @@
+module CMS_FWCoreVersion {
+  module "GetFileFormatVersion.h" { header "FWCore/Version/interface/GetFileFormatVersion.h" export * }
+  module "GetReleaseVersion.h" { header "FWCore/Version/interface/GetReleaseVersion.h" export * }
+  export *
+}
+

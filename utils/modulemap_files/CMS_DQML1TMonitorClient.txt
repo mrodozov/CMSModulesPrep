@@ -1,0 +1,19 @@
+module CMS_DQML1TMonitorClient {
+  module "L1EmulatorErrorFlagClient.h" { header "DQM/L1TMonitorClient/interface/L1EmulatorErrorFlagClient.h" export * }
+  module "L1TCSCTFClient.h" { header "DQM/L1TMonitorClient/interface/L1TCSCTFClient.h" export * }
+  module "L1TDTTFClient.h" { header "DQM/L1TMonitorClient/interface/L1TDTTFClient.h" export * }
+  module "L1TDTTPGClient.h" { header "DQM/L1TMonitorClient/interface/L1TDTTPGClient.h" export * }
+  module "L1TEMTFEventInfoClient.h" { header "DQM/L1TMonitorClient/interface/L1TEMTFEventInfoClient.h" export * }
+  module "L1TEventInfoClient.h" { header "DQM/L1TMonitorClient/interface/L1TEventInfoClient.h" export * }
+  module "L1TGCTClient.h" { header "DQM/L1TMonitorClient/interface/L1TGCTClient.h" export * }
+  module "L1TGMTClient.h" { header "DQM/L1TMonitorClient/interface/L1TGMTClient.h" export * }
+  module "L1TOccupancyClient.h" { header "DQM/L1TMonitorClient/interface/L1TOccupancyClient.h" export * }
+  module "L1TOccupancyClientHistogramService.h" { header "DQM/L1TMonitorClient/interface/L1TOccupancyClientHistogramService.h" export * }
+  module "L1TRPCTFClient.h" { header "DQM/L1TMonitorClient/interface/L1TRPCTFClient.h" export * }
+  module "L1TStage2CaloLayer2DEClient.h" { header "DQM/L1TMonitorClient/interface/L1TStage2CaloLayer2DEClient.h" export * }
+  module "L1TStage2CaloLayer2DEClientSummary.h" { header "DQM/L1TMonitorClient/interface/L1TStage2CaloLayer2DEClientSummary.h" export * }
+  module "L1TStage2RatioClient.h" { header "DQM/L1TMonitorClient/interface/L1TStage2RatioClient.h" export * }
+  module "L1TTestsSummary.h" { header "DQM/L1TMonitorClient/interface/L1TTestsSummary.h" export * }
+  export *
+}
+

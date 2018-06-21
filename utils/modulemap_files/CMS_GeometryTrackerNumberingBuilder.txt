@@ -1,0 +1,10 @@
+module CMS_GeometryTrackerNumberingBuilder {
+  module "CmsTrackerDebugNavigator.h" { header "Geometry/TrackerNumberingBuilder/interface/CmsTrackerDebugNavigator.h" export * }
+  module "CmsTrackerStringToEnum.h" { header "Geometry/TrackerNumberingBuilder/interface/CmsTrackerStringToEnum.h" export * }
+  module "GeometricDet.h" { header "Geometry/TrackerNumberingBuilder/interface/GeometricDet.h" export * }
+  module "GeometricDetExtra.h" { header "Geometry/TrackerNumberingBuilder/interface/GeometricDetExtra.h" export * }
+  module "TrackerMapDDDtoID.h" { header "Geometry/TrackerNumberingBuilder/interface/TrackerMapDDDtoID.h" export * }
+  module "TrackerShapeToBounds.h" { header "Geometry/TrackerNumberingBuilder/interface/TrackerShapeToBounds.h" export * }
+  export *
+}
+

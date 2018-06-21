@@ -1,0 +1,21 @@
+module CMS_AlignmentLaserAlignment {
+  module "LASAlignmentTubeAlgorithm.h" { header "Alignment/LaserAlignment/interface/LASAlignmentTubeAlgorithm.h" export * }
+  module "LASBarrelAlgorithm.h" { header "Alignment/LaserAlignment/interface/LASBarrelAlgorithm.h" export * }
+  module "LASBarrelAlignmentParameterSet.h" { header "Alignment/LaserAlignment/interface/LASBarrelAlignmentParameterSet.h" export * }
+  module "LASConstants.h" { header "Alignment/LaserAlignment/interface/LASConstants.h" export * }
+  module "LASCoordinateSet.h" { header "Alignment/LaserAlignment/interface/LASCoordinateSet.h" export * }
+  module "LASEndcapAlgorithm.h" { header "Alignment/LaserAlignment/interface/LASEndcapAlgorithm.h" export * }
+  module "LASEndcapAlignmentParameterSet.h" { header "Alignment/LaserAlignment/interface/LASEndcapAlignmentParameterSet.h" export * }
+  module "LASGeometryUpdater.h" { header "Alignment/LaserAlignment/interface/LASGeometryUpdater.h" export * }
+  module "LASGlobalData.h" { header "Alignment/LaserAlignment/interface/LASGlobalData.h" export * }
+  module "LASGlobalLoop.h" { header "Alignment/LaserAlignment/interface/LASGlobalLoop.h" export * }
+  module "LASModuleProfile.h" { header "Alignment/LaserAlignment/interface/LASModuleProfile.h" export * }
+  module "LASPeakFinder.h" { header "Alignment/LaserAlignment/interface/LASPeakFinder.h" export * }
+  module "LASProfileJudge.h" { header "Alignment/LaserAlignment/interface/LASProfileJudge.h" export * }
+  module "OrderedLaserHitPair.h" { header "Alignment/LaserAlignment/interface/OrderedLaserHitPair.h" export * }
+  module "OrderedLaserHitPairs.h" { header "Alignment/LaserAlignment/interface/OrderedLaserHitPairs.h" export * }
+  module "SeedLayerPairs.h" { header "Alignment/LaserAlignment/interface/SeedLayerPairs.h" export * }
+  module "TsosVectorCollection.h" { header "Alignment/LaserAlignment/interface/TsosVectorCollection.h" export * }
+  export *
+}
+

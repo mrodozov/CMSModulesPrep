@@ -1,0 +1,7 @@
+module CMS_HLTriggerTimer {
+  module "EDMModuleType.h" { header "HLTrigger/Timer/interface/EDMModuleType.h" export * }
+  module "FastTimerService.h" { header "HLTrigger/Timer/interface/FastTimerService.h" export * }
+  module "ProcessCallGraph.h" { header "HLTrigger/Timer/interface/ProcessCallGraph.h" export * }
+  export *
+}
+

@@ -1,0 +1,10 @@
+module CMS_DataFormatsHcalIsolatedTrack {
+  module "EcalIsolatedParticleCandidate.h" { header "DataFormats/HcalIsolatedTrack/interface/EcalIsolatedParticleCandidate.h" export * }
+  module "EcalIsolatedParticleCandidateFwd.h" { header "DataFormats/HcalIsolatedTrack/interface/EcalIsolatedParticleCandidateFwd.h" export * }
+  module "HcalIsolatedTrackCandidate.h" { header "DataFormats/HcalIsolatedTrack/interface/HcalIsolatedTrackCandidate.h" export * }
+  module "HcalIsolatedTrackCandidateFwd.h" { header "DataFormats/HcalIsolatedTrack/interface/HcalIsolatedTrackCandidateFwd.h" export * }
+  module "IsolatedPixelTrackCandidate.h" { header "DataFormats/HcalIsolatedTrack/interface/IsolatedPixelTrackCandidate.h" export * }
+  module "IsolatedPixelTrackCandidateFwd.h" { header "DataFormats/HcalIsolatedTrack/interface/IsolatedPixelTrackCandidateFwd.h" export * }
+  export *
+}
+

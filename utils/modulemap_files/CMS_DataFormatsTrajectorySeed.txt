@@ -1,0 +1,8 @@
+module CMS_DataFormatsTrajectorySeed {
+  module "BasicTrajectorySeed.h" { header "DataFormats/TrajectorySeed/interface/BasicTrajectorySeed.h" export * }
+  module "PropagationDirection.h" { header "DataFormats/TrajectorySeed/interface/PropagationDirection.h" export * }
+  module "TrajectorySeed.h" { header "DataFormats/TrajectorySeed/interface/TrajectorySeed.h" export * }
+  module "TrajectorySeedCollection.h" { header "DataFormats/TrajectorySeed/interface/TrajectorySeedCollection.h" export * }
+  export *
+}
+

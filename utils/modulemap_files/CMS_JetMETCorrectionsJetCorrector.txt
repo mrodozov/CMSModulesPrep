@@ -1,0 +1,6 @@
+module CMS_JetMETCorrectionsJetCorrector {
+  module "JetCorrector.h" { header "JetMETCorrections/JetCorrector/interface/JetCorrector.h" export * }
+  module "JetCorrectorImpl.h" { header "JetMETCorrections/JetCorrector/interface/JetCorrectorImpl.h" export * }
+  export *
+}
+

@@ -1,0 +1,10 @@
+module CMS_RecoMuonStandAloneTrackFinder {
+  module "ExhaustiveMuonTrajectoryBuilder.h" { header "RecoMuon/StandAloneTrackFinder/interface/ExhaustiveMuonTrajectoryBuilder.h" export * }
+  module "StandAloneMuonBackwardFilter.h" { header "RecoMuon/StandAloneTrackFinder/interface/StandAloneMuonBackwardFilter.h" export * }
+  module "StandAloneMuonFilter.h" { header "RecoMuon/StandAloneTrackFinder/interface/StandAloneMuonFilter.h" export * }
+  module "StandAloneMuonRefitter.h" { header "RecoMuon/StandAloneTrackFinder/interface/StandAloneMuonRefitter.h" export * }
+  module "StandAloneMuonSmoother.h" { header "RecoMuon/StandAloneTrackFinder/interface/StandAloneMuonSmoother.h" export * }
+  module "StandAloneTrajectoryBuilder.h" { header "RecoMuon/StandAloneTrackFinder/interface/StandAloneTrajectoryBuilder.h" export * }
+  export *
+}
+

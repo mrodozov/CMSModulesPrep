@@ -1,0 +1,32 @@
+module CMS_SimG4CoreNotification {
+  module "BeginOfEvent.h" { header "SimG4Core/Notification/interface/BeginOfEvent.h" export * }
+  module "BeginOfJob.h" { header "SimG4Core/Notification/interface/BeginOfJob.h" export * }
+  module "BeginOfRun.h" { header "SimG4Core/Notification/interface/BeginOfRun.h" export * }
+  module "BeginOfTrack.h" { header "SimG4Core/Notification/interface/BeginOfTrack.h" export * }
+  module "CMSSteppingVerbose.h" { header "SimG4Core/Notification/interface/CMSSteppingVerbose.h" export * }
+  module "ComponentBuilder.h" { header "SimG4Core/Notification/interface/ComponentBuilder.h" export * }
+  module "ComponentFactoryByName.h" { header "SimG4Core/Notification/interface/ComponentFactoryByName.h" export * }
+  module "CurrentG4Track.h" { header "SimG4Core/Notification/interface/CurrentG4Track.h" export * }
+  module "DDG4DispContainer.h" { header "SimG4Core/Notification/interface/DDG4DispContainer.h" export * }
+  module "DDG4Dispatchable.h" { header "SimG4Core/Notification/interface/DDG4Dispatchable.h" export * }
+  module "DispatchableG4Step.h" { header "SimG4Core/Notification/interface/DispatchableG4Step.h" export * }
+  module "EndOfEvent.h" { header "SimG4Core/Notification/interface/EndOfEvent.h" export * }
+  module "EndOfRun.h" { header "SimG4Core/Notification/interface/EndOfRun.h" export * }
+  module "EndOfTrack.h" { header "SimG4Core/Notification/interface/EndOfTrack.h" export * }
+  module "G4TrackToParticleID.h" { header "SimG4Core/Notification/interface/G4TrackToParticleID.h" export * }
+  module "GenParticleInfo.h" { header "SimG4Core/Notification/interface/GenParticleInfo.h" export * }
+  module "GenParticleInfoExtractor.h" { header "SimG4Core/Notification/interface/GenParticleInfoExtractor.h" export * }
+  module "NewTrackAction.h" { header "SimG4Core/Notification/interface/NewTrackAction.h" export * }
+  module "Observer.h" { header "SimG4Core/Notification/interface/Observer.h" export * }
+  module "OwnIt.h" { header "SimG4Core/Notification/interface/OwnIt.h" export * }
+  module "Signaler.h" { header "SimG4Core/Notification/interface/Signaler.h" export * }
+  module "SimActivityRegistry.h" { header "SimG4Core/Notification/interface/SimActivityRegistry.h" export * }
+  module "SimActivityRegistryEnroller.h" { header "SimG4Core/Notification/interface/SimActivityRegistryEnroller.h" export * }
+  module "SimG4Exception.h" { header "SimG4Core/Notification/interface/SimG4Exception.h" export * }
+  module "TrackContainer.h" { header "SimG4Core/Notification/interface/TrackContainer.h" export * }
+  module "TrackInformation.h" { header "SimG4Core/Notification/interface/TrackInformation.h" export * }
+  module "TrackInformationExtractor.h" { header "SimG4Core/Notification/interface/TrackInformationExtractor.h" export * }
+  module "TrackWithHistory.h" { header "SimG4Core/Notification/interface/TrackWithHistory.h" export * }
+  export *
+}
+

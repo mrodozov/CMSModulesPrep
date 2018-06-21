@@ -1,0 +1,26 @@
+module CMS_TrackingToolsGsfTools {
+  module "BasicMultiTrajectoryState.h" { header "TrackingTools/GsfTools/interface/BasicMultiTrajectoryState.h" export * }
+  module "CloseComponentsMerger.h" { header "TrackingTools/GsfTools/interface/CloseComponentsMerger.h" export * }
+  module "CloseComponentsMerger.icc" { textual header "TrackingTools/GsfTools/interface/CloseComponentsMerger.icc" export * }
+  module "DistanceBetweenComponents.h" { header "TrackingTools/GsfTools/interface/DistanceBetweenComponents.h" export * }
+  module "GSUtilities.h" { header "TrackingTools/GsfTools/interface/GSUtilities.h" export * }
+  module "GaussianStateLessWeight.h" { header "TrackingTools/GsfTools/interface/GaussianStateLessWeight.h" export * }
+  module "GaussianSumUtilities.h" { header "TrackingTools/GsfTools/interface/GaussianSumUtilities.h" export * }
+  module "GaussianSumUtilities.icc" { textual header "TrackingTools/GsfTools/interface/GaussianSumUtilities.icc" export * }
+  module "GaussianSumUtilities1D.h" { header "TrackingTools/GsfTools/interface/GaussianSumUtilities1D.h" export * }
+  module "GetComponents.h" { header "TrackingTools/GsfTools/interface/GetComponents.h" export * }
+  module "GsfMatrixTools.h" { header "TrackingTools/GsfTools/interface/GsfMatrixTools.h" export * }
+  module "GsfPropagatorAdapter.h" { header "TrackingTools/GsfTools/interface/GsfPropagatorAdapter.h" export * }
+  module "KullbackLeiblerDistance.h" { header "TrackingTools/GsfTools/interface/KullbackLeiblerDistance.h" export * }
+  module "KullbackLeiblerDistance.icc" { textual header "TrackingTools/GsfTools/interface/KullbackLeiblerDistance.icc" export * }
+  module "MultiGaussianState1D.h" { header "TrackingTools/GsfTools/interface/MultiGaussianState1D.h" export * }
+  module "MultiGaussianStateCombiner1D.h" { header "TrackingTools/GsfTools/interface/MultiGaussianStateCombiner1D.h" export * }
+  module "MultiGaussianStateMerger.h" { header "TrackingTools/GsfTools/interface/MultiGaussianStateMerger.h" export * }
+  module "MultiGaussianStateTransform.h" { header "TrackingTools/GsfTools/interface/MultiGaussianStateTransform.h" export * }
+  module "MultiTrajectoryStateAssembler.h" { header "TrackingTools/GsfTools/interface/MultiTrajectoryStateAssembler.h" export * }
+  module "MultiTrajectoryStateMode.h" { header "TrackingTools/GsfTools/interface/MultiTrajectoryStateMode.h" export * }
+  module "MultiTrajectoryStateTransform.h" { header "TrackingTools/GsfTools/interface/MultiTrajectoryStateTransform.h" export * }
+  module "SingleGaussianState1D.h" { header "TrackingTools/GsfTools/interface/SingleGaussianState1D.h" export * }
+  export *
+}
+

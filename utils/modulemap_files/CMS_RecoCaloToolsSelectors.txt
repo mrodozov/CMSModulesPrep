@@ -1,0 +1,6 @@
+module CMS_RecoCaloToolsSelectors {
+  module "CaloConeSelector.h" { header "RecoCaloTools/Selectors/interface/CaloConeSelector.h" export * }
+  module "CaloDualConeSelector.h" { header "RecoCaloTools/Selectors/interface/CaloDualConeSelector.h" export * }
+  export *
+}
+

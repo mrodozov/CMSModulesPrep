@@ -1,0 +1,8 @@
+module CMS_RecoLocalMuonGEMRecHit {
+  module "GEMRecHitAlgoFactory.h" { header "RecoLocalMuon/GEMRecHit/interface/GEMRecHitAlgoFactory.h" export * }
+  module "GEMRecHitBaseAlgo.h" { header "RecoLocalMuon/GEMRecHit/interface/GEMRecHitBaseAlgo.h" export * }
+  module "ME0RecHitAlgoFactory.h" { header "RecoLocalMuon/GEMRecHit/interface/ME0RecHitAlgoFactory.h" export * }
+  module "ME0RecHitBaseAlgo.h" { header "RecoLocalMuon/GEMRecHit/interface/ME0RecHitBaseAlgo.h" export * }
+  export *
+}
+

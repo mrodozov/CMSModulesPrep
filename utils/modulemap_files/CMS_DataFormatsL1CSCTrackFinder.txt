@@ -1,0 +1,13 @@
+module CMS_DataFormatsL1CSCTrackFinder {
+  module "CSCBitWidths.h" { header "DataFormats/L1CSCTrackFinder/interface/CSCBitWidths.h" export * }
+  module "CSCTFConstants.h" { header "DataFormats/L1CSCTrackFinder/interface/CSCTFConstants.h" export * }
+  module "CSCTriggerContainer.h" { header "DataFormats/L1CSCTrackFinder/interface/CSCTriggerContainer.h" export * }
+  module "L1CSCSPStatusDigi.h" { header "DataFormats/L1CSCTrackFinder/interface/L1CSCSPStatusDigi.h" export * }
+  module "L1CSCStatusDigiCollection.h" { header "DataFormats/L1CSCTrackFinder/interface/L1CSCStatusDigiCollection.h" export * }
+  module "L1CSCTrackCollection.h" { header "DataFormats/L1CSCTrackFinder/interface/L1CSCTrackCollection.h" export * }
+  module "L1Track.h" { header "DataFormats/L1CSCTrackFinder/interface/L1Track.h" export * }
+  module "L1TrackId.h" { header "DataFormats/L1CSCTrackFinder/interface/L1TrackId.h" export * }
+  module "TrackStub.h" { header "DataFormats/L1CSCTrackFinder/interface/TrackStub.h" export * }
+  export *
+}
+

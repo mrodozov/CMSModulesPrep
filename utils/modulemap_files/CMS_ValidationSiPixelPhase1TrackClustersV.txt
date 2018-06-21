@@ -1,0 +1,5 @@
+module CMS_ValidationSiPixelPhase1TrackClustersV {
+  module "SiPixelPhase1TrackClustersV.h" { header "Validation/SiPixelPhase1TrackClustersV/interface/SiPixelPhase1TrackClustersV.h" export * }
+  export *
+}
+

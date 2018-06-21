@@ -1,0 +1,7 @@
+module CMS_CalibMuonRPCCalibration {
+  module "RPCCalibSetUp.h" { header "CalibMuon/RPCCalibration/interface/RPCCalibSetUp.h" export * }
+  module "RPCFakeCalibration.h" { header "CalibMuon/RPCCalibration/interface/RPCFakeCalibration.h" export * }
+  module "RPCPerformanceESSource.h" { header "CalibMuon/RPCCalibration/interface/RPCPerformanceESSource.h" export * }
+  export *
+}
+

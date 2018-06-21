@@ -1,0 +1,7 @@
+module CMS_CondToolsL1TriggerExt {
+  module "DataWriterExt.h" { header "CondTools/L1TriggerExt/interface/DataWriterExt.h" export * }
+  module "L1ConfigOnlineProdBaseExt.h" { header "CondTools/L1TriggerExt/interface/L1ConfigOnlineProdBaseExt.h" export * }
+  module "L1ObjectKeysOnlineProdBaseExt.h" { header "CondTools/L1TriggerExt/interface/L1ObjectKeysOnlineProdBaseExt.h" export * }
+  export *
+}
+

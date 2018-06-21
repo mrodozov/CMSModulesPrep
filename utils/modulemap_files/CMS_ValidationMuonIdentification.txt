@@ -1,0 +1,5 @@
+module CMS_ValidationMuonIdentification {
+  module "MuonIdVal.h" { header "Validation/MuonIdentification/interface/MuonIdVal.h" export * }
+  export *
+}
+

@@ -1,0 +1,8 @@
+module CMS_FWCoreFWLite {
+  module "AutoLibraryLoader.h" { header "FWCore/FWLite/interface/AutoLibraryLoader.h" export * }
+  module "BranchMapReader.h" { header "FWCore/FWLite/interface/BranchMapReader.h" export * }
+  module "FWLiteEnabler.h" { header "FWCore/FWLite/interface/FWLiteEnabler.h" export * }
+  module "setRefStreamer.h" { header "FWCore/FWLite/interface/setRefStreamer.h" export * }
+  export *
+}
+

@@ -1,0 +1,6 @@
+module CMS_SimDataFormatsDigiSimLinks {
+  module "DTDigiSimLink.h" { header "SimDataFormats/DigiSimLinks/interface/DTDigiSimLink.h" export * }
+  module "DTDigiSimLinkCollection.h" { header "SimDataFormats/DigiSimLinks/interface/DTDigiSimLinkCollection.h" export * }
+  export *
+}
+

@@ -1,0 +1,9 @@
+module CMS_DQMEcalPreshowerMonitorClient {
+  module "ESClient.h" { header "DQM/EcalPreshowerMonitorClient/interface/ESClient.h" export * }
+  module "ESIntegrityClient.h" { header "DQM/EcalPreshowerMonitorClient/interface/ESIntegrityClient.h" export * }
+  module "ESPedestalClient.h" { header "DQM/EcalPreshowerMonitorClient/interface/ESPedestalClient.h" export * }
+  module "ESSummaryClient.h" { header "DQM/EcalPreshowerMonitorClient/interface/ESSummaryClient.h" export * }
+  module "EcalPreshowerMonitorClient.h" { header "DQM/EcalPreshowerMonitorClient/interface/EcalPreshowerMonitorClient.h" export * }
+  export *
+}
+

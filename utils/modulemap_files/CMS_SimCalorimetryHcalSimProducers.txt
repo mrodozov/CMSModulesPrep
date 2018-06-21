@@ -1,0 +1,6 @@
+module CMS_SimCalorimetryHcalSimProducers {
+  module "HcalDigiProducer.h" { header "SimCalorimetry/HcalSimProducers/interface/HcalDigiProducer.h" export * }
+  module "HcalDigitizer.h" { header "SimCalorimetry/HcalSimProducers/interface/HcalDigitizer.h" export * }
+  export *
+}
+

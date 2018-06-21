@@ -1,0 +1,6 @@
+module CMS_FWCoreTFWLiteSelector {
+  module "TFWLiteSelector.h" { header "FWCore/TFWLiteSelector/interface/TFWLiteSelector.h" export * }
+  module "TFWLiteSelectorBasic.h" { header "FWCore/TFWLiteSelector/interface/TFWLiteSelectorBasic.h" export * }
+  export *
+}
+

@@ -1,0 +1,6 @@
+module CMS_SimDataFormatsGEMDigiSimLink {
+  module "GEMDigiSimLink.h" { header "SimDataFormats/GEMDigiSimLink/interface/GEMDigiSimLink.h" export * }
+  module "ME0DigiSimLink.h" { header "SimDataFormats/GEMDigiSimLink/interface/ME0DigiSimLink.h" export * }
+  export *
+}
+

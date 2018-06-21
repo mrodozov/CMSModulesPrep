@@ -1,0 +1,19 @@
+module CMS_TrackingToolsKalmanUpdators {
+  module "Chi2MeasurementEstimator.h" { header "TrackingTools/KalmanUpdators/interface/Chi2MeasurementEstimator.h" export * }
+  module "Chi2MeasurementEstimatorBase.h" { header "TrackingTools/KalmanUpdators/interface/Chi2MeasurementEstimatorBase.h" export * }
+  module "Chi2MeasurementEstimatorParams.h" { header "TrackingTools/KalmanUpdators/interface/Chi2MeasurementEstimatorParams.h" export * }
+  module "Chi2Strip1DEstimator.h" { header "TrackingTools/KalmanUpdators/interface/Chi2Strip1DEstimator.h" export * }
+  module "Chi2Switching1DEstimator.h" { header "TrackingTools/KalmanUpdators/interface/Chi2Switching1DEstimator.h" export * }
+  module "EtaPhiMeasurementEstimator.h" { header "TrackingTools/KalmanUpdators/interface/EtaPhiMeasurementEstimator.h" export * }
+  module "KFStrip1DUpdator.h" { header "TrackingTools/KalmanUpdators/interface/KFStrip1DUpdator.h" export * }
+  module "KFSwitching1DUpdator.h" { header "TrackingTools/KalmanUpdators/interface/KFSwitching1DUpdator.h" export * }
+  module "KFSwitching1DUpdatorESProducer.h" { header "TrackingTools/KalmanUpdators/interface/KFSwitching1DUpdatorESProducer.h" export * }
+  module "KFUpdator.h" { header "TrackingTools/KalmanUpdators/interface/KFUpdator.h" export * }
+  module "KFUpdatorESProducer.h" { header "TrackingTools/KalmanUpdators/interface/KFUpdatorESProducer.h" export * }
+  module "MRHChi2MeasurementEstimator.h" { header "TrackingTools/KalmanUpdators/interface/MRHChi2MeasurementEstimator.h" export * }
+  module "Strip1DMeasurementTransformator.h" { header "TrackingTools/KalmanUpdators/interface/Strip1DMeasurementTransformator.h" export * }
+  module "TrackingRecHitPropagator.h" { header "TrackingTools/KalmanUpdators/interface/TrackingRecHitPropagator.h" export * }
+  module "TrackingRecHitPropagatorESProducer.h" { header "TrackingTools/KalmanUpdators/interface/TrackingRecHitPropagatorESProducer.h" export * }
+  export *
+}
+

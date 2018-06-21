@@ -1,0 +1,9 @@
+module CMS_JetMETCorrectionsObjects {
+  module "ChainedJetCorrector.h" { header "JetMETCorrections/Objects/interface/ChainedJetCorrector.h" export * }
+  module "JetCorrectionsRecord.h" { header "JetMETCorrections/Objects/interface/JetCorrectionsRecord.h" export * }
+  module "JetCorrector.h" { header "JetMETCorrections/Objects/interface/JetCorrector.h" export * }
+  module "METCorrectionsRecord.h" { header "JetMETCorrections/Objects/interface/METCorrectionsRecord.h" export * }
+  module "MEtXYcorrectRecord.h" { header "JetMETCorrections/Objects/interface/MEtXYcorrectRecord.h" export * }
+  export *
+}
+

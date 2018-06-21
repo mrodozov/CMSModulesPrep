@@ -1,0 +1,35 @@
+module CMS_SimG4CMSCalo {
+  module "CaloG4Hit.h" { header "SimG4CMS/Calo/interface/CaloG4Hit.h" export * }
+  module "CaloG4HitCollection.h" { header "SimG4CMS/Calo/interface/CaloG4HitCollection.h" export * }
+  module "CaloHit.h" { header "SimG4CMS/Calo/interface/CaloHit.h" export * }
+  module "CaloHitID.h" { header "SimG4CMS/Calo/interface/CaloHitID.h" export * }
+  module "CaloMeanResponse.h" { header "SimG4CMS/Calo/interface/CaloMeanResponse.h" export * }
+  module "CaloSD.h" { header "SimG4CMS/Calo/interface/CaloSD.h" export * }
+  module "CaloTrkProcessing.h" { header "SimG4CMS/Calo/interface/CaloTrkProcessing.h" export * }
+  module "ECalSD.h" { header "SimG4CMS/Calo/interface/ECalSD.h" export * }
+  module "EnergyResolutionVsLumi.h" { header "SimG4CMS/Calo/interface/EnergyResolutionVsLumi.h" export * }
+  module "EvolutionECAL.h" { header "SimG4CMS/Calo/interface/EvolutionECAL.h" export * }
+  module "HCalSD.h" { header "SimG4CMS/Calo/interface/HCalSD.h" export * }
+  module "HFCherenkov.h" { header "SimG4CMS/Calo/interface/HFCherenkov.h" export * }
+  module "HFDarkening.h" { header "SimG4CMS/Calo/interface/HFDarkening.h" export * }
+  module "HFFibre.h" { header "SimG4CMS/Calo/interface/HFFibre.h" export * }
+  module "HFFibreFiducial.h" { header "SimG4CMS/Calo/interface/HFFibreFiducial.h" export * }
+  module "HFGflash.h" { header "SimG4CMS/Calo/interface/HFGflash.h" export * }
+  module "HFShower.h" { header "SimG4CMS/Calo/interface/HFShower.h" export * }
+  module "HFShowerFibreBundle.h" { header "SimG4CMS/Calo/interface/HFShowerFibreBundle.h" export * }
+  module "HFShowerLibrary.h" { header "SimG4CMS/Calo/interface/HFShowerLibrary.h" export * }
+  module "HFShowerPMT.h" { header "SimG4CMS/Calo/interface/HFShowerPMT.h" export * }
+  module "HFShowerParam.h" { header "SimG4CMS/Calo/interface/HFShowerParam.h" export * }
+  module "HGCMouseBite.h" { header "SimG4CMS/Calo/interface/HGCMouseBite.h" export * }
+  module "HGCNumberingScheme.h" { header "SimG4CMS/Calo/interface/HGCNumberingScheme.h" export * }
+  module "HGCSD.h" { header "SimG4CMS/Calo/interface/HGCSD.h" export * }
+  module "HcalNumberingScheme.h" { header "SimG4CMS/Calo/interface/HcalNumberingScheme.h" export * }
+  module "HcalQie.h" { header "SimG4CMS/Calo/interface/HcalQie.h" export * }
+  module "HcalTestAnalysis.h" { header "SimG4CMS/Calo/interface/HcalTestAnalysis.h" export * }
+  module "HcalTestHistoClass.h" { header "SimG4CMS/Calo/interface/HcalTestHistoClass.h" export * }
+  module "HcalTestHistoManager.h" { header "SimG4CMS/Calo/interface/HcalTestHistoManager.h" export * }
+  module "HcalTestNS.h" { header "SimG4CMS/Calo/interface/HcalTestNS.h" export * }
+  module "HcalTestNumberingScheme.h" { header "SimG4CMS/Calo/interface/HcalTestNumberingScheme.h" export * }
+  export *
+}
+

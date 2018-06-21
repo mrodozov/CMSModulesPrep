@@ -1,0 +1,12 @@
+module CMS_EventFilterL1GlobalTriggerRawToDigi {
+  module "ConditionDumperInEdm.h" { header "EventFilter/L1GlobalTriggerRawToDigi/interface/ConditionDumperInEdm.h" export * }
+  module "L1GTDigiToRaw.h" { header "EventFilter/L1GlobalTriggerRawToDigi/interface/L1GTDigiToRaw.h" export * }
+  module "L1GTEvmDigiToRaw.h" { header "EventFilter/L1GlobalTriggerRawToDigi/interface/L1GTEvmDigiToRaw.h" export * }
+  module "L1GlobalTriggerEvmRawToDigi.h" { header "EventFilter/L1GlobalTriggerRawToDigi/interface/L1GlobalTriggerEvmRawToDigi.h" export * }
+  module "L1GlobalTriggerRawToDigi.h" { header "EventFilter/L1GlobalTriggerRawToDigi/interface/L1GlobalTriggerRawToDigi.h" export * }
+  module "L1GlobalTriggerRecordProducer.h" { header "EventFilter/L1GlobalTriggerRawToDigi/interface/L1GlobalTriggerRecordProducer.h" export * }
+  module "L1GtTextToRaw.h" { header "EventFilter/L1GlobalTriggerRawToDigi/interface/L1GtTextToRaw.h" export * }
+  module "L1GtTriggerMenuLiteProducer.h" { header "EventFilter/L1GlobalTriggerRawToDigi/interface/L1GtTriggerMenuLiteProducer.h" export * }
+  export *
+}
+

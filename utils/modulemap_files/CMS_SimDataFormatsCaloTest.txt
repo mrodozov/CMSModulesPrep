@@ -1,0 +1,7 @@
+module CMS_SimDataFormatsCaloTest {
+  module "HGCalTestNumbering.h" { header "SimDataFormats/CaloTest/interface/HGCalTestNumbering.h" export * }
+  module "HcalTestHistoClass.h" { header "SimDataFormats/CaloTest/interface/HcalTestHistoClass.h" export * }
+  module "ParticleFlux.h" { header "SimDataFormats/CaloTest/interface/ParticleFlux.h" export * }
+  export *
+}
+

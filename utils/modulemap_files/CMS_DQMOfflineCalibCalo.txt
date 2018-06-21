@@ -1,0 +1,5 @@
+module CMS_DQMOfflineCalibCalo {
+  module "DQMSourceEleCalib.h" { header "DQMOffline/CalibCalo/interface/DQMSourceEleCalib.h" export * }
+  export *
+}
+

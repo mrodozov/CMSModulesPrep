@@ -1,0 +1,15 @@
+module CMS_RecoVertexKalmanVertexFit {
+  module "KVFHelper.h" { header "RecoVertex/KalmanVertexFit/interface/KVFHelper.h" export * }
+  module "KalmanSmoothedVertexChi2Estimator.h" { header "RecoVertex/KalmanVertexFit/interface/KalmanSmoothedVertexChi2Estimator.h" export * }
+  module "KalmanTrackToTrackCovCalculator.h" { header "RecoVertex/KalmanVertexFit/interface/KalmanTrackToTrackCovCalculator.h" export * }
+  module "KalmanVertexFitter.h" { header "RecoVertex/KalmanVertexFit/interface/KalmanVertexFitter.h" export * }
+  module "KalmanVertexSmoother.h" { header "RecoVertex/KalmanVertexFit/interface/KalmanVertexSmoother.h" export * }
+  module "KalmanVertexTrackCompatibilityEstimator.h" { header "RecoVertex/KalmanVertexFit/interface/KalmanVertexTrackCompatibilityEstimator.h" export * }
+  module "KalmanVertexTrackUpdator.h" { header "RecoVertex/KalmanVertexFit/interface/KalmanVertexTrackUpdator.h" export * }
+  module "KalmanVertexUpdator.h" { header "RecoVertex/KalmanVertexFit/interface/KalmanVertexUpdator.h" export * }
+  module "SimpleVertexTree.h" { header "RecoVertex/KalmanVertexFit/interface/SimpleVertexTree.h" export * }
+  module "SingleTrackVertexConstraint.h" { header "RecoVertex/KalmanVertexFit/interface/SingleTrackVertexConstraint.h" export * }
+  module "VertexFitterResult.h" { header "RecoVertex/KalmanVertexFit/interface/VertexFitterResult.h" export * }
+  export *
+}
+

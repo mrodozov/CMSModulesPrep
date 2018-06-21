@@ -1,0 +1,16 @@
+module CMS_RecoVertexGhostTrackFitter {
+  module "AnnealingGhostTrackFitter.h" { header "RecoVertex/GhostTrackFitter/interface/AnnealingGhostTrackFitter.h" export * }
+  module "BasicGhostTrackState.h" { header "RecoVertex/GhostTrackFitter/interface/BasicGhostTrackState.h" export * }
+  module "GhostTrack.h" { header "RecoVertex/GhostTrackFitter/interface/GhostTrack.h" export * }
+  module "GhostTrackFitter.h" { header "RecoVertex/GhostTrackFitter/interface/GhostTrackFitter.h" export * }
+  module "GhostTrackPrediction.h" { header "RecoVertex/GhostTrackFitter/interface/GhostTrackPrediction.h" export * }
+  module "GhostTrackState.h" { header "RecoVertex/GhostTrackFitter/interface/GhostTrackState.h" export * }
+  module "GhostTrackVertexFinder.h" { header "RecoVertex/GhostTrackFitter/interface/GhostTrackVertexFinder.h" export * }
+  module "KalmanGhostTrackUpdater.h" { header "RecoVertex/GhostTrackFitter/interface/KalmanGhostTrackUpdater.h" export * }
+  module "PositiveSideGhostTrackFitter.h" { header "RecoVertex/GhostTrackFitter/interface/PositiveSideGhostTrackFitter.h" export * }
+  module "SequentialGhostTrackFitter.h" { header "RecoVertex/GhostTrackFitter/interface/SequentialGhostTrackFitter.h" export * }
+  module "TrackGhostTrackState.h" { header "RecoVertex/GhostTrackFitter/interface/TrackGhostTrackState.h" export * }
+  module "VertexGhostTrackState.h" { header "RecoVertex/GhostTrackFitter/interface/VertexGhostTrackState.h" export * }
+  export *
+}
+

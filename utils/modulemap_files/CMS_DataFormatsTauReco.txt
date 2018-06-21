@@ -1,0 +1,40 @@
+module CMS_DataFormatsTauReco {
+  module "BaseTau.h" { header "DataFormats/TauReco/interface/BaseTau.h" export * }
+  module "BaseTauFwd.h" { header "DataFormats/TauReco/interface/BaseTauFwd.h" export * }
+  module "BaseTauTagInfo.h" { header "DataFormats/TauReco/interface/BaseTauTagInfo.h" export * }
+  module "BaseTauTagInfoFwd.h" { header "DataFormats/TauReco/interface/BaseTauTagInfoFwd.h" export * }
+  module "CaloTau.h" { header "DataFormats/TauReco/interface/CaloTau.h" export * }
+  module "CaloTauDiscriminator.h" { header "DataFormats/TauReco/interface/CaloTauDiscriminator.h" export * }
+  module "CaloTauDiscriminatorAgainstElectron.h" { header "DataFormats/TauReco/interface/CaloTauDiscriminatorAgainstElectron.h" export * }
+  module "CaloTauDiscriminatorByIsolation.h" { header "DataFormats/TauReco/interface/CaloTauDiscriminatorByIsolation.h" export * }
+  module "CaloTauFwd.h" { header "DataFormats/TauReco/interface/CaloTauFwd.h" export * }
+  module "CaloTauTagInfo.h" { header "DataFormats/TauReco/interface/CaloTauTagInfo.h" export * }
+  module "CaloTauTagInfoFwd.h" { header "DataFormats/TauReco/interface/CaloTauTagInfoFwd.h" export * }
+  module "HLTTau.h" { header "DataFormats/TauReco/interface/HLTTau.h" export * }
+  module "HLTTauFwd.h" { header "DataFormats/TauReco/interface/HLTTauFwd.h" export * }
+  module "JetPiZeroAssociation.h" { header "DataFormats/TauReco/interface/JetPiZeroAssociation.h" export * }
+  module "L2TauInfoAssociation.h" { header "DataFormats/TauReco/interface/L2TauInfoAssociation.h" export * }
+  module "L2TauIsolationInfo.h" { header "DataFormats/TauReco/interface/L2TauIsolationInfo.h" export * }
+  module "PFJetChargedHadronAssociation.h" { header "DataFormats/TauReco/interface/PFJetChargedHadronAssociation.h" export * }
+  module "PFRecoTauChargedHadron.h" { header "DataFormats/TauReco/interface/PFRecoTauChargedHadron.h" export * }
+  module "PFRecoTauChargedHadronFwd.h" { header "DataFormats/TauReco/interface/PFRecoTauChargedHadronFwd.h" export * }
+  module "PFTau.h" { header "DataFormats/TauReco/interface/PFTau.h" export * }
+  module "PFTau3ProngSummary.h" { header "DataFormats/TauReco/interface/PFTau3ProngSummary.h" export * }
+  module "PFTau3ProngSummaryAssociation.h" { header "DataFormats/TauReco/interface/PFTau3ProngSummaryAssociation.h" export * }
+  module "PFTau3ProngSummaryFwd.h" { header "DataFormats/TauReco/interface/PFTau3ProngSummaryFwd.h" export * }
+  module "PFTauDecayMode.h" { header "DataFormats/TauReco/interface/PFTauDecayMode.h" export * }
+  module "PFTauDecayModeAssociation.h" { header "DataFormats/TauReco/interface/PFTauDecayModeAssociation.h" export * }
+  module "PFTauDecayModeFwd.h" { header "DataFormats/TauReco/interface/PFTauDecayModeFwd.h" export * }
+  module "PFTauDiscriminator.h" { header "DataFormats/TauReco/interface/PFTauDiscriminator.h" export * }
+  module "PFTauDiscriminatorByIsolation.h" { header "DataFormats/TauReco/interface/PFTauDiscriminatorByIsolation.h" export * }
+  module "PFTauFwd.h" { header "DataFormats/TauReco/interface/PFTauFwd.h" export * }
+  module "PFTauTagInfo.h" { header "DataFormats/TauReco/interface/PFTauTagInfo.h" export * }
+  module "PFTauTagInfoFwd.h" { header "DataFormats/TauReco/interface/PFTauTagInfoFwd.h" export * }
+  module "PFTauTransverseImpactParameter.h" { header "DataFormats/TauReco/interface/PFTauTransverseImpactParameter.h" export * }
+  module "PFTauTransverseImpactParameterAssociation.h" { header "DataFormats/TauReco/interface/PFTauTransverseImpactParameterAssociation.h" export * }
+  module "PFTauTransverseImpactParameterFwd.h" { header "DataFormats/TauReco/interface/PFTauTransverseImpactParameterFwd.h" export * }
+  module "RecoTauPiZero.h" { header "DataFormats/TauReco/interface/RecoTauPiZero.h" export * }
+  module "RecoTauPiZeroFwd.h" { header "DataFormats/TauReco/interface/RecoTauPiZeroFwd.h" export * }
+  export *
+}
+

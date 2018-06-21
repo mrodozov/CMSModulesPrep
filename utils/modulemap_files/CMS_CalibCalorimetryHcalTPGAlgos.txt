@@ -1,0 +1,9 @@
+module CMS_CalibCalorimetryHcalTPGAlgos {
+  module "HcalEmap.h" { header "CalibCalorimetry/HcalTPGAlgos/interface/HcalEmap.h" export * }
+  module "HcaluLUTTPGCoder.h" { header "CalibCalorimetry/HcalTPGAlgos/interface/HcaluLUTTPGCoder.h" export * }
+  module "LutXml.h" { header "CalibCalorimetry/HcalTPGAlgos/interface/LutXml.h" export * }
+  module "XMLDOMBlock.h" { header "CalibCalorimetry/HcalTPGAlgos/interface/XMLDOMBlock.h" export * }
+  module "XMLProcessor.h" { header "CalibCalorimetry/HcalTPGAlgos/interface/XMLProcessor.h" export * }
+  export *
+}
+

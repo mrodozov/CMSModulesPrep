@@ -1,0 +1,5 @@
+module CMS_EgammaAnalysisPhotonIDProducers {
+  module "PiZeroDiscriminatorProducer.h" { header "EgammaAnalysis/PhotonIDProducers/interface/PiZeroDiscriminatorProducer.h" export * }
+  export *
+}
+

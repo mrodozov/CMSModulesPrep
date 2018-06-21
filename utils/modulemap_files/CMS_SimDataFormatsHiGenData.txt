@@ -1,0 +1,5 @@
+module CMS_SimDataFormatsHiGenData {
+  module "GenHIEvent.h" { header "SimDataFormats/HiGenData/interface/GenHIEvent.h" export * }
+  export *
+}
+

@@ -1,0 +1,7 @@
+module CMS_HLTriggerOfflineBtag {
+  module "HLTBTagHarvestingAnalyzer.h" { header "HLTriggerOffline/Btag/interface/HLTBTagHarvestingAnalyzer.h" export * }
+  module "HLTBTagPerformanceAnalyzer.h" { header "HLTriggerOffline/Btag/interface/HLTBTagPerformanceAnalyzer.h" export * }
+  module "HLTVertexPerformanceAnalyzer.h" { header "HLTriggerOffline/Btag/interface/HLTVertexPerformanceAnalyzer.h" export * }
+  export *
+}
+

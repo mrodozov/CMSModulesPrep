@@ -1,0 +1,28 @@
+module CMS_DataFormatsSiStripCommon {
+  module "Constants.h" { header "DataFormats/SiStripCommon/interface/Constants.h" export * }
+  module "ConstantsForCablingSource.h" { header "DataFormats/SiStripCommon/interface/ConstantsForCablingSource.h" export * }
+  module "ConstantsForCommissioningAnalysis.h" { header "DataFormats/SiStripCommon/interface/ConstantsForCommissioningAnalysis.h" export * }
+  module "ConstantsForCondObjects.h" { header "DataFormats/SiStripCommon/interface/ConstantsForCondObjects.h" export * }
+  module "ConstantsForDqm.h" { header "DataFormats/SiStripCommon/interface/ConstantsForDqm.h" export * }
+  module "ConstantsForGranularity.h" { header "DataFormats/SiStripCommon/interface/ConstantsForGranularity.h" export * }
+  module "ConstantsForHardwareSystems.h" { header "DataFormats/SiStripCommon/interface/ConstantsForHardwareSystems.h" export * }
+  module "ConstantsForHistoType.h" { header "DataFormats/SiStripCommon/interface/ConstantsForHistoType.h" export * }
+  module "ConstantsForKeyType.h" { header "DataFormats/SiStripCommon/interface/ConstantsForKeyType.h" export * }
+  module "ConstantsForLogger.h" { header "DataFormats/SiStripCommon/interface/ConstantsForLogger.h" export * }
+  module "ConstantsForMonitorable.h" { header "DataFormats/SiStripCommon/interface/ConstantsForMonitorable.h" export * }
+  module "ConstantsForPresentation.h" { header "DataFormats/SiStripCommon/interface/ConstantsForPresentation.h" export * }
+  module "ConstantsForRunType.h" { header "DataFormats/SiStripCommon/interface/ConstantsForRunType.h" export * }
+  module "ConstantsForSummaryPlots.h" { header "DataFormats/SiStripCommon/interface/ConstantsForSummaryPlots.h" export * }
+  module "ConstantsForView.h" { header "DataFormats/SiStripCommon/interface/ConstantsForView.h" export * }
+  module "SiStripConstants.h" { header "DataFormats/SiStripCommon/interface/SiStripConstants.h" export * }
+  module "SiStripDetKey.h" { header "DataFormats/SiStripCommon/interface/SiStripDetKey.h" export * }
+  module "SiStripEnumsAndStrings.h" { header "DataFormats/SiStripCommon/interface/SiStripEnumsAndStrings.h" export * }
+  module "SiStripEventSummary.h" { header "DataFormats/SiStripCommon/interface/SiStripEventSummary.h" export * }
+  module "SiStripFecKey.h" { header "DataFormats/SiStripCommon/interface/SiStripFecKey.h" export * }
+  module "SiStripFedKey.h" { header "DataFormats/SiStripCommon/interface/SiStripFedKey.h" export * }
+  module "SiStripHistoTitle.h" { header "DataFormats/SiStripCommon/interface/SiStripHistoTitle.h" export * }
+  module "SiStripKey.h" { header "DataFormats/SiStripCommon/interface/SiStripKey.h" export * }
+  module "SiStripNullKey.h" { header "DataFormats/SiStripCommon/interface/SiStripNullKey.h" export * }
+  export *
+}
+

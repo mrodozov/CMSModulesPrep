@@ -1,0 +1,5 @@
+module CMS_FastSimulationBaseParticlePropagator {
+  module "BaseParticlePropagator.h" { header "FastSimulation/BaseParticlePropagator/interface/BaseParticlePropagator.h" export * }
+  export *
+}
+

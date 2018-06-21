@@ -1,0 +1,16 @@
+module CMS_SimMuonMCTruth {
+  module "CSCHitAssociator.h" { header "SimMuon/MCTruth/interface/CSCHitAssociator.h" export * }
+  module "CSCTruthTest.h" { header "SimMuon/MCTruth/interface/CSCTruthTest.h" export * }
+  module "DTHitAssociator.h" { header "SimMuon/MCTruth/interface/DTHitAssociator.h" export * }
+  module "GEMHitAssociator.h" { header "SimMuon/MCTruth/interface/GEMHitAssociator.h" export * }
+  module "MuonAssociatorByHits.h" { header "SimMuon/MCTruth/interface/MuonAssociatorByHits.h" export * }
+  module "MuonAssociatorByHitsHelper.h" { header "SimMuon/MCTruth/interface/MuonAssociatorByHitsHelper.h" export * }
+  module "MuonToSimAssociatorBase.h" { header "SimMuon/MCTruth/interface/MuonToSimAssociatorBase.h" export * }
+  module "MuonToSimAssociatorByHits.h" { header "SimMuon/MCTruth/interface/MuonToSimAssociatorByHits.h" export * }
+  module "MuonTruth.h" { header "SimMuon/MCTruth/interface/MuonTruth.h" export * }
+  module "PSimHitMap.h" { header "SimMuon/MCTruth/interface/PSimHitMap.h" export * }
+  module "RPCHitAssociator.h" { header "SimMuon/MCTruth/interface/RPCHitAssociator.h" export * }
+  module "TrackerMuonHitExtractor.h" { header "SimMuon/MCTruth/interface/TrackerMuonHitExtractor.h" export * }
+  export *
+}
+

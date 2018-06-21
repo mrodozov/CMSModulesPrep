@@ -1,0 +1,5 @@
+module CMS_HLTriggerOfflineCommon {
+  module "HltComparator.h" { header "HLTriggerOffline/Common/interface/HltComparator.h" export * }
+  export *
+}
+

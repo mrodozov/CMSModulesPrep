@@ -1,0 +1,6 @@
+module CMS_EventFilterESDigiToRaw {
+  module "ESDataFormatter.h" { header "EventFilter/ESDigiToRaw/interface/ESDataFormatter.h" export * }
+  module "ESDigiToRaw.h" { header "EventFilter/ESDigiToRaw/interface/ESDigiToRaw.h" export * }
+  export *
+}
+

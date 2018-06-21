@@ -1,0 +1,25 @@
+module CMS_DataFormatsEgammaCandidates {
+  module "Conversion.h" { header "DataFormats/EgammaCandidates/interface/Conversion.h" export * }
+  module "ConversionFwd.h" { header "DataFormats/EgammaCandidates/interface/ConversionFwd.h" export * }
+  module "Electron.h" { header "DataFormats/EgammaCandidates/interface/Electron.h" export * }
+  module "ElectronFwd.h" { header "DataFormats/EgammaCandidates/interface/ElectronFwd.h" export * }
+  module "ElectronIsolationAssociation.h" { header "DataFormats/EgammaCandidates/interface/ElectronIsolationAssociation.h" export * }
+  module "GsfElectron.h" { header "DataFormats/EgammaCandidates/interface/GsfElectron.h" export * }
+  module "GsfElectronCore.h" { header "DataFormats/EgammaCandidates/interface/GsfElectronCore.h" export * }
+  module "GsfElectronCoreFwd.h" { header "DataFormats/EgammaCandidates/interface/GsfElectronCoreFwd.h" export * }
+  module "GsfElectronFwd.h" { header "DataFormats/EgammaCandidates/interface/GsfElectronFwd.h" export * }
+  module "GsfElectronIsoCollection.h" { header "DataFormats/EgammaCandidates/interface/GsfElectronIsoCollection.h" export * }
+  module "GsfElectronIsoNumCollection.h" { header "DataFormats/EgammaCandidates/interface/GsfElectronIsoNumCollection.h" export * }
+  module "HIPhotonIsolation.h" { header "DataFormats/EgammaCandidates/interface/HIPhotonIsolation.h" export * }
+  module "Photon.h" { header "DataFormats/EgammaCandidates/interface/Photon.h" export * }
+  module "PhotonCandidateAssociation.h" { header "DataFormats/EgammaCandidates/interface/PhotonCandidateAssociation.h" export * }
+  module "PhotonCore.h" { header "DataFormats/EgammaCandidates/interface/PhotonCore.h" export * }
+  module "PhotonCoreFwd.h" { header "DataFormats/EgammaCandidates/interface/PhotonCoreFwd.h" export * }
+  module "PhotonFwd.h" { header "DataFormats/EgammaCandidates/interface/PhotonFwd.h" export * }
+  module "PhotonIsolationAssociation.h" { header "DataFormats/EgammaCandidates/interface/PhotonIsolationAssociation.h" export * }
+  module "PhotonPi0DiscriminatorAssociation.h" { header "DataFormats/EgammaCandidates/interface/PhotonPi0DiscriminatorAssociation.h" export * }
+  module "SiStripElectron.h" { header "DataFormats/EgammaCandidates/interface/SiStripElectron.h" export * }
+  module "SiStripElectronFwd.h" { header "DataFormats/EgammaCandidates/interface/SiStripElectronFwd.h" export * }
+  export *
+}
+

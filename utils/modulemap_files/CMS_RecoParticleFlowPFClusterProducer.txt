@@ -1,0 +1,31 @@
+module CMS_RecoParticleFlowPFClusterProducer {
+  module "CaloRecHitResolutionProvider.h" { header "RecoParticleFlow/PFClusterProducer/interface/CaloRecHitResolutionProvider.h" export * }
+  module "HGCRecHitNavigator.h" { header "RecoParticleFlow/PFClusterProducer/interface/HGCRecHitNavigator.h" export * }
+  module "InitialClusteringStepBase.h" { header "RecoParticleFlow/PFClusterProducer/interface/InitialClusteringStepBase.h" export * }
+  module "PFCPositionCalculatorBase.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFCPositionCalculatorBase.h" export * }
+  module "PFClusterBuilderBase.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFClusterBuilderBase.h" export * }
+  module "PFClusterEMEnergyCorrector.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFClusterEMEnergyCorrector.h" export * }
+  module "PFClusterEnergyCorrectorBase.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFClusterEnergyCorrectorBase.h" export * }
+  module "PFECALHashNavigator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFECALHashNavigator.h" export * }
+  module "PFEcalBarrelRecHitCreator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFEcalBarrelRecHitCreator.h" export * }
+  module "PFEcalEndcapRecHitCreator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFEcalEndcapRecHitCreator.h" export * }
+  module "PFEcalRecHitCreatorMaxSample.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFEcalRecHitCreatorMaxSample.h" export * }
+  module "PFHBHERecHitCreator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFHBHERecHitCreator.h" export * }
+  module "PFHBHERecHitCreatorMaxSample.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFHBHERecHitCreatorMaxSample.h" export * }
+  module "PFHFRecHitCreator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFHFRecHitCreator.h" export * }
+  module "PFHGCalRecHitCreator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFHGCalRecHitCreator.h" export * }
+  module "PFHcalRecHitCreator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFHcalRecHitCreator.h" export * }
+  module "PFPSRecHitCreator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFPSRecHitCreator.h" export * }
+  module "PFRecHitCaloNavigator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFRecHitCaloNavigator.h" export * }
+  module "PFRecHitCaloNavigatorWithTime.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFRecHitCaloNavigatorWithTime.h" export * }
+  module "PFRecHitCreatorBase.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFRecHitCreatorBase.h" export * }
+  module "PFRecHitDualNavigator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFRecHitDualNavigator.h" export * }
+  module "PFRecHitFakeNavigator.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFRecHitFakeNavigator.h" export * }
+  module "PFRecHitNavigatorBase.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFRecHitNavigatorBase.h" export * }
+  module "PFRecHitQTestBase.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFRecHitQTestBase.h" export * }
+  module "PFRecHitQTests.h" { header "RecoParticleFlow/PFClusterProducer/interface/PFRecHitQTests.h" export * }
+  module "RecHitTopologicalCleanerBase.h" { header "RecoParticleFlow/PFClusterProducer/interface/RecHitTopologicalCleanerBase.h" export * }
+  module "SeedFinderBase.h" { header "RecoParticleFlow/PFClusterProducer/interface/SeedFinderBase.h" export * }
+  export *
+}
+

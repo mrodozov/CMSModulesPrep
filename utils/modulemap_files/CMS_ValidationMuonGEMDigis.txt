@@ -1,0 +1,11 @@
+module CMS_ValidationMuonGEMDigis {
+  module "GEMCheckGeometry.h" { header "Validation/MuonGEMDigis/interface/GEMCheckGeometry.h" export * }
+  module "GEMCoPadDigiValidation.h" { header "Validation/MuonGEMDigis/interface/GEMCoPadDigiValidation.h" export * }
+  module "GEMDigiMatcher.h" { header "Validation/MuonGEMDigis/interface/GEMDigiMatcher.h" export * }
+  module "GEMDigiTrackMatch.h" { header "Validation/MuonGEMDigis/interface/GEMDigiTrackMatch.h" export * }
+  module "GEMPadDigiValidation.h" { header "Validation/MuonGEMDigis/interface/GEMPadDigiValidation.h" export * }
+  module "GEMStripDigiValidation.h" { header "Validation/MuonGEMDigis/interface/GEMStripDigiValidation.h" export * }
+  module "GenericDigi.h" { header "Validation/MuonGEMDigis/interface/GenericDigi.h" export * }
+  export *
+}
+

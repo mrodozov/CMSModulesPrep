@@ -1,0 +1,10 @@
+module CMS_RecoLocalMuonRPCRecHit {
+  module "CSCSegtoRPC.h" { header "RecoLocalMuon/RPCRecHit/interface/CSCSegtoRPC.h" export * }
+  module "DTSegtoRPC.h" { header "RecoLocalMuon/RPCRecHit/interface/DTSegtoRPC.h" export * }
+  module "RPCPointProducer.h" { header "RecoLocalMuon/RPCRecHit/interface/RPCPointProducer.h" export * }
+  module "RPCRecHitAlgoFactory.h" { header "RecoLocalMuon/RPCRecHit/interface/RPCRecHitAlgoFactory.h" export * }
+  module "RPCRecHitBaseAlgo.h" { header "RecoLocalMuon/RPCRecHit/interface/RPCRecHitBaseAlgo.h" export * }
+  module "TracktoRPC.h" { header "RecoLocalMuon/RPCRecHit/interface/TracktoRPC.h" export * }
+  export *
+}
+

@@ -1,0 +1,5 @@
+module CMS_JetMETCorrectionsMinBias {
+  module "MinBias.h" { header "JetMETCorrections/MinBias/interface/MinBias.h" export * }
+  export *
+}
+

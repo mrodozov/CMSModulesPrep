@@ -1,0 +1,36 @@
+module CMS_DataFormatsTrackerRecHit2D {
+  module "BaseTrackerRecHit.h" { header "DataFormats/TrackerRecHit2D/interface/BaseTrackerRecHit.h" export * }
+  module "ClusterRemovalInfo.h" { header "DataFormats/TrackerRecHit2D/interface/ClusterRemovalInfo.h" export * }
+  module "ClusterRemovalRefSetter.h" { header "DataFormats/TrackerRecHit2D/interface/ClusterRemovalRefSetter.h" export * }
+  module "ClusterRemovalRefSetter.icc" { textual header "DataFormats/TrackerRecHit2D/interface/ClusterRemovalRefSetter.icc" export * }
+  module "FastMatchedTrackerRecHit.h" { header "DataFormats/TrackerRecHit2D/interface/FastMatchedTrackerRecHit.h" export * }
+  module "FastProjectedTrackerRecHit.h" { header "DataFormats/TrackerRecHit2D/interface/FastProjectedTrackerRecHit.h" export * }
+  module "FastSingleTrackerRecHit.h" { header "DataFormats/TrackerRecHit2D/interface/FastSingleTrackerRecHit.h" export * }
+  module "FastTrackerRecHit.h" { header "DataFormats/TrackerRecHit2D/interface/FastTrackerRecHit.h" export * }
+  module "FastTrackerRecHitCollection.h" { header "DataFormats/TrackerRecHit2D/interface/FastTrackerRecHitCollection.h" export * }
+  module "FastTrackerRecHitFwd.h" { header "DataFormats/TrackerRecHit2D/interface/FastTrackerRecHitFwd.h" export * }
+  module "OmniClusterRef.h" { header "DataFormats/TrackerRecHit2D/interface/OmniClusterRef.h" export * }
+  module "Phase2TrackerRecHit1D.h" { header "DataFormats/TrackerRecHit2D/interface/Phase2TrackerRecHit1D.h" export * }
+  module "ProjectedSiStripRecHit2D.h" { header "DataFormats/TrackerRecHit2D/interface/ProjectedSiStripRecHit2D.h" export * }
+  module "SiPixelRecHit.h" { header "DataFormats/TrackerRecHit2D/interface/SiPixelRecHit.h" export * }
+  module "SiPixelRecHitCollection.h" { header "DataFormats/TrackerRecHit2D/interface/SiPixelRecHitCollection.h" export * }
+  module "SiPixelRecHitCollectionfwd.h" { header "DataFormats/TrackerRecHit2D/interface/SiPixelRecHitCollectionfwd.h" export * }
+  module "SiPixelRecHitQuality.h" { header "DataFormats/TrackerRecHit2D/interface/SiPixelRecHitQuality.h" export * }
+  module "SiPixelRecHitfwd.h" { header "DataFormats/TrackerRecHit2D/interface/SiPixelRecHitfwd.h" export * }
+  module "SiStripMatchedRecHit2D.h" { header "DataFormats/TrackerRecHit2D/interface/SiStripMatchedRecHit2D.h" export * }
+  module "SiStripMatchedRecHit2DCollection.h" { header "DataFormats/TrackerRecHit2D/interface/SiStripMatchedRecHit2DCollection.h" export * }
+  module "SiStripMatchedRecHit2DCollectionfwd.h" { header "DataFormats/TrackerRecHit2D/interface/SiStripMatchedRecHit2DCollectionfwd.h" export * }
+  module "SiStripMatchedRecHit2Dfwd.h" { header "DataFormats/TrackerRecHit2D/interface/SiStripMatchedRecHit2Dfwd.h" export * }
+  module "SiStripRecHit1D.h" { header "DataFormats/TrackerRecHit2D/interface/SiStripRecHit1D.h" export * }
+  module "SiStripRecHit1DCollection.h" { header "DataFormats/TrackerRecHit2D/interface/SiStripRecHit1DCollection.h" export * }
+  module "SiStripRecHit2D.h" { header "DataFormats/TrackerRecHit2D/interface/SiStripRecHit2D.h" export * }
+  module "SiStripRecHit2DCollection.h" { header "DataFormats/TrackerRecHit2D/interface/SiStripRecHit2DCollection.h" export * }
+  module "SiStripRecHit2DCollectionfwd.h" { header "DataFormats/TrackerRecHit2D/interface/SiStripRecHit2DCollectionfwd.h" export * }
+  module "SiStripRecHit2Dfwd.h" { header "DataFormats/TrackerRecHit2D/interface/SiStripRecHit2Dfwd.h" export * }
+  module "SiTrackerMultiRecHit.h" { header "DataFormats/TrackerRecHit2D/interface/SiTrackerMultiRecHit.h" export * }
+  module "TkCloner.h" { header "DataFormats/TrackerRecHit2D/interface/TkCloner.h" export * }
+  module "TrackerSingleRecHit.h" { header "DataFormats/TrackerRecHit2D/interface/TrackerSingleRecHit.h" export * }
+  module "TrackingRecHitLessFromGlobalPosition.h" { header "DataFormats/TrackerRecHit2D/interface/TrackingRecHitLessFromGlobalPosition.h" export * }
+  export *
+}
+

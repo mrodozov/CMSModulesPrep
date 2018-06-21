@@ -1,0 +1,7 @@
+module CMS_DataFormatsTrajectoryState {
+  module "LocalTrajectoryParameters.h" { header "DataFormats/TrajectoryState/interface/LocalTrajectoryParameters.h" export * }
+  module "PTrajectoryStateOnDet.h" { header "DataFormats/TrajectoryState/interface/PTrajectoryStateOnDet.h" export * }
+  module "TrackCharge.h" { header "DataFormats/TrajectoryState/interface/TrackCharge.h" export * }
+  export *
+}
+

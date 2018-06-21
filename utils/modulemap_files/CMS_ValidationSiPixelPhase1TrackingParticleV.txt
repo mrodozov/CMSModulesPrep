@@ -1,0 +1,5 @@
+module CMS_ValidationSiPixelPhase1TrackingParticleV {
+  module "SiPixelPhase1TrackingParticleV.h" { header "Validation/SiPixelPhase1TrackingParticleV/interface/SiPixelPhase1TrackingParticleV.h" export * }
+  export *
+}
+

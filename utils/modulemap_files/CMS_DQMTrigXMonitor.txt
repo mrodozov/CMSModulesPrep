@@ -1,0 +1,8 @@
+module CMS_DQMTrigXMonitor {
+  module "HLTScalers.h" { header "DQM/TrigXMonitor/interface/HLTScalers.h" export * }
+  module "HLTSeedL1LogicScalers.h" { header "DQM/TrigXMonitor/interface/HLTSeedL1LogicScalers.h" export * }
+  module "L1Scalers.h" { header "DQM/TrigXMonitor/interface/L1Scalers.h" export * }
+  module "L1TScalersSCAL.h" { header "DQM/TrigXMonitor/interface/L1TScalersSCAL.h" export * }
+  export *
+}
+

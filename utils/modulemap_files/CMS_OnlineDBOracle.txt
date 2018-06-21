@@ -1,0 +1,5 @@
+module CMS_OnlineDBOracle {
+  module "Oracle.h" { header "OnlineDB/Oracle/interface/Oracle.h" export * }
+  export *
+}
+

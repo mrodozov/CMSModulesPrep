@@ -1,0 +1,13 @@
+module CMS_FastSimulationShowerDevelopment {
+  module "EMECALShowerParametrization.h" { header "FastSimulation/ShowerDevelopment/interface/EMECALShowerParametrization.h" export * }
+  module "EMShower.h" { header "FastSimulation/ShowerDevelopment/interface/EMShower.h" export * }
+  module "FastHFShowerLibrary.h" { header "FastSimulation/ShowerDevelopment/interface/FastHFShowerLibrary.h" export * }
+  module "HDRShower.h" { header "FastSimulation/ShowerDevelopment/interface/HDRShower.h" export * }
+  module "HDShower.h" { header "FastSimulation/ShowerDevelopment/interface/HDShower.h" export * }
+  module "HDShowerParametrization.h" { header "FastSimulation/ShowerDevelopment/interface/HDShowerParametrization.h" export * }
+  module "HFShower.h" { header "FastSimulation/ShowerDevelopment/interface/HFShower.h" export * }
+  module "HSParameters.h" { header "FastSimulation/ShowerDevelopment/interface/HSParameters.h" export * }
+  module "RadialInterval.h" { header "FastSimulation/ShowerDevelopment/interface/RadialInterval.h" export * }
+  export *
+}
+

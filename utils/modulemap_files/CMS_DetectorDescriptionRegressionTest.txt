@@ -1,0 +1,8 @@
+module CMS_DetectorDescriptionRegressionTest {
+  module "DDCompareTools.h" { header "DetectorDescription/RegressionTest/interface/DDCompareTools.h" export * }
+  module "DDErrorDetection.h" { header "DetectorDescription/RegressionTest/interface/DDErrorDetection.h" export * }
+  module "DDExpandedViewDump.h" { header "DetectorDescription/RegressionTest/interface/DDExpandedViewDump.h" export * }
+  module "DDHtmlFormatter.h" { header "DetectorDescription/RegressionTest/interface/DDHtmlFormatter.h" export * }
+  export *
+}
+

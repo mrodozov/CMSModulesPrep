@@ -1,0 +1,9 @@
+module CMS_DataFormatsL1GlobalMuonTrigger {
+  module "L1MuGMTCand.h" { header "DataFormats/L1GlobalMuonTrigger/interface/L1MuGMTCand.h" export * }
+  module "L1MuGMTExtendedCand.h" { header "DataFormats/L1GlobalMuonTrigger/interface/L1MuGMTExtendedCand.h" export * }
+  module "L1MuGMTReadoutCollection.h" { header "DataFormats/L1GlobalMuonTrigger/interface/L1MuGMTReadoutCollection.h" export * }
+  module "L1MuGMTReadoutRecord.h" { header "DataFormats/L1GlobalMuonTrigger/interface/L1MuGMTReadoutRecord.h" export * }
+  module "L1MuRegionalCand.h" { header "DataFormats/L1GlobalMuonTrigger/interface/L1MuRegionalCand.h" export * }
+  export *
+}
+

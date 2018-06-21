@@ -1,0 +1,5 @@
+module CMS_FastSimulationCTPPSFastTrackingProducer {
+  module "CTPPSFastTrackingProducer.h" { header "FastSimulation/CTPPSFastTrackingProducer/interface/CTPPSFastTrackingProducer.h" export * }
+  export *
+}
+

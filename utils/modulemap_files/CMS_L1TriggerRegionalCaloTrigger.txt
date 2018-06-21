@@ -1,0 +1,21 @@
+module CMS_L1TriggerRegionalCaloTrigger {
+  module "L1RCT.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCT.h" export * }
+  module "L1RCTCrate.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTCrate.h" export * }
+  module "L1RCTElectronIsolationCard.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTElectronIsolationCard.h" export * }
+  module "L1RCTInputProducer.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTInputProducer.h" export * }
+  module "L1RCTJetSummaryCard.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTJetSummaryCard.h" export * }
+  module "L1RCTLookupTables.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTLookupTables.h" export * }
+  module "L1RCTLutWriter.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTLutWriter.h" export * }
+  module "L1RCTNeighborMap.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTNeighborMap.h" export * }
+  module "L1RCTORCAMap.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTORCAMap.h" export * }
+  module "L1RCTProducer.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTProducer.h" export * }
+  module "L1RCTReceiverCard.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTReceiverCard.h" export * }
+  module "L1RCTRegion.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTRegion.h" export * }
+  module "L1RCTRelValAnalyzer.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTRelValAnalyzer.h" export * }
+  module "L1RCTSaveInput.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTSaveInput.h" export * }
+  module "L1RCTTPGProvider.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTTPGProvider.h" export * }
+  module "L1RCTTestAnalyzer.h" { header "L1Trigger/RegionalCaloTrigger/interface/L1RCTTestAnalyzer.h" export * }
+  module "MaskedRctInputDigiProducer.h" { header "L1Trigger/RegionalCaloTrigger/interface/MaskedRctInputDigiProducer.h" export * }
+  export *
+}
+

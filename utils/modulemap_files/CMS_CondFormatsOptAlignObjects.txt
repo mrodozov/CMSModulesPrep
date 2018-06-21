@@ -1,0 +1,15 @@
+module CMS_CondFormatsOptAlignObjects {
+  module "CSCRSensors.h" { header "CondFormats/OptAlignObjects/interface/CSCRSensors.h" export * }
+  module "CSCZSensors.h" { header "CondFormats/OptAlignObjects/interface/CSCZSensors.h" export * }
+  module "Inclinometers.h" { header "CondFormats/OptAlignObjects/interface/Inclinometers.h" export * }
+  module "MBAChBenchCalPlate.h" { header "CondFormats/OptAlignObjects/interface/MBAChBenchCalPlate.h" export * }
+  module "MBAChBenchSurveyPlate.h" { header "CondFormats/OptAlignObjects/interface/MBAChBenchSurveyPlate.h" export * }
+  module "OAQuality.h" { header "CondFormats/OptAlignObjects/interface/OAQuality.h" export * }
+  module "OpticalAlignInfo.h" { header "CondFormats/OptAlignObjects/interface/OpticalAlignInfo.h" export * }
+  module "OpticalAlignMeasurementInfo.h" { header "CondFormats/OptAlignObjects/interface/OpticalAlignMeasurementInfo.h" export * }
+  module "OpticalAlignMeasurements.h" { header "CondFormats/OptAlignObjects/interface/OpticalAlignMeasurements.h" export * }
+  module "OpticalAlignments.h" { header "CondFormats/OptAlignObjects/interface/OpticalAlignments.h" export * }
+  module "PXsensors.h" { header "CondFormats/OptAlignObjects/interface/PXsensors.h" export * }
+  export *
+}
+

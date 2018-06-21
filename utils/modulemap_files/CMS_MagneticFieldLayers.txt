@@ -1,0 +1,11 @@
+module CMS_MagneticFieldLayers {
+  module "MagBLayer.h" { header "MagneticField/Layers/interface/MagBLayer.h" export * }
+  module "MagBRod.h" { header "MagneticField/Layers/interface/MagBRod.h" export * }
+  module "MagBSector.h" { header "MagneticField/Layers/interface/MagBSector.h" export * }
+  module "MagBSlab.h" { header "MagneticField/Layers/interface/MagBSlab.h" export * }
+  module "MagELayer.h" { header "MagneticField/Layers/interface/MagELayer.h" export * }
+  module "MagESector.h" { header "MagneticField/Layers/interface/MagESector.h" export * }
+  module "MagVerbosity.h" { header "MagneticField/Layers/interface/MagVerbosity.h" export * }
+  export *
+}
+

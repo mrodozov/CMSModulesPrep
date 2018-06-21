@@ -1,0 +1,10 @@
+module CMS_ValidationGlobalHits {
+  module "GlobalHitsAnalyzer.h" { header "Validation/GlobalHits/interface/GlobalHitsAnalyzer.h" export * }
+  module "GlobalHitsHistogrammer.h" { header "Validation/GlobalHits/interface/GlobalHitsHistogrammer.h" export * }
+  module "GlobalHitsProdHist.h" { header "Validation/GlobalHits/interface/GlobalHitsProdHist.h" export * }
+  module "GlobalHitsProdHistStripper.h" { header "Validation/GlobalHits/interface/GlobalHitsProdHistStripper.h" export * }
+  module "GlobalHitsProducer.h" { header "Validation/GlobalHits/interface/GlobalHitsProducer.h" export * }
+  module "GlobalHitsTester.h" { header "Validation/GlobalHits/interface/GlobalHitsTester.h" export * }
+  export *
+}
+

@@ -1,0 +1,8 @@
+module CMS_GeneratorInterfaceLHEInterface {
+  module "LHEEvent.h" { header "GeneratorInterface/LHEInterface/interface/LHEEvent.h" export * }
+  module "LHEProxy.h" { header "GeneratorInterface/LHEInterface/interface/LHEProxy.h" export * }
+  module "LHEReader.h" { header "GeneratorInterface/LHEInterface/interface/LHEReader.h" export * }
+  module "LHERunInfo.h" { header "GeneratorInterface/LHEInterface/interface/LHERunInfo.h" export * }
+  export *
+}
+

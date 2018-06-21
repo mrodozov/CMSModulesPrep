@@ -1,0 +1,27 @@
+module CMS_AlignmentCommonAlignmentAlgorithm {
+  module "AlignableData.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignableData.h" export * }
+  module "AlignableDataIO.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignableDataIO.h" export * }
+  module "AlignableDataIORoot.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignableDataIORoot.h" export * }
+  module "AlignmentAlgorithmBase.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentAlgorithmBase.h" export * }
+  module "AlignmentAlgorithmPluginFactory.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentAlgorithmPluginFactory.h" export * }
+  module "AlignmentCorrelationsIO.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentCorrelationsIO.h" export * }
+  module "AlignmentCorrelationsIORoot.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentCorrelationsIORoot.h" export * }
+  module "AlignmentCorrelationsStore.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentCorrelationsStore.h" export * }
+  module "AlignmentExtendedCorrelationsEntry.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentExtendedCorrelationsEntry.h" export * }
+  module "AlignmentExtendedCorrelationsStore.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentExtendedCorrelationsStore.h" export * }
+  module "AlignmentIO.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentIO.h" export * }
+  module "AlignmentIORoot.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentIORoot.h" export * }
+  module "AlignmentIORootBase.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentIORootBase.h" export * }
+  module "AlignmentParameterBuilder.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentParameterBuilder.h" export * }
+  module "AlignmentParameterSelector.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentParameterSelector.h" export * }
+  module "AlignmentParameterStore.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentParameterStore.h" export * }
+  module "AlignmentParametersIO.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentParametersIO.h" export * }
+  module "AlignmentParametersIORoot.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentParametersIORoot.h" export * }
+  module "AlignmentUserVariablesIO.h" { header "Alignment/CommonAlignmentAlgorithm/interface/AlignmentUserVariablesIO.h" export * }
+  module "IntegratedCalibrationBase.h" { header "Alignment/CommonAlignmentAlgorithm/interface/IntegratedCalibrationBase.h" export * }
+  module "IntegratedCalibrationPluginFactory.h" { header "Alignment/CommonAlignmentAlgorithm/interface/IntegratedCalibrationPluginFactory.h" export * }
+  module "SelectionUserVariables.h" { header "Alignment/CommonAlignmentAlgorithm/interface/SelectionUserVariables.h" export * }
+  module "TkModuleGroupSelector.h" { header "Alignment/CommonAlignmentAlgorithm/interface/TkModuleGroupSelector.h" export * }
+  export *
+}
+

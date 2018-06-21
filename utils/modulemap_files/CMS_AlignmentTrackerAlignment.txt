@@ -1,0 +1,14 @@
+module CMS_AlignmentTrackerAlignment {
+  module "AlignableSiStripDet.h" { header "Alignment/TrackerAlignment/interface/AlignableSiStripDet.h" export * }
+  module "AlignableTracker.h" { header "Alignment/TrackerAlignment/interface/AlignableTracker.h" export * }
+  module "AlignableTrackerBuilder.h" { header "Alignment/TrackerAlignment/interface/AlignableTrackerBuilder.h" export * }
+  module "TrackerAlignableId.h" { header "Alignment/TrackerAlignment/interface/TrackerAlignableId.h" export * }
+  module "TrackerAlignableIndexer.h" { header "Alignment/TrackerAlignment/interface/TrackerAlignableIndexer.h" export * }
+  module "TrackerAlignment.h" { header "Alignment/TrackerAlignment/interface/TrackerAlignment.h" export * }
+  module "TrackerAlignmentLevelBuilder.h" { header "Alignment/TrackerAlignment/interface/TrackerAlignmentLevelBuilder.h" export * }
+  module "TrackerNameSpace.h" { header "Alignment/TrackerAlignment/interface/TrackerNameSpace.h" export * }
+  module "TrackerScenarioBuilder.h" { header "Alignment/TrackerAlignment/interface/TrackerScenarioBuilder.h" export * }
+  module "TrackerTreeVariables.h" { header "Alignment/TrackerAlignment/interface/TrackerTreeVariables.h" export * }
+  export *
+}
+

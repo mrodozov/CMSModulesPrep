@@ -1,0 +1,28 @@
+module CMS_DQMHcalTasks {
+  module "DigiComparisonTask.h" { header "DQM/HcalTasks/interface/DigiComparisonTask.h" export * }
+  module "DigiPhase1Task.h" { header "DQM/HcalTasks/interface/DigiPhase1Task.h" export * }
+  module "DigiRunSummary.h" { header "DQM/HcalTasks/interface/DigiRunSummary.h" export * }
+  module "DigiTask.h" { header "DQM/HcalTasks/interface/DigiTask.h" export * }
+  module "HFRaddamTask.h" { header "DQM/HcalTasks/interface/HFRaddamTask.h" export * }
+  module "HcalOfflineHarvesting.h" { header "DQM/HcalTasks/interface/HcalOfflineHarvesting.h" export * }
+  module "HcalOnlineHarvesting.h" { header "DQM/HcalTasks/interface/HcalOnlineHarvesting.h" export * }
+  module "LEDTask.h" { header "DQM/HcalTasks/interface/LEDTask.h" export * }
+  module "LaserTask.h" { header "DQM/HcalTasks/interface/LaserTask.h" export * }
+  module "NoCQTask.h" { header "DQM/HcalTasks/interface/NoCQTask.h" export * }
+  module "PedestalRunSummary.h" { header "DQM/HcalTasks/interface/PedestalRunSummary.h" export * }
+  module "PedestalTask.h" { header "DQM/HcalTasks/interface/PedestalTask.h" export * }
+  module "QIE10Task.h" { header "DQM/HcalTasks/interface/QIE10Task.h" export * }
+  module "QIE11Task.h" { header "DQM/HcalTasks/interface/QIE11Task.h" export * }
+  module "RawRunSummary.h" { header "DQM/HcalTasks/interface/RawRunSummary.h" export * }
+  module "RawTask.h" { header "DQM/HcalTasks/interface/RawTask.h" export * }
+  module "RecHitTask.h" { header "DQM/HcalTasks/interface/RecHitTask.h" export * }
+  module "RecoRunSummary.h" { header "DQM/HcalTasks/interface/RecoRunSummary.h" export * }
+  module "TPComparisonTask.h" { header "DQM/HcalTasks/interface/TPComparisonTask.h" export * }
+  module "TPRunSummary.h" { header "DQM/HcalTasks/interface/TPRunSummary.h" export * }
+  module "TPTask.h" { header "DQM/HcalTasks/interface/TPTask.h" export * }
+  module "TestTask.h" { header "DQM/HcalTasks/interface/TestTask.h" export * }
+  module "UMNioTask.h" { header "DQM/HcalTasks/interface/UMNioTask.h" export * }
+  module "ZDCTask.h" { header "DQM/HcalTasks/interface/ZDCTask.h" export * }
+  export *
+}
+

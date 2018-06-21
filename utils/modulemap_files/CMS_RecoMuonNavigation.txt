@@ -1,0 +1,12 @@
+module CMS_RecoMuonNavigation {
+  module "DirectMuonNavigation.h" { header "RecoMuon/Navigation/interface/DirectMuonNavigation.h" export * }
+  module "MuonBarrelNavigableLayer.h" { header "RecoMuon/Navigation/interface/MuonBarrelNavigableLayer.h" export * }
+  module "MuonDetLayerMap.h" { header "RecoMuon/Navigation/interface/MuonDetLayerMap.h" export * }
+  module "MuonEtaRange.h" { header "RecoMuon/Navigation/interface/MuonEtaRange.h" export * }
+  module "MuonForwardNavigableLayer.h" { header "RecoMuon/Navigation/interface/MuonForwardNavigableLayer.h" export * }
+  module "MuonNavigableLayer.h" { header "RecoMuon/Navigation/interface/MuonNavigableLayer.h" export * }
+  module "MuonNavigationPrinter.h" { header "RecoMuon/Navigation/interface/MuonNavigationPrinter.h" export * }
+  module "MuonNavigationSchool.h" { header "RecoMuon/Navigation/interface/MuonNavigationSchool.h" export * }
+  export *
+}
+

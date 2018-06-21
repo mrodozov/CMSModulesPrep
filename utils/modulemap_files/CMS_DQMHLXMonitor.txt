@@ -1,0 +1,5 @@
+module CMS_DQMHLXMonitor {
+  module "HLXMonitor.h" { header "DQM/HLXMonitor/interface/HLXMonitor.h" export * }
+  export *
+}
+

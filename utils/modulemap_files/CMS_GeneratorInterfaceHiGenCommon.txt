@@ -1,0 +1,11 @@
+module CMS_GeneratorInterfaceHiGenCommon {
+  module "BaseHiGenEvtSelector.h" { header "GeneratorInterface/HiGenCommon/interface/BaseHiGenEvtSelector.h" export * }
+  module "EcalGenEvtSelector.h" { header "GeneratorInterface/HiGenCommon/interface/EcalGenEvtSelector.h" export * }
+  module "EcalGenEvtSelectorFrag.h" { header "GeneratorInterface/HiGenCommon/interface/EcalGenEvtSelectorFrag.h" export * }
+  module "HadronDecayGenEvtSelector.h" { header "GeneratorInterface/HiGenCommon/interface/HadronDecayGenEvtSelector.h" export * }
+  module "HiGenEvtSelectorFactory.h" { header "GeneratorInterface/HiGenCommon/interface/HiGenEvtSelectorFactory.h" export * }
+  module "MultiCandGenEvtSelector.h" { header "GeneratorInterface/HiGenCommon/interface/MultiCandGenEvtSelector.h" export * }
+  module "PartonHadronDecayGenEvtSelector.h" { header "GeneratorInterface/HiGenCommon/interface/PartonHadronDecayGenEvtSelector.h" export * }
+  export *
+}
+

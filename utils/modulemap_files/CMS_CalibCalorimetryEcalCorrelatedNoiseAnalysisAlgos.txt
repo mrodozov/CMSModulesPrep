@@ -1,0 +1,19 @@
+module CMS_CalibCalorimetryEcalCorrelatedNoiseAnalysisAlgos {
+  module "TEcnaGui.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaGui.h" export * }
+  module "TEcnaHeader.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaHeader.h" export * }
+  module "TEcnaHistos.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaHistos.h" export * }
+  module "TEcnaNArrayD.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaNArrayD.h" export * }
+  module "TEcnaNumbering.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaNumbering.h" export * }
+  module "TEcnaObject.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaObject.h" export * }
+  module "TEcnaParCout.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaParCout.h" export * }
+  module "TEcnaParEcal.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaParEcal.h" export * }
+  module "TEcnaParHistos.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaParHistos.h" export * }
+  module "TEcnaParPaths.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaParPaths.h" export * }
+  module "TEcnaRead.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaRead.h" export * }
+  module "TEcnaResultType.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaResultType.h" export * }
+  module "TEcnaRootFile.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaRootFile.h" export * }
+  module "TEcnaRun.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaRun.h" export * }
+  module "TEcnaWrite.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisAlgos/interface/TEcnaWrite.h" export * }
+  export *
+}
+

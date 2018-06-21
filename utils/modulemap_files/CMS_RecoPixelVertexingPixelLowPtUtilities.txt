@@ -1,0 +1,21 @@
+module CMS_RecoPixelVertexingPixelLowPtUtilities {
+  module "ClusterData.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/ClusterData.h" export * }
+  module "ClusterShape.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/ClusterShape.h" export * }
+  module "ClusterShapeHitFilter.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/ClusterShapeHitFilter.h" export * }
+  module "ClusterShapeHitFilterESProducer.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/ClusterShapeHitFilterESProducer.h" export * }
+  module "ClusterShapeTrackFilter.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/ClusterShapeTrackFilter.h" export * }
+  module "ClusterShapeTrajectoryFilter.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/ClusterShapeTrajectoryFilter.h" export * }
+  module "HitInfo.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/HitInfo.h" export * }
+  module "LowPtClusterShapeSeedComparitor.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/LowPtClusterShapeSeedComparitor.h" export * }
+  module "PixelTripletLowPtGenerator.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/PixelTripletLowPtGenerator.h" export * }
+  module "StripSubClusterShapeTrajectoryFilter.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/StripSubClusterShapeTrajectoryFilter.h" export * }
+  module "ThirdHitPrediction.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/ThirdHitPrediction.h" export * }
+  module "TrackCleaner.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/TrackCleaner.h" export * }
+  module "TrackFitter.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/TrackFitter.h" export * }
+  module "TrackHitsFilter.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/TrackHitsFilter.h" export * }
+  module "TrackHitsFilterFactory.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/TrackHitsFilterFactory.h" export * }
+  module "TripletFilter.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/TripletFilter.h" export * }
+  module "ValidHitPairFilter.h" { header "RecoPixelVertexing/PixelLowPtUtilities/interface/ValidHitPairFilter.h" export * }
+  export *
+}
+

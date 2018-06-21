@@ -1,0 +1,10 @@
+module CMS_AlignmentHIPAlignmentAlgorithm {
+  module "HIPAlignableSpecificParameters.h" { header "Alignment/HIPAlignmentAlgorithm/interface/HIPAlignableSpecificParameters.h" export * }
+  module "HIPAlignmentAlgorithm.h" { header "Alignment/HIPAlignmentAlgorithm/interface/HIPAlignmentAlgorithm.h" export * }
+  module "HIPMonitorConfig.h" { header "Alignment/HIPAlignmentAlgorithm/interface/HIPMonitorConfig.h" export * }
+  module "HIPUserVariables.h" { header "Alignment/HIPAlignmentAlgorithm/interface/HIPUserVariables.h" export * }
+  module "HIPUserVariablesIORoot.h" { header "Alignment/HIPAlignmentAlgorithm/interface/HIPUserVariablesIORoot.h" export * }
+  module "LhcTrackAnalyzer.h" { header "Alignment/HIPAlignmentAlgorithm/interface/LhcTrackAnalyzer.h" export * }
+  export *
+}
+

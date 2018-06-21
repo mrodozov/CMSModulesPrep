@@ -1,0 +1,5 @@
+module CMS_SimG4CoreTrackingVerbose {
+  module "TrackingVerboseAction.h" { header "SimG4Core/TrackingVerbose/interface/TrackingVerboseAction.h" export * }
+  export *
+}
+

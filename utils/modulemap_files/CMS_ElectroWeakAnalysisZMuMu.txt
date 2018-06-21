@@ -1,0 +1,4 @@
+module CMS_ElectroWeakAnalysisZMuMu {
+  export *
+}
+

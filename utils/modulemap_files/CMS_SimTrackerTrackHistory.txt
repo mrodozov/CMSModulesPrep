@@ -1,0 +1,17 @@
+module CMS_SimTrackerTrackHistory {
+  module "CMSProcessTypes.h" { header "SimTracker/TrackHistory/interface/CMSProcessTypes.h" export * }
+  module "CategoryCriteria.h" { header "SimTracker/TrackHistory/interface/CategoryCriteria.h" export * }
+  module "HistoryBase.h" { header "SimTracker/TrackHistory/interface/HistoryBase.h" export * }
+  module "JetVetoedTracksAssociatorDRVertex.h" { header "SimTracker/TrackHistory/interface/JetVetoedTracksAssociatorDRVertex.h" export * }
+  module "TrackCategories.h" { header "SimTracker/TrackHistory/interface/TrackCategories.h" export * }
+  module "TrackClassifier.h" { header "SimTracker/TrackHistory/interface/TrackClassifier.h" export * }
+  module "TrackHistory.h" { header "SimTracker/TrackHistory/interface/TrackHistory.h" export * }
+  module "TrackQuality.h" { header "SimTracker/TrackHistory/interface/TrackQuality.h" export * }
+  module "Utils.h" { header "SimTracker/TrackHistory/interface/Utils.h" export * }
+  module "VertexCategories.h" { header "SimTracker/TrackHistory/interface/VertexCategories.h" export * }
+  module "VertexClassifier.h" { header "SimTracker/TrackHistory/interface/VertexClassifier.h" export * }
+  module "VertexClassifierByProxy.h" { header "SimTracker/TrackHistory/interface/VertexClassifierByProxy.h" export * }
+  module "VertexHistory.h" { header "SimTracker/TrackHistory/interface/VertexHistory.h" export * }
+  export *
+}
+

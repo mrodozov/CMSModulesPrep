@@ -1,0 +1,8 @@
+module CMS_CalibTrackerSiPixelQuality {
+  module "SiPixelDetectorStatus.h" { header "CalibTracker/SiPixelQuality/interface/SiPixelDetectorStatus.h" export * }
+  module "SiPixelModuleStatus.h" { header "CalibTracker/SiPixelQuality/interface/SiPixelModuleStatus.h" export * }
+  module "SiPixelRocStatus.h" { header "CalibTracker/SiPixelQuality/interface/SiPixelRocStatus.h" export * }
+  module "SiPixelStatusManager.h" { header "CalibTracker/SiPixelQuality/interface/SiPixelStatusManager.h" export * }
+  export *
+}
+

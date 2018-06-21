@@ -1,0 +1,12 @@
+module CMS_DataFormatsLuminosity {
+  module "BeamCurrentInfo.h" { header "DataFormats/Luminosity/interface/BeamCurrentInfo.h" export * }
+  module "LumiConstants.h" { header "DataFormats/Luminosity/interface/LumiConstants.h" export * }
+  module "LumiDetails.h" { header "DataFormats/Luminosity/interface/LumiDetails.h" export * }
+  module "LumiInfo.h" { header "DataFormats/Luminosity/interface/LumiInfo.h" export * }
+  module "LumiInfoRunHeader.h" { header "DataFormats/Luminosity/interface/LumiInfoRunHeader.h" export * }
+  module "LumiSummary.h" { header "DataFormats/Luminosity/interface/LumiSummary.h" export * }
+  module "LumiSummaryRunHeader.h" { header "DataFormats/Luminosity/interface/LumiSummaryRunHeader.h" export * }
+  module "PixelClusterCounts.h" { header "DataFormats/Luminosity/interface/PixelClusterCounts.h" export * }
+  export *
+}
+

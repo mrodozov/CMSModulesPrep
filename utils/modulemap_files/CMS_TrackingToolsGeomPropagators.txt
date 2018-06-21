@@ -1,0 +1,30 @@
+module CMS_TrackingToolsGeomPropagators {
+  module "AnalyticalImpactPointExtrapolator.h" { header "TrackingTools/GeomPropagators/interface/AnalyticalImpactPointExtrapolator.h" export * }
+  module "AnalyticalPropagator.h" { header "TrackingTools/GeomPropagators/interface/AnalyticalPropagator.h" export * }
+  module "AnalyticalTrajectoryExtrapolatorToLine.h" { header "TrackingTools/GeomPropagators/interface/AnalyticalTrajectoryExtrapolatorToLine.h" export * }
+  module "BeamHaloPropagator.h" { header "TrackingTools/GeomPropagators/interface/BeamHaloPropagator.h" export * }
+  module "HelixArbitraryPlaneCrossing.h" { header "TrackingTools/GeomPropagators/interface/HelixArbitraryPlaneCrossing.h" export * }
+  module "HelixArbitraryPlaneCrossing2Order.h" { header "TrackingTools/GeomPropagators/interface/HelixArbitraryPlaneCrossing2Order.h" export * }
+  module "HelixBarrelCylinderCrossing.h" { header "TrackingTools/GeomPropagators/interface/HelixBarrelCylinderCrossing.h" export * }
+  module "HelixBarrelPlaneCrossing2OrderLocal.h" { header "TrackingTools/GeomPropagators/interface/HelixBarrelPlaneCrossing2OrderLocal.h" export * }
+  module "HelixBarrelPlaneCrossingByCircle.h" { header "TrackingTools/GeomPropagators/interface/HelixBarrelPlaneCrossingByCircle.h" export * }
+  module "HelixExtrapolatorToLine2Order.h" { header "TrackingTools/GeomPropagators/interface/HelixExtrapolatorToLine2Order.h" export * }
+  module "HelixForwardPlaneCrossing.h" { header "TrackingTools/GeomPropagators/interface/HelixForwardPlaneCrossing.h" export * }
+  module "HelixLineExtrapolation.h" { header "TrackingTools/GeomPropagators/interface/HelixLineExtrapolation.h" export * }
+  module "HelixPlaneCrossing.h" { header "TrackingTools/GeomPropagators/interface/HelixPlaneCrossing.h" export * }
+  module "IterativeHelixExtrapolatorToLine.h" { header "TrackingTools/GeomPropagators/interface/IterativeHelixExtrapolatorToLine.h" export * }
+  module "OptimalHelixPlaneCrossing.h" { header "TrackingTools/GeomPropagators/interface/OptimalHelixPlaneCrossing.h" export * }
+  module "PropagationDirectionChooser.h" { header "TrackingTools/GeomPropagators/interface/PropagationDirectionChooser.h" export * }
+  module "PropagationDirectionFromPath.h" { header "TrackingTools/GeomPropagators/interface/PropagationDirectionFromPath.h" export * }
+  module "PropagationExceptions.h" { header "TrackingTools/GeomPropagators/interface/PropagationExceptions.h" export * }
+  module "Propagator.h" { header "TrackingTools/GeomPropagators/interface/Propagator.h" export * }
+  module "SmartPropagator.h" { header "TrackingTools/GeomPropagators/interface/SmartPropagator.h" export * }
+  module "StateOnTrackerBound.h" { header "TrackingTools/GeomPropagators/interface/StateOnTrackerBound.h" export * }
+  module "StraightLineBarrelCylinderCrossing.h" { header "TrackingTools/GeomPropagators/interface/StraightLineBarrelCylinderCrossing.h" export * }
+  module "StraightLineCylinderCrossing.h" { header "TrackingTools/GeomPropagators/interface/StraightLineCylinderCrossing.h" export * }
+  module "StraightLinePlaneCrossing.h" { header "TrackingTools/GeomPropagators/interface/StraightLinePlaneCrossing.h" export * }
+  module "StraightLinePropagator.h" { header "TrackingTools/GeomPropagators/interface/StraightLinePropagator.h" export * }
+  module "TrackerBounds.h" { header "TrackingTools/GeomPropagators/interface/TrackerBounds.h" export * }
+  export *
+}
+

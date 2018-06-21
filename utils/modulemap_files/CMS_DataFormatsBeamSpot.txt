@@ -1,0 +1,5 @@
+module CMS_DataFormatsBeamSpot {
+  module "BeamSpot.h" { header "DataFormats/BeamSpot/interface/BeamSpot.h" export * }
+  export *
+}
+

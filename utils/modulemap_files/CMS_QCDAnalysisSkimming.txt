@@ -1,0 +1,5 @@
+module CMS_QCDAnalysisSkimming {
+  module "QCDSingleJetFilter.h" { header "QCDAnalysis/Skimming/interface/QCDSingleJetFilter.h" export * }
+  export *
+}
+

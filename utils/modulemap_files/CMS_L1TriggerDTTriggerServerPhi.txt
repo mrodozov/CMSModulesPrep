@@ -1,0 +1,9 @@
+module CMS_L1TriggerDTTriggerServerPhi {
+  module "DTChambPhSegm.h" { header "L1Trigger/DTTriggerServerPhi/interface/DTChambPhSegm.h" export * }
+  module "DTTSCand.h" { header "L1Trigger/DTTriggerServerPhi/interface/DTTSCand.h" export * }
+  module "DTTSM.h" { header "L1Trigger/DTTriggerServerPhi/interface/DTTSM.h" export * }
+  module "DTTSPhi.h" { header "L1Trigger/DTTriggerServerPhi/interface/DTTSPhi.h" export * }
+  module "DTTSS.h" { header "L1Trigger/DTTriggerServerPhi/interface/DTTSS.h" export * }
+  export *
+}
+

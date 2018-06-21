@@ -1,0 +1,8 @@
+module CMS_DataFormatsSiStripDigi {
+  module "SiStripDigi.h" { header "DataFormats/SiStripDigi/interface/SiStripDigi.h" export * }
+  module "SiStripDigifwd.h" { header "DataFormats/SiStripDigi/interface/SiStripDigifwd.h" export * }
+  module "SiStripProcessedRawDigi.h" { header "DataFormats/SiStripDigi/interface/SiStripProcessedRawDigi.h" export * }
+  module "SiStripRawDigi.h" { header "DataFormats/SiStripDigi/interface/SiStripRawDigi.h" export * }
+  export *
+}
+

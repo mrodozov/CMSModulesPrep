@@ -1,0 +1,7 @@
+module CMS_SimG4CoreGenerators {
+  module "Generator.h" { header "SimG4Core/Generators/interface/Generator.h" export * }
+  module "HepMCParticle.h" { header "SimG4Core/Generators/interface/HepMCParticle.h" export * }
+  module "LumiMonitorFilter.h" { header "SimG4Core/Generators/interface/LumiMonitorFilter.h" export * }
+  export *
+}
+

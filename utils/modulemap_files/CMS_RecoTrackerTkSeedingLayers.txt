@@ -1,0 +1,10 @@
+module CMS_RecoTrackerTkSeedingLayers {
+  module "OrderedMultiHits.h" { header "RecoTracker/TkSeedingLayers/interface/OrderedMultiHits.h" export * }
+  module "OrderedSeedingHits.h" { header "RecoTracker/TkSeedingLayers/interface/OrderedSeedingHits.h" export * }
+  module "SeedComparitor.h" { header "RecoTracker/TkSeedingLayers/interface/SeedComparitor.h" export * }
+  module "SeedComparitorFactory.h" { header "RecoTracker/TkSeedingLayers/interface/SeedComparitorFactory.h" export * }
+  module "SeedingHitSet.h" { header "RecoTracker/TkSeedingLayers/interface/SeedingHitSet.h" export * }
+  module "SeedingLayerSetsBuilder.h" { header "RecoTracker/TkSeedingLayers/interface/SeedingLayerSetsBuilder.h" export * }
+  export *
+}
+

@@ -1,0 +1,5 @@
+module CMS_DataFormatsStreamer {
+  module "StreamedProducts.h" { header "DataFormats/Streamer/interface/StreamedProducts.h" export * }
+  export *
+}
+

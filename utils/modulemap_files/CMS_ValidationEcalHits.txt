@@ -1,0 +1,9 @@
+module CMS_ValidationEcalHits {
+  module "EcalBarrelSimHitsValidation.h" { header "Validation/EcalHits/interface/EcalBarrelSimHitsValidation.h" export * }
+  module "EcalEndcapSimHitsValidation.h" { header "Validation/EcalHits/interface/EcalEndcapSimHitsValidation.h" export * }
+  module "EcalPreshowerSimHitsValidation.h" { header "Validation/EcalHits/interface/EcalPreshowerSimHitsValidation.h" export * }
+  module "EcalSimHitsValidProducer.h" { header "Validation/EcalHits/interface/EcalSimHitsValidProducer.h" export * }
+  module "EcalSimHitsValidation.h" { header "Validation/EcalHits/interface/EcalSimHitsValidation.h" export * }
+  export *
+}
+

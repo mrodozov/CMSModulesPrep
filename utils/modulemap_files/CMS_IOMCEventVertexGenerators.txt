@@ -1,0 +1,11 @@
+module CMS_IOMCEventVertexGenerators {
+  module "BaseEvtVtxGenerator.h" { header "IOMC/EventVertexGenerators/interface/BaseEvtVtxGenerator.h" export * }
+  module "BeamProfileVtxGenerator.h" { header "IOMC/EventVertexGenerators/interface/BeamProfileVtxGenerator.h" export * }
+  module "BetafuncEvtVtxGenerator.h" { header "IOMC/EventVertexGenerators/interface/BetafuncEvtVtxGenerator.h" export * }
+  module "FlatEvtVtxGenerator.h" { header "IOMC/EventVertexGenerators/interface/FlatEvtVtxGenerator.h" export * }
+  module "GaussEvtVtxGenerator.h" { header "IOMC/EventVertexGenerators/interface/GaussEvtVtxGenerator.h" export * }
+  module "GaussianZBeamSpotFilter.h" { header "IOMC/EventVertexGenerators/interface/GaussianZBeamSpotFilter.h" export * }
+  module "HLLHCEvtVtxGenerator.h" { header "IOMC/EventVertexGenerators/interface/HLLHCEvtVtxGenerator.h" export * }
+  export *
+}
+

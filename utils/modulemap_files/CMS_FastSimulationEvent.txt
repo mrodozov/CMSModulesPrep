@@ -1,0 +1,13 @@
+module CMS_FastSimulationEvent {
+  module "FBaseSimEvent.h" { header "FastSimulation/Event/interface/FBaseSimEvent.h" export * }
+  module "FBaseSimEvent.icc" { textual header "FastSimulation/Event/interface/FBaseSimEvent.icc" export * }
+  module "FSimEvent.h" { header "FastSimulation/Event/interface/FSimEvent.h" export * }
+  module "FSimTrack.h" { header "FastSimulation/Event/interface/FSimTrack.h" export * }
+  module "FSimTrack.icc" { textual header "FastSimulation/Event/interface/FSimTrack.icc" export * }
+  module "FSimTrackEqual.h" { header "FastSimulation/Event/interface/FSimTrackEqual.h" export * }
+  module "FSimVertex.h" { header "FastSimulation/Event/interface/FSimVertex.h" export * }
+  module "FSimVertex.icc" { textual header "FastSimulation/Event/interface/FSimVertex.icc" export * }
+  module "KineParticleFilter.h" { header "FastSimulation/Event/interface/KineParticleFilter.h" export * }
+  export *
+}
+

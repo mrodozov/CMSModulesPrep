@@ -1,0 +1,13 @@
+module CMS_TopQuarkAnalysisTopEventSelection {
+  module "TtDilepLRSignalSelObservables.h" { header "TopQuarkAnalysis/TopEventSelection/interface/TtDilepLRSignalSelObservables.h" export * }
+  module "TtFullHadSignalSel.h" { header "TopQuarkAnalysis/TopEventSelection/interface/TtFullHadSignalSel.h" export * }
+  module "TtFullHadSignalSelEval.h" { header "TopQuarkAnalysis/TopEventSelection/interface/TtFullHadSignalSelEval.h" export * }
+  module "TtHadLRSignalSelCalc.h" { header "TopQuarkAnalysis/TopEventSelection/interface/TtHadLRSignalSelCalc.h" export * }
+  module "TtHadLRSignalSelObservables.h" { header "TopQuarkAnalysis/TopEventSelection/interface/TtHadLRSignalSelObservables.h" export * }
+  module "TtSemiLRSignalSelCalc.h" { header "TopQuarkAnalysis/TopEventSelection/interface/TtSemiLRSignalSelCalc.h" export * }
+  module "TtSemiLRSignalSelObservables.h" { header "TopQuarkAnalysis/TopEventSelection/interface/TtSemiLRSignalSelObservables.h" export * }
+  module "TtSemiLepSignalSel.h" { header "TopQuarkAnalysis/TopEventSelection/interface/TtSemiLepSignalSel.h" export * }
+  module "TtSemiLepSignalSelEval.h" { header "TopQuarkAnalysis/TopEventSelection/interface/TtSemiLepSignalSelEval.h" export * }
+  export *
+}
+

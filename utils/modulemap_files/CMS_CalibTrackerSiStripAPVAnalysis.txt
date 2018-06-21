@@ -1,0 +1,22 @@
+module CMS_CalibTrackerSiStripAPVAnalysis {
+  module "ApvAnalysis.h" { header "CalibTracker/SiStripAPVAnalysis/interface/ApvAnalysis.h" export * }
+  module "ApvAnalysisFactory.h" { header "CalibTracker/SiStripAPVAnalysis/interface/ApvAnalysisFactory.h" export * }
+  module "ApvFactoryService.h" { header "CalibTracker/SiStripAPVAnalysis/interface/ApvFactoryService.h" export * }
+  module "MedianCommonModeCalculator.h" { header "CalibTracker/SiStripAPVAnalysis/interface/MedianCommonModeCalculator.h" export * }
+  module "SimpleNoiseCalculator.h" { header "CalibTracker/SiStripAPVAnalysis/interface/SimpleNoiseCalculator.h" export * }
+  module "SimplePedestalCalculator.h" { header "CalibTracker/SiStripAPVAnalysis/interface/SimplePedestalCalculator.h" export * }
+  module "TT6ApvMask.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TT6ApvMask.h" export * }
+  module "TT6CommonModeCalculator.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TT6CommonModeCalculator.h" export * }
+  module "TT6NTPedestalCalculator.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TT6NTPedestalCalculator.h" export * }
+  module "TT6NoiseCalculator.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TT6NoiseCalculator.h" export * }
+  module "TT6PedestalCalculator.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TT6PedestalCalculator.h" export * }
+  module "TkApvMask.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TkApvMask.h" export * }
+  module "TkCommonMode.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TkCommonMode.h" export * }
+  module "TkCommonModeCalculator.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TkCommonModeCalculator.h" export * }
+  module "TkCommonModeTopology.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TkCommonModeTopology.h" export * }
+  module "TkNoiseCalculator.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TkNoiseCalculator.h" export * }
+  module "TkPedestalCalculator.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TkPedestalCalculator.h" export * }
+  module "TkStateMachine.h" { header "CalibTracker/SiStripAPVAnalysis/interface/TkStateMachine.h" export * }
+  export *
+}
+

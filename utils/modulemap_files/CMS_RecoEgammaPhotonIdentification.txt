@@ -1,0 +1,8 @@
+module CMS_RecoEgammaPhotonIdentification {
+  module "CutBasedPhotonIDAlgo.h" { header "RecoEgamma/PhotonIdentification/interface/CutBasedPhotonIDAlgo.h" export * }
+  module "PFPhotonIsolationCalculator.h" { header "RecoEgamma/PhotonIdentification/interface/PFPhotonIsolationCalculator.h" export * }
+  module "PhotonIsolationCalculator.h" { header "RecoEgamma/PhotonIdentification/interface/PhotonIsolationCalculator.h" export * }
+  module "PhotonMIPHaloTagger.h" { header "RecoEgamma/PhotonIdentification/interface/PhotonMIPHaloTagger.h" export * }
+  export *
+}
+

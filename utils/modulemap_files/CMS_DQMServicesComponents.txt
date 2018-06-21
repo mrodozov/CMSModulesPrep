@@ -1,0 +1,5 @@
+module CMS_DQMServicesComponents {
+  module "QualityTester.h" { header "DQMServices/Components/interface/QualityTester.h" export * }
+  export *
+}
+

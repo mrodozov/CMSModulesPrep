@@ -1,0 +1,5 @@
+module CMS_AnalysisDataFormatsSiStripClusterInfo {
+  module "SiStripClusterInfo.h" { header "AnalysisDataFormats/SiStripClusterInfo/interface/SiStripClusterInfo.h" export * }
+  export *
+}
+

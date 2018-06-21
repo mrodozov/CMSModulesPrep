@@ -1,0 +1,6 @@
+module CMS_DataFormatsCLHEP {
+  module "AlgebraicObjects.h" { header "DataFormats/CLHEP/interface/AlgebraicObjects.h" export * }
+  module "Migration.h" { header "DataFormats/CLHEP/interface/Migration.h" export * }
+  export *
+}
+

@@ -1,0 +1,8 @@
+module CMS_RecoVertexTrimmedKalmanVertexFinder {
+  module "ConfigurableTrimmedVertexFinder.h" { header "RecoVertex/TrimmedKalmanVertexFinder/interface/ConfigurableTrimmedVertexFinder.h" export * }
+  module "KalmanTrimmedVertexFinder.h" { header "RecoVertex/TrimmedKalmanVertexFinder/interface/KalmanTrimmedVertexFinder.h" export * }
+  module "TrimmedTrackFilter.h" { header "RecoVertex/TrimmedKalmanVertexFinder/interface/TrimmedTrackFilter.h" export * }
+  module "TrimmedVertexFinder.h" { header "RecoVertex/TrimmedKalmanVertexFinder/interface/TrimmedVertexFinder.h" export * }
+  export *
+}
+

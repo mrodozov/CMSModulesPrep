@@ -1,0 +1,10 @@
+module CMS_GeneratorInterfacePythia8Interface {
+  module "MultiUserHook.h" { header "GeneratorInterface/Pythia8Interface/interface/MultiUserHook.h" export * }
+  module "P8RndmEngine.h" { header "GeneratorInterface/Pythia8Interface/interface/P8RndmEngine.h" export * }
+  module "PTFilterHook.h" { header "GeneratorInterface/Pythia8Interface/interface/PTFilterHook.h" export * }
+  module "Py8GunBase.h" { header "GeneratorInterface/Pythia8Interface/interface/Py8GunBase.h" export * }
+  module "Py8InterfaceBase.h" { header "GeneratorInterface/Pythia8Interface/interface/Py8InterfaceBase.h" export * }
+  module "ResonanceDecayFilterHook.h" { header "GeneratorInterface/Pythia8Interface/interface/ResonanceDecayFilterHook.h" export * }
+  export *
+}
+

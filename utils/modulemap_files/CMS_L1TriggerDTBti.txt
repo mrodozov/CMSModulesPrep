@@ -1,0 +1,9 @@
+module CMS_L1TriggerDTBti {
+  module "DTBtiCard.h" { header "L1Trigger/DTBti/interface/DTBtiCard.h" export * }
+  module "DTBtiChip.h" { header "L1Trigger/DTBti/interface/DTBtiChip.h" export * }
+  module "DTBtiHit.h" { header "L1Trigger/DTBti/interface/DTBtiHit.h" export * }
+  module "DTBtiTrig.h" { header "L1Trigger/DTBti/interface/DTBtiTrig.h" export * }
+  module "DTBtiTrigData.h" { header "L1Trigger/DTBti/interface/DTBtiTrigData.h" export * }
+  export *
+}
+

@@ -1,0 +1,11 @@
+module CMS_GeneratorInterfaceTauolaInterface {
+  module "TauSpinnerCMS.h" { header "GeneratorInterface/TauolaInterface/interface/TauSpinnerCMS.h" export * }
+  module "TauSpinnerFilter.h" { header "GeneratorInterface/TauolaInterface/interface/TauSpinnerFilter.h" export * }
+  module "TauolaFactory.h" { header "GeneratorInterface/TauolaInterface/interface/TauolaFactory.h" export * }
+  module "TauolaInterfaceBase.h" { header "GeneratorInterface/TauolaInterface/interface/TauolaInterfaceBase.h" export * }
+  module "TauolaWrapper.h" { header "GeneratorInterface/TauolaInterface/interface/TauolaWrapper.h" export * }
+  module "TauolappInterface.h" { header "GeneratorInterface/TauolaInterface/interface/TauolappInterface.h" export * }
+  module "read_particles_from_HepMC.h" { header "GeneratorInterface/TauolaInterface/interface/read_particles_from_HepMC.h" export * }
+  export *
+}
+

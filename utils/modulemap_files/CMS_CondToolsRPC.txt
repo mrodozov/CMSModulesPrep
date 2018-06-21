@@ -1,0 +1,26 @@
+module CMS_CondToolsRPC {
+  module "L1RPCHwConfigDBWriter.h" { header "CondTools/RPC/interface/L1RPCHwConfigDBWriter.h" export * }
+  module "L1RPCHwConfigSourceHandler.h" { header "CondTools/RPC/interface/L1RPCHwConfigSourceHandler.h" export * }
+  module "RPCAMCLinkMapHandler.h" { header "CondTools/RPC/interface/RPCAMCLinkMapHandler.h" export * }
+  module "RPCDBCom.h" { header "CondTools/RPC/interface/RPCDBCom.h" export * }
+  module "RPCDBPerformanceHandler.h" { header "CondTools/RPC/interface/RPCDBPerformanceHandler.h" export * }
+  module "RPCDBSimSetUp.h" { header "CondTools/RPC/interface/RPCDBSimSetUp.h" export * }
+  module "RPCDCCLinkMapHandler.h" { header "CondTools/RPC/interface/RPCDCCLinkMapHandler.h" export * }
+  module "RPCEMapDBWriter.h" { header "CondTools/RPC/interface/RPCEMapDBWriter.h" export * }
+  module "RPCEMapSourceHandler.h" { header "CondTools/RPC/interface/RPCEMapSourceHandler.h" export * }
+  module "RPCFebmapSH.h" { header "CondTools/RPC/interface/RPCFebmapSH.h" export * }
+  module "RPCFw.h" { header "CondTools/RPC/interface/RPCFw.h" export * }
+  module "RPCGasMixSH.h" { header "CondTools/RPC/interface/RPCGasMixSH.h" export * }
+  module "RPCGasSH.h" { header "CondTools/RPC/interface/RPCGasSH.h" export * }
+  module "RPCIDMapSH.h" { header "CondTools/RPC/interface/RPCIDMapSH.h" export * }
+  module "RPCImonSH.h" { header "CondTools/RPC/interface/RPCImonSH.h" export * }
+  module "RPCLBLinkMapHandler.h" { header "CondTools/RPC/interface/RPCLBLinkMapHandler.h" export * }
+  module "RPCLBLinkNameParser.h" { header "CondTools/RPC/interface/RPCLBLinkNameParser.h" export * }
+  module "RPCRunIOV.h" { header "CondTools/RPC/interface/RPCRunIOV.h" export * }
+  module "RPCStatusSH.h" { header "CondTools/RPC/interface/RPCStatusSH.h" export * }
+  module "RPCTempSH.h" { header "CondTools/RPC/interface/RPCTempSH.h" export * }
+  module "RPCUXCSH.h" { header "CondTools/RPC/interface/RPCUXCSH.h" export * }
+  module "RPCVmonSH.h" { header "CondTools/RPC/interface/RPCVmonSH.h" export * }
+  export *
+}
+

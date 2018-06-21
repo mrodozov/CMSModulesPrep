@@ -1,0 +1,12 @@
+module CMS_TBDataFormatsEcalTBObjects {
+  module "EcalTBCollections.h" { header "TBDataFormats/EcalTBObjects/interface/EcalTBCollections.h" export * }
+  module "EcalTBEventHeader.h" { header "TBDataFormats/EcalTBObjects/interface/EcalTBEventHeader.h" export * }
+  module "EcalTBHodoscopePlaneRawHits.h" { header "TBDataFormats/EcalTBObjects/interface/EcalTBHodoscopePlaneRawHits.h" export * }
+  module "EcalTBHodoscopeRawInfo.h" { header "TBDataFormats/EcalTBObjects/interface/EcalTBHodoscopeRawInfo.h" export * }
+  module "EcalTBHodoscopeRecInfo.h" { header "TBDataFormats/EcalTBObjects/interface/EcalTBHodoscopeRecInfo.h" export * }
+  module "EcalTBTDCRawInfo.h" { header "TBDataFormats/EcalTBObjects/interface/EcalTBTDCRawInfo.h" export * }
+  module "EcalTBTDCRecInfo.h" { header "TBDataFormats/EcalTBObjects/interface/EcalTBTDCRecInfo.h" export * }
+  module "EcalTBTDCSample.h" { header "TBDataFormats/EcalTBObjects/interface/EcalTBTDCSample.h" export * }
+  export *
+}
+

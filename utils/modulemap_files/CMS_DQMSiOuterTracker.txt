@@ -1,0 +1,7 @@
+module CMS_DQMSiOuterTracker {
+  module "OuterTrackerMonitorTTCluster.h" { header "DQM/SiOuterTracker/interface/OuterTrackerMonitorTTCluster.h" export * }
+  module "OuterTrackerMonitorTTStub.h" { header "DQM/SiOuterTracker/interface/OuterTrackerMonitorTTStub.h" export * }
+  module "OuterTrackerMonitorTTTrack.h" { header "DQM/SiOuterTracker/interface/OuterTrackerMonitorTTTrack.h" export * }
+  export *
+}
+

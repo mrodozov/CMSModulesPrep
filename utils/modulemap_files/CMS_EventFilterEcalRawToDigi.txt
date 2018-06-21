@@ -1,0 +1,29 @@
+module CMS_EventFilterEcalRawToDigi {
+  module "DCCDataBlockPrototype.h" { header "EventFilter/EcalRawToDigi/interface/DCCDataBlockPrototype.h" export * }
+  module "DCCDataUnpacker.h" { header "EventFilter/EcalRawToDigi/interface/DCCDataUnpacker.h" export * }
+  module "DCCEBEventBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCEBEventBlock.h" export * }
+  module "DCCEBSRPBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCEBSRPBlock.h" export * }
+  module "DCCEBTCCBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCEBTCCBlock.h" export * }
+  module "DCCEEEventBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCEEEventBlock.h" export * }
+  module "DCCEESRPBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCEESRPBlock.h" export * }
+  module "DCCEETCCBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCEETCCBlock.h" export * }
+  module "DCCEventBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCEventBlock.h" export * }
+  module "DCCFEBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCFEBlock.h" export * }
+  module "DCCMemBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCMemBlock.h" export * }
+  module "DCCRawDataDefinitions.h" { header "EventFilter/EcalRawToDigi/interface/DCCRawDataDefinitions.h" export * }
+  module "DCCSCBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCSCBlock.h" export * }
+  module "DCCSRPBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCSRPBlock.h" export * }
+  module "DCCTCCBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCTCCBlock.h" export * }
+  module "DCCTowerBlock.h" { header "EventFilter/EcalRawToDigi/interface/DCCTowerBlock.h" export * }
+  module "ECALUnpackerException.h" { header "EventFilter/EcalRawToDigi/interface/ECALUnpackerException.h" export * }
+  module "EcalDCCHeaderRuntypeDecoder.h" { header "EventFilter/EcalRawToDigi/interface/EcalDCCHeaderRuntypeDecoder.h" export * }
+  module "EcalDumpRaw.h" { header "EventFilter/EcalRawToDigi/interface/EcalDumpRaw.h" export * }
+  module "EcalElectronicsMapper.h" { header "EventFilter/EcalRawToDigi/interface/EcalElectronicsMapper.h" export * }
+  module "EcalRegionCabling.h" { header "EventFilter/EcalRawToDigi/interface/EcalRegionCabling.h" export * }
+  module "EcalRegionCablingRecord.h" { header "EventFilter/EcalRawToDigi/interface/EcalRegionCablingRecord.h" export * }
+  module "MatacqProducer.h" { header "EventFilter/EcalRawToDigi/interface/MatacqProducer.h" export * }
+  module "MatacqRawEvent.h" { header "EventFilter/EcalRawToDigi/interface/MatacqRawEvent.h" export * }
+  module "MyWatcher.h" { header "EventFilter/EcalRawToDigi/interface/MyWatcher.h" export * }
+  export *
+}
+

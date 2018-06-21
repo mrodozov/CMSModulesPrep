@@ -1,0 +1,5 @@
+module CMS_FastSimDataFormatsPileUpEvents {
+  module "PUEvent.h" { header "FastSimDataFormats/PileUpEvents/interface/PUEvent.h" export * }
+  export *
+}
+

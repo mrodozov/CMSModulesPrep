@@ -1,0 +1,27 @@
+module CMS_SimCalorimetryHcalSimAlgos {
+  module "HFShape.h" { header "SimCalorimetry/HcalSimAlgos/interface/HFShape.h" export * }
+  module "HFSimParameters.h" { header "SimCalorimetry/HcalSimAlgos/interface/HFSimParameters.h" export * }
+  module "HPDIonFeedbackSim.h" { header "SimCalorimetry/HcalSimAlgos/interface/HPDIonFeedbackSim.h" export * }
+  module "HcalAmplifier.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalAmplifier.h" export * }
+  module "HcalBaseSignalGenerator.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalBaseSignalGenerator.h" export * }
+  module "HcalCoderFactory.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalCoderFactory.h" export * }
+  module "HcalDigitizerTraits.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalDigitizerTraits.h" export * }
+  module "HcalElectronicsSim.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalElectronicsSim.h" export * }
+  module "HcalHitFilter.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalHitFilter.h" export * }
+  module "HcalQIE1011Traits.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalQIE1011Traits.h" export * }
+  module "HcalShape.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalShape.h" export * }
+  module "HcalShapes.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalShapes.h" export * }
+  module "HcalSiPM.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalSiPM.h" export * }
+  module "HcalSiPMHitResponse.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalSiPMHitResponse.h" export * }
+  module "HcalSiPMShape.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalSiPMShape.h" export * }
+  module "HcalSignalGenerator.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalSignalGenerator.h" export * }
+  module "HcalSimParameterMap.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalSimParameterMap.h" export * }
+  module "HcalSimParameters.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalSimParameters.h" export * }
+  module "HcalTDC.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalTDC.h" export * }
+  module "HcalTDCParameters.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalTDCParameters.h" export * }
+  module "HcalTimeSlewSim.h" { header "SimCalorimetry/HcalSimAlgos/interface/HcalTimeSlewSim.h" export * }
+  module "ZDCHitFilter.h" { header "SimCalorimetry/HcalSimAlgos/interface/ZDCHitFilter.h" export * }
+  module "ZDCShape.h" { header "SimCalorimetry/HcalSimAlgos/interface/ZDCShape.h" export * }
+  export *
+}
+

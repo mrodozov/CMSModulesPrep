@@ -1,0 +1,13 @@
+module CMS_JetMETCorrectionsModules {
+  module "CorrectedJetProducer.h" { header "JetMETCorrections/Modules/interface/CorrectedJetProducer.h" export * }
+  module "JetCorrectionESChain.h" { header "JetMETCorrections/Modules/interface/JetCorrectionESChain.h" export * }
+  module "JetCorrectionESProducer.h" { header "JetMETCorrections/Modules/interface/JetCorrectionESProducer.h" export * }
+  module "JetCorrectionESSource.h" { header "JetMETCorrections/Modules/interface/JetCorrectionESSource.h" export * }
+  module "JetCorrectionProducer.h" { header "JetMETCorrections/Modules/interface/JetCorrectionProducer.h" export * }
+  module "JetResolution.h" { header "JetMETCorrections/Modules/interface/JetResolution.h" export * }
+  module "JetResolutionESProducer.h" { header "JetMETCorrections/Modules/interface/JetResolutionESProducer.h" export * }
+  module "QGLikelihoodESProducer.h" { header "JetMETCorrections/Modules/interface/QGLikelihoodESProducer.h" export * }
+  module "QGLikelihoodSystematicsESProducer.h" { header "JetMETCorrections/Modules/interface/QGLikelihoodSystematicsESProducer.h" export * }
+  export *
+}
+

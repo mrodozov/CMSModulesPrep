@@ -1,0 +1,9 @@
+module CMS_ValidationMuonME0Validation {
+  module "ME0BaseValidation.h" { header "Validation/MuonME0Validation/interface/ME0BaseValidation.h" export * }
+  module "ME0DigisValidation.h" { header "Validation/MuonME0Validation/interface/ME0DigisValidation.h" export * }
+  module "ME0HitsValidation.h" { header "Validation/MuonME0Validation/interface/ME0HitsValidation.h" export * }
+  module "ME0RecHitsValidation.h" { header "Validation/MuonME0Validation/interface/ME0RecHitsValidation.h" export * }
+  module "ME0SegmentsValidation.h" { header "Validation/MuonME0Validation/interface/ME0SegmentsValidation.h" export * }
+  export *
+}
+

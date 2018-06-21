@@ -1,0 +1,5 @@
+module CMS_RecoParticleFlowPFClusterShapeProducer {
+  module "PFClusterShapeAlgo.h" { header "RecoParticleFlow/PFClusterShapeProducer/interface/PFClusterShapeAlgo.h" export * }
+  export *
+}
+

@@ -1,0 +1,10 @@
+module CMS_DataFormatsHepMCCandidate {
+  module "FlavorHistory.h" { header "DataFormats/HepMCCandidate/interface/FlavorHistory.h" export * }
+  module "FlavorHistoryEvent.h" { header "DataFormats/HepMCCandidate/interface/FlavorHistoryEvent.h" export * }
+  module "GenParticle.h" { header "DataFormats/HepMCCandidate/interface/GenParticle.h" export * }
+  module "GenParticleFwd.h" { header "DataFormats/HepMCCandidate/interface/GenParticleFwd.h" export * }
+  module "GenStatusFlags.h" { header "DataFormats/HepMCCandidate/interface/GenStatusFlags.h" export * }
+  module "PdfInfo.h" { header "DataFormats/HepMCCandidate/interface/PdfInfo.h" export * }
+  export *
+}
+

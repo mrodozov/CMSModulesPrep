@@ -1,0 +1,6 @@
+module CMS_DQMTrigXMonitorClient {
+  module "HLTScalersClient.h" { header "DQM/TrigXMonitorClient/interface/HLTScalersClient.h" export * }
+  module "L1ScalersClient.h" { header "DQM/TrigXMonitorClient/interface/L1ScalersClient.h" export * }
+  export *
+}
+

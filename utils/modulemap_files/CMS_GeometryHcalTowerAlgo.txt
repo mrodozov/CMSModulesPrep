@@ -1,0 +1,12 @@
+module CMS_GeometryHcalTowerAlgo {
+  module "CaloTowerGeometry.h" { header "Geometry/HcalTowerAlgo/interface/CaloTowerGeometry.h" export * }
+  module "CaloTowerHardcodeGeometryLoader.h" { header "Geometry/HcalTowerAlgo/interface/CaloTowerHardcodeGeometryLoader.h" export * }
+  module "HcalDDDGeometry.h" { header "Geometry/HcalTowerAlgo/interface/HcalDDDGeometry.h" export * }
+  module "HcalDDDGeometryLoader.h" { header "Geometry/HcalTowerAlgo/interface/HcalDDDGeometryLoader.h" export * }
+  module "HcalFlexiHardcodeGeometryLoader.h" { header "Geometry/HcalTowerAlgo/interface/HcalFlexiHardcodeGeometryLoader.h" export * }
+  module "HcalGeometry.h" { header "Geometry/HcalTowerAlgo/interface/HcalGeometry.h" export * }
+  module "HcalHardcodeGeometryLoader.h" { header "Geometry/HcalTowerAlgo/interface/HcalHardcodeGeometryLoader.h" export * }
+  module "HcalTrigTowerGeometry.h" { header "Geometry/HcalTowerAlgo/interface/HcalTrigTowerGeometry.h" export * }
+  export *
+}
+

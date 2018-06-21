@@ -1,0 +1,11 @@
+module CMS_RecoJetsJetAssociationAlgorithms {
+  module "JetSignalVertexCompatibilityAlgo.h" { header "RecoJets/JetAssociationAlgorithms/interface/JetSignalVertexCompatibilityAlgo.h" export * }
+  module "JetTracksAssociationDR.h" { header "RecoJets/JetAssociationAlgorithms/interface/JetTracksAssociationDR.h" export * }
+  module "JetTracksAssociationDRCalo.h" { header "RecoJets/JetAssociationAlgorithms/interface/JetTracksAssociationDRCalo.h" export * }
+  module "JetTracksAssociationDRVertex.h" { header "RecoJets/JetAssociationAlgorithms/interface/JetTracksAssociationDRVertex.h" export * }
+  module "JetTracksAssociationDRVertexAssigned.h" { header "RecoJets/JetAssociationAlgorithms/interface/JetTracksAssociationDRVertexAssigned.h" export * }
+  module "JetTracksAssociationExplicit.h" { header "RecoJets/JetAssociationAlgorithms/interface/JetTracksAssociationExplicit.h" export * }
+  module "JetTracksAssociationXtrpCalo.h" { header "RecoJets/JetAssociationAlgorithms/interface/JetTracksAssociationXtrpCalo.h" export * }
+  export *
+}
+

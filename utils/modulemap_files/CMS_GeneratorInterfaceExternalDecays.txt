@@ -1,0 +1,5 @@
+module CMS_GeneratorInterfaceExternalDecays {
+  module "ExternalDecayDriver.h" { header "GeneratorInterface/ExternalDecays/interface/ExternalDecayDriver.h" export * }
+  export *
+}
+

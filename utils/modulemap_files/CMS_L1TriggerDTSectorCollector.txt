@@ -1,0 +1,12 @@
+module CMS_L1TriggerDTSectorCollector {
+  module "DTSC.h" { header "L1Trigger/DTSectorCollector/interface/DTSC.h" export * }
+  module "DTSCCand.h" { header "L1Trigger/DTSectorCollector/interface/DTSCCand.h" export * }
+  module "DTSCTrigUnit.h" { header "L1Trigger/DTSectorCollector/interface/DTSCTrigUnit.h" export * }
+  module "DTSectColl.h" { header "L1Trigger/DTSectorCollector/interface/DTSectColl.h" export * }
+  module "DTSectCollPhCand.h" { header "L1Trigger/DTSectorCollector/interface/DTSectCollPhCand.h" export * }
+  module "DTSectCollPhSegm.h" { header "L1Trigger/DTSectorCollector/interface/DTSectCollPhSegm.h" export * }
+  module "DTSectCollThCand.h" { header "L1Trigger/DTSectorCollector/interface/DTSectCollThCand.h" export * }
+  module "DTSectCollThSegm.h" { header "L1Trigger/DTSectorCollector/interface/DTSectCollThSegm.h" export * }
+  export *
+}
+

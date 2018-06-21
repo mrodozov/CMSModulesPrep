@@ -1,0 +1,10 @@
+module CMS_RecoCTPPSTotemRPLocal {
+  module "CTPPSDiamondRecHitProducerAlgorithm.h" { header "RecoCTPPS/TotemRPLocal/interface/CTPPSDiamondRecHitProducerAlgorithm.h" export * }
+  module "CTPPSDiamondTrackRecognition.h" { header "RecoCTPPS/TotemRPLocal/interface/CTPPSDiamondTrackRecognition.h" export * }
+  module "FastLineRecognition.h" { header "RecoCTPPS/TotemRPLocal/interface/FastLineRecognition.h" export * }
+  module "TotemRPClusterProducerAlgorithm.h" { header "RecoCTPPS/TotemRPLocal/interface/TotemRPClusterProducerAlgorithm.h" export * }
+  module "TotemRPLocalTrackFitterAlgorithm.h" { header "RecoCTPPS/TotemRPLocal/interface/TotemRPLocalTrackFitterAlgorithm.h" export * }
+  module "TotemRPRecHitProducerAlgorithm.h" { header "RecoCTPPS/TotemRPLocal/interface/TotemRPRecHitProducerAlgorithm.h" export * }
+  export *
+}
+

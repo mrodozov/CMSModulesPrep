@@ -1,0 +1,11 @@
+module CMS_ValidationEcalDigis {
+  module "EcalBarrelDigisValidation.h" { header "Validation/EcalDigis/interface/EcalBarrelDigisValidation.h" export * }
+  module "EcalDigisValidation.h" { header "Validation/EcalDigis/interface/EcalDigisValidation.h" export * }
+  module "EcalEndcapDigisValidation.h" { header "Validation/EcalDigis/interface/EcalEndcapDigisValidation.h" export * }
+  module "EcalMixingModuleValidation.h" { header "Validation/EcalDigis/interface/EcalMixingModuleValidation.h" export * }
+  module "EcalPreshowerDigisValidation.h" { header "Validation/EcalDigis/interface/EcalPreshowerDigisValidation.h" export * }
+  module "EcalPreshowerNoiseDistrib.h" { header "Validation/EcalDigis/interface/EcalPreshowerNoiseDistrib.h" export * }
+  module "EcalSelectiveReadoutValidation.h" { header "Validation/EcalDigis/interface/EcalSelectiveReadoutValidation.h" export * }
+  export *
+}
+

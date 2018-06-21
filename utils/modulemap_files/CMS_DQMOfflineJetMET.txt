@@ -1,0 +1,29 @@
+module CMS_DQMOfflineJetMET {
+  module "BeamHaloAnalyzer.h" { header "DQMOffline/JetMET/interface/BeamHaloAnalyzer.h" export * }
+  module "CaloTowerAnalyzer.h" { header "DQMOffline/JetMET/interface/CaloTowerAnalyzer.h" export * }
+  module "DQMPFCandidateAnalyzer.h" { header "DQMOffline/JetMET/interface/DQMPFCandidateAnalyzer.h" export * }
+  module "DataCertificationJetMET.h" { header "DQMOffline/JetMET/interface/DataCertificationJetMET.h" export * }
+  module "ECALRecHitAnalyzer.h" { header "DQMOffline/JetMET/interface/ECALRecHitAnalyzer.h" export * }
+  module "GlobalVariables.h" { header "DQMOffline/JetMET/interface/GlobalVariables.h" export * }
+  module "HCALRecHitAnalyzer.h" { header "DQMOffline/JetMET/interface/HCALRecHitAnalyzer.h" export * }
+  module "HTMHTAnalyzer.h" { header "DQMOffline/JetMET/interface/HTMHTAnalyzer.h" export * }
+  module "JetAnalyzer.h" { header "DQMOffline/JetMET/interface/JetAnalyzer.h" export * }
+  module "JetAnalyzer_HeavyIons.h" { header "DQMOffline/JetMET/interface/JetAnalyzer_HeavyIons.h" export * }
+  module "JetAnalyzer_HeavyIons_matching.h" { header "DQMOffline/JetMET/interface/JetAnalyzer_HeavyIons_matching.h" export * }
+  module "JetMETDQMDCSFilter.h" { header "DQMOffline/JetMET/interface/JetMETDQMDCSFilter.h" export * }
+  module "METAnalyzer.h" { header "DQMOffline/JetMET/interface/METAnalyzer.h" export * }
+  module "SUSYDQMAnalyzer.h" { header "DQMOffline/JetMET/interface/SUSYDQMAnalyzer.h" export * }
+  module "SusyDQM/Book.h" { header "DQMOffline/JetMET/interface/SusyDQM/Book.h" export * }
+  module "SusyDQM/GenericPlotter.h" { header "DQMOffline/JetMET/interface/SusyDQM/GenericPlotter.h" export * }
+  module "SusyDQM/HT.h" { header "DQMOffline/JetMET/interface/SusyDQM/HT.h" export * }
+  module "SusyDQM/Indexed.h" { header "DQMOffline/JetMET/interface/SusyDQM/Indexed.h" export * }
+  module "SusyDQM/Overlayer.h" { header "DQMOffline/JetMET/interface/SusyDQM/Overlayer.h" export * }
+  module "SusyDQM/Quantile.h" { header "DQMOffline/JetMET/interface/SusyDQM/Quantile.h" export * }
+  module "SusyDQM/TTREE_FOREACH_ENTRY.hh" { header "DQMOffline/JetMET/interface/SusyDQM/TTREE_FOREACH_ENTRY.hh" export * }
+  module "SusyDQM/alpha_T.h" { header "DQMOffline/JetMET/interface/SusyDQM/alpha_T.h" export * }
+  module "SusyDQM/poly.h" { header "DQMOffline/JetMET/interface/SusyDQM/poly.h" export * }
+  module "SusyDQM/round_string.h" { header "DQMOffline/JetMET/interface/SusyDQM/round_string.h" export * }
+  module "SusyDQM/special_less.h" { header "DQMOffline/JetMET/interface/SusyDQM/special_less.h" export * }
+  export *
+}
+

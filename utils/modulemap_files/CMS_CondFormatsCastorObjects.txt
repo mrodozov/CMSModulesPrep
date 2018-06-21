@@ -1,0 +1,29 @@
+module CMS_CondFormatsCastorObjects {
+  module "AllClasses.h" { header "CondFormats/CastorObjects/interface/AllClasses.h" export * }
+  module "AllObjects.h" { header "CondFormats/CastorObjects/interface/AllObjects.h" export * }
+  module "CastorCalibrationQIECoder.h" { header "CondFormats/CastorObjects/interface/CastorCalibrationQIECoder.h" export * }
+  module "CastorCalibrationQIEData.h" { header "CondFormats/CastorObjects/interface/CastorCalibrationQIEData.h" export * }
+  module "CastorChannelQuality.h" { header "CondFormats/CastorObjects/interface/CastorChannelQuality.h" export * }
+  module "CastorChannelStatus.h" { header "CondFormats/CastorObjects/interface/CastorChannelStatus.h" export * }
+  module "CastorCondObjectContainer.h" { header "CondFormats/CastorObjects/interface/CastorCondObjectContainer.h" export * }
+  module "CastorElectronicsMap.h" { header "CondFormats/CastorObjects/interface/CastorElectronicsMap.h" export * }
+  module "CastorGain.h" { header "CondFormats/CastorObjects/interface/CastorGain.h" export * }
+  module "CastorGainWidth.h" { header "CondFormats/CastorObjects/interface/CastorGainWidth.h" export * }
+  module "CastorGainWidths.h" { header "CondFormats/CastorObjects/interface/CastorGainWidths.h" export * }
+  module "CastorGains.h" { header "CondFormats/CastorObjects/interface/CastorGains.h" export * }
+  module "CastorPedestal.h" { header "CondFormats/CastorObjects/interface/CastorPedestal.h" export * }
+  module "CastorPedestalWidth.h" { header "CondFormats/CastorObjects/interface/CastorPedestalWidth.h" export * }
+  module "CastorPedestalWidths.h" { header "CondFormats/CastorObjects/interface/CastorPedestalWidths.h" export * }
+  module "CastorPedestals.h" { header "CondFormats/CastorObjects/interface/CastorPedestals.h" export * }
+  module "CastorQIECoder.h" { header "CondFormats/CastorObjects/interface/CastorQIECoder.h" export * }
+  module "CastorQIEData.h" { header "CondFormats/CastorObjects/interface/CastorQIEData.h" export * }
+  module "CastorQIEShape.h" { header "CondFormats/CastorObjects/interface/CastorQIEShape.h" export * }
+  module "CastorRawGain.h" { header "CondFormats/CastorObjects/interface/CastorRawGain.h" export * }
+  module "CastorRawGains.h" { header "CondFormats/CastorObjects/interface/CastorRawGains.h" export * }
+  module "CastorRecoParam.h" { header "CondFormats/CastorObjects/interface/CastorRecoParam.h" export * }
+  module "CastorRecoParams.h" { header "CondFormats/CastorObjects/interface/CastorRecoParams.h" export * }
+  module "CastorSaturationCorr.h" { header "CondFormats/CastorObjects/interface/CastorSaturationCorr.h" export * }
+  module "CastorSaturationCorrs.h" { header "CondFormats/CastorObjects/interface/CastorSaturationCorrs.h" export * }
+  export *
+}
+

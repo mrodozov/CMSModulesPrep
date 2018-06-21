@@ -1,0 +1,20 @@
+module CMS_RecoJetsJetProducers {
+  module "AnomalousTower.h" { header "RecoJets/JetProducers/interface/AnomalousTower.h" export * }
+  module "BackgroundEstimator.h" { header "RecoJets/JetProducers/interface/BackgroundEstimator.h" export * }
+  module "CastorJetIDHelper.h" { header "RecoJets/JetProducers/interface/CastorJetIDHelper.h" export * }
+  module "ECFAdder.h" { header "RecoJets/JetProducers/interface/ECFAdder.h" export * }
+  module "JetIDHelper.h" { header "RecoJets/JetProducers/interface/JetIDHelper.h" export * }
+  module "JetMatchingTools.h" { header "RecoJets/JetProducers/interface/JetMatchingTools.h" export * }
+  module "JetMuonHitsIDHelper.h" { header "RecoJets/JetProducers/interface/JetMuonHitsIDHelper.h" export * }
+  module "JetSpecific.h" { header "RecoJets/JetProducers/interface/JetSpecific.h" export * }
+  module "MVAJetPuId.h" { header "RecoJets/JetProducers/interface/MVAJetPuId.h" export * }
+  module "NjettinessAdder.h" { header "RecoJets/JetProducers/interface/NjettinessAdder.h" export * }
+  module "PileUpSubtractor.h" { header "RecoJets/JetProducers/interface/PileUpSubtractor.h" export * }
+  module "PileupJPTJetIdAlgo.h" { header "RecoJets/JetProducers/interface/PileupJPTJetIdAlgo.h" export * }
+  module "PileupJetIdAlgo.h" { header "RecoJets/JetProducers/interface/PileupJetIdAlgo.h" export * }
+  module "QGTagger.h" { header "RecoJets/JetProducers/interface/QGTagger.h" export * }
+  module "QjetsAdder.h" { header "RecoJets/JetProducers/interface/QjetsAdder.h" export * }
+  module "VirtualJetProducerHelper.h" { header "RecoJets/JetProducers/interface/VirtualJetProducerHelper.h" export * }
+  export *
+}
+

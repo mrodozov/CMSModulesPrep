@@ -1,0 +1,5 @@
+module CMS_RecoMuonGlobalTrackFinder {
+  module "GlobalMuonTrajectoryBuilder.h" { header "RecoMuon/GlobalTrackFinder/interface/GlobalMuonTrajectoryBuilder.h" export * }
+  export *
+}
+

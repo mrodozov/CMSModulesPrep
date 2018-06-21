@@ -1,0 +1,8 @@
+module CMS_SimDataFormatsTrackingAnalysis {
+  module "TrackingParticle.h" { header "SimDataFormats/TrackingAnalysis/interface/TrackingParticle.h" export * }
+  module "TrackingParticleFwd.h" { header "SimDataFormats/TrackingAnalysis/interface/TrackingParticleFwd.h" export * }
+  module "TrackingVertex.h" { header "SimDataFormats/TrackingAnalysis/interface/TrackingVertex.h" export * }
+  module "TrackingVertexContainer.h" { header "SimDataFormats/TrackingAnalysis/interface/TrackingVertexContainer.h" export * }
+  export *
+}
+

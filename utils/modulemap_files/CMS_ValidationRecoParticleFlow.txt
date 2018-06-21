@@ -1,0 +1,7 @@
+module CMS_ValidationRecoParticleFlow {
+  module "Comparator.h" { header "Validation/RecoParticleFlow/interface/Comparator.h" export * }
+  module "NicePlot.h" { header "Validation/RecoParticleFlow/interface/NicePlot.h" export * }
+  module "TH2Analyzer.h" { header "Validation/RecoParticleFlow/interface/TH2Analyzer.h" export * }
+  export *
+}
+
