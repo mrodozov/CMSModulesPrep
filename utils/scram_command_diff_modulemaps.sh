@@ -2,6 +2,8 @@
 
 #rm -rf $CMSSW_BASE/cppmodulescache/*
 
+export here=`pwd`
+
 for i in `cat $1`
 do
 
@@ -13,9 +15,9 @@ echo 'Package ' $i
 mkdir -p modulescache/$i
 
 git-cms-addpkg $i
-cp modulemap_files/$mm_file.txt  /build/cmsbld/mrodozov/CMSSW_10_2_X_2018-06-12-2300/src/module.modulemap
+cp modulemap_files/$mm_file.txt  $here/src/module.modulemap
 
-USER_CXXFLAGS="-Wno-module-import-in-extern-c -fmodules-cache-path=/build/cmsbld/mrodozov/CMSSW_10_2_X_2018-06-12-2300/modulescache/$i -fmodules -Xclang -fmodules-local-submodule-visibility -fcxx-modules -Wno-register -Rmodule-build -ivfsoverlay "/tmp/$(whoami)/outputdir/vfs_folder"" scram b -v -k -j 1 COMPILER=llvm > /build/cmsbld/mrodozov/CMSSW_10_2_X_2018-06-12-2300/modulescache/$i/${mm_file}.log  2>&1
+USER_CXXFLAGS="-Wno-module-import-in-extern-c -fmodules-cache-path=$here/modulescache/$i -fmodules -Xclang -fmodules-local-submodule-visibility -fcxx-modules -Wno-register -Rmodule-build -ivfsoverlay "$here/outputdir/vfs_folder"" scram b -v -k -j 1 COMPILER=llvm > $here/modulescache/$i/${mm_file}.log  2>&1
 
 rm -rf src
 scram b clean
