@@ -12,6 +12,10 @@ echo 'Package ' $i
 
 #put the if not modulemap_files/$mm_file.txt then continue here
 
+if [[ ! -e modulemap_files/$mm_file.txt ]]; then
+continue
+fi
+
 mkdir -p modulescache/$i
 
 git-cms-addpkg $i
