@@ -1,6 +1,0 @@
-module CMS_MagneticFieldEngine {
-  module "MagneticField.h" { header "MagneticField/Engine/interface/MagneticField.h" export * }
-  module "MagneticFieldHelpers.h" { header "MagneticField/Engine/interface/MagneticFieldHelpers.h" export * }
-  export *
-}
-

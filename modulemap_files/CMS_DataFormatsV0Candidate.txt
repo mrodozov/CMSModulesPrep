@@ -1,5 +1,0 @@
-module CMS_DataFormatsV0Candidate {
-  module "V0Candidate.h" { header "DataFormats/V0Candidate/interface/V0Candidate.h" export * }
-  export *
-}
-

@@ -1,7 +1,0 @@
-module CMS_FastSimulationTrajectoryManager {
-  module "InsideBoundsMeasurementEstimator.h" { header "FastSimulation/TrajectoryManager/interface/InsideBoundsMeasurementEstimator.h" export * }
-  module "LocalMagneticField.h" { header "FastSimulation/TrajectoryManager/interface/LocalMagneticField.h" export * }
-  module "TrajectoryManager.h" { header "FastSimulation/TrajectoryManager/interface/TrajectoryManager.h" export * }
-  export *
-}
-

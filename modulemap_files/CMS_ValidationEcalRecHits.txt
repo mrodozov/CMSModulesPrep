@@ -1,9 +1,0 @@
-module CMS_ValidationEcalRecHits {
-  module "EcalBarrelRecHitsValidation.h" { header "Validation/EcalRecHits/interface/EcalBarrelRecHitsValidation.h" export * }
-  module "EcalEndcapRecHitsValidation.h" { header "Validation/EcalRecHits/interface/EcalEndcapRecHitsValidation.h" export * }
-  module "EcalPreshowerRecHitsValidation.h" { header "Validation/EcalRecHits/interface/EcalPreshowerRecHitsValidation.h" export * }
-  module "EcalRecHitsValidation.h" { header "Validation/EcalRecHits/interface/EcalRecHitsValidation.h" export * }
-  module "EcalTBValidation.h" { header "Validation/EcalRecHits/interface/EcalTBValidation.h" export * }
-  export *
-}
-

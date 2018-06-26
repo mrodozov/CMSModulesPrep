@@ -1,6 +1,0 @@
-module CMS_RecoLocalMuonDTRecHit {
-  module "DTRecHitAlgoFactory.h" { header "RecoLocalMuon/DTRecHit/interface/DTRecHitAlgoFactory.h" export * }
-  module "DTRecHitBaseAlgo.h" { header "RecoLocalMuon/DTRecHit/interface/DTRecHitBaseAlgo.h" export * }
-  export *
-}
-

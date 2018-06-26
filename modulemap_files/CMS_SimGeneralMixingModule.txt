@@ -1,7 +1,0 @@
-module CMS_SimGeneralMixingModule {
-  module "DigiAccumulatorMixMod.h" { header "SimGeneral/MixingModule/interface/DigiAccumulatorMixMod.h" export * }
-  module "DigiAccumulatorMixModFactory.h" { header "SimGeneral/MixingModule/interface/DigiAccumulatorMixModFactory.h" export * }
-  module "PileUpEventPrincipal.h" { header "SimGeneral/MixingModule/interface/PileUpEventPrincipal.h" export * }
-  export *
-}
-

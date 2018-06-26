@@ -1,6 +1,0 @@
-module CMS_CalibTrackerSiStripHitEfficiency {
-  module "HitEff.h" { header "CalibTracker/SiStripHitEfficiency/interface/HitEff.h" export * }
-  module "TrajectoryAtInvalidHit.h" { header "CalibTracker/SiStripHitEfficiency/interface/TrajectoryAtInvalidHit.h" export * }
-  export *
-}
-

@@ -1,8 +1,0 @@
-module CMS_TopQuarkAnalysisTopObjectResolutions {
-  module "Electron.h" { header "TopQuarkAnalysis/TopObjectResolutions/interface/Electron.h" export * }
-  module "Jet.h" { header "TopQuarkAnalysis/TopObjectResolutions/interface/Jet.h" export * }
-  module "MET.h" { header "TopQuarkAnalysis/TopObjectResolutions/interface/MET.h" export * }
-  module "Muon.h" { header "TopQuarkAnalysis/TopObjectResolutions/interface/Muon.h" export * }
-  export *
-}
-

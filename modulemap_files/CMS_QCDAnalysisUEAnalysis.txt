@@ -1,6 +1,0 @@
-module CMS_QCDAnalysisUEAnalysis {
-  module "AnalysisRootpleProducer.h" { header "QCDAnalysis/UEAnalysis/interface/AnalysisRootpleProducer.h" export * }
-  module "AnalysisRootpleProducerOnlyMC.h" { header "QCDAnalysis/UEAnalysis/interface/AnalysisRootpleProducerOnlyMC.h" export * }
-  export *
-}
-

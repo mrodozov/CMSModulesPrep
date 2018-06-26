@@ -1,6 +1,0 @@
-module CMS_DQMOfflineEcal {
-  module "ESRecoSummary.h" { header "DQMOffline/Ecal/interface/ESRecoSummary.h" export * }
-  module "EcalPileUpDepMonitor.h" { header "DQMOffline/Ecal/interface/EcalPileUpDepMonitor.h" export * }
-  export *
-}
-

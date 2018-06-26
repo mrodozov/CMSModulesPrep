@@ -1,9 +1,0 @@
-module CMS_SUSYBSMAnalysisHSCP {
-  module "BetaCalculatorECAL.h" { header "SUSYBSMAnalysis/HSCP/interface/BetaCalculatorECAL.h" export * }
-  module "BetaCalculatorMUON.h" { header "SUSYBSMAnalysis/HSCP/interface/BetaCalculatorMUON.h" export * }
-  module "BetaCalculatorRPC.h" { header "SUSYBSMAnalysis/HSCP/interface/BetaCalculatorRPC.h" export * }
-  module "BetaCalculatorTK.h" { header "SUSYBSMAnalysis/HSCP/interface/BetaCalculatorTK.h" export * }
-  module "CandidateSelector.h" { header "SUSYBSMAnalysis/HSCP/interface/CandidateSelector.h" export * }
-  export *
-}
-

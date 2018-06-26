@@ -1,7 +1,0 @@
-module CMS_TopQuarkAnalysisExamples {
-  module "RootHistograms.h" { header "TopQuarkAnalysis/Examples/interface/RootHistograms.h" export * }
-  module "RootPostScript.h" { header "TopQuarkAnalysis/Examples/interface/RootPostScript.h" export * }
-  module "RootSystem.h" { header "TopQuarkAnalysis/Examples/interface/RootSystem.h" export * }
-  export *
-}
-

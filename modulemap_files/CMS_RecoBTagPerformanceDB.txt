@@ -1,5 +1,0 @@
-module CMS_RecoBTagPerformanceDB {
-  module "BtagPerformance.h" { header "RecoBTag/PerformanceDB/interface/BtagPerformance.h" export * }
-  export *
-}
-

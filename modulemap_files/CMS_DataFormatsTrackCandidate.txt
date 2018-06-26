@@ -1,6 +1,0 @@
-module CMS_DataFormatsTrackCandidate {
-  module "TrackCandidate.h" { header "DataFormats/TrackCandidate/interface/TrackCandidate.h" export * }
-  module "TrackCandidateCollection.h" { header "DataFormats/TrackCandidate/interface/TrackCandidateCollection.h" export * }
-  export *
-}
-

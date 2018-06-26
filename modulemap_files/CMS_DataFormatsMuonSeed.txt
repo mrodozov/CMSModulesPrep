@@ -1,8 +1,0 @@
-module CMS_DataFormatsMuonSeed {
-  module "L2MuonTrajectorySeed.h" { header "DataFormats/MuonSeed/interface/L2MuonTrajectorySeed.h" export * }
-  module "L2MuonTrajectorySeedCollection.h" { header "DataFormats/MuonSeed/interface/L2MuonTrajectorySeedCollection.h" export * }
-  module "L3MuonTrajectorySeed.h" { header "DataFormats/MuonSeed/interface/L3MuonTrajectorySeed.h" export * }
-  module "L3MuonTrajectorySeedCollection.h" { header "DataFormats/MuonSeed/interface/L3MuonTrajectorySeedCollection.h" export * }
-  export *
-}
-

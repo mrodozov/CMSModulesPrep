@@ -1,6 +1,0 @@
-module CMS_DQMSiPixelMonitorDigi {
-  module "SiPixelDigiModule.h" { header "DQM/SiPixelMonitorDigi/interface/SiPixelDigiModule.h" export * }
-  module "SiPixelDigiSource.h" { header "DQM/SiPixelMonitorDigi/interface/SiPixelDigiSource.h" export * }
-  export *
-}
-

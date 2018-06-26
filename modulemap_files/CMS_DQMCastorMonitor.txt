@@ -1,9 +1,0 @@
-module CMS_DQMCastorMonitor {
-  module "CastorBaseMonitor.h" { header "DQM/CastorMonitor/interface/CastorBaseMonitor.h" export * }
-  module "CastorDigiMonitor.h" { header "DQM/CastorMonitor/interface/CastorDigiMonitor.h" export * }
-  module "CastorLEDMonitor.h" { header "DQM/CastorMonitor/interface/CastorLEDMonitor.h" export * }
-  module "CastorMonitorModule.h" { header "DQM/CastorMonitor/interface/CastorMonitorModule.h" export * }
-  module "CastorRecHitMonitor.h" { header "DQM/CastorMonitor/interface/CastorRecHitMonitor.h" export * }
-  export *
-}
-

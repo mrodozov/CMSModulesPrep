@@ -1,7 +1,0 @@
-module CMS_L1TriggerConfigGMTConfigProducers {
-  module "L1MuGMTParametersOnlineProducer.h" { header "L1TriggerConfig/GMTConfigProducers/interface/L1MuGMTParametersOnlineProducer.h" export * }
-  module "L1MuGMTParametersProducer.h" { header "L1TriggerConfig/GMTConfigProducers/interface/L1MuGMTParametersProducer.h" export * }
-  module "RecordHelper.h" { header "L1TriggerConfig/GMTConfigProducers/interface/RecordHelper.h" export * }
-  export *
-}
-

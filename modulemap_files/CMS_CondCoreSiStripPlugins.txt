@@ -1,5 +1,0 @@
-module CMS_CondCoreSiStripPlugins {
-  module "SiStripPayloadInspectorHelper.h" { header "CondCore/SiStripPlugins/interface/SiStripPayloadInspectorHelper.h" export * }
-  export *
-}
-

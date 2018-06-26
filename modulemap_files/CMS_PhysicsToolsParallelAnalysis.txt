@@ -1,7 +1,0 @@
-module CMS_PhysicsToolsParallelAnalysis {
-  module "TSelectorAnalyzer.h" { header "PhysicsTools/ParallelAnalysis/interface/TSelectorAnalyzer.h" export * }
-  module "TrackAnalysisAlgorithm.h" { header "PhysicsTools/ParallelAnalysis/interface/TrackAnalysisAlgorithm.h" export * }
-  module "TrackTSelector.h" { header "PhysicsTools/ParallelAnalysis/interface/TrackTSelector.h" export * }
-  export *
-}
-

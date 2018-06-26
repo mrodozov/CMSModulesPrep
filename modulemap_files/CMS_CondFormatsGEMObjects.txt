@@ -1,8 +1,0 @@
-module CMS_CondFormatsGEMObjects {
-  module "GEMDeadStrips.h" { header "CondFormats/GEMObjects/interface/GEMDeadStrips.h" export * }
-  module "GEMELMap.h" { header "CondFormats/GEMObjects/interface/GEMELMap.h" export * }
-  module "GEMMaskedStrips.h" { header "CondFormats/GEMObjects/interface/GEMMaskedStrips.h" export * }
-  module "GEMROmap.h" { header "CondFormats/GEMObjects/interface/GEMROmap.h" export * }
-  export *
-}
-

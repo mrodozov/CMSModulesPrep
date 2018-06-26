@@ -1,5 +1,0 @@
-module CMS_GeneratorInterfacePomwigInterface {
-  module "PomwigHadronizer.h" { header "GeneratorInterface/PomwigInterface/interface/PomwigHadronizer.h" export * }
-  export *
-}
-

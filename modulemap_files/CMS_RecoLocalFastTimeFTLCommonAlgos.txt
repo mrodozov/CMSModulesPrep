@@ -1,7 +1,0 @@
-module CMS_RecoLocalFastTimeFTLCommonAlgos {
-  module "FTLRecHitAlgoBase.h" { header "RecoLocalFastTime/FTLCommonAlgos/interface/FTLRecHitAlgoBase.h" export * }
-  module "FTLUncalibratedRecHitAlgoBase.h" { header "RecoLocalFastTime/FTLCommonAlgos/interface/FTLUncalibratedRecHitAlgoBase.h" export * }
-  module "RecHitTools.h" { header "RecoLocalFastTime/FTLCommonAlgos/interface/RecHitTools.h" export * }
-  export *
-}
-

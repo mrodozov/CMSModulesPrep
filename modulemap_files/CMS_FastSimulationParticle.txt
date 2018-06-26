@@ -1,6 +1,0 @@
-module CMS_FastSimulationParticle {
-  module "ParticleTable.h" { header "FastSimulation/Particle/interface/ParticleTable.h" export * }
-  module "RawParticle.h" { header "FastSimulation/Particle/interface/RawParticle.h" export * }
-  export *
-}
-

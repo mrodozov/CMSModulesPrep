@@ -1,7 +1,0 @@
-module CMS_CondFormatsHIObjects {
-  module "CentralityTable.h" { header "CondFormats/HIObjects/interface/CentralityTable.h" export * }
-  module "RPFlatParams.h" { header "CondFormats/HIObjects/interface/RPFlatParams.h" export * }
-  module "UETable.h" { header "CondFormats/HIObjects/interface/UETable.h" export * }
-  export *
-}
-

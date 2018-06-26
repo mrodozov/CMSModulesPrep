@@ -1,7 +1,0 @@
-module CMS_ValidationGlobalDigis {
-  module "GlobalDigisAnalyzer.h" { header "Validation/GlobalDigis/interface/GlobalDigisAnalyzer.h" export * }
-  module "GlobalDigisHistogrammer.h" { header "Validation/GlobalDigis/interface/GlobalDigisHistogrammer.h" export * }
-  module "GlobalDigisProducer.h" { header "Validation/GlobalDigis/interface/GlobalDigisProducer.h" export * }
-  export *
-}
-

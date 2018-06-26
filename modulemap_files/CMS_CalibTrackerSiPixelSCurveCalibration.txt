@@ -1,5 +1,0 @@
-module CMS_CalibTrackerSiPixelSCurveCalibration {
-  module "SiPixelSCurveCalibrationAnalysis.h" { header "CalibTracker/SiPixelSCurveCalibration/interface/SiPixelSCurveCalibrationAnalysis.h" export * }
-  export *
-}
-

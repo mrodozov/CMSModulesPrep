@@ -1,9 +1,0 @@
-module CMS_CalibCalorimetryEcalPedestalOffsets {
-  module "EcalPedOffset.h" { header "CalibCalorimetry/EcalPedestalOffsets/interface/EcalPedOffset.h" export * }
-  module "TPedResult.h" { header "CalibCalorimetry/EcalPedestalOffsets/interface/TPedResult.h" export * }
-  module "TPedValues.h" { header "CalibCalorimetry/EcalPedestalOffsets/interface/TPedValues.h" export * }
-  module "TSinglePedEntry.h" { header "CalibCalorimetry/EcalPedestalOffsets/interface/TSinglePedEntry.h" export * }
-  module "testChannel.h" { header "CalibCalorimetry/EcalPedestalOffsets/interface/testChannel.h" export * }
-  export *
-}
-

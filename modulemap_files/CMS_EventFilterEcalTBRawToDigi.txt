@@ -1,7 +1,0 @@
-module CMS_EventFilterEcalTBRawToDigi {
-  module "EcalDCC07UnpackingModule.h" { header "EventFilter/EcalTBRawToDigi/interface/EcalDCC07UnpackingModule.h" export * }
-  module "EcalDCCHeaderRuntypeDecoder.h" { header "EventFilter/EcalTBRawToDigi/interface/EcalDCCHeaderRuntypeDecoder.h" export * }
-  module "EcalDCCUnpackingModule.h" { header "EventFilter/EcalTBRawToDigi/interface/EcalDCCUnpackingModule.h" export * }
-  export *
-}
-

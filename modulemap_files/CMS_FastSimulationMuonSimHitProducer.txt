@@ -1,5 +1,0 @@
-module CMS_FastSimulationMuonSimHitProducer {
-  module "MuonSimHitProducer.h" { header "FastSimulation/MuonSimHitProducer/interface/MuonSimHitProducer.h" export * }
-  export *
-}
-

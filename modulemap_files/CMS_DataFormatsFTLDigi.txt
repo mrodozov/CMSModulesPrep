@@ -1,7 +1,0 @@
-module CMS_DataFormatsFTLDigi {
-  module "FTLDataFrameT.h" { header "DataFormats/FTLDigi/interface/FTLDataFrameT.h" export * }
-  module "FTLDigiCollections.h" { header "DataFormats/FTLDigi/interface/FTLDigiCollections.h" export * }
-  module "FTLSample.h" { header "DataFormats/FTLDigi/interface/FTLSample.h" export * }
-  export *
-}
-

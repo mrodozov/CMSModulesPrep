@@ -1,7 +1,0 @@
-module CMS_SimG4CoreCheckSecondary {
-  module "CheckSecondary.h" { header "SimG4Core/CheckSecondary/interface/CheckSecondary.h" export * }
-  module "StoreSecondary.h" { header "SimG4Core/CheckSecondary/interface/StoreSecondary.h" export * }
-  module "TreatSecondary.h" { header "SimG4Core/CheckSecondary/interface/TreatSecondary.h" export * }
-  export *
-}
-

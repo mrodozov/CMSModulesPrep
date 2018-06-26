@@ -1,7 +1,0 @@
-module CMS_CondCoreDBOutputService {
-  module "Exception.h" { header "CondCore/DBOutputService/interface/Exception.h" export * }
-  module "KeyedElement.h" { header "CondCore/DBOutputService/interface/KeyedElement.h" export * }
-  module "PoolDBOutputService.h" { header "CondCore/DBOutputService/interface/PoolDBOutputService.h" export * }
-  export *
-}
-

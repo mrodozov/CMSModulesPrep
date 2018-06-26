@@ -1,7 +1,0 @@
-module CMS_RecoTBCaloEcalTBHodoscopeReconstructor {
-  module "EcalTBHodoscopeRawInfoDumper.h" { header "RecoTBCalo/EcalTBHodoscopeReconstructor/interface/EcalTBHodoscopeRawInfoDumper.h" export * }
-  module "EcalTBHodoscopeRecInfoAlgo.h" { header "RecoTBCalo/EcalTBHodoscopeReconstructor/interface/EcalTBHodoscopeRecInfoAlgo.h" export * }
-  module "EcalTBHodoscopeRecInfoProducer.h" { header "RecoTBCalo/EcalTBHodoscopeReconstructor/interface/EcalTBHodoscopeRecInfoProducer.h" export * }
-  export *
-}
-

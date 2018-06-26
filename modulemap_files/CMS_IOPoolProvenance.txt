@@ -1,5 +1,0 @@
-module CMS_IOPoolProvenance {
-  module "CommonProvenanceFiller.h" { header "IOPool/Provenance/interface/CommonProvenanceFiller.h" export * }
-  export *
-}
-

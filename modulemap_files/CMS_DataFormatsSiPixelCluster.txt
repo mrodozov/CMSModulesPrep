@@ -1,6 +1,0 @@
-module CMS_DataFormatsSiPixelCluster {
-  module "SiPixelCluster.h" { header "DataFormats/SiPixelCluster/interface/SiPixelCluster.h" export * }
-  module "SiPixelClusterShapeCache.h" { header "DataFormats/SiPixelCluster/interface/SiPixelClusterShapeCache.h" export * }
-  export *
-}
-

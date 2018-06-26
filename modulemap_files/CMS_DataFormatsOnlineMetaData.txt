@@ -1,8 +1,0 @@
-module CMS_DataFormatsOnlineMetaData {
-  module "CTPPSRecord.h" { header "DataFormats/OnlineMetaData/interface/CTPPSRecord.h" export * }
-  module "DCSRecord.h" { header "DataFormats/OnlineMetaData/interface/DCSRecord.h" export * }
-  module "OnlineLuminosityRecord.h" { header "DataFormats/OnlineMetaData/interface/OnlineLuminosityRecord.h" export * }
-  module "OnlineMetaDataRaw.h" { header "DataFormats/OnlineMetaData/interface/OnlineMetaDataRaw.h" export * }
-  export *
-}
-

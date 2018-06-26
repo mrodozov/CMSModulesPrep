@@ -1,7 +1,0 @@
-module CMS_RecoTrackerFinalTrackSelectors {
-  module "TrackAlgoPriorityOrder.h" { header "RecoTracker/FinalTrackSelectors/interface/TrackAlgoPriorityOrder.h" export * }
-  module "TrackCollectionCloner.h" { header "RecoTracker/FinalTrackSelectors/interface/TrackCollectionCloner.h" export * }
-  module "TrackMVAClassifier.h" { header "RecoTracker/FinalTrackSelectors/interface/TrackMVAClassifier.h" export * }
-  export *
-}
-

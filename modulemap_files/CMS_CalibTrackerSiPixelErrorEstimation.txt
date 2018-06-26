@@ -1,5 +1,0 @@
-module CMS_CalibTrackerSiPixelErrorEstimation {
-  module "SiPixelErrorEstimation.h" { header "CalibTracker/SiPixelErrorEstimation/interface/SiPixelErrorEstimation.h" export * }
-  export *
-}
-

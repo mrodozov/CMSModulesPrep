@@ -1,9 +1,0 @@
-module CMS_SimTrackerSiStripDigitizer {
-  module "SiDigitalConverter.h" { header "SimTracker/SiStripDigitizer/interface/SiDigitalConverter.h" export * }
-  module "SiGaussianTailNoiseAdder.h" { header "SimTracker/SiStripDigitizer/interface/SiGaussianTailNoiseAdder.h" export * }
-  module "SiNoiseAdder.h" { header "SimTracker/SiStripDigitizer/interface/SiNoiseAdder.h" export * }
-  module "SiPileUpSignals.h" { header "SimTracker/SiStripDigitizer/interface/SiPileUpSignals.h" export * }
-  module "SiTrivialDigitalConverter.h" { header "SimTracker/SiStripDigitizer/interface/SiTrivialDigitalConverter.h" export * }
-  export *
-}
-

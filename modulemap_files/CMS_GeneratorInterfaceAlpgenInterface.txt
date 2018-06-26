@@ -1,7 +1,0 @@
-module CMS_GeneratorInterfaceAlpgenInterface {
-  module "AlpgenCommonBlocks.h" { header "GeneratorInterface/AlpgenInterface/interface/AlpgenCommonBlocks.h" export * }
-  module "AlpgenEventRecordFixes.h" { header "GeneratorInterface/AlpgenInterface/interface/AlpgenEventRecordFixes.h" export * }
-  module "AlpgenHeader.h" { header "GeneratorInterface/AlpgenInterface/interface/AlpgenHeader.h" export * }
-  export *
-}
-

@@ -1,6 +1,0 @@
-module CMS_FireworksMuons {
-  module "FWMuonBuilder.h" { header "Fireworks/Muons/interface/FWMuonBuilder.h" export * }
-  module "SegmentUtils.h" { header "Fireworks/Muons/interface/SegmentUtils.h" export * }
-  export *
-}
-

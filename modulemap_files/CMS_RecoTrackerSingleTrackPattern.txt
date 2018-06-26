@@ -1,7 +1,0 @@
-module CMS_RecoTrackerSingleTrackPattern {
-  module "CRackTrajectoryBuilder.h" { header "RecoTracker/SingleTrackPattern/interface/CRackTrajectoryBuilder.h" export * }
-  module "CosmicTrackFinder.h" { header "RecoTracker/SingleTrackPattern/interface/CosmicTrackFinder.h" export * }
-  module "CosmicTrajectoryBuilder.h" { header "RecoTracker/SingleTrackPattern/interface/CosmicTrajectoryBuilder.h" export * }
-  export *
-}
-

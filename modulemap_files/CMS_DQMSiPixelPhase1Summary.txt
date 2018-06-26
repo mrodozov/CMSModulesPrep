@@ -1,5 +1,0 @@
-module CMS_DQMSiPixelPhase1Summary {
-  module "SiPixelPhase1Summary.h" { header "DQM/SiPixelPhase1Summary/interface/SiPixelPhase1Summary.h" export * }
-  export *
-}
-

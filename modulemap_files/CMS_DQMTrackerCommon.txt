@@ -1,5 +1,0 @@
-module CMS_DQMTrackerCommon {
-  module "TriggerHelper.h" { header "DQM/TrackerCommon/interface/TriggerHelper.h" export * }
-  export *
-}
-

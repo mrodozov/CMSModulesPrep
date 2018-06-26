@@ -1,6 +1,0 @@
-module CMS_ValidationDTRecHits {
-  module "DTHitQualityUtils.h" { header "Validation/DTRecHits/interface/DTHitQualityUtils.h" export * }
-  module "utils.h" { header "Validation/DTRecHits/interface/utils.h" export * }
-  export *
-}
-

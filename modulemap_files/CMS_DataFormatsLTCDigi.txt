@@ -1,5 +1,0 @@
-module CMS_DataFormatsLTCDigi {
-  module "LTCDigi.h" { header "DataFormats/LTCDigi/interface/LTCDigi.h" export * }
-  export *
-}
-

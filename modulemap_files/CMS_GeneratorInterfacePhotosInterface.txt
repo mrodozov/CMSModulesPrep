@@ -1,8 +1,0 @@
-module CMS_GeneratorInterfacePhotosInterface {
-  module "PhotosFactory.h" { header "GeneratorInterface/PhotosInterface/interface/PhotosFactory.h" export * }
-  module "PhotosInterface.h" { header "GeneratorInterface/PhotosInterface/interface/PhotosInterface.h" export * }
-  module "PhotosInterfaceBase.h" { header "GeneratorInterface/PhotosInterface/interface/PhotosInterfaceBase.h" export * }
-  module "PhotosppInterface.h" { header "GeneratorInterface/PhotosInterface/interface/PhotosppInterface.h" export * }
-  export *
-}
-

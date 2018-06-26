@@ -1,9 +1,0 @@
-module CMS_OnlineDBSiStripESSources {
-  module "SiStripCondObjBuilderFromDb.h" { header "OnlineDB/SiStripESSources/interface/SiStripCondObjBuilderFromDb.h" export * }
-  module "SiStripFedCablingBuilderFromDb.h" { header "OnlineDB/SiStripESSources/interface/SiStripFedCablingBuilderFromDb.h" export * }
-  module "SiStripGainBuilderFromDb.h" { header "OnlineDB/SiStripESSources/interface/SiStripGainBuilderFromDb.h" export * }
-  module "SiStripNoiseBuilderFromDb.h" { header "OnlineDB/SiStripESSources/interface/SiStripNoiseBuilderFromDb.h" export * }
-  module "SiStripPedestalsBuilderFromDb.h" { header "OnlineDB/SiStripESSources/interface/SiStripPedestalsBuilderFromDb.h" export * }
-  export *
-}
-

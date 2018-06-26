@@ -1,5 +1,0 @@
-module CMS_JetMETCorrectionsTauJet {
-  module "TauJetCorrector.h" { header "JetMETCorrections/TauJet/interface/TauJetCorrector.h" export * }
-  export *
-}
-

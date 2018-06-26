@@ -1,7 +1,0 @@
-module CMS_RecoVertexNuclearInteractionProducer {
-  module "NuclearInteractionEDProducer.h" { header "RecoVertex/NuclearInteractionProducer/interface/NuclearInteractionEDProducer.h" export * }
-  module "NuclearLikelihood.h" { header "RecoVertex/NuclearInteractionProducer/interface/NuclearLikelihood.h" export * }
-  module "NuclearVertexBuilder.h" { header "RecoVertex/NuclearInteractionProducer/interface/NuclearVertexBuilder.h" export * }
-  export *
-}
-

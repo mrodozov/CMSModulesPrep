@@ -1,9 +1,0 @@
-module CMS_GeneratorInterfaceHerwig7Interface {
-  module "HepMCTemplate.h" { header "GeneratorInterface/Herwig7Interface/interface/HepMCTemplate.h" export * }
-  module "Herwig7Interface.h" { header "GeneratorInterface/Herwig7Interface/interface/Herwig7Interface.h" export * }
-  module "HerwigUIProvider.h" { header "GeneratorInterface/Herwig7Interface/interface/HerwigUIProvider.h" export * }
-  module "Proxy.h" { header "GeneratorInterface/Herwig7Interface/interface/Proxy.h" export * }
-  module "RandomEngineGlue.h" { header "GeneratorInterface/Herwig7Interface/interface/RandomEngineGlue.h" export * }
-  export *
-}
-

@@ -1,8 +1,0 @@
-module CMS_DataFormatsL1TrackTrigger {
-  module "TTCluster.h" { header "DataFormats/L1TrackTrigger/interface/TTCluster.h" export * }
-  module "TTStub.h" { header "DataFormats/L1TrackTrigger/interface/TTStub.h" export * }
-  module "TTTrack.h" { header "DataFormats/L1TrackTrigger/interface/TTTrack.h" export * }
-  module "TTTypes.h" { header "DataFormats/L1TrackTrigger/interface/TTTypes.h" export * }
-  export *
-}
-

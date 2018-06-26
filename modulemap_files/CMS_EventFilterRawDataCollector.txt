@@ -1,5 +1,0 @@
-module CMS_EventFilterRawDataCollector {
-  module "RawDataFEDSelector.h" { header "EventFilter/RawDataCollector/interface/RawDataFEDSelector.h" export * }
-  export *
-}
-

@@ -1,9 +1,0 @@
-module CMS_CalibrationTkAlCaRecoProducers {
-  module "AlcaBeamSpotFromDB.h" { header "Calibration/TkAlCaRecoProducers/interface/AlcaBeamSpotFromDB.h" export * }
-  module "AlcaBeamSpotHarvester.h" { header "Calibration/TkAlCaRecoProducers/interface/AlcaBeamSpotHarvester.h" export * }
-  module "AlcaBeamSpotManager.h" { header "Calibration/TkAlCaRecoProducers/interface/AlcaBeamSpotManager.h" export * }
-  module "AlcaBeamSpotProducer.h" { header "Calibration/TkAlCaRecoProducers/interface/AlcaBeamSpotProducer.h" export * }
-  module "CalibrationTrackSelector.h" { header "Calibration/TkAlCaRecoProducers/interface/CalibrationTrackSelector.h" export * }
-  export *
-}
-

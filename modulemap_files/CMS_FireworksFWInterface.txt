@@ -1,7 +1,0 @@
-module CMS_FireworksFWInterface {
-  module "FWFFHelper.h" { header "Fireworks/FWInterface/interface/FWFFHelper.h" export * }
-  module "FWFFLooper.h" { header "Fireworks/FWInterface/interface/FWFFLooper.h" export * }
-  module "FWFFService.h" { header "Fireworks/FWInterface/interface/FWFFService.h" export * }
-  export *
-}
-

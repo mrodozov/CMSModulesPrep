@@ -1,5 +1,0 @@
-module CMS_DQMSiStripMonitorTrack {
-  module "SiStripMonitorTrack.h" { header "DQM/SiStripMonitorTrack/interface/SiStripMonitorTrack.h" export * }
-  export *
-}
-

@@ -1,9 +1,0 @@
-module CMS_L1TriggerHardwareValidation {
-  module "DEcompare.h" { header "L1Trigger/HardwareValidation/interface/DEcompare.h" export * }
-  module "DEtrait.h" { header "L1Trigger/HardwareValidation/interface/DEtrait.h" export * }
-  module "DEutils.h" { header "L1Trigger/HardwareValidation/interface/DEutils.h" export * }
-  module "L1Comparator.h" { header "L1Trigger/HardwareValidation/interface/L1Comparator.h" export * }
-  module "L1ComparatorRun2.h" { header "L1Trigger/HardwareValidation/interface/L1ComparatorRun2.h" export * }
-  export *
-}
-

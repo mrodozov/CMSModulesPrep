@@ -1,7 +1,0 @@
-module CMS_DataFormatsNanoAOD {
-  module "FlatTable.h" { header "DataFormats/NanoAOD/interface/FlatTable.h" export * }
-  module "MergeableCounterTable.h" { header "DataFormats/NanoAOD/interface/MergeableCounterTable.h" export * }
-  module "UniqueString.h" { header "DataFormats/NanoAOD/interface/UniqueString.h" export * }
-  export *
-}
-

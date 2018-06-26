@@ -1,6 +1,0 @@
-module CMS_SimCalorimetryEcalSimProducers {
-  module "EcalDigiProducer.h" { header "SimCalorimetry/EcalSimProducers/interface/EcalDigiProducer.h" export * }
-  module "EcalTimeDigiProducer.h" { header "SimCalorimetry/EcalSimProducers/interface/EcalTimeDigiProducer.h" export * }
-  export *
-}
-

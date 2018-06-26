@@ -1,5 +1,0 @@
-module CMS_SimG4CoreSaveSimTrackAction {
-  module "SaveSimTrack.h" { header "SimG4Core/SaveSimTrackAction/interface/SaveSimTrack.h" export * }
-  export *
-}
-

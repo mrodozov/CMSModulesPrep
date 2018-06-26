@@ -1,6 +1,0 @@
-module CMS_SimCalorimetryHcalTestBeam {
-  module "HcalTBDigiProducer.h" { header "SimCalorimetry/HcalTestBeam/interface/HcalTBDigiProducer.h" export * }
-  module "HcalTBSimParameterMap.h" { header "SimCalorimetry/HcalTestBeam/interface/HcalTBSimParameterMap.h" export * }
-  export *
-}
-

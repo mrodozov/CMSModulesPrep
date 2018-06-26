@@ -1,5 +1,0 @@
-module CMS_RecoTBCaloEcalTBAnalysisCoreTools {
-  module "TBPositionCalc.h" { header "RecoTBCalo/EcalTBAnalysisCoreTools/interface/TBPositionCalc.h" export * }
-  export *
-}
-

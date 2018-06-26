@@ -1,7 +1,0 @@
-module CMS_CondCoreESSources {
-  module "DataProxy.h" { header "CondCore/ESSources/interface/DataProxy.h" export * }
-  module "ProxyFactory.h" { header "CondCore/ESSources/interface/ProxyFactory.h" export * }
-  module "registration_macros.h" { header "CondCore/ESSources/interface/registration_macros.h" export * }
-  export *
-}
-

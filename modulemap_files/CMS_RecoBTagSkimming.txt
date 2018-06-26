@@ -1,6 +1,0 @@
-module CMS_RecoBTagSkimming {
-  module "BTagSkimLeptonJet.h" { header "RecoBTag/Skimming/interface/BTagSkimLeptonJet.h" export * }
-  module "BTagSkimMC.h" { header "RecoBTag/Skimming/interface/BTagSkimMC.h" export * }
-  export *
-}
-

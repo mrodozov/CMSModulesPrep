@@ -1,6 +1,0 @@
-module CMS_CondFormatsBeamSpotObjects {
-  module "BeamSpotObjects.h" { header "CondFormats/BeamSpotObjects/interface/BeamSpotObjects.h" export * }
-  module "SimBeamSpotObjects.h" { header "CondFormats/BeamSpotObjects/interface/SimBeamSpotObjects.h" export * }
-  export *
-}
-

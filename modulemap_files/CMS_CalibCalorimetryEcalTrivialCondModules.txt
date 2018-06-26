@@ -1,7 +1,0 @@
-module CMS_CalibCalorimetryEcalTrivialCondModules {
-  module "ESTrivialConditionRetriever.h" { header "CalibCalorimetry/EcalTrivialCondModules/interface/ESTrivialConditionRetriever.h" export * }
-  module "EcalTrivialConditionRetriever.h" { header "CalibCalorimetry/EcalTrivialCondModules/interface/EcalTrivialConditionRetriever.h" export * }
-  module "EcalTrivialObjectAnalyzer.h" { header "CalibCalorimetry/EcalTrivialCondModules/interface/EcalTrivialObjectAnalyzer.h" export * }
-  export *
-}
-

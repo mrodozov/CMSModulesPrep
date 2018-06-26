@@ -1,9 +1,0 @@
-module CMS_DQMDTMonitorModule {
-  module "DTCalibValidation.h" { header "DQM/DTMonitorModule/interface/DTCalibValidation.h" export * }
-  module "DTDataIntegrityTask.h" { header "DQM/DTMonitorModule/interface/DTDataIntegrityTask.h" export * }
-  module "DTDigiTask.h" { header "DQM/DTMonitorModule/interface/DTDigiTask.h" export * }
-  module "DTTimeEvolutionHisto.h" { header "DQM/DTMonitorModule/interface/DTTimeEvolutionHisto.h" export * }
-  module "DTTrigGeomUtils.h" { header "DQM/DTMonitorModule/interface/DTTrigGeomUtils.h" export * }
-  export *
-}
-

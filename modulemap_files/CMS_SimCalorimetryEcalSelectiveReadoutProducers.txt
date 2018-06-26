@@ -1,6 +1,0 @@
-module CMS_SimCalorimetryEcalSelectiveReadoutProducers {
-  module "EcalSRCondTools.h" { header "SimCalorimetry/EcalSelectiveReadoutProducers/interface/EcalSRCondTools.h" export * }
-  module "EcalSelectiveReadoutProducer.h" { header "SimCalorimetry/EcalSelectiveReadoutProducers/interface/EcalSelectiveReadoutProducer.h" export * }
-  export *
-}
-

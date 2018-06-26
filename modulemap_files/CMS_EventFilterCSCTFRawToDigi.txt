@@ -1,8 +1,0 @@
-module CMS_EventFilterCSCTFRawToDigi {
-  module "CSCTFAnalyzer.h" { header "EventFilter/CSCTFRawToDigi/interface/CSCTFAnalyzer.h" export * }
-  module "CSCTFMonitorInterface.h" { header "EventFilter/CSCTFRawToDigi/interface/CSCTFMonitorInterface.h" export * }
-  module "CSCTFPacker.h" { header "EventFilter/CSCTFRawToDigi/interface/CSCTFPacker.h" export * }
-  module "CSCTFUnpacker.h" { header "EventFilter/CSCTFRawToDigi/interface/CSCTFUnpacker.h" export * }
-  export *
-}
-

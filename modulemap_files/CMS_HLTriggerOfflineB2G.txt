@@ -1,7 +1,0 @@
-module CMS_HLTriggerOfflineB2G {
-  module "B2GDoubleLeptonHLTValidation.h" { header "HLTriggerOffline/B2G/interface/B2GDoubleLeptonHLTValidation.h" export * }
-  module "B2GHadronicHLTValidation.h" { header "HLTriggerOffline/B2G/interface/B2GHadronicHLTValidation.h" export * }
-  module "B2GSingleLeptonHLTValidation.h" { header "HLTriggerOffline/B2G/interface/B2GSingleLeptonHLTValidation.h" export * }
-  export *
-}
-

@@ -1,6 +1,0 @@
-module CMS_IORawDataCaloPatterns {
-  module "HcalFiberPattern.h" { header "IORawData/CaloPatterns/interface/HcalFiberPattern.h" export * }
-  module "HcalPatternXMLParser.h" { header "IORawData/CaloPatterns/interface/HcalPatternXMLParser.h" export * }
-  export *
-}
-

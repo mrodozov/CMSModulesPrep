@@ -1,6 +1,0 @@
-module CMS_UtilitiesGeneral {
-  module "ClassName.h" { header "Utilities/General/interface/ClassName.h" export * }
-  module "precomputed_value_sort.h" { header "Utilities/General/interface/precomputed_value_sort.h" export * }
-  export *
-}
-

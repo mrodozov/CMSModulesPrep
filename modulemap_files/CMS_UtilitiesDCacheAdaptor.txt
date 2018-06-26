@@ -1,5 +1,0 @@
-module CMS_UtilitiesDCacheAdaptor {
-  module "DCacheFile.h" { header "Utilities/DCacheAdaptor/interface/DCacheFile.h" export * }
-  export *
-}
-

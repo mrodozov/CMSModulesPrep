@@ -1,5 +1,0 @@
-module CMS_ValidationRecoB {
-  module "HistoCompare.h" { header "Validation/RecoB/interface/HistoCompare.h" export * }
-  export *
-}
-

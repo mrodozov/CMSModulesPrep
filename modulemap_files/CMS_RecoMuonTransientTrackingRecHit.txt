@@ -1,7 +1,0 @@
-module CMS_RecoMuonTransientTrackingRecHit {
-  module "MuonTransientTrackingRecHit.h" { header "RecoMuon/TransientTrackingRecHit/interface/MuonTransientTrackingRecHit.h" export * }
-  module "MuonTransientTrackingRecHitBreaker.h" { header "RecoMuon/TransientTrackingRecHit/interface/MuonTransientTrackingRecHitBreaker.h" export * }
-  module "MuonTransientTrackingRecHitBuilder.h" { header "RecoMuon/TransientTrackingRecHit/interface/MuonTransientTrackingRecHitBuilder.h" export * }
-  export *
-}
-

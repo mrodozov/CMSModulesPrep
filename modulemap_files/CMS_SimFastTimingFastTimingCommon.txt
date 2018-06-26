@@ -1,9 +1,0 @@
-module CMS_SimFastTimingFastTimingCommon {
-  module "FTLDigitizer.h" { header "SimFastTiming/FastTimingCommon/interface/FTLDigitizer.h" export * }
-  module "FTLDigitizerBase.h" { header "SimFastTiming/FastTimingCommon/interface/FTLDigitizerBase.h" export * }
-  module "FTLDigitizerTypes.h" { header "SimFastTiming/FastTimingCommon/interface/FTLDigitizerTypes.h" export * }
-  module "SimpleDeviceSimInMIPs.h" { header "SimFastTiming/FastTimingCommon/interface/SimpleDeviceSimInMIPs.h" export * }
-  module "SimpleElectronicsSimInMIPs.h" { header "SimFastTiming/FastTimingCommon/interface/SimpleElectronicsSimInMIPs.h" export * }
-  export *
-}
-

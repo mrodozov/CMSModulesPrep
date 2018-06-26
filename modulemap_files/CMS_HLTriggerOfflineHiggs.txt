@@ -1,7 +1,0 @@
-module CMS_HLTriggerOfflineHiggs {
-  module "HLTHiggsPlotter.h" { header "HLTriggerOffline/Higgs/interface/HLTHiggsPlotter.h" export * }
-  module "HLTHiggsSubAnalysis.h" { header "HLTriggerOffline/Higgs/interface/HLTHiggsSubAnalysis.h" export * }
-  module "HLTHiggsValidator.h" { header "HLTriggerOffline/Higgs/interface/HLTHiggsValidator.h" export * }
-  export *
-}
-

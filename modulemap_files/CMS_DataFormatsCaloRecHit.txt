@@ -1,8 +1,0 @@
-module CMS_DataFormatsCaloRecHit {
-  module "CaloCluster.h" { header "DataFormats/CaloRecHit/interface/CaloCluster.h" export * }
-  module "CaloClusterFwd.h" { header "DataFormats/CaloRecHit/interface/CaloClusterFwd.h" export * }
-  module "CaloID.h" { header "DataFormats/CaloRecHit/interface/CaloID.h" export * }
-  module "CaloRecHit.h" { header "DataFormats/CaloRecHit/interface/CaloRecHit.h" export * }
-  export *
-}
-

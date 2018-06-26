@@ -1,7 +1,0 @@
-module CMS_SimTrackerTrackTriggerAssociation {
-  module "TTClusterAssociationMap.h" { header "SimTracker/TrackTriggerAssociation/interface/TTClusterAssociationMap.h" export * }
-  module "TTStubAssociationMap.h" { header "SimTracker/TrackTriggerAssociation/interface/TTStubAssociationMap.h" export * }
-  module "TTTrackAssociationMap.h" { header "SimTracker/TrackTriggerAssociation/interface/TTTrackAssociationMap.h" export * }
-  export *
-}
-

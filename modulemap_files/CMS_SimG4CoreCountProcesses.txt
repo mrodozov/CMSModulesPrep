@@ -1,5 +1,0 @@
-module CMS_SimG4CoreCountProcesses {
-  module "CountProcessesAction.h" { header "SimG4Core/CountProcesses/interface/CountProcessesAction.h" export * }
-  export *
-}
-

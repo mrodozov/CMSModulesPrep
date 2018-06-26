@@ -1,7 +1,0 @@
-module CMS_FWCoreCatalog {
-  module "FileLocator.h" { header "FWCore/Catalog/interface/FileLocator.h" export * }
-  module "InputFileCatalog.h" { header "FWCore/Catalog/interface/InputFileCatalog.h" export * }
-  module "SiteLocalConfig.h" { header "FWCore/Catalog/interface/SiteLocalConfig.h" export * }
-  export *
-}
-

@@ -1,9 +1,0 @@
-module CMS_CommonToolsTrackerMap {
-  module "TmApvPair.h" { header "CommonTools/TrackerMap/interface/TmApvPair.h" export * }
-  module "TmCcu.h" { header "CommonTools/TrackerMap/interface/TmCcu.h" export * }
-  module "TmModule.h" { header "CommonTools/TrackerMap/interface/TmModule.h" export * }
-  module "TmPsu.h" { header "CommonTools/TrackerMap/interface/TmPsu.h" export * }
-  module "TrackerMap.h" { header "CommonTools/TrackerMap/interface/TrackerMap.h" export * }
-  export *
-}
-

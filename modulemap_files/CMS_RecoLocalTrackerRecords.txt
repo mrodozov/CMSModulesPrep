@@ -1,7 +1,0 @@
-module CMS_RecoLocalTrackerRecords {
-  module "TkPixelCPERecord.h" { header "RecoLocalTracker/Records/interface/TkPixelCPERecord.h" export * }
-  module "TkStripCPERecord.h" { header "RecoLocalTracker/Records/interface/TkStripCPERecord.h" export * }
-  module "TrackerCPERecord.h" { header "RecoLocalTracker/Records/interface/TrackerCPERecord.h" export * }
-  export *
-}
-

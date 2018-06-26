@@ -1,6 +1,0 @@
-module CMS_DQMSiPixelMonitorRecHit {
-  module "SiPixelRecHitModule.h" { header "DQM/SiPixelMonitorRecHit/interface/SiPixelRecHitModule.h" export * }
-  module "SiPixelRecHitSource.h" { header "DQM/SiPixelMonitorRecHit/interface/SiPixelRecHitSource.h" export * }
-  export *
-}
-

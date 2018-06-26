@@ -1,8 +1,0 @@
-module CMS_SimCalorimetryHcalTrigPrimAlgos {
-  module "HcalFeatureBit.h" { header "SimCalorimetry/HcalTrigPrimAlgos/interface/HcalFeatureBit.h" export * }
-  module "HcalFeatureHFEMBit.h" { header "SimCalorimetry/HcalTrigPrimAlgos/interface/HcalFeatureHFEMBit.h" export * }
-  module "HcalFinegrainBit.h" { header "SimCalorimetry/HcalTrigPrimAlgos/interface/HcalFinegrainBit.h" export * }
-  module "HcalTriggerPrimitiveAlgo.h" { header "SimCalorimetry/HcalTrigPrimAlgos/interface/HcalTriggerPrimitiveAlgo.h" export * }
-  export *
-}
-

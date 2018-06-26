@@ -1,8 +1,0 @@
-module CMS_AlignmentCocoaDDLObjects {
-  module "CocoaMaterialElementary.h" { header "Alignment/CocoaDDLObjects/interface/CocoaMaterialElementary.h" export * }
-  module "CocoaSolidShape.h" { header "Alignment/CocoaDDLObjects/interface/CocoaSolidShape.h" export * }
-  module "CocoaSolidShapeBox.h" { header "Alignment/CocoaDDLObjects/interface/CocoaSolidShapeBox.h" export * }
-  module "CocoaSolidShapeTubs.h" { header "Alignment/CocoaDDLObjects/interface/CocoaSolidShapeTubs.h" export * }
-  export *
-}
-

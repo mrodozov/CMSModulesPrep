@@ -1,7 +1,0 @@
-module CMS_RecoBTagBTagTools {
-  module "SignedDecayLength3D.h" { header "RecoBTag/BTagTools/interface/SignedDecayLength3D.h" export * }
-  module "SignedImpactParameter3D.h" { header "RecoBTag/BTagTools/interface/SignedImpactParameter3D.h" export * }
-  module "SignedTransverseImpactParameter.h" { header "RecoBTag/BTagTools/interface/SignedTransverseImpactParameter.h" export * }
-  export *
-}
-

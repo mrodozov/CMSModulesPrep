@@ -1,5 +1,0 @@
-module CMS_ValidationPerformance {
-  module "PerformanceAnalyzer.h" { header "Validation/Performance/interface/PerformanceAnalyzer.h" export * }
-  export *
-}
-

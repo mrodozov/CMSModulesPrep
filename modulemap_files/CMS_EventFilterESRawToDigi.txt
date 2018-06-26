@@ -1,7 +1,0 @@
-module CMS_EventFilterESRawToDigi {
-  module "ESCrcKchipFast.h" { header "EventFilter/ESRawToDigi/interface/ESCrcKchipFast.h" export * }
-  module "ESRawToDigi.h" { header "EventFilter/ESRawToDigi/interface/ESRawToDigi.h" export * }
-  module "ESUnpacker.h" { header "EventFilter/ESRawToDigi/interface/ESUnpacker.h" export * }
-  export *
-}
-

@@ -1,9 +1,0 @@
-module CMS_DataFormatsCTPPSDetId {
-  module "CTPPSDetId.h" { header "DataFormats/CTPPSDetId/interface/CTPPSDetId.h" export * }
-  module "CTPPSDiamondDetId.h" { header "DataFormats/CTPPSDetId/interface/CTPPSDiamondDetId.h" export * }
-  module "CTPPSPixelDetId.h" { header "DataFormats/CTPPSDetId/interface/CTPPSPixelDetId.h" export * }
-  module "TotemRPDetId.h" { header "DataFormats/CTPPSDetId/interface/TotemRPDetId.h" export * }
-  module "TotemTimingDetId.h" { header "DataFormats/CTPPSDetId/interface/TotemTimingDetId.h" export * }
-  export *
-}
-

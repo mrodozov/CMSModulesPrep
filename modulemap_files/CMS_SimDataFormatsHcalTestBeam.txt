@@ -1,8 +1,0 @@
-module CMS_SimDataFormatsHcalTestBeam {
-  module "HcalTB02HistoClass.h" { header "SimDataFormats/HcalTestBeam/interface/HcalTB02HistoClass.h" export * }
-  module "HcalTestBeamNumbering.h" { header "SimDataFormats/HcalTestBeam/interface/HcalTestBeamNumbering.h" export * }
-  module "PHcalTB04Info.h" { header "SimDataFormats/HcalTestBeam/interface/PHcalTB04Info.h" export * }
-  module "PHcalTB06Info.h" { header "SimDataFormats/HcalTestBeam/interface/PHcalTB06Info.h" export * }
-  export *
-}
-

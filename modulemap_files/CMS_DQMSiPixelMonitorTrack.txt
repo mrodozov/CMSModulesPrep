@@ -1,8 +1,0 @@
-module CMS_DQMSiPixelMonitorTrack {
-  module "SiPixelHitEfficiencyModule.h" { header "DQM/SiPixelMonitorTrack/interface/SiPixelHitEfficiencyModule.h" export * }
-  module "SiPixelHitEfficiencySource.h" { header "DQM/SiPixelMonitorTrack/interface/SiPixelHitEfficiencySource.h" export * }
-  module "SiPixelTrackResidualModule.h" { header "DQM/SiPixelMonitorTrack/interface/SiPixelTrackResidualModule.h" export * }
-  module "SiPixelTrackResidualSource.h" { header "DQM/SiPixelMonitorTrack/interface/SiPixelTrackResidualSource.h" export * }
-  export *
-}
-

@@ -1,7 +1,0 @@
-module CMS_DataFormatsSiStripDetId {
-  module "SiStripDetId.h" { header "DataFormats/SiStripDetId/interface/SiStripDetId.h" export * }
-  module "SiStripSubStructure.h" { header "DataFormats/SiStripDetId/interface/SiStripSubStructure.h" export * }
-  module "StripSubdetector.h" { header "DataFormats/SiStripDetId/interface/StripSubdetector.h" export * }
-  export *
-}
-

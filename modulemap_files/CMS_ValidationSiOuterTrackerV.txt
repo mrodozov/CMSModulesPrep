@@ -1,6 +1,0 @@
-module CMS_ValidationSiOuterTrackerV {
-  module "OuterTrackerMCHarvester.h" { header "Validation/SiOuterTrackerV/interface/OuterTrackerMCHarvester.h" export * }
-  module "OuterTrackerMonitorTrackingParticles.h" { header "Validation/SiOuterTrackerV/interface/OuterTrackerMonitorTrackingParticles.h" export * }
-  export *
-}
-

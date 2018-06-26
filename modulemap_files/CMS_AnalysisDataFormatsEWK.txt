@@ -1,6 +1,0 @@
-module CMS_AnalysisDataFormatsEWK {
-  module "WMuNuCandidate.h" { header "AnalysisDataFormats/EWK/interface/WMuNuCandidate.h" export * }
-  module "WMuNuCandidatePtr.h" { header "AnalysisDataFormats/EWK/interface/WMuNuCandidatePtr.h" export * }
-  export *
-}
-

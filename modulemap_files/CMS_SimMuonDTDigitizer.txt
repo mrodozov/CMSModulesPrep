@@ -1,6 +1,0 @@
-module CMS_SimMuonDTDigitizer {
-  module "DTDigiSyncBase.h" { header "SimMuon/DTDigitizer/interface/DTDigiSyncBase.h" export * }
-  module "DTDigiSyncFactory.h" { header "SimMuon/DTDigitizer/interface/DTDigiSyncFactory.h" export * }
-  export *
-}
-

@@ -1,5 +1,0 @@
-module CMS_RecoVertexAdaptiveVertexFit {
-  module "AdaptiveVertexFitter.h" { header "RecoVertex/AdaptiveVertexFit/interface/AdaptiveVertexFitter.h" export * }
-  export *
-}
-

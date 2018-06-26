@@ -1,8 +1,0 @@
-module CMS_EventFilterGEMRawToDigi {
-  module "AMC13Event.h" { header "EventFilter/GEMRawToDigi/interface/AMC13Event.h" export * }
-  module "AMCdata.h" { header "EventFilter/GEMRawToDigi/interface/AMCdata.h" export * }
-  module "GEBdata.h" { header "EventFilter/GEMRawToDigi/interface/GEBdata.h" export * }
-  module "VFATdata.h" { header "EventFilter/GEMRawToDigi/interface/VFATdata.h" export * }
-  export *
-}
-

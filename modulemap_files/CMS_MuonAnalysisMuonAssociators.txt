@@ -1,8 +1,0 @@
-module CMS_MuonAnalysisMuonAssociators {
-  module "L1MuonMatcherAlgo.h" { header "MuonAnalysis/MuonAssociators/interface/L1MuonMatcherAlgo.h" export * }
-  module "MatcherByPullsAlgorithm.h" { header "MuonAnalysis/MuonAssociators/interface/MatcherByPullsAlgorithm.h" export * }
-  module "MatcherUsingTracksAlgorithm.h" { header "MuonAnalysis/MuonAssociators/interface/MatcherUsingTracksAlgorithm.h" export * }
-  module "PropagateToMuon.h" { header "MuonAnalysis/MuonAssociators/interface/PropagateToMuon.h" export * }
-  export *
-}
-

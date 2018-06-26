@@ -1,9 +1,0 @@
-module CMS_GeneratorInterfaceReggeGribovPartonMCInterface {
-  module "EPOS_Wrapper.h" { header "GeneratorInterface/ReggeGribovPartonMCInterface/interface/EPOS_Wrapper.h" export * }
-  module "IO_EPOS.h" { header "GeneratorInterface/ReggeGribovPartonMCInterface/interface/IO_EPOS.h" export * }
-  module "ReggeGribovPartonMC.h" { header "GeneratorInterface/ReggeGribovPartonMCInterface/interface/ReggeGribovPartonMC.h" export * }
-  module "ReggeGribovPartonMCGeneratorFilter.h" { header "GeneratorInterface/ReggeGribovPartonMCInterface/interface/ReggeGribovPartonMCGeneratorFilter.h" export * }
-  module "ReggeGribovPartonMCHadronizer.h" { header "GeneratorInterface/ReggeGribovPartonMCInterface/interface/ReggeGribovPartonMCHadronizer.h" export * }
-  export *
-}
-

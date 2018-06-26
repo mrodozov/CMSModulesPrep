@@ -1,9 +1,0 @@
-module CMS_GeneratorInterfaceRivetInterface {
-  module "DQMRivetClient.h" { header "GeneratorInterface/RivetInterface/interface/DQMRivetClient.h" export * }
-  module "ParticleLevelProducer.h" { header "GeneratorInterface/RivetInterface/interface/ParticleLevelProducer.h" export * }
-  module "RivetAnalysis.h" { header "GeneratorInterface/RivetInterface/interface/RivetAnalysis.h" export * }
-  module "RivetAnalyzer.h" { header "GeneratorInterface/RivetInterface/interface/RivetAnalyzer.h" export * }
-  module "RivetHarvesting.h" { header "GeneratorInterface/RivetInterface/interface/RivetHarvesting.h" export * }
-  export *
-}
-

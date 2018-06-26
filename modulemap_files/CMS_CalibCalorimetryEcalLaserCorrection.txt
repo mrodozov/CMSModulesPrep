@@ -1,6 +1,0 @@
-module CMS_CalibCalorimetryEcalLaserCorrection {
-  module "EcalLaserDbRecord.h" { header "CalibCalorimetry/EcalLaserCorrection/interface/EcalLaserDbRecord.h" export * }
-  module "EcalLaserDbService.h" { header "CalibCalorimetry/EcalLaserCorrection/interface/EcalLaserDbService.h" export * }
-  export *
-}
-

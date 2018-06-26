@@ -1,6 +1,0 @@
-module CMS_HLTriggerOfflineTop {
-  module "TopDiLeptonHLTValidation.h" { header "HLTriggerOffline/Top/interface/TopDiLeptonHLTValidation.h" export * }
-  module "TopSingleLeptonHLTValidation.h" { header "HLTriggerOffline/Top/interface/TopSingleLeptonHLTValidation.h" export * }
-  export *
-}
-

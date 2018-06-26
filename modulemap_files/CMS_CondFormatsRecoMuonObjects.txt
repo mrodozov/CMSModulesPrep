@@ -1,9 +1,0 @@
-module CMS_CondFormatsRecoMuonObjects {
-  module "DYTParamObject.h" { header "CondFormats/RecoMuonObjects/interface/DYTParamObject.h" export * }
-  module "DYTParamsObject.h" { header "CondFormats/RecoMuonObjects/interface/DYTParamsObject.h" export * }
-  module "DYTThrObject.h" { header "CondFormats/RecoMuonObjects/interface/DYTThrObject.h" export * }
-  module "MuScleFitDBobject.h" { header "CondFormats/RecoMuonObjects/interface/MuScleFitDBobject.h" export * }
-  module "MuonSystemAging.h" { header "CondFormats/RecoMuonObjects/interface/MuonSystemAging.h" export * }
-  export *
-}
-

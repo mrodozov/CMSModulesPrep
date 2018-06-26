@@ -1,9 +1,0 @@
-module CMS_AnalysisDataFormatsSUSYBSMObjects {
-  module "HSCPCaloInfo.h" { header "AnalysisDataFormats/SUSYBSMObjects/interface/HSCPCaloInfo.h" export * }
-  module "HSCPDeDxInfo.h" { header "AnalysisDataFormats/SUSYBSMObjects/interface/HSCPDeDxInfo.h" export * }
-  module "HSCPIsolation.h" { header "AnalysisDataFormats/SUSYBSMObjects/interface/HSCPIsolation.h" export * }
-  module "HSCParticle.h" { header "AnalysisDataFormats/SUSYBSMObjects/interface/HSCParticle.h" export * }
-  module "MuonSegment.h" { header "AnalysisDataFormats/SUSYBSMObjects/interface/MuonSegment.h" export * }
-  export *
-}
-

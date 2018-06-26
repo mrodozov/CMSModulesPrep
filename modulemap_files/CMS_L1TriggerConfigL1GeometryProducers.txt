@@ -1,5 +1,0 @@
-module CMS_L1TriggerConfigL1GeometryProducers {
-  module "L1CaloGeometryProd.h" { header "L1TriggerConfig/L1GeometryProducers/interface/L1CaloGeometryProd.h" export * }
-  export *
-}
-

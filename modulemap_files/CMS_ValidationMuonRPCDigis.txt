@@ -1,5 +1,0 @@
-module CMS_ValidationMuonRPCDigis {
-  module "RPCDigiValid.h" { header "Validation/MuonRPCDigis/interface/RPCDigiValid.h" export * }
-  export *
-}
-

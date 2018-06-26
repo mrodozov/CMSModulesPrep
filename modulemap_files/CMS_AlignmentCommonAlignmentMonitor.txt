@@ -1,6 +1,0 @@
-module CMS_AlignmentCommonAlignmentMonitor {
-  module "AlignmentMonitorBase.h" { header "Alignment/CommonAlignmentMonitor/interface/AlignmentMonitorBase.h" export * }
-  module "AlignmentMonitorPluginFactory.h" { header "Alignment/CommonAlignmentMonitor/interface/AlignmentMonitorPluginFactory.h" export * }
-  export *
-}
-

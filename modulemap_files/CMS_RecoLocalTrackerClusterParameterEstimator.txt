@@ -1,7 +1,0 @@
-module CMS_RecoLocalTrackerClusterParameterEstimator {
-  module "ClusterParameterEstimator.h" { header "RecoLocalTracker/ClusterParameterEstimator/interface/ClusterParameterEstimator.h" export * }
-  module "PixelClusterParameterEstimator.h" { header "RecoLocalTracker/ClusterParameterEstimator/interface/PixelClusterParameterEstimator.h" export * }
-  module "StripClusterParameterEstimator.h" { header "RecoLocalTracker/ClusterParameterEstimator/interface/StripClusterParameterEstimator.h" export * }
-  export *
-}
-

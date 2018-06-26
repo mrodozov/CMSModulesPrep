@@ -1,9 +1,0 @@
-module CMS_TrackingToolsRecords {
-  module "DetIdAssociatorRecord.h" { header "TrackingTools/Records/interface/DetIdAssociatorRecord.h" export * }
-  module "Records.h" { header "TrackingTools/Records/interface/Records.h" export * }
-  module "TrackingComponentsRecord.h" { header "TrackingTools/Records/interface/TrackingComponentsRecord.h" export * }
-  module "TransientRecHitRecord.h" { header "TrackingTools/Records/interface/TransientRecHitRecord.h" export * }
-  module "TransientTrackRecord.h" { header "TrackingTools/Records/interface/TransientTrackRecord.h" export * }
-  export *
-}
-

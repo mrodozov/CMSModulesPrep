@@ -1,6 +1,0 @@
-module CMS_TrackingToolsRecoGeometry {
-  module "GlobalDetLayerGeometry.h" { header "TrackingTools/RecoGeometry/interface/GlobalDetLayerGeometry.h" export * }
-  module "RecoGeometryRecord.h" { header "TrackingTools/RecoGeometry/interface/RecoGeometryRecord.h" export * }
-  export *
-}
-

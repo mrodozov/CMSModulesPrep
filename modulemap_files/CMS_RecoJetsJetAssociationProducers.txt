@@ -1,5 +1,0 @@
-module CMS_RecoJetsJetAssociationProducers {
-  module "TrackExtrapolator.h" { header "RecoJets/JetAssociationProducers/interface/TrackExtrapolator.h" export * }
-  export *
-}
-

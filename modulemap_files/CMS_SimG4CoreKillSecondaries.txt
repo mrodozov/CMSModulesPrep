@@ -1,7 +1,0 @@
-module CMS_SimG4CoreKillSecondaries {
-  module "KillSecondariesRunAction.h" { header "SimG4Core/KillSecondaries/interface/KillSecondariesRunAction.h" export * }
-  module "KillSecondariesStackingAction.h" { header "SimG4Core/KillSecondaries/interface/KillSecondariesStackingAction.h" export * }
-  module "KillSecondariesTrackAction.h" { header "SimG4Core/KillSecondaries/interface/KillSecondariesTrackAction.h" export * }
-  export *
-}
-

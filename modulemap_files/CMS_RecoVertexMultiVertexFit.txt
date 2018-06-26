@@ -1,9 +1,0 @@
-module CMS_RecoVertexMultiVertexFit {
-  module "DefaultMVFAnnealing.h" { header "RecoVertex/MultiVertexFit/interface/DefaultMVFAnnealing.h" export * }
-  module "LinTrackCache.h" { header "RecoVertex/MultiVertexFit/interface/LinTrackCache.h" export * }
-  module "MultiVertexBSeeder.h" { header "RecoVertex/MultiVertexFit/interface/MultiVertexBSeeder.h" export * }
-  module "MultiVertexFitter.h" { header "RecoVertex/MultiVertexFit/interface/MultiVertexFitter.h" export * }
-  module "MultiVertexReconstructor.h" { header "RecoVertex/MultiVertexFit/interface/MultiVertexReconstructor.h" export * }
-  export *
-}
-

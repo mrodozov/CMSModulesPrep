@@ -1,6 +1,0 @@
-module CMS_HLTriggerOfflineJetMET {
-  module "HLTJetMETValidation.h" { header "HLTriggerOffline/JetMET/interface/HLTJetMETValidation.h" export * }
-  module "JetMETDQMPostProcessor.h" { header "HLTriggerOffline/JetMET/interface/JetMETDQMPostProcessor.h" export * }
-  export *
-}
-

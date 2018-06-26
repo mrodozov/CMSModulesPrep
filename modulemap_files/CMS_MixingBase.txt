@@ -1,8 +1,0 @@
-module CMS_MixingBase {
-  module "BMixingModule.h" { header "Mixing/Base/interface/BMixingModule.h" export * }
-  module "FixedPUGenerator.h" { header "Mixing/Base/interface/FixedPUGenerator.h" export * }
-  module "PUGenerator.h" { header "Mixing/Base/interface/PUGenerator.h" export * }
-  module "PileUp.h" { header "Mixing/Base/interface/PileUp.h" export * }
-  export *
-}
-

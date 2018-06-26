@@ -1,9 +1,0 @@
-module CMS_EventFilterEcalDigiToRaw {
-  module "BlockFormatter.h" { header "EventFilter/EcalDigiToRaw/interface/BlockFormatter.h" export * }
-  module "EcalDigiToRaw.h" { header "EventFilter/EcalDigiToRaw/interface/EcalDigiToRaw.h" export * }
-  module "SRBlockFormatter.h" { header "EventFilter/EcalDigiToRaw/interface/SRBlockFormatter.h" export * }
-  module "TCCBlockFormatter.h" { header "EventFilter/EcalDigiToRaw/interface/TCCBlockFormatter.h" export * }
-  module "TowerBlockFormatter.h" { header "EventFilter/EcalDigiToRaw/interface/TowerBlockFormatter.h" export * }
-  export *
-}
-

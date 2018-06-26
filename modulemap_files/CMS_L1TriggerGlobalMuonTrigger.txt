@@ -1,5 +1,0 @@
-module CMS_L1TriggerGlobalMuonTrigger {
-  module "L1MuGlobalMuonTrigger.h" { header "L1Trigger/GlobalMuonTrigger/interface/L1MuGlobalMuonTrigger.h" export * }
-  export *
-}
-

@@ -1,5 +1,0 @@
-module CMS_CondToolsBTau {
-  module "BTagCalibrationReader.h" { header "CondTools/BTau/interface/BTagCalibrationReader.h" export * }
-  export *
-}
-

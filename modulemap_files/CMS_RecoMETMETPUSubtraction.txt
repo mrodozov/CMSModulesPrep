@@ -1,9 +1,0 @@
-module CMS_RecoMETMETPUSubtraction {
-  module "MvaMEtUtilities.h" { header "RecoMET/METPUSubtraction/interface/MvaMEtUtilities.h" export * }
-  module "NoPileUpMEtAuxFunctions.h" { header "RecoMET/METPUSubtraction/interface/NoPileUpMEtAuxFunctions.h" export * }
-  module "NoPileUpMEtUtilities.h" { header "RecoMET/METPUSubtraction/interface/NoPileUpMEtUtilities.h" export * }
-  module "PFMETAlgorithmMVA.h" { header "RecoMET/METPUSubtraction/interface/PFMETAlgorithmMVA.h" export * }
-  module "PFMEtSignInterfaceBase.h" { header "RecoMET/METPUSubtraction/interface/PFMEtSignInterfaceBase.h" export * }
-  export *
-}
-

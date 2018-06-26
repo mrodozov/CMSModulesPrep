@@ -1,6 +1,0 @@
-module CMS_CalibCalorimetryEcalTPGTools {
-  module "EcalReadoutTools.h" { header "CalibCalorimetry/EcalTPGTools/interface/EcalReadoutTools.h" export * }
-  module "EcalTPGScale.h" { header "CalibCalorimetry/EcalTPGTools/interface/EcalTPGScale.h" export * }
-  export *
-}
-

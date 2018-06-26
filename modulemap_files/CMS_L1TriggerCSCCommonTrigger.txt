@@ -1,9 +1,0 @@
-module CMS_L1TriggerCSCCommonTrigger {
-  module "CSCConstants.h" { header "L1Trigger/CSCCommonTrigger/interface/CSCConstants.h" export * }
-  module "CSCFrontRearLUT.h" { header "L1Trigger/CSCCommonTrigger/interface/CSCFrontRearLUT.h" export * }
-  module "CSCPatternLUT.h" { header "L1Trigger/CSCCommonTrigger/interface/CSCPatternLUT.h" export * }
-  module "vlib.h" { header "L1Trigger/CSCCommonTrigger/interface/vlib.h" export * }
-  module "vmac.h" { header "L1Trigger/CSCCommonTrigger/interface/vmac.h" export * }
-  export *
-}
-

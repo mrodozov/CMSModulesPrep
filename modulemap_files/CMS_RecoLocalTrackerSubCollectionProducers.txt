@@ -1,9 +1,0 @@
-module CMS_RecoLocalTrackerSubCollectionProducers {
-  module "ClusterMultiplicityFilter.h" { header "RecoLocalTracker/SubCollectionProducers/interface/ClusterMultiplicityFilter.h" export * }
-  module "ClusterSummaryProducer.h" { header "RecoLocalTracker/SubCollectionProducers/interface/ClusterSummaryProducer.h" export * }
-  module "ClusterVariables.h" { header "RecoLocalTracker/SubCollectionProducers/interface/ClusterVariables.h" export * }
-  module "PixelClusterSelectorTopBottom.h" { header "RecoLocalTracker/SubCollectionProducers/interface/PixelClusterSelectorTopBottom.h" export * }
-  module "StripClusterSelectorTopBottom.h" { header "RecoLocalTracker/SubCollectionProducers/interface/StripClusterSelectorTopBottom.h" export * }
-  export *
-}
-

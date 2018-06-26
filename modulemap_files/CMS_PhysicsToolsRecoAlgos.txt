@@ -1,5 +1,0 @@
-module CMS_PhysicsToolsRecoAlgos {
-  module "MassKinFitterCandProducer.h" { header "PhysicsTools/RecoAlgos/interface/MassKinFitterCandProducer.h" export * }
-  export *
-}
-

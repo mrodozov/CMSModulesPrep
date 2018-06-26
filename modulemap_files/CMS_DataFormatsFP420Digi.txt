@@ -1,6 +1,0 @@
-module CMS_DataFormatsFP420Digi {
-  module "DigiCollectionFP420.h" { header "DataFormats/FP420Digi/interface/DigiCollectionFP420.h" export * }
-  module "HDigiFP420.h" { header "DataFormats/FP420Digi/interface/HDigiFP420.h" export * }
-  export *
-}
-

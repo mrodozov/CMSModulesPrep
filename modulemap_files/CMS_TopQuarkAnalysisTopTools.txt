@@ -1,8 +1,0 @@
-module CMS_TopQuarkAnalysisTopTools {
-  module "JetPartonMatching.h" { header "TopQuarkAnalysis/TopTools/interface/JetPartonMatching.h" export * }
-  module "LRHelpFunctions.h" { header "TopQuarkAnalysis/TopTools/interface/LRHelpFunctions.h" export * }
-  module "MEzCalculator.h" { header "TopQuarkAnalysis/TopTools/interface/MEzCalculator.h" export * }
-  module "TopologyWorker.h" { header "TopQuarkAnalysis/TopTools/interface/TopologyWorker.h" export * }
-  export *
-}
-

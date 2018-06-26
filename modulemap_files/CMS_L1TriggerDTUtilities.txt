@@ -1,9 +1,0 @@
-module CMS_L1TriggerDTUtilities {
-  module "DTCache.h" { header "L1Trigger/DTUtilities/interface/DTCache.h" export * }
-  module "DTGeomSupplier.h" { header "L1Trigger/DTUtilities/interface/DTGeomSupplier.h" export * }
-  module "DTTPGLutFile.h" { header "L1Trigger/DTUtilities/interface/DTTPGLutFile.h" export * }
-  module "DTTrigData.h" { header "L1Trigger/DTUtilities/interface/DTTrigData.h" export * }
-  module "DTTrigGeom.h" { header "L1Trigger/DTUtilities/interface/DTTrigGeom.h" export * }
-  export *
-}
-

@@ -1,9 +1,0 @@
-module CMS_GeometryHcalEventSetup {
-  module "CaloTowerTopologyEP.h" { header "Geometry/HcalEventSetup/interface/CaloTowerTopologyEP.h" export * }
-  module "HcalAlignmentEP.h" { header "Geometry/HcalEventSetup/interface/HcalAlignmentEP.h" export * }
-  module "HcalDDDGeometryEP.h" { header "Geometry/HcalEventSetup/interface/HcalDDDGeometryEP.h" export * }
-  module "HcalHardcodeGeometryEP.h" { header "Geometry/HcalEventSetup/interface/HcalHardcodeGeometryEP.h" export * }
-  module "HcalTopologyIdealEP.h" { header "Geometry/HcalEventSetup/interface/HcalTopologyIdealEP.h" export * }
-  export *
-}
-

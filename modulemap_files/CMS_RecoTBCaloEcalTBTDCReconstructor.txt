@@ -1,9 +1,0 @@
-module CMS_RecoTBCaloEcalTBTDCReconstructor {
-  module "EcalTBH2TDCRecInfoAlgo.h" { header "RecoTBCalo/EcalTBTDCReconstructor/interface/EcalTBH2TDCRecInfoAlgo.h" export * }
-  module "EcalTBH2TDCRecInfoProducer.h" { header "RecoTBCalo/EcalTBTDCReconstructor/interface/EcalTBH2TDCRecInfoProducer.h" export * }
-  module "EcalTBTDCRawInfoDumper.h" { header "RecoTBCalo/EcalTBTDCReconstructor/interface/EcalTBTDCRawInfoDumper.h" export * }
-  module "EcalTBTDCRecInfoAlgo.h" { header "RecoTBCalo/EcalTBTDCReconstructor/interface/EcalTBTDCRecInfoAlgo.h" export * }
-  module "EcalTBTDCRecInfoProducer.h" { header "RecoTBCalo/EcalTBTDCReconstructor/interface/EcalTBTDCRecInfoProducer.h" export * }
-  export *
-}
-

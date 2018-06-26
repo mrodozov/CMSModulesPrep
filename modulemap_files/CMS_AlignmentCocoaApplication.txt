@@ -1,5 +1,0 @@
-module CMS_AlignmentCocoaApplication {
-  module "CocoaAnalyzer.h" { header "Alignment/CocoaApplication/interface/CocoaAnalyzer.h" export * }
-  export *
-}
-

@@ -1,8 +1,0 @@
-module CMS_DQMSiStripMonitorCluster {
-  module "MonitorLTC.h" { header "DQM/SiStripMonitorCluster/interface/MonitorLTC.h" export * }
-  module "SiStripMonitorCluster.h" { header "DQM/SiStripMonitorCluster/interface/SiStripMonitorCluster.h" export * }
-  module "SiStripMonitorFilter.h" { header "DQM/SiStripMonitorCluster/interface/SiStripMonitorFilter.h" export * }
-  module "SiStripMonitorHLT.h" { header "DQM/SiStripMonitorCluster/interface/SiStripMonitorHLT.h" export * }
-  export *
-}
-

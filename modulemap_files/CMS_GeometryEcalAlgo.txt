@@ -1,8 +1,0 @@
-module CMS_GeometryEcalAlgo {
-  module "EcalBarrelGeometry.h" { header "Geometry/EcalAlgo/interface/EcalBarrelGeometry.h" export * }
-  module "EcalEndcapGeometry.h" { header "Geometry/EcalAlgo/interface/EcalEndcapGeometry.h" export * }
-  module "EcalPreshowerGeometry.h" { header "Geometry/EcalAlgo/interface/EcalPreshowerGeometry.h" export * }
-  module "WriteESAlignments.h" { header "Geometry/EcalAlgo/interface/WriteESAlignments.h" export * }
-  export *
-}
-

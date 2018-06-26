@@ -1,5 +1,0 @@
-module CMS_PerfToolsEdmEvent {
-  module "EdmEventSize.h" { header "PerfTools/EdmEvent/interface/EdmEventSize.h" export * }
-  export *
-}
-

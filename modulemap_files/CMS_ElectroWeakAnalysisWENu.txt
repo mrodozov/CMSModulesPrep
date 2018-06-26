@@ -1,8 +1,0 @@
-module CMS_ElectroWeakAnalysisWENu {
-  module "GenPurposeSkimmer.h" { header "ElectroWeakAnalysis/WENu/interface/GenPurposeSkimmer.h" export * }
-  module "GenPurposeSkimmerAcceptance.h" { header "ElectroWeakAnalysis/WENu/interface/GenPurposeSkimmerAcceptance.h" export * }
-  module "GenPurposeSkimmerData.h" { header "ElectroWeakAnalysis/WENu/interface/GenPurposeSkimmerData.h" export * }
-  module "WenuPlots.h" { header "ElectroWeakAnalysis/WENu/interface/WenuPlots.h" export * }
-  export *
-}
-

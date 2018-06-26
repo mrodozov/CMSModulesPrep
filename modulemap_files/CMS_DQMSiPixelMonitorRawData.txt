@@ -1,7 +1,0 @@
-module CMS_DQMSiPixelMonitorRawData {
-  module "SiPixelHLTSource.h" { header "DQM/SiPixelMonitorRawData/interface/SiPixelHLTSource.h" export * }
-  module "SiPixelRawDataErrorModule.h" { header "DQM/SiPixelMonitorRawData/interface/SiPixelRawDataErrorModule.h" export * }
-  module "SiPixelRawDataErrorSource.h" { header "DQM/SiPixelMonitorRawData/interface/SiPixelRawDataErrorSource.h" export * }
-  export *
-}
-

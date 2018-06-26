@@ -1,8 +1,0 @@
-module CMS_GeneratorInterfaceHijingInterface {
-  module "HijingGeneratorFilter.h" { header "GeneratorInterface/HijingInterface/interface/HijingGeneratorFilter.h" export * }
-  module "HijingHadronizer.h" { header "GeneratorInterface/HijingInterface/interface/HijingHadronizer.h" export * }
-  module "HijingPythiaWrapper.h" { header "GeneratorInterface/HijingInterface/interface/HijingPythiaWrapper.h" export * }
-  module "HijingWrapper.h" { header "GeneratorInterface/HijingInterface/interface/HijingWrapper.h" export * }
-  export *
-}
-

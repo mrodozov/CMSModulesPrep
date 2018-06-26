@@ -1,5 +1,0 @@
-module CMS_UtilitiesLStoreAdaptor {
-  module "LStoreFile.h" { header "Utilities/LStoreAdaptor/interface/LStoreFile.h" export * }
-  export *
-}
-

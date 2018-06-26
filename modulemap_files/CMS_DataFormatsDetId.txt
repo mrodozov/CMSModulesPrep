@@ -1,6 +1,0 @@
-module CMS_DataFormatsDetId {
-  module "DetId.h" { header "DataFormats/DetId/interface/DetId.h" export * }
-  module "DetIdCollection.h" { header "DataFormats/DetId/interface/DetIdCollection.h" export * }
-  export *
-}
-

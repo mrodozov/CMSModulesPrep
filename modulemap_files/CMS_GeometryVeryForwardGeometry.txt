@@ -1,6 +1,0 @@
-module CMS_GeometryVeryForwardGeometry {
-  module "CTPPSPixelSimTopology.h" { header "Geometry/VeryForwardGeometry/interface/CTPPSPixelSimTopology.h" export * }
-  module "CTPPSPixelTopology.h" { header "Geometry/VeryForwardGeometry/interface/CTPPSPixelTopology.h" export * }
-  export *
-}
-

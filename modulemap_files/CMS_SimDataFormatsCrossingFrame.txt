@@ -1,9 +1,0 @@
-module CMS_SimDataFormatsCrossingFrame {
-  module "CrossingFrame.h" { header "SimDataFormats/CrossingFrame/interface/CrossingFrame.h" export * }
-  module "CrossingFramePlaybackInfoExtended.h" { header "SimDataFormats/CrossingFrame/interface/CrossingFramePlaybackInfoExtended.h" export * }
-  module "CrossingFramePlaybackInfoNew.h" { header "SimDataFormats/CrossingFrame/interface/CrossingFramePlaybackInfoNew.h" export * }
-  module "MixCollection.h" { header "SimDataFormats/CrossingFrame/interface/MixCollection.h" export * }
-  module "PCrossingFrame.h" { header "SimDataFormats/CrossingFrame/interface/PCrossingFrame.h" export * }
-  export *
-}
-

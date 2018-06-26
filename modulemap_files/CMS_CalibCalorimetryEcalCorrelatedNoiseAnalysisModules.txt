@@ -1,5 +1,0 @@
-module CMS_CalibCalorimetryEcalCorrelatedNoiseAnalysisModules {
-  module "EcnaAnalyzer.h" { header "CalibCalorimetry/EcalCorrelatedNoiseAnalysisModules/interface/EcnaAnalyzer.h" export * }
-  export *
-}
-

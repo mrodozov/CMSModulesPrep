@@ -1,7 +1,0 @@
-module CMS_GeneratorInterfacePyquenInterface {
-  module "PyquenGeneratorFilter.h" { header "GeneratorInterface/PyquenInterface/interface/PyquenGeneratorFilter.h" export * }
-  module "PyquenHadronizer.h" { header "GeneratorInterface/PyquenInterface/interface/PyquenHadronizer.h" export * }
-  module "PyquenWrapper.h" { header "GeneratorInterface/PyquenInterface/interface/PyquenWrapper.h" export * }
-  export *
-}
-

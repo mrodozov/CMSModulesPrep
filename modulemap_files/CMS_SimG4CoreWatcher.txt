@@ -1,9 +1,0 @@
-module CMS_SimG4CoreWatcher {
-  module "SimProducer.h" { header "SimG4Core/Watcher/interface/SimProducer.h" export * }
-  module "SimWatcher.h" { header "SimG4Core/Watcher/interface/SimWatcher.h" export * }
-  module "SimWatcherFactory.h" { header "SimG4Core/Watcher/interface/SimWatcherFactory.h" export * }
-  module "SimWatcherMaker.h" { header "SimG4Core/Watcher/interface/SimWatcherMaker.h" export * }
-  module "SimWatcherMakerBase.h" { header "SimG4Core/Watcher/interface/SimWatcherMakerBase.h" export * }
-  export *
-}
-

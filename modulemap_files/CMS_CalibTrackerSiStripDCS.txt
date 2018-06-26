@@ -1,7 +1,0 @@
-module CMS_CalibTrackerSiStripDCS {
-  module "SiStripCoralIface.h" { header "CalibTracker/SiStripDCS/interface/SiStripCoralIface.h" export * }
-  module "SiStripDetVOffBuilder.h" { header "CalibTracker/SiStripDCS/interface/SiStripDetVOffBuilder.h" export * }
-  module "SiStripPsuDetIdMap.h" { header "CalibTracker/SiStripDCS/interface/SiStripPsuDetIdMap.h" export * }
-  export *
-}
-

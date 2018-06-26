@@ -1,7 +1,0 @@
-module CMS_RecoLocalCaloCaloTowersCreator {
-  module "CaloTowersCreationAlgo.h" { header "RecoLocalCalo/CaloTowersCreator/interface/CaloTowersCreationAlgo.h" export * }
-  module "EScales.h" { header "RecoLocalCalo/CaloTowersCreator/interface/EScales.h" export * }
-  module "HcalMaterials.h" { header "RecoLocalCalo/CaloTowersCreator/interface/HcalMaterials.h" export * }
-  export *
-}
-

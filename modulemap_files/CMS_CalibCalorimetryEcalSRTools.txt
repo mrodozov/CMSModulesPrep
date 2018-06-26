@@ -1,5 +1,0 @@
-module CMS_CalibCalorimetryEcalSRTools {
-  module "EcalDccWeightBuilder.h" { header "CalibCalorimetry/EcalSRTools/interface/EcalDccWeightBuilder.h" export * }
-  export *
-}
-

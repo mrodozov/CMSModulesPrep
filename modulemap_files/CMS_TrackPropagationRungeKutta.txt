@@ -1,8 +1,0 @@
-module CMS_TrackPropagationRungeKutta {
-  module "RKPropagatorInR.h" { header "TrackPropagation/RungeKutta/interface/RKPropagatorInR.h" export * }
-  module "RKPropagatorInS.h" { header "TrackPropagation/RungeKutta/interface/RKPropagatorInS.h" export * }
-  module "RKPropagatorInZ.h" { header "TrackPropagation/RungeKutta/interface/RKPropagatorInZ.h" export * }
-  module "defaultRKPropagator.h" { header "TrackPropagation/RungeKutta/interface/defaultRKPropagator.h" export * }
-  export *
-}
-

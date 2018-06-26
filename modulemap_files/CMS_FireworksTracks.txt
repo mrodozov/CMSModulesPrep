@@ -1,6 +1,0 @@
-module CMS_FireworksTracks {
-  module "TrackUtils.h" { header "Fireworks/Tracks/interface/TrackUtils.h" export * }
-  module "estimate_field.h" { header "Fireworks/Tracks/interface/estimate_field.h" export * }
-  export *
-}
-

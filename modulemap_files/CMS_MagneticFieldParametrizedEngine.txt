@@ -1,5 +1,0 @@
-module CMS_MagneticFieldParametrizedEngine {
-  module "ParametrizedMagneticFieldFactory.h" { header "MagneticField/ParametrizedEngine/interface/ParametrizedMagneticFieldFactory.h" export * }
-  export *
-}
-

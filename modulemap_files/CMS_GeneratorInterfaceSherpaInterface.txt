@@ -1,6 +1,0 @@
-module CMS_GeneratorInterfaceSherpaInterface {
-  module "SherpackFetcher.h" { header "GeneratorInterface/SherpaInterface/interface/SherpackFetcher.h" export * }
-  module "SherpackUtilities.h" { header "GeneratorInterface/SherpaInterface/interface/SherpackUtilities.h" export * }
-  export *
-}
-

@@ -1,6 +1,0 @@
-module CMS_SimDataFormatsRPCDigiSimLink {
-  module "RPCDigiSimLink.h" { header "SimDataFormats/RPCDigiSimLink/interface/RPCDigiSimLink.h" export * }
-  module "RPCDigiSimLinkfwd.h" { header "SimDataFormats/RPCDigiSimLink/interface/RPCDigiSimLinkfwd.h" export * }
-  export *
-}
-

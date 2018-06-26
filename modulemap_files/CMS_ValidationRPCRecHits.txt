@@ -1,8 +1,0 @@
-module CMS_ValidationRPCRecHits {
-  module "RPCPointVsRecHit.h" { header "Validation/RPCRecHits/interface/RPCPointVsRecHit.h" export * }
-  module "RPCRecHitValid.h" { header "Validation/RPCRecHits/interface/RPCRecHitValid.h" export * }
-  module "RPCRecHitValidClient.h" { header "Validation/RPCRecHits/interface/RPCRecHitValidClient.h" export * }
-  module "RPCValidHistograms.h" { header "Validation/RPCRecHits/interface/RPCValidHistograms.h" export * }
-  export *
-}
-

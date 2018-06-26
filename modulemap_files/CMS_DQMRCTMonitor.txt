@@ -1,6 +1,0 @@
-module CMS_DQMRCTMonitor {
-  module "RCTMonitor.h" { header "DQM/RCTMonitor/interface/RCTMonitor.h" export * }
-  module "somedefinitions.h" { header "DQM/RCTMonitor/interface/somedefinitions.h" export * }
-  export *
-}
-

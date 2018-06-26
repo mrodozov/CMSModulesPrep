@@ -1,9 +1,0 @@
-module CMS_RecoTrackerRecord {
-  module "CkfComponentsRecord.h" { header "RecoTracker/Record/interface/CkfComponentsRecord.h" export * }
-  module "MultiRecHitRecord.h" { header "RecoTracker/Record/interface/MultiRecHitRecord.h" export * }
-  module "NavigationSchoolRecord.h" { header "RecoTracker/Record/interface/NavigationSchoolRecord.h" export * }
-  module "TkMSParameterizationRecord.h" { header "RecoTracker/Record/interface/TkMSParameterizationRecord.h" export * }
-  module "TrackerRecoGeometryRecord.h" { header "RecoTracker/Record/interface/TrackerRecoGeometryRecord.h" export * }
-  export *
-}
-

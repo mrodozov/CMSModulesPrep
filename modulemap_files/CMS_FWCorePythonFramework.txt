@@ -1,5 +1,0 @@
-module CMS_FWCorePythonFramework {
-  module "PythonEventProcessor.h" { header "FWCore/PythonFramework/interface/PythonEventProcessor.h" export * }
-  export *
-}
-

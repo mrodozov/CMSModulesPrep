@@ -1,8 +1,0 @@
-module CMS_CalibTrackerSiStripQuality {
-  module "SiStripBadAPVAlgorithmFromClusterOccupancy.h" { header "CalibTracker/SiStripQuality/interface/SiStripBadAPVAlgorithmFromClusterOccupancy.h" export * }
-  module "SiStripBadAPVandHotStripAlgorithmFromClusterOccupancy.h" { header "CalibTracker/SiStripQuality/interface/SiStripBadAPVandHotStripAlgorithmFromClusterOccupancy.h" export * }
-  module "SiStripHotStripAlgorithmFromClusterOccupancy.h" { header "CalibTracker/SiStripQuality/interface/SiStripHotStripAlgorithmFromClusterOccupancy.h" export * }
-  module "SiStripQualityHistos.h" { header "CalibTracker/SiStripQuality/interface/SiStripQualityHistos.h" export * }
-  export *
-}
-

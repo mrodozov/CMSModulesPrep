@@ -1,8 +1,0 @@
-module CMS_DQMOfflineCalibMuon {
-  module "DTPreCalibrationTask.h" { header "DQMOffline/CalibMuon/interface/DTPreCalibrationTask.h" export * }
-  module "DTnoiseDBValidation.h" { header "DQMOffline/CalibMuon/interface/DTnoiseDBValidation.h" export * }
-  module "DTt0DBValidation.h" { header "DQMOffline/CalibMuon/interface/DTt0DBValidation.h" export * }
-  module "DTtTrigDBValidation.h" { header "DQMOffline/CalibMuon/interface/DTtTrigDBValidation.h" export * }
-  export *
-}
-

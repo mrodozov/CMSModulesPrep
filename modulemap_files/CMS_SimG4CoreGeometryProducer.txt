@@ -1,5 +1,0 @@
-module CMS_SimG4CoreGeometryProducer {
-  module "GeometryProducer.h" { header "SimG4Core/GeometryProducer/interface/GeometryProducer.h" export * }
-  export *
-}
-

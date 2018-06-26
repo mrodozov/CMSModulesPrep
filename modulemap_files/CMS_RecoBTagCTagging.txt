@@ -1,5 +1,0 @@
-module CMS_RecoBTagCTagging {
-  module "CharmTagger.h" { header "RecoBTag/CTagging/interface/CharmTagger.h" export * }
-  export *
-}
-

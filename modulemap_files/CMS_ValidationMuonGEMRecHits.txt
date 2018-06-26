@@ -1,7 +1,0 @@
-module CMS_ValidationMuonGEMRecHits {
-  module "GEMRecHitMatcher.h" { header "Validation/MuonGEMRecHits/interface/GEMRecHitMatcher.h" export * }
-  module "GEMRecHitTrackMatch.h" { header "Validation/MuonGEMRecHits/interface/GEMRecHitTrackMatch.h" export * }
-  module "GEMRecHitsValidation.h" { header "Validation/MuonGEMRecHits/interface/GEMRecHitsValidation.h" export * }
-  export *
-}
-

@@ -1,7 +1,0 @@
-module CMS_CommonToolsTriggerUtils {
-  module "CandidateTriggerObjectProducer.h" { header "CommonTools/TriggerUtils/interface/CandidateTriggerObjectProducer.h" export * }
-  module "GenericTriggerEventFlag.h" { header "CommonTools/TriggerUtils/interface/GenericTriggerEventFlag.h" export * }
-  module "PrescaleWeightProvider.h" { header "CommonTools/TriggerUtils/interface/PrescaleWeightProvider.h" export * }
-  export *
-}
-

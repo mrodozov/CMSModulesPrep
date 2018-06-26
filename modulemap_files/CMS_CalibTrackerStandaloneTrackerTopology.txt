@@ -1,5 +1,0 @@
-module CMS_CalibTrackerStandaloneTrackerTopology {
-  module "StandaloneTrackerTopology.h" { header "CalibTracker/StandaloneTrackerTopology/interface/StandaloneTrackerTopology.h" export * }
-  export *
-}
-

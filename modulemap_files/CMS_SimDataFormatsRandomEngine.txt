@@ -1,6 +1,0 @@
-module CMS_SimDataFormatsRandomEngine {
-  module "RandomEngineState.h" { header "SimDataFormats/RandomEngine/interface/RandomEngineState.h" export * }
-  module "RandomEngineStates.h" { header "SimDataFormats/RandomEngine/interface/RandomEngineStates.h" export * }
-  export *
-}
-

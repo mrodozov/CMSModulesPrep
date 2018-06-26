@@ -1,6 +1,0 @@
-module CMS_AnalysisAlgosTrackInfoProducer {
-  module "TrackInfoProducer.h" { header "AnalysisAlgos/TrackInfoProducer/interface/TrackInfoProducer.h" export * }
-  module "TrackInfoProducerAlgorithm.h" { header "AnalysisAlgos/TrackInfoProducer/interface/TrackInfoProducerAlgorithm.h" export * }
-  export *
-}
-

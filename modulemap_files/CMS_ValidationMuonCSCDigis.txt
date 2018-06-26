@@ -1,5 +1,0 @@
-module CMS_ValidationMuonCSCDigis {
-  module "CSCBaseValidation.h" { header "Validation/MuonCSCDigis/interface/CSCBaseValidation.h" export * }
-  export *
-}
-

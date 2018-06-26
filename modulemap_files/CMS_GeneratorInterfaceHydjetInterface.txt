@@ -1,7 +1,0 @@
-module CMS_GeneratorInterfaceHydjetInterface {
-  module "HydjetGeneratorFilter.h" { header "GeneratorInterface/HydjetInterface/interface/HydjetGeneratorFilter.h" export * }
-  module "HydjetHadronizer.h" { header "GeneratorInterface/HydjetInterface/interface/HydjetHadronizer.h" export * }
-  module "HydjetWrapper.h" { header "GeneratorInterface/HydjetInterface/interface/HydjetWrapper.h" export * }
-  export *
-}
-

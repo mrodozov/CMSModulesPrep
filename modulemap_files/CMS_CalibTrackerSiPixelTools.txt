@@ -1,5 +1,0 @@
-module CMS_CalibTrackerSiPixelTools {
-  module "SiPixelOfflineCalibAnalysisBase.h" { header "CalibTracker/SiPixelTools/interface/SiPixelOfflineCalibAnalysisBase.h" export * }
-  export *
-}
-

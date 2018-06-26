@@ -1,5 +1,0 @@
-module CMS_SimCalorimetryEcalTestBeam {
-  module "EcalTBDigiProducer.h" { header "SimCalorimetry/EcalTestBeam/interface/EcalTBDigiProducer.h" export * }
-  export *
-}
-

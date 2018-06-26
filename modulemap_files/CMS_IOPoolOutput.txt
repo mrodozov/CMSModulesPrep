@@ -1,6 +1,0 @@
-module CMS_IOPoolOutput {
-  module "PoolOutputModule.h" { header "IOPool/Output/interface/PoolOutputModule.h" export * }
-  module "TimeoutPoolOutputModule.h" { header "IOPool/Output/interface/TimeoutPoolOutputModule.h" export * }
-  export *
-}
-

@@ -1,9 +1,0 @@
-module CMS_RecoCaloToolsNavigation {
-  module "CaloNavigator.h" { header "RecoCaloTools/Navigation/interface/CaloNavigator.h" export * }
-  module "CaloTowerNavigator.h" { header "RecoCaloTools/Navigation/interface/CaloTowerNavigator.h" export * }
-  module "EcalBarrelNavigator.h" { header "RecoCaloTools/Navigation/interface/EcalBarrelNavigator.h" export * }
-  module "EcalEndcapNavigator.h" { header "RecoCaloTools/Navigation/interface/EcalEndcapNavigator.h" export * }
-  module "EcalPreshowerNavigator.h" { header "RecoCaloTools/Navigation/interface/EcalPreshowerNavigator.h" export * }
-  export *
-}
-

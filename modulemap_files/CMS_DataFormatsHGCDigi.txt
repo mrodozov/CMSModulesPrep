@@ -1,7 +1,0 @@
-module CMS_DataFormatsHGCDigi {
-  module "HGCDataFrame.h" { header "DataFormats/HGCDigi/interface/HGCDataFrame.h" export * }
-  module "HGCDigiCollections.h" { header "DataFormats/HGCDigi/interface/HGCDigiCollections.h" export * }
-  module "HGCSample.h" { header "DataFormats/HGCDigi/interface/HGCSample.h" export * }
-  export *
-}
-

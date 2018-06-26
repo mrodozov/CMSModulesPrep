@@ -1,5 +1,0 @@
-module CMS_ValidationMuonIsolation {
-  module "MuIsoValidation.h" { header "Validation/MuonIsolation/interface/MuIsoValidation.h" export * }
-  export *
-}
-

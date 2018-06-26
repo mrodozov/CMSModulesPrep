@@ -1,7 +1,0 @@
-module CMS_DQMSiStripHistoricInfoClient {
-  module "HDQMInspectorConfigSiStrip.h" { header "DQM/SiStripHistoricInfoClient/interface/HDQMInspectorConfigSiStrip.h" export * }
-  module "HDQMInspectorConfigTracking.h" { header "DQM/SiStripHistoricInfoClient/interface/HDQMInspectorConfigTracking.h" export * }
-  module "fitUtilities.h" { header "DQM/SiStripHistoricInfoClient/interface/fitUtilities.h" export * }
-  export *
-}
-

@@ -1,8 +1,0 @@
-module CMS_GeneratorInterfacePartonShowerVeto {
-  module "JetMatching.h" { header "GeneratorInterface/PartonShowerVeto/interface/JetMatching.h" export * }
-  module "JetMatchingAlpgen.h" { header "GeneratorInterface/PartonShowerVeto/interface/JetMatchingAlpgen.h" export * }
-  module "JetMatchingMGFastJet.h" { header "GeneratorInterface/PartonShowerVeto/interface/JetMatchingMGFastJet.h" export * }
-  module "JetMatchingMadgraph.h" { header "GeneratorInterface/PartonShowerVeto/interface/JetMatchingMadgraph.h" export * }
-  export *
-}
-

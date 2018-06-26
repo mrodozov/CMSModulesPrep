@@ -1,6 +1,0 @@
-module CMS_EventFilterDTTFRawToDigi {
-  module "DTTFFEDReader.h" { header "EventFilter/DTTFRawToDigi/interface/DTTFFEDReader.h" export * }
-  module "DTTFFEDSim.h" { header "EventFilter/DTTFRawToDigi/interface/DTTFFEDSim.h" export * }
-  export *
-}
-

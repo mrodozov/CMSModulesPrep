@@ -1,6 +1,0 @@
-module CMS_IOPoolTFileAdaptor {
-  module "TStorageFactoryFile.h" { header "IOPool/TFileAdaptor/interface/TStorageFactoryFile.h" export * }
-  module "TStorageFactorySystem.h" { header "IOPool/TFileAdaptor/interface/TStorageFactorySystem.h" export * }
-  export *
-}
-

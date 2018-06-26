@@ -1,8 +1,0 @@
-module CMS_CalibrationHcalCalibAlgos {
-  module "CommonUsefulStuff.h" { header "Calibration/HcalCalibAlgos/interface/CommonUsefulStuff.h" export * }
-  module "HcalConstantsXMLWriter.h" { header "Calibration/HcalCalibAlgos/interface/HcalConstantsXMLWriter.h" export * }
-  module "hcalCalib.h" { header "Calibration/HcalCalibAlgos/interface/hcalCalib.h" export * }
-  module "hcalCalibUtils.h" { header "Calibration/HcalCalibAlgos/interface/hcalCalibUtils.h" export * }
-  export *
-}
-

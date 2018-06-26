@@ -1,6 +1,0 @@
-module CMS_RecoBTagRecords {
-  module "BTagPerformanceRecord.h" { header "RecoBTag/Records/interface/BTagPerformanceRecord.h" export * }
-  module "SoftLeptonBTagRecord.h" { header "RecoBTag/Records/interface/SoftLeptonBTagRecord.h" export * }
-  export *
-}
-

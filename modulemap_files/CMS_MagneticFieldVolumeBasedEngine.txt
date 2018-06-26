@@ -1,6 +1,0 @@
-module CMS_MagneticFieldVolumeBasedEngine {
-  module "MagGeometry.h" { header "MagneticField/VolumeBasedEngine/interface/MagGeometry.h" export * }
-  module "VolumeBasedMagneticField.h" { header "MagneticField/VolumeBasedEngine/interface/VolumeBasedMagneticField.h" export * }
-  export *
-}
-

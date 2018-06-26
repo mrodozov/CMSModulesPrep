@@ -1,7 +1,0 @@
-module CMS_L1TriggerDTTrigger {
-  module "DTTrig.h" { header "L1Trigger/DTTrigger/interface/DTTrig.h" export * }
-  module "DTTrigProd.h" { header "L1Trigger/DTTrigger/interface/DTTrigProd.h" export * }
-  module "DTTrigTest.h" { header "L1Trigger/DTTrigger/interface/DTTrigTest.h" export * }
-  export *
-}
-

@@ -1,9 +1,0 @@
-module CMS_DQMTrackingMonitorClient {
-  module "DQMScaleToClient.h" { header "DQM/TrackingMonitorClient/interface/DQMScaleToClient.h" export * }
-  module "TrackingActionExecutor.h" { header "DQM/TrackingMonitorClient/interface/TrackingActionExecutor.h" export * }
-  module "TrackingCertificationInfo.h" { header "DQM/TrackingMonitorClient/interface/TrackingCertificationInfo.h" export * }
-  module "TrackingQualityChecker.h" { header "DQM/TrackingMonitorClient/interface/TrackingQualityChecker.h" export * }
-  module "TrackingUtility.h" { header "DQM/TrackingMonitorClient/interface/TrackingUtility.h" export * }
-  export *
-}
-

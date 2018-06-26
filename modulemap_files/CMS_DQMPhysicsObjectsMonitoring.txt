@@ -1,5 +1,0 @@
-module CMS_DQMPhysicsObjectsMonitoring {
-  module "PhysicsObjectsMonitor.h" { header "DQM/PhysicsObjectsMonitoring/interface/PhysicsObjectsMonitor.h" export * }
-  export *
-}
-

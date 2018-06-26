@@ -1,8 +1,0 @@
-module CMS_TrackingToolsTrajectoryCleaning {
-  module "FastTrajectoryCleaner.h" { header "TrackingTools/TrajectoryCleaning/interface/FastTrajectoryCleaner.h" export * }
-  module "TrajectoryCleaner.h" { header "TrackingTools/TrajectoryCleaning/interface/TrajectoryCleaner.h" export * }
-  module "TrajectoryCleanerBySharedHits.h" { header "TrackingTools/TrajectoryCleaning/interface/TrajectoryCleanerBySharedHits.h" export * }
-  module "TrajectoryCleanerFactory.h" { header "TrackingTools/TrajectoryCleaning/interface/TrajectoryCleanerFactory.h" export * }
-  export *
-}
-

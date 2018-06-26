@@ -1,5 +1,0 @@
-module CMS_ValidationSiPixelPhase1DigisV {
-  module "SiPixelPhase1DigisV.h" { header "Validation/SiPixelPhase1DigisV/interface/SiPixelPhase1DigisV.h" export * }
-  export *
-}
-

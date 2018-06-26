@@ -1,5 +1,0 @@
-module CMS_CondFormatsMFObjects {
-  module "MagFieldConfig.h" { header "CondFormats/MFObjects/interface/MagFieldConfig.h" export * }
-  export *
-}
-

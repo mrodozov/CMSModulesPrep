@@ -1,5 +1,0 @@
-module CMS_FWCorePrescaleService {
-  module "PrescaleService.h" { header "FWCore/PrescaleService/interface/PrescaleService.h" export * }
-  export *
-}
-

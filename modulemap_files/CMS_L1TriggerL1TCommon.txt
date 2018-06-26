@@ -1,9 +1,0 @@
-module CMS_L1TriggerL1TCommon {
-  module "ConvertToLUT.h" { header "L1Trigger/L1TCommon/interface/ConvertToLUT.h" export * }
-  module "Mask.h" { header "L1Trigger/L1TCommon/interface/Mask.h" export * }
-  module "Parameter.h" { header "L1Trigger/L1TCommon/interface/Parameter.h" export * }
-  module "TriggerSystem.h" { header "L1Trigger/L1TCommon/interface/TriggerSystem.h" export * }
-  module "XmlConfigParser.h" { header "L1Trigger/L1TCommon/interface/XmlConfigParser.h" export * }
-  export *
-}
-

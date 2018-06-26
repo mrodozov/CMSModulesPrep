@@ -1,5 +1,0 @@
-module CMS_DataFormatsSiPixelRawData {
-  module "SiPixelRawDataError.h" { header "DataFormats/SiPixelRawData/interface/SiPixelRawDataError.h" export * }
-  export *
-}
-

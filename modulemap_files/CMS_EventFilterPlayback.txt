@@ -1,5 +1,0 @@
-module CMS_EventFilterPlayback {
-  module "PlaybackRawDataProvider.h" { header "EventFilter/Playback/interface/PlaybackRawDataProvider.h" export * }
-  export *
-}
-

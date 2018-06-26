@@ -1,8 +1,0 @@
-module CMS_PhysicsToolsRecoUtils {
-  module "CandCommonVertexFitter.h" { header "PhysicsTools/RecoUtils/interface/CandCommonVertexFitter.h" export * }
-  module "CandKinematicVertexFitter.h" { header "PhysicsTools/RecoUtils/interface/CandKinematicVertexFitter.h" export * }
-  module "CandMassKinFitter.h" { header "PhysicsTools/RecoUtils/interface/CandMassKinFitter.h" export * }
-  module "CheckHitPattern.h" { header "PhysicsTools/RecoUtils/interface/CheckHitPattern.h" export * }
-  export *
-}
-

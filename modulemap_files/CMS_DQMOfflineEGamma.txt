@@ -1,6 +1,0 @@
-module CMS_DQMOfflineEGamma {
-  module "ElectronDqmAnalyzerBase.h" { header "DQMOffline/EGamma/interface/ElectronDqmAnalyzerBase.h" export * }
-  module "ElectronDqmHarvesterBase.h" { header "DQMOffline/EGamma/interface/ElectronDqmHarvesterBase.h" export * }
-  export *
-}
-

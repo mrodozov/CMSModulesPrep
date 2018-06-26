@@ -1,9 +1,0 @@
-module CMS_RecoHIHiTracking {
-  module "BestVertexComparator.h" { header "RecoHI/HiTracking/interface/BestVertexComparator.h" export * }
-  module "HIBestVertexProducer.h" { header "RecoHI/HiTracking/interface/HIBestVertexProducer.h" export * }
-  module "HICaloCompatibleTrackSelector.h" { header "RecoHI/HiTracking/interface/HICaloCompatibleTrackSelector.h" export * }
-  module "HIPixelTrackFilter.h" { header "RecoHI/HiTracking/interface/HIPixelTrackFilter.h" export * }
-  module "HIProtoTrackFilter.h" { header "RecoHI/HiTracking/interface/HIProtoTrackFilter.h" export * }
-  export *
-}
-

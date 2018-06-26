@@ -1,6 +1,0 @@
-module CMS_DQMSiPixelCommon {
-  module "SiPixelFolderOrganizer.h" { header "DQM/SiPixelCommon/interface/SiPixelFolderOrganizer.h" export * }
-  module "SiPixelHistogramId.h" { header "DQM/SiPixelCommon/interface/SiPixelHistogramId.h" export * }
-  export *
-}
-

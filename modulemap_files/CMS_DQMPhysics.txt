@@ -1,5 +1,0 @@
-module CMS_DQMPhysics {
-  module "TopDQMHelpers.h" { header "DQM/Physics/interface/TopDQMHelpers.h" export * }
-  export *
-}
-

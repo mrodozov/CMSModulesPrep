@@ -1,5 +1,0 @@
-module CMS_FireworksElectrons {
-  module "makeSuperCluster.h" { header "Fireworks/Electrons/interface/makeSuperCluster.h" export * }
-  export *
-}
-

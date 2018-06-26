@@ -1,7 +1,0 @@
-module CMS_PhysicsToolsJetMCUtils {
-  module "CandMCTag.h" { header "PhysicsTools/JetMCUtils/interface/CandMCTag.h" export * }
-  module "JetMCTag.h" { header "PhysicsTools/JetMCUtils/interface/JetMCTag.h" export * }
-  module "combination.h" { header "PhysicsTools/JetMCUtils/interface/combination.h" export * }
-  export *
-}
-

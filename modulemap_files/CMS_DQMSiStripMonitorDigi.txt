@@ -1,6 +1,0 @@
-module CMS_DQMSiStripMonitorDigi {
-  module "SiStripBaselineValidator.h" { header "DQM/SiStripMonitorDigi/interface/SiStripBaselineValidator.h" export * }
-  module "SiStripMonitorDigi.h" { header "DQM/SiStripMonitorDigi/interface/SiStripMonitorDigi.h" export * }
-  export *
-}
-

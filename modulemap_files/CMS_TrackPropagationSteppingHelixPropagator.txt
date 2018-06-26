@@ -1,6 +1,0 @@
-module CMS_TrackPropagationSteppingHelixPropagator {
-  module "SteppingHelixPropagator.h" { header "TrackPropagation/SteppingHelixPropagator/interface/SteppingHelixPropagator.h" export * }
-  module "SteppingHelixStateInfo.h" { header "TrackPropagation/SteppingHelixPropagator/interface/SteppingHelixStateInfo.h" export * }
-  export *
-}
-

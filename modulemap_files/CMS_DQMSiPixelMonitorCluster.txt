@@ -1,6 +1,0 @@
-module CMS_DQMSiPixelMonitorCluster {
-  module "SiPixelClusterModule.h" { header "DQM/SiPixelMonitorCluster/interface/SiPixelClusterModule.h" export * }
-  module "SiPixelClusterSource.h" { header "DQM/SiPixelMonitorCluster/interface/SiPixelClusterSource.h" export * }
-  export *
-}
-

@@ -1,5 +1,0 @@
-module CMS_SimTrackerRecords {
-  module "TrackAssociatorRecord.h" { header "SimTracker/Records/interface/TrackAssociatorRecord.h" export * }
-  export *
-}
-

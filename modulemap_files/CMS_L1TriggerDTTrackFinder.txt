@@ -1,8 +1,0 @@
-module CMS_L1TriggerDTTrackFinder {
-  module "L1AbstractProcessor.h" { header "L1Trigger/DTTrackFinder/interface/L1AbstractProcessor.h" export * }
-  module "L1MuDTTFSetup.h" { header "L1Trigger/DTTrackFinder/interface/L1MuDTTFSetup.h" export * }
-  module "L1MuDTTrack.h" { header "L1Trigger/DTTrackFinder/interface/L1MuDTTrack.h" export * }
-  module "L1MuDTTrackFinder.h" { header "L1Trigger/DTTrackFinder/interface/L1MuDTTrackFinder.h" export * }
-  export *
-}
-

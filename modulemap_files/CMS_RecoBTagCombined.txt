@@ -1,6 +1,0 @@
-module CMS_RecoBTagCombined {
-  module "CandidateChargeBTagComputer.h" { header "RecoBTag/Combined/interface/CandidateChargeBTagComputer.h" export * }
-  module "CombinedMVAV2JetTagComputer.h" { header "RecoBTag/Combined/interface/CombinedMVAV2JetTagComputer.h" export * }
-  export *
-}
-

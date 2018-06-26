@@ -1,8 +1,0 @@
-module CMS_DataFormatsCaloTowers {
-  module "CaloTower.h" { header "DataFormats/CaloTowers/interface/CaloTower.h" export * }
-  module "CaloTowerCollection.h" { header "DataFormats/CaloTowers/interface/CaloTowerCollection.h" export * }
-  module "CaloTowerDefs.h" { header "DataFormats/CaloTowers/interface/CaloTowerDefs.h" export * }
-  module "CaloTowerDetId.h" { header "DataFormats/CaloTowers/interface/CaloTowerDetId.h" export * }
-  export *
-}
-

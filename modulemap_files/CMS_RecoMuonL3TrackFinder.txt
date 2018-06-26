@@ -1,7 +1,0 @@
-module CMS_RecoMuonL3TrackFinder {
-  module "HLTMuonL2SelectorForL3IO.h" { header "RecoMuon/L3TrackFinder/interface/HLTMuonL2SelectorForL3IO.h" export * }
-  module "L3MuonTrajectoryBuilder.h" { header "RecoMuon/L3TrackFinder/interface/L3MuonTrajectoryBuilder.h" export * }
-  module "MuonCkfTrajectoryBuilder.h" { header "RecoMuon/L3TrackFinder/interface/MuonCkfTrajectoryBuilder.h" export * }
-  export *
-}
-

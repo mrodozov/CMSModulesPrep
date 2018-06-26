@@ -1,8 +1,0 @@
-module CMS_EventFilterSiStripChannelChargeFilter {
-  module "ClusterMTCCFilter.h" { header "EventFilter/SiStripChannelChargeFilter/interface/ClusterMTCCFilter.h" export * }
-  module "MTCCHLTrigger.h" { header "EventFilter/SiStripChannelChargeFilter/interface/MTCCHLTrigger.h" export * }
-  module "TECClusterFilter.h" { header "EventFilter/SiStripChannelChargeFilter/interface/TECClusterFilter.h" export * }
-  module "TrackMTCCFilter.h" { header "EventFilter/SiStripChannelChargeFilter/interface/TrackMTCCFilter.h" export * }
-  export *
-}
-

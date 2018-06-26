@@ -1,6 +1,0 @@
-module CMS_HiggsAnalysisHiggsToGammaGamma {
-  module "PhotonFix.h" { header "HiggsAnalysis/HiggsToGammaGamma/interface/PhotonFix.h" export * }
-  module "PhotonFixCMS.h" { header "HiggsAnalysis/HiggsToGammaGamma/interface/PhotonFixCMS.h" export * }
-  export *
-}
-

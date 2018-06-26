@@ -1,6 +1,0 @@
-module CMS_CondFormatsHLTObjects {
-  module "AlCaRecoTriggerBits.h" { header "CondFormats/HLTObjects/interface/AlCaRecoTriggerBits.h" export * }
-  module "HLTPrescaleTableCond.h" { header "CondFormats/HLTObjects/interface/HLTPrescaleTableCond.h" export * }
-  export *
-}
-
