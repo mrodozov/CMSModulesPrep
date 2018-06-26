@@ -212,6 +212,9 @@ def handle_package(path):
     modulemap += "}\n"
     if found_any_header:
         print(modulemap)
+        if os.path.isdir('../modulemap_files'):
+            with open(os.path.join('../modulemap_files', 'CMS_'+ make_module_name(sub)), 'w') as separate_module_map_file:
+                separate_module_map_file.write(modulemap)
 
 def main():
   d = "."
