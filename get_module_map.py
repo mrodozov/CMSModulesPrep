@@ -1,7 +1,5 @@
 #!/usr/bin/env python
-
 import os
-import sys
 
 ignored_headers = [
   # CMS things
@@ -188,6 +186,13 @@ def handle_package(path):
   subpackages.sort()
   for sub in subpackages:
     interface_dir = os.path.join(sub, "interface")
+    build_file = os.path.join(sub, 'BuildFile.xml')
+    if os.path.isfile(build_file):
+        with open(build_file, 'r') as bf:
+            #if the package is a plugin - skip it
+            if 'EDM_PLUGIN' in bf.read():
+                continue
+
     found_any_header = False
     modulemap = ""
     modulemap += "module " + make_module_name(sub) + " {\n"
@@ -206,7 +211,7 @@ def handle_package(path):
     modulemap += "  export *\n"
     modulemap += "}\n"
     if found_any_header:
-      print(modulemap)
+        print(modulemap)
 
 def main():
   d = "."
