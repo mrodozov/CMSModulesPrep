@@ -7,12 +7,12 @@ export here=`pwd`
 for i in `cat $1`
 do
 
-export mm_file=`echo CMS_${i} | sed "s/\///g"`
+export mm_file=`echo CMS_${i} | sed "s/\//_/g"`
 echo 'Package ' $i
 
 #put the if not modulemap_files/$mm_file.txt then continue here
 
-if [[ ! -e modulemap_files/$mm_file.txt ]]; then
+if [[ ! -e modulemap_files/$mm_file ]]; then
 continue
 fi
 
